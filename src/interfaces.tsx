@@ -22,3 +22,8 @@ export interface IAuthData {
   email: string;
   displayName: string;
 }
+
+export interface IMessage {
+  show: boolean;
+  text: string;
+}

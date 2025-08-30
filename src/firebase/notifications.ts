@@ -1,11 +1,8 @@
-import { addDoc, arrayUnion, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
-import { capitalizeFirstLetter, getOfficialTimeBrazil, sheetStructure } from "./utilities";
+import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
+import { capitalizeFirstLetter } from "./utilities";
 import { authenticate } from "./authenticate";
 import firebaseConfig from "./connection";
-import { registerMessage } from "./messagesAndRolls";
-import { createConsentForm } from "./consentForm";
-import { addNewSheetMandatory } from "./players";
-import { registerHistory } from "./history";
+import { FirebaseError } from "firebase/app";
 
 export const getNotificationsById = async (sessionId: string) => {
   const db = getFirestore(firebaseConfig);
@@ -22,8 +19,14 @@ export const createNotificationData = async (sessionId: string, setShowMessage: 
     const db = getFirestore(firebaseConfig);
     const notificationsCollection = collection(db, 'notifications');
     await addDoc(notificationsCollection, { sessionId, list: [] });
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma aba de notificação na Sessão: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma aba de notificação na Sessão: ' + errorMessage });
   }
 };
 
@@ -106,40 +109,52 @@ export const removeNotification = async (sessionId: string, message: string, set
       const updatedList = (notificationData.list || []).filter((notification: any) => notification.message !== message);
       transaction.update(notificationDocRef, { list: updatedList });
     });
-  } catch (error: any) {
-    setShowMessage({ show: true, text: "Ocorreu um erro: " + error.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: "Ocorreu um erro: " + errorMessage });
   }
 };
 
-export const approveUser = async (notification: any, session: any, setShowMessage: any) => {
-    try {
-      const db = getFirestore(firebaseConfig);
-      const dateMessage = await getOfficialTimeBrazil();
-      const sessionsCollectionRef = collection(db, 'sessions');
-      const sessionDocRef = doc(sessionsCollectionRef, session.id);
-      await runTransaction(db, async (transaction) => {
-        const sessionDocSnapshot = await getDoc(sessionDocRef);
-        if (sessionDocSnapshot.exists()) {
-          transaction.update(sessionDocRef, { players: arrayUnion(notification.email) });
-          await createConsentForm(session.id, notification.email, setShowMessage);
-          const sheet = sheetStructure(notification.email, notification.user, dateMessage); 
-          await addNewSheetMandatory(session.id, sheet, setShowMessage);
-          await registerMessage(
-            session.id,
-            {
-              message: `${capitalizeFirstLetter(notification.user)} iniciou sua jornada nesta Sessão! Seja bem-vindo!`,
-              type: 'notification',
-            },
-            null,
-            setShowMessage,
-          );
-          await registerHistory(session.id, { message: `${capitalizeFirstLetter(notification.user)} ingressou na Sessão.`, type: 'notification' }, null, setShowMessage);
-          await removeNotification(session.id, notification.message, setShowMessage);
-        } else throw new Error('Sessão não encontrada');
-      });
-    } catch (err: any) {
-      setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + err.message });
-    }
+// export const approveUser = async (notification: any, session: any, setShowMessage: any) => {
+//     try {
+//       const db = getFirestore(firebaseConfig);
+//       const dateMessage = await getOfficialTimeBrazil();
+//       const sessionsCollectionRef = collection(db, 'sessions');
+//       const sessionDocRef = doc(sessionsCollectionRef, session.id);
+//       await runTransaction(db, async (transaction) => {
+//         const sessionDocSnapshot = await getDoc(sessionDocRef);
+//         if (sessionDocSnapshot.exists()) {
+//           transaction.update(sessionDocRef, { players: arrayUnion(notification.email) });
+//           await createConsentForm(session.id, notification.email, setShowMessage);
+//           const sheet = sheetStructure(notification.email, notification.user, dateMessage); 
+//           await addNewSheetMandatory(session.id, sheet, setShowMessage);
+//           await registerMessage(
+//             session.id,
+//             {
+//               message: `${capitalizeFirstLetter(notification.user)} iniciou sua jornada nesta Sessão! Seja bem-vindo!`,
+//               type: 'notification',
+//             },
+//             null,
+//             setShowMessage,
+//           );
+//           await registerHistory(session.id, { message: `${capitalizeFirstLetter(notification.user)} ingressou na Sessão.`, type: 'notification' }, null, setShowMessage);
+//           await removeNotification(session.id, notification.message, setShowMessage);
+//         } else throw new Error('Sessão não encontrada');
+//       });
+//     } catch (error: unknown) {
+    // let errorMessage = "Erro desconhecido";
+    // if (error instanceof FirebaseError) {
+    //   errorMessage = error.message;
+    // } else if (error instanceof Error) {
+    //   errorMessage = error.message;
+    // }
+//       setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + errorMessage });
+//     }
 
-};
+// };
 

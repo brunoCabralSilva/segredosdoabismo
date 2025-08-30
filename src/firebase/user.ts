@@ -4,14 +4,16 @@ import { getAuth } from 'firebase/auth';
 import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from 'firebase/firestore';
 import { createProfileImage } from './storage';
 import firebaseConfig from "./connection";
+import { IMessage } from '@/interfaces';
+import { FirebaseError } from 'firebase/app';
 
 export async function registerUser(
   email: string,
   password: string,
   firstName: string,
   lastName: string,
-  image: any,
-  setShowMessage: any,
+  image: File,
+  setShowMessage: (state: IMessage) => void,
 ) {
   const auth = getAuth(firebaseConfig);
   const db = getFirestore(firebaseConfig);
@@ -29,15 +31,22 @@ export async function registerUser(
     });
     setShowMessage({ show: true, text: 'Usuário registrado com sucesso!' });
     return true;
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({ show: true, text: 'Erro ao registrar usuário: ' + errorCode + ' - ' + errorMessage });
     return false;
   }
 }
 
-export async function getUserByEmail(email: string, setShowMessage: any) {
+export async function getUserByEmail(email: string, setShowMessage: (state: IMessage) => void
+) {
   try {
     const db = getFirestore(firebaseConfig);
     const usersCollectionRef = collection(db, 'users');
@@ -60,7 +69,8 @@ export async function getUserByEmail(email: string, setShowMessage: any) {
   }
 }
 
-export async function getUserById(userId: string, setShowMessage: any) {
+export async function getUserById(userId: string, setShowMessage: (state: IMessage) => void
+) {
   try {
     const db = getFirestore(firebaseConfig);
     const usersCollectionRef = collection(db, 'users');
@@ -85,7 +95,8 @@ export async function getUserById(userId: string, setShowMessage: any) {
   }
 }
 
-export async function updateUserById(userData: any, setShowMessage: any) {
+export async function updateUserById(userData: any, setShowMessage: (state: IMessage) => void
+): Promise<boolean> {
   const db = getFirestore(firebaseConfig);
   try {
     const userDocRef = doc(db, 'users', userData.id);
@@ -96,8 +107,14 @@ export async function updateUserById(userData: any, setShowMessage: any) {
     });
     setShowMessage({ show: true, text: 'Dados atualizados com sucesso!' });
     return true;
-  } catch (error: any) {
-    setShowMessage({ show: true, text: 'Erro ao atualizar dados: ' + error.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Erro ao atualizar dados: ' + errorMessage });
     return false;
   }
 }

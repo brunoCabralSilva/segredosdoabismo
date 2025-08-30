@@ -8,6 +8,7 @@ import MessageToUser from "@/dicesAndMessages/messageToUser";
 import Nav from "@/components/nav";
 import Loading from "@/components/loading";
 import ForgotPassword from "@/components/popup/forgotPassword";
+import { KeyboardEvent } from "react";
 
 function App() {
   const [showData, setShowData] = useState(false);
@@ -64,7 +65,7 @@ function App() {
     }
   };
 
-  const handleKeyDown = (e: any) => {
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
       e.preventDefault();
       const buttonSend = document.getElementById('sendMessage');

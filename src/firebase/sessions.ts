@@ -4,6 +4,7 @@ import firebaseConfig from "./connection";
 import { createNotificationData, registerNotification } from "./notifications";
 import { createChatData } from "./chats";
 import { createHistory } from "./history";
+import { FirebaseError } from "firebase/app";
 
 export const getSessions = async () => {
   const db = getFirestore(firebaseConfig);
@@ -77,8 +78,14 @@ export const createSession = async (
     await createChatData(newSession.id, setShowMessage);
     await createHistory(newSession.id, setShowMessage);
     return newSession.id;
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma sessão: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma sessão: ' + errorMessage });
   }
 };
 
@@ -93,8 +100,14 @@ export const updateSession = async (session: any, setShowMessage: any) => {
         transaction.update(sessionDocRef, { ...session });
       } else throw new Error('Sessão não encontrada');
     });
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + errorMessage });
   }
 };
 
@@ -109,8 +122,14 @@ export const clearHistory = async (id: string, setShowMessage: any) => {
     await runTransaction(db, async (transaction) => {
       transaction.update(docRef, { list: [] });
     });
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao limpar o histórico de chat: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao limpar o histórico de chat: ' + errorMessage });
   }
 };
 
@@ -148,10 +167,16 @@ export const leaveFromSession = async (
         throw new Error("Jogador não encontrado na sessão.");
       }
     });
-  } catch (err: any) {
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({
       show: true,
-      text: "Ocorreu um erro ao remover o jogador: " + err.message,
+      text: "Ocorreu um erro ao remover o jogador: " + errorMessage,
     });
   }
 };
@@ -176,10 +201,16 @@ export const removeFromSession = async (
         setShowMessage({ show: true, text: "Jogador Removido com sucesso!" });
       } else throw new Error("Jogador não encontrado na sessão.");
     });
-  } catch (err: any) {
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({
       show: true,
-      text: "Ocorreu um erro ao remover o jogador: " + err.message,
+      text: "Ocorreu um erro ao remover o jogador: " + errorMessage,
     });
   }
 };
@@ -207,10 +238,16 @@ export const transferSheetToGameMaster = async (
         throw new Error("Jogador não encontrado na sessão.");
       }
     });
-  } catch (err: any) {
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({
       show: true,
-      text: "Ocorreu um erro ao transferir o jogador: " + err.message,
+      text: "Ocorreu um erro ao transferir o jogador: " + errorMessage,
     });
   }
 };

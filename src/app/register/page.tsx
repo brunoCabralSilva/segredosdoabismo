@@ -12,7 +12,7 @@ const Register = () => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
-  const [image, setImage] = useState<any>(null);
+  const [image, setImage] = useState<File | null>(null);
   const [password, setPassword] = useState('');
   const [password2, setPassword2] = useState('');
   const [loading, setLoading] = useState(false);
@@ -30,7 +30,7 @@ const Register = () => {
       setShowMessage({ show: true, text: 'Necessário preencher um Sobrenome com mais de 2 caracteres' });
     } else if(vEmail) {
       setShowMessage({ show: true, text: 'Necessário preencher um Email válido' });
-    } else if(image === '' || image === null) {
+    } else if(image === null) {
       setShowMessage({ show: true, text: 'Necessário escolher uma imagem de perfil' });
     } else if (!password || password.length < 6) {
       setShowMessage({ show: true, text: 'Necessário inserir uma Senha com pelo menos 6 dígitos' });
@@ -62,8 +62,8 @@ const Register = () => {
     setLoading(false);
   };
 
-  const handleImage = (e: any) => {
-    if (e.target.files[0]) {
+  const handleImage = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
       setImage(e.target.files[0]);
     }
   };

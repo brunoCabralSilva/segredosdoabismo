@@ -2,6 +2,7 @@ import { addDoc, collection, getDocs, getFirestore, query, runTransaction, where
 import firebaseConfig from "./connection";
 import { authenticate } from "./authenticate";
 import { getOfficialTimeBrazil } from "./utilities";
+import { FirebaseError } from "firebase/app";
 
 export const createHistory = async (sessionId: string, setShowMessage: any) => {
   try {
@@ -9,9 +10,15 @@ export const createHistory = async (sessionId: string, setShowMessage: any) => {
     const collectionRef = collection(db, 'history'); 
     await addDoc(collectionRef, { sessionId, list: [] });
     await registerHistory(sessionId, { message: `Sessão inicializada.`, type: 'notification' }, null, setShowMessage);
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({ show: true, text: 'Erro ao registrar Histórico: ' + errorCode + ' - ' + errorMessage + '. Por favor, atualize a página e tente novvamente' });
     return false;
   }

@@ -3,14 +3,21 @@ import firebaseConfig from "./connection";
 import { registerMessage } from "./messagesAndRolls";
 import { deletePlayerImage } from "./storage";
 import { parseDate } from "./utilities";
+import { FirebaseError } from "firebase/app";
 
 export const createPlayersData = async (sessionId: string, setShowMessage: any) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'players');
     await addDoc(collectionRef, { sessionId, list: [] });
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar jogadores para a Sessão: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar jogadores para a Sessão: ' + errorMessage });
   }
 };
 
@@ -35,8 +42,14 @@ export const getOldestUserBySession = async (sessionId: string, gameMaster: stri
       }
     });
     return oldestUser;
-  } catch (err: any) {
-    setShowMessage({show: true, text: "Erro ao buscar usuário mais antigo:" + err.message});
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({show: true, text: "Erro ao buscar usuário mais antigo:" + errorMessage});
     return null;
   }
 };
@@ -105,10 +118,16 @@ export const updateDataPlayer = async (
       }
       transaction.update(docRef, newData);
     });
-  } catch (err: any) {
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({
       show: true,
-      text: 'Ocorreu um erro ao atualizar os dados do Jogador: ' + err.message,
+      text: 'Ocorreu um erro ao atualizar os dados do Jogador: ' + errorMessage,
     });
   }
 }
@@ -134,10 +153,16 @@ export const deleteDataPlayer = async (
     });
 
     setShowMessage({ show: true, text: 'Personagem excluído com sucesso.' });
-  } catch (err: any) {
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({
       show: true,
-      text: 'Ocorreu um erro ao excluir o Personagem: ' + err.message,
+      text: 'Ocorreu um erro ao excluir o Personagem: ' + errorMessage,
     });
   }
 };
@@ -161,8 +186,14 @@ export const deleteDataPlayer = async (
   //       transaction.update(docRef, { list: data.list });
   //     } else setShowMessage({ show: true, text: 'Jogador não encontrado.' });
   //   });
-  // } catch (err: any) {
-  //   setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados do Jogador: ' + err.message });
+  // } catch (error: unknown) {
+    // let errorMessage = "Erro desconhecido";
+    // if (error instanceof FirebaseError) {
+    //   errorMessage = error.message;
+    // } else if (error instanceof Error) {
+    //   errorMessage = error.message;
+    // }
+  //   setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados do Jogador: ' + errorMessage });
   // }
 
 export const updateValueOfSheet = async (setShowMessage: any) => {
@@ -195,8 +226,14 @@ export const updateValueOfSheet = async (setShowMessage: any) => {
       });
     });
     setShowMessage({ show: true, text: 'Todos os jogadores foram atualizados com sucesso.' });
-  } catch (err: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os jogadores: ' + err.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os jogadores: ' + errorMessage });
   }
 };
 
@@ -264,8 +301,14 @@ export const addNewSheet = async (sessionId: string, sheet: any, setShowMessage:
     const newDoc = { sessionId: sessionId, ...sheet };
     await addDoc(sessionsCollectionRef, newDoc);
     setShowMessage('Nova ficha criada com sucesso');
-  } catch (error: any) {
-    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + error.message);
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage);
   }
 };
 
@@ -276,8 +319,14 @@ export const addNewSheetMandatory = async (sessionId: string, sheet: any, setSho
     const newDocRef = await addDoc(sessionsCollectionRef, { sessionId, ...sheet });
     setShowMessage('Nova ficha criada com sucesso');
     return newDocRef.id;
-  } catch (error: any) {
-    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + error.message);
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage);
     return '';
   }
 };
@@ -304,7 +353,13 @@ export const removePlayerFromSession = async (sessionId: string, email: string, 
         setShowMessage({ show: true, text: 'Jogador não encontrado na sessão.' });
       }
     });
-  } catch (error: any) {
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao remover o jogador: ' + error.message });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao remover o jogador: ' + errorMessage });
   }
 };

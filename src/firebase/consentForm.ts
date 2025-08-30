@@ -1,5 +1,6 @@
 import { addDoc, collection, deleteDoc, doc, getDocs, getFirestore, query, updateDoc, where } from "firebase/firestore";
 import firebaseConfig from "./connection";
+import { FirebaseError } from "firebase/app";
 
 export const createConsentForm = async (sessionId: string, email: string, setShowMessage: any) => {
   try {
@@ -7,13 +8,19 @@ export const createConsentForm = async (sessionId: string, email: string, setSho
     const collectionRef = collection(db, 'consents'); 
     await addDoc(collectionRef, { sessionId, email, list: [],
     });
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    setShowMessage({ show: true, text: 'Erro ao registrar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage + '. Por favor, atualize a página e tente novvamente' });
-    return false;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+      setShowMessage({ show: true, text: 'Erro ao registrar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage + '. Por favor, atualize a página e tente novvamente' });
+      return false;
+    }
   }
-}
 
 export const getConsentsByEmailAndSessionId = async (email: string, sessionId: string, setShowMessage: any) => {
   try {
@@ -28,9 +35,15 @@ export const getConsentsByEmailAndSessionId = async (email: string, sessionId: s
     }
     const consent = querySnapshot.docs[0].data();
     return consent;
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({ show: true, text: 'Erro ao buscar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage });
     return null;
   }
@@ -50,8 +63,16 @@ export const getConsentsBySessionId = async (sessionId: string, setShowMessage: 
 
     const consents = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
     return consents;
-  } catch (error: any) {
-    setShowMessage({ show: true, text: `Erro ao buscar Fichas de Consentimento: ${error.code} - ${error.message}` });
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
+    setShowMessage({ show: true, text: `Erro ao buscar Fichas de Consentimento: ${errorCode} - ${errorMessage}` });
     return [];
   }
 };
@@ -71,9 +92,15 @@ export const updateConsentList = async (email: string, sessionId: string, newLis
       list: newList
     });
     return true;
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({ show: true, text: 'Erro ao atualizar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage });
     return false;
   }
@@ -91,9 +118,15 @@ export const deleteConsent = async (email: string, sessionId: string, setShowMes
     }
     const docRef = doc(db, 'consents', querySnapshot.docs[0].id);
     await deleteDoc(docRef);
-  } catch (error: any) {
-    const errorCode = error.code;
-    const errorMessage = error.message;
+  } catch (error: unknown) {
+    let errorMessage = "Erro desconhecido";
+    let errorCode = "";
+    if (error instanceof FirebaseError) {
+      errorMessage = error.message;
+      errorCode = error.code;
+    } else if (error instanceof Error) {
+      errorMessage = error.message;
+    }
     setShowMessage({ show: true, text: 'Erro ao excluir Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage });
   }
 };
