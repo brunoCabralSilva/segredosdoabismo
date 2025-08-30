@@ -6,25 +6,21 @@ import { useParams } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import contexto from "@/context/context";
 import listFactions from '../../../data/factions.json';
+import { IFactions } from "@/interfaces";
 
 export default function Faction() {
   const params = useParams();
   const faction = params?.faction as string;
-  const [dataFaction, setDataFaction] = useState<any>(null);
+  const [dataFaction, setDataFaction] = useState<IFactions | null>(null);
   var [isLoading, setIsLoading] = useState<boolean>(false);
   const { showFeedback, setShowFeedback, resetPopups } = useContext(contexto);
 
   useEffect(() => {
     resetPopups();
-    const findForm: any = listFactions
-      .find((frm: any) => {
-        if (params.faction === 'hominideo') {
-          return 'hominídeo' === frm.name.toLowerCase()
-        } return faction === frm.name.toLowerCase()
-      }
+    const findFaction = listFactions.find(
+      (frm: IFactions) => faction === frm.name.toLowerCase()
     );
-    setDataFaction(findForm);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    setDataFaction(findFaction ?? null);
   }, []);
 
   if (dataFaction) {

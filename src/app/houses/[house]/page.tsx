@@ -6,26 +6,22 @@ import { useParams } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import contexto from "@/context/context";
 import listHouses from '../../../data/houses.json';
+import { IHouses } from "@/interfaces";
 
 export default function Faction() {
   const params = useParams();
   const house = params?.house as string;
-  const [dataHouse, setDataHouse] = useState<any>(null);
+  const [dataHouse, setDataHouse] = useState<IHouses | null>(null);
   var [isLoading, setIsLoading] = useState<boolean>(false);
   const { showFeedback, setShowFeedback, resetPopups } = useContext(contexto);
 
   useEffect(() => {
-    resetPopups();
-    const findForm: any = listHouses
-      .find((frm: any) => {
-        if (params.faction === 'hominideo') {
-          return 'hominídeo' === frm.name.toLowerCase()
-        } return house === frm.name.toLowerCase()
-      }
-    );
-    setDataHouse(findForm);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+      resetPopups();
+      const findFaction = listHouses.find(
+        (frm: IHouses) => house === frm.name.toLowerCase()
+      );
+      setDataHouse(findFaction ?? null);
+    }, []);
   
   function returnDoctrines(doctrines: string[]): string {
     if (!doctrines || doctrines.length === 0) return "";

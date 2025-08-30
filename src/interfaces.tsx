@@ -1,0 +1,19 @@
+export interface IFactions {
+    name: string,
+    namePtBr: string,
+    description: string[],
+}
+
+export interface IHouses {
+    number: number,
+    name: string,
+    namePtBr: string,
+    description: string[],
+    factions: string[],
+    preludio: string[],
+    faith: string[],
+    playerCreation: string[],
+    initialTorment: number,
+    doctrines: string[],
+    fraquezas: string[],
+}
