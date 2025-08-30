@@ -1,0 +1,39 @@
+[
+    {
+        "name": "",
+        "namePtBr": "",
+        "belonging": "",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ]
+    }
+]

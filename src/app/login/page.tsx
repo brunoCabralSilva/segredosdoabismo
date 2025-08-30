@@ -4,10 +4,10 @@ import { useRouter } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import { authenticate, signIn } from "@/firebase/authenticate";
 import contexto from "@/context/context";
-import MessageToUser from "../dicesAndMessages/messageToUser";
-import Loading from "../components/loading";
-import Nav from "../components/nav";
-import ForgotPassword from "../components/popup/forgotPassword";
+import MessageToUser from "@/dicesAndMessages/messageToUser";
+import Nav from "@/components/nav";
+import Loading from "@/components/loading";
+import ForgotPassword from "@/components/popup/forgotPassword";
 
 function App() {
   const [showData, setShowData] = useState(false);

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "faustians",
+        "namePtBr": "Faustianos",
+        "description": []
+    },
+    {
+        "name": "luciferans",
+        "namePtBr": "Luciferanos",
+        "description": []
+    },
+    {
+        "name": "cryptics",
+        "namePtBr": "Ocultos",
+        "description": []
+    },
+    {
+        "name": "reconcilers",
+        "namePtBr": "Reconciliadores",
+        "description": []
+    },
+    {
+        "name": "raveners",
+        "namePtBr": "Rapinantes",
+        "description": []
+    }
+]

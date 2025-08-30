@@ -5,8 +5,8 @@ import { useRouter } from 'next/navigation';
 import { FaBackward } from "react-icons/fa6";
 import contexto from '@/context/context';
 import { authenticate } from '@/firebase/authenticate';
-import Loading from '../components/loading';
-import MessageToUser from '../dicesAndMessages/messageToUser';
+import MessageToUser from '@/dicesAndMessages/messageToUser';
+import Loading from '@/components/loading';
 
 const Register = () => {
   const [firstName, setFirstName] = useState('');

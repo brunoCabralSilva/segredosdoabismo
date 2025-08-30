@@ -1,0 +1,79 @@
+[
+    {
+        "name": "namaru",
+        "namePtBr": "Diabos",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 4,
+        "doctrines": ["Doutrina dos Celestiais", "Doutrina da Chama", "Doutrina do Esplendor"],
+        "fraquezas": []
+    },
+    {
+        "name": "asharu",
+        "namePtBr": "Flagelos",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 3,
+        "doctrines": ["Doutrina dos Ventos", "Doutrina do Despertar", "Doutrina do Firmamento"],
+        "fraquezas": []
+    },
+    {
+        "name": "annunaki",
+        "namePtBr": "Malfeitores",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 3,
+        "doctrines": ["Doutrina da Terra", "Doutrina da Forja", "Doutrina dos Caminhos"],
+        "fraquezas": []
+    },
+    {
+        "name": "neberu",
+        "namePtBr": "Infestos",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 3,
+        "doctrines": ["Doutrina da Luz", "Doutrina dos Padrões", "Doutrina dos Portais"],
+        "fraquezas": []
+    },
+    {
+        "name": "lammasu",
+        "namePtBr": "Profanadores",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 3,
+        "doctrines": ["Doutrina do Desejo", "Doutrina fas Tempestades", "Doutrina da Transfiguração"],
+        "fraquezas": []
+    },
+    {
+        "name": "rabisu",
+        "namePtBr": "Devoradores",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 4,
+        "doctrines": ["Doutrina da Fera", "Doutrina da Carne", "Doutrina da Natureza"],
+        "fraquezas": []
+    },
+    {
+        "name": "halaku",
+        "namePtBr": "Algozes",
+        "factions": [],
+        "preludio": [],
+        "faith": [],
+        "playerCreation": [],
+        "initialTorment": 4,
+        "doctrines": ["Doutrina da Morte", "Doutrina dos Reinos", "Doutrina do Espírito"],
+        "fraquezas": []
+    }
+]

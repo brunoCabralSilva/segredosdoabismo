@@ -1,0 +1,398 @@
+[
+    {
+        "name": "Aliados",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Celebridade",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Contatos",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Fama",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Influência",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Legado",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Mentor",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Modelo",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Pactos",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Recursos",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "Seguidores",
+        "description": [],
+        "advantages": [
+            {
+                "cost": 1,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 2,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 3,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 4,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            },
+            {
+                "cost": 5,
+                "type": "radio",
+                "title": "",
+                "description": ""
+            }
+        ]
+    }
+]
