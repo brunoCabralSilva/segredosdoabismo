@@ -37,7 +37,7 @@ export default function Nav() {
 
   const barra3 = () => {
     if(!showMenu) {
-      return 'opacity-1 transition duration-500 z-0';
+      return 'opacity-100 transition duration-500 z-0';
     } return 'opacity-0 transition duration-500 z-40';
   }
 
@@ -54,7 +54,7 @@ export default function Nav() {
       </div>
       { showMenu &&
         <ul
-          className={`overflow-y-auto fixed top-0 right-0 opacity-1 z-30 w-full sm:w-1/2 md:w-1/4 h-screen items-center pt-2 transition duration-500 flex flex-col text-white justify-center bg-black font-extrabold`}
+          className={`overflow-y-auto fixed top-0 right-0 opacity-100 z-30 w-full sm:w-1/2 md:w-1/4 h-screen items-center pt-2 transition duration-500 flex flex-col text-white justify-center bg-black`}
         >
           <li>
             <Link
@@ -66,67 +66,35 @@ export default function Nav() {
             </Link>
           </li>
           <li className="pt-4">
-            <Link href="/trybes"
+            <Link href="/factions"
               onClick={ () => setShowMenu(!showMenu) }
               className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
             >
-              Tribos
+              Facções
             </Link>
           </li>
           <li className="pt-4">
-            <Link href="/auspices"
+            <Link href="/houses"
               onClick={ () => setShowMenu(!showMenu) }
               className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
             >
-              Augúrios
+              Casas
             </Link>
           </li>
           <li className="pt-4">
-            <Link href="/forms"
+            <Link href="/doctrines"
               onClick={ () => setShowMenu(!showMenu) }
               className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
             >
-              Formas
+              Doutrinas
             </Link>
           </li>
           <li className="pt-4">
-            <Link href="/gifts"
+            <Link href="/backgrounds"
               onClick={ () => setShowMenu(!showMenu) }
               className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
             >
-              Dons
-            </Link>
-          </li>
-          <li className="pt-4">
-            <Link href="/rituals"
-              onClick={ () => setShowMenu(!showMenu) }
-              className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
-            >
-              Rituais
-            </Link>
-          </li>
-          <li className="pt-4">
-            <Link href="/advantagesAndFlaws"
-              onClick={ () => setShowMenu(!showMenu) }
-              className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
-            >
-              Vantagens e Defeitos
-            </Link>
-          </li>
-          <li className="pt-4">
-            <Link href="/talismans"
-              onClick={ () => setShowMenu(!showMenu) }
-              className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
-            >
-              Talismãs
-            </Link>
-          </li>
-          <li className="pt-4">
-            <Link href="/loresheets"
-              onClick={ () => setShowMenu(!showMenu) }
-              className="text-white transition duration-1000 px-2 hover:underline hover:underline-offset-4"
-            >
-              Loresheets
+              Antecedentes
             </Link>
           </li>
           <li className="pt-4">

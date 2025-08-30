@@ -1,7 +1,9 @@
 [
     {
+        "number": 1,
         "name": "namaru",
         "namePtBr": "Diabos",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -11,8 +13,10 @@
         "fraquezas": []
     },
     {
+        "number": 2,
         "name": "asharu",
         "namePtBr": "Flagelos",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -22,8 +26,10 @@
         "fraquezas": []
     },
     {
+        "number": 3,
         "name": "annunaki",
         "namePtBr": "Malfeitores",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -33,8 +39,10 @@
         "fraquezas": []
     },
     {
+        "number": 4,
         "name": "neberu",
         "namePtBr": "Infestos",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -44,8 +52,10 @@
         "fraquezas": []
     },
     {
+        "number": 5,
         "name": "lammasu",
         "namePtBr": "Profanadores",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -55,8 +65,10 @@
         "fraquezas": []
     },
     {
+        "number": 6,
         "name": "rabisu",
         "namePtBr": "Devoradores",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
@@ -66,8 +78,10 @@
         "fraquezas": []
     },
     {
+        "number": 7,
         "name": "halaku",
         "namePtBr": "Algozes",
+        "description": [],
         "factions": [],
         "preludio": [],
         "faith": [],
