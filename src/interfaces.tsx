@@ -17,3 +17,8 @@ export interface IHouses {
     doctrines: string[],
     fraquezas: string[],
 }
+
+export interface IAuthData {
+  email: string;
+  displayName: string;
+}

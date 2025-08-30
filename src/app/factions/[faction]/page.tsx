@@ -12,7 +12,7 @@ export default function Faction() {
   const params = useParams();
   const faction = params?.faction as string;
   const [dataFaction, setDataFaction] = useState<IFactions | null>(null);
-  var [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const { showFeedback, setShowFeedback, resetPopups } = useContext(contexto);
 
   useEffect(() => {

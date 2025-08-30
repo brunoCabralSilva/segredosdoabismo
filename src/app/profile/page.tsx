@@ -8,6 +8,7 @@ import Footer from '@/components/footer';
 import contexto from '@/context/context';
 import { getAllSessionsByFunction } from '@/firebase/sessions';
 import MessageToUser from '@/dicesAndMessages/messageToUser';
+import { IAuthData } from '@/interfaces';
 
 export default function Profile() {
   const [showData, setShowData] = useState(false);
@@ -25,21 +26,22 @@ export default function Profile() {
     setListDmSessions([]);
     setListSessions([]);
     // setDataSession({ show: false, id: '' });
-    const profile = async () => {
-    const authData: any = await authenticate(setShowMessage);
-    if (authData && authData.email && authData.displayName) {
-      const { email, displayName } = authData;
-      setNameUser(displayName);
-      setEmail(email);
-      setShowData(true);
-      const { list1, list2 } = await getAllSessionsByFunction(email);
-      setListSessions(list2);
-      setListDmSessions(list1);
-    } else router.push('/login');
-  }
 
-  profile();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    const profile = async () => {
+      const authData: IAuthData | null = await authenticate(setShowMessage);
+
+      if (authData && authData.email && authData.displayName) {
+        const { email, displayName } = authData;
+        setNameUser(displayName);
+        setEmail(email);
+        setShowData(true);
+
+        const { list1, list2 } = await getAllSessionsByFunction(email);
+        setListSessions(list2);
+        setListDmSessions(list1);
+      } else router.push('/login');
+    };
+    profile();
   }, []);
 
   return (

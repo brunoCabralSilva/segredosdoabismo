@@ -12,7 +12,7 @@ export default function Faction() {
   const params = useParams();
   const house = params?.house as string;
   const [dataHouse, setDataHouse] = useState<IHouses | null>(null);
-  var [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const { showFeedback, setShowFeedback, resetPopups } = useContext(contexto);
 
   useEffect(() => {
