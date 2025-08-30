@@ -5,6 +5,7 @@ import {
   onAuthStateChanged,
   sendPasswordResetEmail,
   signInWithEmailAndPassword,
+  User,
 } from "firebase/auth";
 import { getUserByEmail } from "./user";
 import firebaseConfig from "./connection";
@@ -31,23 +32,29 @@ export const signOutFirebase = async (setShowMessage: (state: IMessage) => void)
   }
 };
 
-export const authenticate = async (setShowMessage: (state: IMessage) => void) => {
-  return new Promise<{ email: string, photoURL: string, displayName: string } | null>((resolve) => {
+export const authenticate = async (
+  setShowMessage: (state: IMessage) => void
+): Promise<{ email: string; photoURL: string; displayName: string } | null> => {
+  return new Promise((resolve) => {
     const auth = getAuth(firebaseConfig);
-    const unsubscribe = onAuthStateChanged(auth, async (user: any) => {
-      if (user) {
+    const unsubscribe = onAuthStateChanged(auth, async (user: User | null) => {
+      if (user && user.email) {
         const dataUser = await getUserByEmail(user.email, setShowMessage);
-        const displayName = dataUser.firstName + ' ' + dataUser.lastName;
-        const photoURL = dataUser.imageURL;
-        const { email } = user;
-        resolve({
-          email,
-          displayName,
-          photoURL,
-        });
+        if (dataUser) {
+          const displayName = dataUser.firstName + " " + dataUser.lastName;
+          const photoURL = dataUser.imageURL;
+          resolve({
+            email: user.email,
+            displayName,
+            photoURL,
+          });
+        } else {
+          resolve(null);
+        }
       } else {
         resolve(null);
-      } unsubscribe();
+      }
+      unsubscribe();
     });
   });
 };
@@ -62,10 +69,12 @@ export const changeUserPassword = async (
   try {
     const credenciais = signInWithEmailAndPassword(auth, email, oldPassword);
     await credenciais;
-    const user: any = auth.currentUser;
-    await updatePassword(user, newPassword);
-    setShowMessage({ show: true, text: 'Senha alterada com sucesso!' });
-    return true
+    const user: User | null = auth.currentUser;
+    if (user) {
+      await updatePassword(user, newPassword);
+      setShowMessage({ show: true, text: 'Senha alterada com sucesso!' });
+      return true;
+    }
   } catch (error) {
     setShowMessage({ show: true, text: 'Erro ao alterar a senha: (' + error + ')' });
     return false;

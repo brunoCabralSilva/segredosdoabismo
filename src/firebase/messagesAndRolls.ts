@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter, getOfficialTimeBrazil, translate } from "./utilities";
 import firebaseConfig from "./connection";
-import { collection, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
+import { collection, getDocs, getFirestore, query, runTransaction, Transaction, where } from "firebase/firestore";
 import { authenticate } from "./authenticate";
 import { getPlayerByEmail, getPlayerById } from "./players";
 import { IMessage } from "@/interfaces";
@@ -107,41 +107,65 @@ export const rollTest = (
 	}
 }
 
-export const registerMessage = async (sessionId: string, data: any, email: string | null, setShowMessage: (state: IMessage) => void) => {
-	try {
-	  const authData: any = await authenticate(setShowMessage);
-	  if (authData && authData.email && authData.displayName) {
-		const date = await getOfficialTimeBrazil();
-		const db = getFirestore(firebaseConfig);
-		const chatsCollectionRef = collection(db, 'chats');
-		const querySession = query(chatsCollectionRef, where("sessionId", "==", sessionId));
-		const querySnapshot = await getDocs(querySession);
-		if (querySnapshot.empty) {
-		  setShowMessage({ show: true, text: 'Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.' });
-		} else {
-			const sessionDocRef = querySnapshot.docs[0].ref;
-			await runTransaction(db, async (transaction: any) => {
-        const sessionDocSnapshot = await transaction.get(sessionDocRef);
-        if (sessionDocSnapshot.exists()) {
-          let emailToRecord = email;
-          if (!emailToRecord) emailToRecord = authData.email;
-          const sessionData = sessionDocSnapshot.data();
-          const updatedChat = [
-          ...sessionData.list,
-          { date, email: emailToRecord, user: authData.displayName, ...data, order: sessionData.list.length + 1 },
-          ];
-          updatedChat.sort((a: any, b: any) => a.order - b.order)
-          if (updatedChat.length > 15) updatedChat.shift();
-          transaction.update(sessionDocRef, { list: updatedChat });
-        } else {
-          setShowMessage({ show: true, text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente." });
-        }
-		  });
-		}
-	  }
-	} catch (error) {
-	  setShowMessage({ show: true, text: 'Ocorreu um erro ao enviar a mensagem: ' + error });
-	}
+export const registerMessage = async (
+  sessionId: string,
+  data: any,
+  email: string | null,
+  setShowMessage: (state: IMessage) => void
+) => {
+  try {
+    const authData = await authenticate(setShowMessage);
+
+    if (!authData) return;
+
+    const date = await getOfficialTimeBrazil();
+    const db = getFirestore(firebaseConfig);
+    const chatsCollectionRef = collection(db, "chats");
+    const querySession = query(chatsCollectionRef, where("sessionId", "==", sessionId));
+    const querySnapshot = await getDocs(querySession);
+
+    if (querySnapshot.empty) {
+      setShowMessage({
+        show: true,
+        text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
+      });
+      return;
+    }
+
+    const sessionDocRef = querySnapshot.docs[0].ref;
+
+    await runTransaction(db, async (transaction: Transaction) => {
+      const sessionDocSnapshot = await transaction.get(sessionDocRef);
+
+      if (!sessionDocSnapshot.exists()) {
+        setShowMessage({
+          show: true,
+          text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
+        });
+        return;
+      }
+
+      const sessionData = sessionDocSnapshot.data();
+      const emailToRecord = email ?? authData.email;
+
+      const updatedChat = [
+        ...sessionData.list,
+        { date, email: emailToRecord, user: authData.displayName, ...data, order: sessionData.list.length + 1 },
+      ];
+
+      updatedChat.sort((a, b) => a.order - b.order);
+
+      if (updatedChat.length > 15) updatedChat.shift();
+
+      transaction.update(sessionDocRef, { list: updatedChat });
+    });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : String(error);
+    setShowMessage({
+      show: true,
+      text: "Ocorreu um erro ao enviar a mensagem: " + message,
+    });
+  }
 };
   
 export const registerManualRoll = async(

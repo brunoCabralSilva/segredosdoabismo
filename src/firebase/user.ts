@@ -67,7 +67,7 @@ export async function getUserByEmail(
       displayName: data.displayName as string,
       firstName: data.firstName as string,
       lastName: data.lastName as string,
-      profileImageUrl: data.profileImageUrl as string,
+      imageURL: data.imageURL as string,
     };
     return user;
   } catch (error: unknown) {

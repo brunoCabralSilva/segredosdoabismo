@@ -1,4 +1,4 @@
-import { addDoc, collection, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
+import { addDoc, collection, getDocs, getFirestore, query, runTransaction, Transaction, where } from "firebase/firestore";
 import firebaseConfig from "./connection";
 import { authenticate } from "./authenticate";
 import { getOfficialTimeBrazil } from "./utilities";
@@ -36,7 +36,7 @@ export const registerHistory = async (sessionId: string, data: any, email: strin
 		const querySnapshot = await getDocs(querySession);
 		if (!querySnapshot.empty) {
 			const sessionDocRef = querySnapshot.docs[0].ref;
-			await runTransaction(db, async (transaction: any) => {
+			await runTransaction(db, async (transaction: Transaction) => {
         const sessionDocSnapshot = await transaction.get(sessionDocRef);
         if (sessionDocSnapshot.exists()) {
           let emailToRecord = email;
