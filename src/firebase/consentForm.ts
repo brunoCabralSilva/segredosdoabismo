@@ -1,8 +1,9 @@
 import { addDoc, collection, deleteDoc, doc, getDocs, getFirestore, query, updateDoc, where } from "firebase/firestore";
 import firebaseConfig from "./connection";
 import { FirebaseError } from "firebase/app";
+import { IMessage } from "@/interfaces";
 
-export const createConsentForm = async (sessionId: string, email: string, setShowMessage: any) => {
+export const createConsentForm = async (sessionId: string, email: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'consents'); 
@@ -22,7 +23,7 @@ export const createConsentForm = async (sessionId: string, email: string, setSho
     }
   }
 
-export const getConsentsByEmailAndSessionId = async (email: string, sessionId: string, setShowMessage: any) => {
+export const getConsentsByEmailAndSessionId = async (email: string, sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'consents');
@@ -49,7 +50,7 @@ export const getConsentsByEmailAndSessionId = async (email: string, sessionId: s
   }
 };
 
-export const getConsentsBySessionId = async (sessionId: string, setShowMessage: any) => {
+export const getConsentsBySessionId = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore();
     const collectionRef = collection(db, "consents");
@@ -77,7 +78,7 @@ export const getConsentsBySessionId = async (sessionId: string, setShowMessage: 
   }
 };
 
-export const updateConsentList = async (email: string, sessionId: string, newList: any[], setShowMessage: any) => {
+export const updateConsentList = async (email: string, sessionId: string, newList: any[], setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'consents');
@@ -106,7 +107,7 @@ export const updateConsentList = async (email: string, sessionId: string, newLis
   }
 };
 
-export const deleteConsent = async (email: string, sessionId: string, setShowMessage: any) => {
+export const deleteConsent = async (email: string, sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'consents');

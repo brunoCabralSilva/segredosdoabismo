@@ -44,7 +44,7 @@ export const deletePlayerImage = async (sessionId: string, playerId: string, ima
   }
 };
 
-export async function createProfileImage(id: string, img: any, setShowMessage: (state: IMessage) => void) {
+export async function createProfileImage(id: string, img: File, setShowMessage: (state: IMessage) => void) {
   const db = getFirestore(firebaseConfig);
   const storage = getStorage(firebaseConfig);
   const storageRef = ref(storage, `images/users/${id}/${img.name}`);
@@ -71,7 +71,7 @@ export async function createProfileImage(id: string, img: any, setShowMessage: (
   }
 }
 
-export async function updatePlayerImage(sessionId: string, playerId: string, newImage: any, setShowMessage: (state: IMessage) => void) {
+export async function updatePlayerImage(sessionId: string, playerId: string, newImage: File, setShowMessage: (state: IMessage) => void) {
   const storage = getStorage(firebaseConfig);
   const folderRef = ref(storage, `images/sessions/${sessionId}/players/${playerId}`);
   try {

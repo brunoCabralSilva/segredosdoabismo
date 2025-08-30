@@ -3,6 +3,7 @@ import firebaseConfig from "./connection";
 import { collection, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
 import { authenticate } from "./authenticate";
 import { getPlayerByEmail, getPlayerById } from "./players";
+import { IMessage } from "@/interfaces";
 
 const verifyResult = (
 	rollOfRage: number[],
@@ -106,7 +107,7 @@ export const rollTest = (
 	}
 }
 
-export const registerMessage = async (sessionId: string, data: any, email: string | null, setShowMessage: any) => {
+export const registerMessage = async (sessionId: string, data: any, email: string | null, setShowMessage: (state: IMessage) => void) => {
 	try {
 	  const authData: any = await authenticate(setShowMessage);
 	  if (authData && authData.email && authData.displayName) {
@@ -149,7 +150,7 @@ export const registerManualRoll = async(
 	valueOf: number,
 	penaltyOrBonus: number,
 	dificulty: number,
-  setShowMessage: any,
+  setShowMessage: (state: IMessage) => void,
 ) => {
 	const roll = rollTest(rage, valueOf, penaltyOrBonus, dificulty);
 	const sumDices = rage + valueOf;
@@ -173,7 +174,7 @@ export const registerAutomatedRoll = async(
 	renSelected: string,
 	penaltyOrBonus: number,
 	dificulty: number,
-  setShowMessage: any,
+  setShowMessage: (state: IMessage) => void,
 ) => {
 	let valueOf = 0;
 	let rage = 0;
@@ -212,7 +213,7 @@ export const registerAutomatedRoll = async(
 	}
 }
 
-export const rageCheck = async(sessionId: string, email: string, sheetId: string, setShowMessage: any, dataSheet: any) => {
+export const rageCheck = async(sessionId: string, email: string, sheetId: string, setShowMessage: (state: IMessage) => void, dataSheet: any) => {
   let resultOfRage = [];
   let success = 0;
   const value = Math.floor(Math.random() * 10) + 1;
@@ -247,7 +248,7 @@ export const rageCheck = async(sessionId: string, email: string, sheetId: string
   } return 0;
 }
 
-export const calculateRageCheck = async(sheetId: any, setShowMessage: any) => {
+export const calculateRageCheck = async(sheetId: any, setShowMessage: (state: IMessage) => void) => {
 	let resultOfRage = [];
 	let success = 0;
 	const value = Math.floor(Math.random() * 10) + 1;
@@ -274,7 +275,7 @@ export const calculateRageCheck = async(sheetId: any, setShowMessage: any) => {
   }
 }
 
-export const calculateRageChecks = async(sheetId: string, number: number, setShowMessage: any) => {
+export const calculateRageChecks = async(sheetId: string, number: number, setShowMessage: (state: IMessage) => void) => {
 	const player = await getPlayerById(sheetId, setShowMessage);
 	if (player) {
     if (player.data.rage < number) {
@@ -312,7 +313,7 @@ export const haranoHaugloskCheck = async(
 	dataSheet: any,
 	dificulty: number,
   email: string,
-  setShowMessage: any,
+  setShowMessage: (state: IMessage) => void,
 ) => {
   let rollTest = [];
   let success = 0;

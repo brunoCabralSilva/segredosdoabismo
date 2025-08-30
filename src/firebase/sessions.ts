@@ -5,6 +5,7 @@ import { createNotificationData, registerNotification } from "./notifications";
 import { createChatData } from "./chats";
 import { createHistory } from "./history";
 import { FirebaseError } from "firebase/app";
+import { IMessage } from "@/interfaces";
 
 export const getSessions = async () => {
   const db = getFirestore(firebaseConfig);
@@ -17,7 +18,7 @@ export const getSessions = async () => {
   return sessionsList;
 };
 
-export const getSessionByName = async (nameSession: string, setShowMessage: any) => {
+export const getSessionByName = async (nameSession: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionsCollection = collection(db, 'sessions');
@@ -54,7 +55,7 @@ export const createSession = async (
   nameSession: string,
   description: string,
   email: string,
-  setShowMessage: any,
+  setShowMessage: (state: IMessage) => void,
 ) => {
   try {
     const dateMessage = await getOfficialTimeBrazil();
@@ -89,7 +90,7 @@ export const createSession = async (
   }
 };
 
-export const updateSession = async (session: any, setShowMessage: any) => {
+export const updateSession = async (session: any, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionsCollectionRef = collection(db, 'sessions');
@@ -111,7 +112,7 @@ export const updateSession = async (session: any, setShowMessage: any) => {
   }
 };
 
-export const clearHistory = async (id: string, setShowMessage: any) => {
+export const clearHistory = async (id: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const chatsCollectionRef = collection(db, 'chats');
@@ -137,7 +138,7 @@ export const leaveFromSession = async (
   sessionId: string,
   email: string,
   name: string,
-  setShowMessage: any
+  setShowMessage: (state: IMessage) => void
 ) => {
   try {
     const db = getFirestore(firebaseConfig);
@@ -184,7 +185,7 @@ export const leaveFromSession = async (
 export const removeFromSession = async (
   sessionId: string,
   email: string,
-  setShowMessage: any
+  setShowMessage: (state: IMessage) => void
 ) => {
   try {
     const db = getFirestore(firebaseConfig);
@@ -219,7 +220,7 @@ export const transferSheetToGameMaster = async (
   sessionId: string,
   emailPlayer: string,
   emailGameMaster: string,
-  setShowMessage: any
+  setShowMessage: (state: IMessage) => void
 ) => {
   try {
     const db = getFirestore(firebaseConfig);
@@ -287,7 +288,7 @@ export const getAllSessionsByFunction = async (email: string) => {
   return { list1, list2 };
 };
 
-export const deleteSessionById = async (sessionId: string, setShowMessage: any) => {
+export const deleteSessionById = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   const db = getFirestore(firebaseConfig);
   const sessionsCollectionRef = collection(db, 'sessions');
   const sessionDocRef = doc(sessionsCollectionRef, sessionId);

@@ -164,7 +164,7 @@ export const playerSheet = {
 //   return sheet;
 // };
 
-export const capitalizeFirstLetter = (str: string): String => {
+export const capitalizeFirstLetter = (str: string): string => {
   switch(str) {
     case 'global': return 'Dons Nativos';
     case 'silent striders': return 'Peregrinos Silenciosos';

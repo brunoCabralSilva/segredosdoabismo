@@ -4,8 +4,9 @@ import { registerMessage } from "./messagesAndRolls";
 import { deletePlayerImage } from "./storage";
 import { parseDate } from "./utilities";
 import { FirebaseError } from "firebase/app";
+import { IMessage } from "@/interfaces";
 
-export const createPlayersData = async (sessionId: string, setShowMessage: any) => {
+export const createPlayersData = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'players');
@@ -21,7 +22,7 @@ export const createPlayersData = async (sessionId: string, setShowMessage: any) 
   }
 };
 
-export const getOldestUserBySession = async (sessionId: string, gameMaster: string, setShowMessage: any) => {
+export const getOldestUserBySession = async (sessionId: string, gameMaster: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, "players");
@@ -55,7 +56,7 @@ export const getOldestUserBySession = async (sessionId: string, gameMaster: stri
 };
 
 
-export const getPlayersBySession = async (sessionId: string, setShowMessage: any) => {
+export const getPlayersBySession = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionRef = doc(db, 'sessions', sessionId);
@@ -69,7 +70,7 @@ export const getPlayersBySession = async (sessionId: string, setShowMessage: any
 };
 
 
-export const getPlayerById = async (id: string, setShowMessage: any) => {
+export const getPlayerById = async (id: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const docRef = doc(db, 'players', id);
@@ -86,7 +87,7 @@ export const getPlayerById = async (id: string, setShowMessage: any) => {
 };
 
 
-export const getPlayerByEmail = async (sessionId: string, email: string, setShowMessage: any) => {
+export const getPlayerByEmail = async (sessionId: string, email: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'players'); 
@@ -105,7 +106,7 @@ export const getPlayerByEmail = async (sessionId: string, email: string, setShow
 export const updateDataPlayer = async (
   id: string,
   newData: any,
-  setShowMessage: any
+  setShowMessage: (state: IMessage) => void
 ) => {
   try {
     const db = getFirestore(firebaseConfig);
@@ -136,7 +137,7 @@ export const deleteDataPlayer = async (
   id: string,
   sessionId: string,
   imageUrl: string,
-  setShowMessage: any
+  setShowMessage: (state: IMessage) => void
 ) => {
   try {
     const db = getFirestore(firebaseConfig);
@@ -196,7 +197,7 @@ export const deleteDataPlayer = async (
   //   setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados do Jogador: ' + errorMessage });
   // }
 
-export const updateValueOfSheet = async (setShowMessage: any) => {
+export const updateValueOfSheet = async (setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'players');
@@ -237,7 +238,7 @@ export const updateValueOfSheet = async (setShowMessage: any) => {
   }
 };
 
-export const updateDataWithRage = async (sessionId: string, email: string, sheetId: string, newData: any, nameForm: string, setShowMessage: any) => {
+export const updateDataWithRage = async (sessionId: string, email: string, sheetId: string, newData: any, nameForm: string, setShowMessage: (state: IMessage) => void) => {
   try {
     let numberOfChecks = 1;
     if (nameForm === 'Crinos') numberOfChecks = 2;
@@ -294,13 +295,13 @@ export const updateDataWithRage = async (sessionId: string, email: string, sheet
   }
 };
 
-export const addNewSheet = async (sessionId: string, sheet: any, setShowMessage: any) => {
+export const addNewSheet = async (sessionId: string, sheet: any, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionsCollectionRef = collection(db, 'players');
     const newDoc = { sessionId: sessionId, ...sheet };
     await addDoc(sessionsCollectionRef, newDoc);
-    setShowMessage('Nova ficha criada com sucesso');
+    setShowMessage({ show: true, text: 'Nova ficha criada com sucesso' });
   } catch (error: unknown) {
     let errorMessage = "Erro desconhecido";
     if (error instanceof FirebaseError) {
@@ -308,16 +309,16 @@ export const addNewSheet = async (sessionId: string, sheet: any, setShowMessage:
     } else if (error instanceof Error) {
       errorMessage = error.message;
     }
-    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage);
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage });
   }
 };
 
-export const addNewSheetMandatory = async (sessionId: string, sheet: any, setShowMessage: any) => {
+export const addNewSheetMandatory = async (sessionId: string, sheet: any, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionsCollectionRef = collection(db, 'players');
     const newDocRef = await addDoc(sessionsCollectionRef, { sessionId, ...sheet });
-    setShowMessage('Nova ficha criada com sucesso');
+    setShowMessage({ show: true, text: 'Nova ficha criada com sucesso' });
     return newDocRef.id;
   } catch (error: unknown) {
     let errorMessage = "Erro desconhecido";
@@ -326,12 +327,12 @@ export const addNewSheetMandatory = async (sessionId: string, sheet: any, setSho
     } else if (error instanceof Error) {
       errorMessage = error.message;
     }
-    setShowMessage('Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage);
+    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma nova Ficha: ' + errorMessage });
     return '';
   }
 };
 
-export const removePlayerFromSession = async (sessionId: string, email: string, setShowMessage: any) => {
+export const removePlayerFromSession = async (sessionId: string, email: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const sessionsCollectionRef = collection(db, 'players');

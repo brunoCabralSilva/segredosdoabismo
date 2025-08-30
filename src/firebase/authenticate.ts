@@ -8,6 +8,7 @@ import {
 } from "firebase/auth";
 import { getUserByEmail } from "./user";
 import firebaseConfig from "./connection";
+import { IMessage } from "@/interfaces";
 
 export const signIn = async (email: string, password: string) => {
   const auth = getAuth(firebaseConfig);
@@ -19,7 +20,7 @@ export const signIn = async (email: string, password: string) => {
   }
 }
 
-export const signOutFirebase = async (setShowMessage: any) => {
+export const signOutFirebase = async (setShowMessage: (state: IMessage) => void) => {
   try {
     const auth = getAuth(firebaseConfig);
     await signOut(auth);
@@ -30,7 +31,7 @@ export const signOutFirebase = async (setShowMessage: any) => {
   }
 };
 
-export const authenticate = async (setShowMessage: any) => {
+export const authenticate = async (setShowMessage: (state: IMessage) => void) => {
   return new Promise<{ email: string, photoURL: string, displayName: string } | null>((resolve) => {
     const auth = getAuth(firebaseConfig);
     const unsubscribe = onAuthStateChanged(auth, async (user: any) => {
@@ -55,7 +56,7 @@ export const changeUserPassword = async (
   oldPassword: string,
   email: string,
   newPassword: string,
-  setShowMessage: any,
+  setShowMessage: (state: IMessage) => void,
 ) => {
   const auth = getAuth(firebaseConfig);
   try {
@@ -71,7 +72,7 @@ export const changeUserPassword = async (
   }
 };
 
-export const forgotPassword = async (email: string, setShowMessage: any) => {
+export const forgotPassword = async (email: string, setShowMessage: (state: IMessage) => void) => {
   const auth = getAuth(firebaseConfig);
   try {
     await sendPasswordResetEmail(auth, email);

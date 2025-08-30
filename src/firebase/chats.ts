@@ -2,8 +2,9 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import firebaseConfig from "./connection";
 import { getOfficialTimeBrazil } from "./utilities";
 import { registerMessage } from "./messagesAndRolls";
+import { IMessage } from "@/interfaces";
 
-export const createChatData = async(sessionId: string, setShowMessage: any) => {
+export const createChatData = async(sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const dateMessage = await getOfficialTimeBrazil();

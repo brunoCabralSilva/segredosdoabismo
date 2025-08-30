@@ -3,8 +3,9 @@ import firebaseConfig from "./connection";
 import { authenticate } from "./authenticate";
 import { getOfficialTimeBrazil } from "./utilities";
 import { FirebaseError } from "firebase/app";
+import { IMessage } from "@/interfaces";
 
-export const createHistory = async (sessionId: string, setShowMessage: any) => {
+export const createHistory = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'history'); 
@@ -24,7 +25,7 @@ export const createHistory = async (sessionId: string, setShowMessage: any) => {
   }
 }
 
-export const registerHistory = async (sessionId: string, data: any, email: string | null, setShowMessage: any) => {
+export const registerHistory = async (sessionId: string, data: any, email: string | null, setShowMessage: (state: IMessage) => void) => {
 	try {
 	  const authData: any = await authenticate(setShowMessage);
 	  if (authData && authData.email && authData.displayName) {

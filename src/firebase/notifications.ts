@@ -3,6 +3,7 @@ import { capitalizeFirstLetter } from "./utilities";
 import { authenticate } from "./authenticate";
 import firebaseConfig from "./connection";
 import { FirebaseError } from "firebase/app";
+import { IMessage } from "@/interfaces";
 
 export const getNotificationsById = async (sessionId: string) => {
   const db = getFirestore(firebaseConfig);
@@ -14,7 +15,7 @@ export const getNotificationsById = async (sessionId: string) => {
   } return false;
 };
 
-export const createNotificationData = async (sessionId: string, setShowMessage: any) => {
+export const createNotificationData = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const notificationsCollection = collection(db, 'notifications');
@@ -30,7 +31,7 @@ export const createNotificationData = async (sessionId: string, setShowMessage: 
   }
 };
 
-export const getNotificationBySession = async (sessionId: string, setShowMessage: any) => {
+export const getNotificationBySession = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const collectionRef = collection(db, 'notifications'); 
@@ -46,7 +47,7 @@ export const getNotificationBySession = async (sessionId: string, setShowMessage
   }
 };
 
-export const requestApproval = async (sessionId: string, setShowMessage: any) => {
+export const requestApproval = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const authData: any = await authenticate(setShowMessage);
     if (authData && authData.email && authData.displayName) {
@@ -77,7 +78,7 @@ export const requestApproval = async (sessionId: string, setShowMessage: any) =>
   }
 };
 
-export const registerNotification = async (sessionId: string, notification: any, setShowMessage: any) => {
+export const registerNotification = async (sessionId: string, notification: any, setShowMessage: (state: IMessage) => void) => {
   const db = getFirestore(firebaseConfig);
   const notificationRef = collection(db, 'notifications');
   const q = query(notificationRef, where('sessionId', '==', sessionId));
@@ -92,7 +93,7 @@ export const registerNotification = async (sessionId: string, notification: any,
   });
 };
 
-export const removeNotification = async (sessionId: string, message: string, setShowMessage: any) => {
+export const removeNotification = async (sessionId: string, message: string, setShowMessage: (state: IMessage) => void) => {
   try {
     const db = getFirestore(firebaseConfig);
     const notificationsRef = collection(db, 'notifications');
@@ -120,7 +121,7 @@ export const removeNotification = async (sessionId: string, message: string, set
   }
 };
 
-// export const approveUser = async (notification: any, session: any, setShowMessage: any) => {
+// export const approveUser = async (notification: any, session: any, setShowMessage: (state: IMessage) => void) => {
 //     try {
 //       const db = getFirestore(firebaseConfig);
 //       const dateMessage = await getOfficialTimeBrazil();

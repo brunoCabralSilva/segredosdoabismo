@@ -27,3 +27,12 @@ export interface IMessage {
   show: boolean;
   text: string;
 }
+
+export interface IUser {
+  id: string;
+  email: string;
+  displayName: string;
+  firstName: string;
+  lastName: string;
+  imageURL: string;
+}
