@@ -9,6 +9,7 @@ import contexto from '@/context/context';
 import { getAllSessionsByFunction } from '@/firebase/sessions';
 import MessageToUser from '@/dicesAndMessages/messageToUser';
 import { IAuthData } from '@/interfaces';
+import Loading from '@/components/loading';
 
 export default function Profile() {
   const [showData, setShowData] = useState(false);
@@ -105,7 +106,7 @@ export default function Profile() {
             </section>
           </div>
         : <div className="bg-black/60 text-white h-90vh flex items-center justify-center flex-col">
-            <span className="loader z-50" />
+            <Loading />
           </div>
       }
       <Footer />

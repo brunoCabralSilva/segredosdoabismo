@@ -1,8 +1,8 @@
 [
     {
-        "name": "",
-        "namePtBr": "",
-        "belonging": "",
+        "id": "1",
+        "name": "Doutrina do Fundamento",
+        "belonging": "all",
         "doctrines": [
             {
                 "level": 1,
@@ -33,6 +33,1815 @@
                 "description": "",
                 "system": "",
                 "torment": ""
+            }
+        ],
+        "apName": "",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": []
+    },
+    {
+        "id": "2",
+        "name": "Doutrina da Humanidade",
+        "belonging": "all",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": []
+    },
+    {
+        "id": "3",
+        "name": "Doutrina dos Celestiais",
+        "belonging": "namaru",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Bel, o Semblante dos Celestiais",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Doutrina da Chama",
+        "belonging": "namaru",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Nusku, o Semblante das Chamas",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {   
+        "id": "5",
+        "namePtBr": "Doutrina do Esplendor",
+        "belonging": "namaru",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Qingu, o Semblante do Esplendor",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Doutrina do Despertar",
+        "belonging": "asharu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Dagan, o Semblante do Despertar",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Doutrina do Firmamento",
+        "belonging": "asharu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Anshar, o Semblante do Firmamento",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Doutrina dos Ventos",
+        "belonging": "asharu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Ellil, o Semblante dos Ventos",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Doutrina da Terra",
+        "belonging": "annunaki",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Kishar, o Semblante da Terra",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Doutrina dos Caminhos",
+        "belonging": "annunaki",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Antu, o Semblante dos Caminhos",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Doutrina da Forja",
+        "belonging": "annunaki",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Mummu, o Semblante da Forja",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Doutrina dos Padrões",
+        "belonging": "neberu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Ninsun, o Semblante dos Padrões",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Doutrina dos Portais",
+        "belonging": "neberu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Nedu, o Semblante dos Portais",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "Doutrina da Luz",
+        "belonging": "neberu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Shamash, o Semblante da Luz",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Doutrina do Desejo",
+        "belonging": "lammasu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Ismmara, o Semblante do Desejo",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Doutrina das Tempestades",
+        "belonging": "lammasu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Adad, o Semblante das Tempestades",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "Doutrina da Transfiguração",
+        "belonging": "lammasu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Mammetum, o Semblante da Transfiguração",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Doutrina da Fera",
+        "belonging": "rabisu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Zaltu, o Semblante da Fera",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Doutrina da Natureza",
+        "belonging": "rabisu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Ninurtu, o Semblante da Natureza",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Doutrina da Carne",
+        "belonging": "rabisu",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Aruru, o Semblante da Carne",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Doutrina da Morte",
+        "belonging": "halaku",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Namtar, o Semblante da Morte",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "Doutrina do Espírito",
+        "belonging": "halaku",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Nergal, o Semblante do Espírito",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Doutrina dos Reinos",
+        "belonging": "halaku",
+        "doctrines": [
+            {
+                "level": 1,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 2,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 3,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 4,
+                "description": "",
+                "system": "",
+                "torment": ""
+            },
+            {
+                "level": 5,
+                "description": "",
+                "system": "",
+                "torment": ""
+            }
+        ],
+        "apName": "Ereshkigal, o Semblante dos Reinos",
+        "apWithouTorment": "",
+        "apWithTorment": "",
+        "apocalypticForm": [
+            {
+                "torment": false,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "torment": true,
+                "capabilities": [
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    },
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
             }
         ]
     }

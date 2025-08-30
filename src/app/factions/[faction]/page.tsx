@@ -7,6 +7,7 @@ import { useContext, useEffect, useState } from "react";
 import contexto from "@/context/context";
 import listFactions from '../../../data/factions.json';
 import { IFactions } from "@/interfaces";
+import Loading from "@/components/loading";
 
 export default function Faction() {
   const params = useParams();
@@ -33,7 +34,7 @@ export default function Faction() {
             <div className="py-10 flex flex-col items-center sm:items-start w-full z-20 text-white text-justify overflow-y-auto">
               <div className="flex items-center justify-center w-full relative h-full">
                 <div className="absolute h-full w-full sm:w-5/12 flex items-center justify-center">
-                  { isLoading && <span className="loader z-50" /> }
+                  { isLoading && <Loading /> }
                 </div>
                 <Image
                   src={`/images/glifs/${dataFaction.name}.png`}
@@ -78,7 +79,7 @@ export default function Faction() {
     <div className="w-full bg-ritual bg-cover bg-top relative h-screen">
       <div className="absolute w-full h-full bg-black/80" />
       <Nav />
-      <span className="loader z-50" />
+      <Loading />
     </div>
   );
 }
