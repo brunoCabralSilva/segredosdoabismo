@@ -4,7 +4,6 @@ import Nav from '@/components/nav';
 import { useRouter } from "next/navigation";
 import { authenticate } from "@/firebase/authenticate";
 import Footer from '@/components/footer';
-// import VerifySession from '@/components/popup/verifySession';
 import contexto from '@/context/context';
 import { getAllSessionsByFunction } from '@/firebase/sessions';
 import MessageToUser from '@/dicesAndMessages/messageToUser';
@@ -72,7 +71,7 @@ export default function Profile() {
                   </p>
                 <div className="pt-3 gap-3 w-full grid sm:grid-cols-2 md:grid-cols-5">
                   {
-                    listSessions.map((sessions: any, index: number) => (
+                    listSessions.map((sessions: {id: string, name: string }, index: number) => (
                       <button
                         type="button"
                         key={index}
@@ -89,7 +88,7 @@ export default function Profile() {
                 </p>
                 <div className="gap-3 w-full grid sm:grid-cols-2 md:grid-cols-3 pt-3">
                   {
-                    listDmSessions.map((sessions: any, index: number) => (
+                    listDmSessions.map((sessions: {id: string, name: string }, index: number) => (
                       <button
                         type="button"
                         key={index}

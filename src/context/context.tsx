@@ -18,8 +18,8 @@ interface RecipesContext {
   showMessage: { show: boolean, text: string },
   setShowMessage: (state: { show: boolean, text: string }) => void,
   //notifications
-  listNotification: any[];
-  setListNotification: (state: any[]) => void,
+  // listNotification: any[];
+  // setListNotification: (state: any[]) => void,
 }
 
 const initialValue: RecipesContext = {
@@ -39,8 +39,8 @@ const initialValue: RecipesContext = {
   showMessage: { show: false, text: '' },
   setShowMessage: () => {},
   //notifications
-  listNotification: [],
-  setListNotification: () => {},
+  // listNotification: [],
+  // setListNotification: () => {},
 }
 
 const contexto = createContext(initialValue);

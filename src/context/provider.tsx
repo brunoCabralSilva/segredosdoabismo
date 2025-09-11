@@ -41,8 +41,8 @@ export default function Provider({children }: IProvider) {
         dataUser, setDataUser,
         showForgotPassword, setShowForgotPassword,
         //notification
-        listNotification,
-        setListNotification,    
+        // listNotification,
+        // setListNotification,    
       }}
     >
       {children}
