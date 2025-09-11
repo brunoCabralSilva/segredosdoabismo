@@ -73,7 +73,7 @@ export default function Home() {
         </Link>
         <Link href="/backgrounds" className="col-span-1 row-span-2 sm:col-span-2 sm:row-span-2">
           <div
-            className={`bg-[url('/images/wallpapers/05.png')] bg-cover bg-bottom h-full sm:h-[40vh] text-white flex relative cursor-pointer border-transparent items-end`}>
+            className={`bg-[url('/images/wallpapers/01.png')] bg-cover bg-bottom h-full sm:h-[40vh] text-white flex relative cursor-pointer border-transparent items-end`}>
             <div className={`absolute w-full h-full bg-black/40`} />
             <p className="z-10 font-bold text-base sm:text-xl px-3 p-2">Antecedentes</p>
           </div>
