@@ -2,13 +2,16 @@
 import Footer from "@/components/footer";
 import Nav from "@/components/nav";
 import listDoctrines from '../../data/doctrines.json';
-import listHouses from '../../data/houses.json';  // Aqui você importa ou define o seu arquivo de casas
+import listHouses from '../../data/houses.json';
 import Link from "next/link";
 import Image from "next/image";
+import { IDoctrines } from "@/interfaces";
+
+type DoctrinesByBelonging = Record<string, IDoctrines[]>;
 
 export default function Doctrines() {
-  // Agrupar as doutrinas pelo campo 'belonging'
-  const groupedDoctrines = listDoctrines.reduce((acc, doctrine) => {
+
+  const groupedDoctrines = listDoctrines.reduce<DoctrinesByBelonging>((acc, doctrine) => {
     const group = doctrine.belonging;
     if (!acc[group]) {
       acc[group] = [];
@@ -17,10 +20,9 @@ export default function Doctrines() {
     return acc;
   }, {});
 
-  // Função para pegar o 'namePtBr' correspondente ao 'belonging' a partir de listHouses
   const getHouseName = (belonging: string) => {
     const house = listHouses.find(house => house.name === belonging);
-    return house ? house.namePtBr : 'Comuns';  // Caso não encontre, retorna o próprio belonging
+    return house ? house.namePtBr : 'Comuns';
   };
 
   return (
@@ -42,7 +44,7 @@ export default function Doctrines() {
                   </h2>
                   <div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
                     {
-                      groupedDoctrines[group].map((doctrine, index) => (
+                      groupedDoctrines[group].map((doctrine: IDoctrines, index: number) => (
                         <Link
                           key={index}
                           href={`/doctrines/${doctrine.id}`}

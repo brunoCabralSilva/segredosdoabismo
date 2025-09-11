@@ -1,21 +1,49 @@
 export interface IFactions {
-    name: string,
-    namePtBr: string,
-    description: string[],
+  name: string;
+  namePtBr: string;
+  description: string[];
 }
 
 export interface IHouses {
-    number: number,
-    name: string,
-    namePtBr: string,
-    description: string[],
-    factions: string[],
-    preludio: string[],
-    faith: string[],
-    playerCreation: string[],
-    initialTorment: number,
-    doctrines: string[],
-    fraquezas: string[],
+  number: number;
+  name: string;
+  namePtBr: string;
+  description: string[];
+  factions: string[];
+  preludio: string[];
+  faith: string[];
+  playerCreation: string[];
+  initialTorment: number;
+  doctrines: string[];
+  fraquezas: string[];
+}
+
+export interface IListDoctrines {
+  level: number;
+  description: string;
+  system: string;
+  torment: string;
+}
+
+export interface ICapabilities {
+  name: string;
+  description: string;  
+}
+
+export interface IListApocaliptycForm {
+  torment: boolean;
+  capabilities: ICapabilities[];
+}
+
+export interface IDoctrines {
+   id: string;
+  name: string;
+  belonging: string;
+  doctrines: IListDoctrines[];
+  apName: string,
+  apWithouTorment: string,
+  apWithTorment: string,
+  apocalypticForm: IListApocaliptycForm[];
 }
 
 export interface IAuthData {
