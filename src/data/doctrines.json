@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Doutrina do Fundamento",
-        "belonging": "all",
+        "belonging": "common",
         "doctrines": [
             {
                 "level": 1,
@@ -43,7 +43,7 @@
     {
         "id": "2",
         "name": "Doutrina da Humanidade",
-        "belonging": "all",
+        "belonging": "common",
         "doctrines": [
             {
                 "level": 1,
@@ -251,7 +251,7 @@
     },
     {   
         "id": "5",
-        "namePtBr": "Doutrina do Esplendor",
+        "name": "Doutrina do Esplendor",
         "belonging": "namaru",
         "doctrines": [
             {
