@@ -1,8 +1,7 @@
 import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
-import { capitalizeFirstLetter, getOfficialTimeBrazil } from "./utilities";
+// import { capitalizeFirstLetter, getOfficialTimeBrazil } from "./utilities";
 import firebaseConfig from "./connection";
-import { createNotificationData } from "./notifications";
-import { createChatData } from "./chats";
+// import { createNotificationData } from "./notifications";
 import { FirebaseError } from "firebase/app";
 import { IMessage } from "@/interfaces";
 
