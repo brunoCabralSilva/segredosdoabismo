@@ -78,34 +78,34 @@ export const getConsentsBySessionId = async (sessionId: string, setShowMessage: 
   }
 };
 
-export const updateConsentList = async (email: string, sessionId: string, newList: any[], setShowMessage: (state: IMessage) => void) => {
-  try {
-    const db = getFirestore(firebaseConfig);
-    const collectionRef = collection(db, 'consents');
-    const q = query(collectionRef, where('email', '==', email), where('sessionId', '==', sessionId));
-    const querySnapshot = await getDocs(q);
-    if (querySnapshot.empty) {
-      setShowMessage({ show: true, text: 'Nenhum registro encontrado para o email e sessionId fornecidos.' });
-      return false;
-    }
-    const consentDoc = querySnapshot.docs[0];
-    await updateDoc(doc(db, 'consents', consentDoc.id), {
-      list: newList
-    });
-    return true;
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    let errorCode = "";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-      errorCode = error.code;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({ show: true, text: 'Erro ao atualizar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage });
-    return false;
-  }
-};
+// export const updateConsentList = async (email: string, sessionId: string, newList, setShowMessage: (state: IMessage) => void) => {
+//   try {
+//     const db = getFirestore(firebaseConfig);
+//     const collectionRef = collection(db, 'consents');
+//     const q = query(collectionRef, where('email', '==', email), where('sessionId', '==', sessionId));
+//     const querySnapshot = await getDocs(q);
+//     if (querySnapshot.empty) {
+//       setShowMessage({ show: true, text: 'Nenhum registro encontrado para o email e sessionId fornecidos.' });
+//       return false;
+//     }
+//     const consentDoc = querySnapshot.docs[0];
+//     await updateDoc(doc(db, 'consents', consentDoc.id), {
+//       list: newList
+//     });
+//     return true;
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     let errorCode = "";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//       errorCode = error.code;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({ show: true, text: 'Erro ao atualizar Ficha de Consentimento: ' + errorCode + ' - ' + errorMessage });
+//     return false;
+//   }
+// };
 
 export const deleteConsent = async (email: string, sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {

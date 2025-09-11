@@ -1,9 +1,8 @@
 import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
 import { capitalizeFirstLetter, getOfficialTimeBrazil } from "./utilities";
 import firebaseConfig from "./connection";
-import { createNotificationData, registerNotification } from "./notifications";
+import { createNotificationData } from "./notifications";
 import { createChatData } from "./chats";
-import { createHistory } from "./history";
 import { FirebaseError } from "firebase/app";
 import { IMessage } from "@/interfaces";
 
@@ -18,18 +17,18 @@ export const getSessions = async () => {
   return sessionsList;
 };
 
-export const getSessionByName = async (nameSession: string, setShowMessage: (state: IMessage) => void) => {
-  try {
-    const db = getFirestore(firebaseConfig);
-    const sessionsCollection = collection(db, 'sessions');
-    const querySnapshot = await getDocs(query(sessionsCollection, where('name', '==', nameSession)));
-    let sessionList: any;
-    if (!querySnapshot.empty) sessionList = querySnapshot.docs[0].data();
-    return sessionList;
-  } catch (error) {
-    setShowMessage({show: true, text: 'Ocorreu um erro ao buscar Sessões: ' + error });
-  }
-};
+// export const getSessionByName = async (nameSession: string, setShowMessage: (state: IMessage) => void) => {
+//   try {
+//     const db = getFirestore(firebaseConfig);
+//     const sessionsCollection = collection(db, 'sessions');
+//     const querySnapshot = await getDocs(query(sessionsCollection, where('name', '==', nameSession)));
+//     let sessionList;
+//     if (!querySnapshot.empty) sessionList = querySnapshot.docs[0].data();
+//     return sessionList;
+//   } catch (error) {
+//     setShowMessage({show: true, text: 'Ocorreu um erro ao buscar Sessões: ' + error });
+//   }
+// };
 
 export const getSessionById = async (sessionId: string) => {
   const db = getFirestore(firebaseConfig);
@@ -51,66 +50,66 @@ export const getNameAndDmFromSessions = async (sessionId: string) => {
   } return null;
 };
 
-export const createSession = async (
-  nameSession: string,
-  description: string,
-  email: string,
-  setShowMessage: (state: IMessage) => void,
-) => {
-  try {
-    const dateMessage = await getOfficialTimeBrazil();
-    const db = getFirestore(firebaseConfig);
-    const collectionRef = collection(db, 'sessions');
-    const newSession = await addDoc(collectionRef, {
-      name: nameSession.toLowerCase(),
-      creationDate: dateMessage,
-      gameMaster: email,
-      anotations: '',
-      description,
-      principles: [],
-      favorsAndBans: [],
-      players: [],
-    });
-    const newSessionRef = doc(db, 'sessions', newSession.id);
-    await runTransaction(db, async (transaction) => {
-      transaction.update(newSessionRef, { id: newSession.id });
-    });
-    await createNotificationData(newSession.id, setShowMessage);
-    await createChatData(newSession.id, setShowMessage);
-    await createHistory(newSession.id, setShowMessage);
-    return newSession.id;
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma sessão: ' + errorMessage });
-  }
-};
+// export const createSession = async (
+//   nameSession: string,
+//   description: string,
+//   email: string,
+//   setShowMessage: (state: IMessage) => void,
+// ) => {
+//   try {
+//     const dateMessage = await getOfficialTimeBrazil();
+//     const db = getFirestore(firebaseConfig);
+//     const collectionRef = collection(db, 'sessions');
+//     const newSession = await addDoc(collectionRef, {
+//       name: nameSession.toLowerCase(),
+//       creationDate: dateMessage,
+//       gameMaster: email,
+//       anotations: '',
+//       description,
+//       principles: [],
+//       favorsAndBans: [],
+//       players: [],
+//     });
+//     const newSessionRef = doc(db, 'sessions', newSession.id);
+//     await runTransaction(db, async (transaction) => {
+//       transaction.update(newSessionRef, { id: newSession.id });
+//     });
+//     await createNotificationData(newSession.id, setShowMessage);
+//     await createChatData(newSession.id, setShowMessage);
+//     await createHistory(newSession.id, setShowMessage);
+//     return newSession.id;
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({ show: true, text: 'Ocorreu um erro ao criar uma sessão: ' + errorMessage });
+//   }
+// };
 
-export const updateSession = async (session: any, setShowMessage: (state: IMessage) => void) => {
-  try {
-    const db = getFirestore(firebaseConfig);
-    const sessionsCollectionRef = collection(db, 'sessions');
-    const sessionDocRef = doc(sessionsCollectionRef, session.id);
-    await runTransaction(db, async (transaction) => {
-      const sessionDocSnapshot = await getDoc(sessionDocRef);
-      if (sessionDocSnapshot.exists()) {
-        transaction.update(sessionDocRef, { ...session });
-      } else throw new Error('Sessão não encontrada');
-    });
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + errorMessage });
-  }
-};
+// export const updateSession = async (session, setShowMessage: (state: IMessage) => void) => {
+//   try {
+//     const db = getFirestore(firebaseConfig);
+//     const sessionsCollectionRef = collection(db, 'sessions');
+//     const sessionDocRef = doc(sessionsCollectionRef, session.id);
+//     await runTransaction(db, async (transaction) => {
+//       const sessionDocSnapshot = await getDoc(sessionDocRef);
+//       if (sessionDocSnapshot.exists()) {
+//         transaction.update(sessionDocRef, { ...session });
+//       } else throw new Error('Sessão não encontrada');
+//     });
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({ show: true, text: 'Ocorreu um erro ao atualizar os dados da Sessão: ' + errorMessage });
+//   }
+// };
 
 export const clearHistory = async (id: string, setShowMessage: (state: IMessage) => void) => {
   try {
@@ -134,53 +133,53 @@ export const clearHistory = async (id: string, setShowMessage: (state: IMessage)
   }
 };
 
-export const leaveFromSession = async (
-  sessionId: string,
-  email: string,
-  name: string,
-  setShowMessage: (state: IMessage) => void
-) => {
-  try {
-    const db = getFirestore(firebaseConfig);
-    const collectionRef = collection(db, "players");
-    const q = query(collectionRef, where("sessionId", "==", sessionId), where("email", "==", email));
+// export const leaveFromSession = async (
+//   sessionId: string,
+//   email: string,
+//   name: string,
+//   setShowMessage: (state: IMessage) => void
+// ) => {
+//   try {
+//     const db = getFirestore(firebaseConfig);
+//     const collectionRef = collection(db, "players");
+//     const q = query(collectionRef, where("sessionId", "==", sessionId), where("email", "==", email));
 
-    await runTransaction(db, async (transaction) => {
-      const querySnapshot = await getDocs(q);
-      if (!querySnapshot.empty) {
-        querySnapshot.docs.forEach((playerDoc) => {
-          const playerRef = doc(db, "players", playerDoc.id);
-          transaction.delete(playerRef);
-        });
+//     await runTransaction(db, async (transaction) => {
+//       const querySnapshot = await getDocs(q);
+//       if (!querySnapshot.empty) {
+//         querySnapshot.docs.forEach((playerDoc) => {
+//           const playerRef = doc(db, "players", playerDoc.id);
+//           transaction.delete(playerRef);
+//         });
 
-        const dataNotification = {
-          message: `Olá, tudo bem? O jogador ${capitalizeFirstLetter(name)} saiu desta sala. Você pode integrá-lo novamente, caso ele solicite acessar esta sessão.`,
-          type: "transfer",
-        };
+//         const dataNotification = {
+//           message: `Olá, tudo bem? O jogador ${capitalizeFirstLetter(name)} saiu desta sala. Você pode integrá-lo novamente, caso ele solicite acessar esta sessão.`,
+//           type: "transfer",
+//         };
 
-        await registerNotification(sessionId, dataNotification, setShowMessage);
+//         await registerNotification(sessionId, dataNotification, setShowMessage);
 
-        setShowMessage({
-          show: true,
-          text: "Esperamos que sua jornada nessa Sessão tenha sido divertida e gratificante. Até logo!",
-        });
-      } else {
-        throw new Error("Jogador não encontrado na sessão.");
-      }
-    });
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({
-      show: true,
-      text: "Ocorreu um erro ao remover o jogador: " + errorMessage,
-    });
-  }
-};
+//         setShowMessage({
+//           show: true,
+//           text: "Esperamos que sua jornada nessa Sessão tenha sido divertida e gratificante. Até logo!",
+//         });
+//       } else {
+//         throw new Error("Jogador não encontrado na sessão.");
+//       }
+//     });
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({
+//       show: true,
+//       text: "Ocorreu um erro ao remover o jogador: " + errorMessage,
+//     });
+//   }
+// };
 
 export const removeFromSession = async (
   sessionId: string,

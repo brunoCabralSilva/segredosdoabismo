@@ -4,32 +4,32 @@ import { doc, getFirestore, runTransaction } from "firebase/firestore";
 import { IMessage } from "@/interfaces";
 import { FirebaseError } from "firebase/app";
 
-export async function createSessionImage(id: string, data: any, setShowMessage: (state: IMessage) => void) {
-  const db = getFirestore(firebaseConfig);
-  const storage = getStorage(firebaseConfig);
-  const storageRef = ref(storage, `images/sessions/${id}/${data.name}`);
-  try {
-    await uploadBytes(storageRef, data);
-    const downloadUrl = await getDownloadURL(storageRef);
-    const sessionDocRef = doc(db, 'sessions', id);
-    await runTransaction(db, async (transaction) => {
-      const sessionDocSnapshot = await transaction.get(sessionDocRef);
-      if (sessionDocSnapshot.exists()) {
-        transaction.update(sessionDocRef, { imageUrl: downloadUrl });
-      } else throw new Error("Sessão não encontrada.");
-    });
-    return downloadUrl;
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({ show: true, text: "Erro ao fazer upload da imagem: " + errorMessage });
-    return false;
-  }
-}
+// export async function createSessionImage(id: string, data, setShowMessage: (state: IMessage) => void) {
+//   const db = getFirestore(firebaseConfig);
+//   const storage = getStorage(firebaseConfig);
+//   const storageRef = ref(storage, `images/sessions/${id}/${data.name}`);
+//   try {
+//     await uploadBytes(storageRef, data);
+//     const downloadUrl = await getDownloadURL(storageRef);
+//     const sessionDocRef = doc(db, 'sessions', id);
+//     await runTransaction(db, async (transaction) => {
+//       const sessionDocSnapshot = await transaction.get(sessionDocRef);
+//       if (sessionDocSnapshot.exists()) {
+//         transaction.update(sessionDocRef, { imageUrl: downloadUrl });
+//       } else throw new Error("Sessão não encontrada.");
+//     });
+//     return downloadUrl;
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({ show: true, text: "Erro ao fazer upload da imagem: " + errorMessage });
+//     return false;
+//   }
+// }
 
 export const deletePlayerImage = async (sessionId: string, playerId: string, imageUrl: string, setShowMessage: (state: IMessage) => void) => {
   if (!imageUrl) return;

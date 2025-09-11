@@ -1,4 +1,4 @@
-import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, where } from "firebase/firestore";
+import { addDoc, collection, doc, getDoc, getDocs, getFirestore, query, runTransaction, Transaction, where } from "firebase/firestore";
 import { capitalizeFirstLetter } from "./utilities";
 import { authenticate } from "./authenticate";
 import firebaseConfig from "./connection";
@@ -49,7 +49,7 @@ export const getNotificationBySession = async (sessionId: string, setShowMessage
 
 export const requestApproval = async (sessionId: string, setShowMessage: (state: IMessage) => void) => {
   try {
-    const authData: any = await authenticate(setShowMessage);
+    const authData: {  email: string, displayName: string, photoURL: string } | null = await authenticate(setShowMessage);
     if (authData && authData.email && authData.displayName) {
       const { email, displayName } = authData;
 			const db = getFirestore(firebaseConfig);
@@ -60,7 +60,7 @@ export const requestApproval = async (sessionId: string, setShowMessage: (state:
       const notificationDoc = querySnapshot.docs[0];
       const notificationData = notificationDoc.data();
       const notificationDocRef = notificationDoc.ref;
-      await runTransaction(db, async (transaction: any) => {
+      await runTransaction(db, async (transaction: Transaction) => {
         const updatedList = [
           ...notificationData.list,
           {
@@ -78,50 +78,50 @@ export const requestApproval = async (sessionId: string, setShowMessage: (state:
   }
 };
 
-export const registerNotification = async (sessionId: string, notification: any, setShowMessage: (state: IMessage) => void) => {
-  const db = getFirestore(firebaseConfig);
-  const notificationRef = collection(db, 'notifications');
-  const q = query(notificationRef, where('sessionId', '==', sessionId));
-  const querySnapshot = await getDocs(q);
-  if (querySnapshot.empty) setShowMessage({ show: true, text: "Não foi possível localizar a notificação da Sessão fornecida." });
-  const notificationDoc = querySnapshot.docs[0];
-  const notificationData = notificationDoc.data();
-  const notificationDocRef = notificationDoc.ref;
-  await runTransaction(db, async (transaction: any) => {
-    const updatedList = [...notificationData.list, notification];
-    transaction.update(notificationDocRef, { list: updatedList });
-  });
-};
+// export const registerNotification = async (sessionId: string, notification, setShowMessage: (state: IMessage) => void) => {
+//   const db = getFirestore(firebaseConfig);
+//   const notificationRef = collection(db, 'notifications');
+//   const q = query(notificationRef, where('sessionId', '==', sessionId));
+//   const querySnapshot = await getDocs(q);
+//   if (querySnapshot.empty) setShowMessage({ show: true, text: "Não foi possível localizar a notificação da Sessão fornecida." });
+//   const notificationDoc = querySnapshot.docs[0];
+//   const notificationData = notificationDoc.data();
+//   const notificationDocRef = notificationDoc.ref;
+//   await runTransaction(db, async (transaction: Transaction) => {
+//     const updatedList = [...notificationData.list, notification];
+//     transaction.update(notificationDocRef, { list: updatedList });
+//   });
+// };
 
-export const removeNotification = async (sessionId: string, message: string, setShowMessage: (state: IMessage) => void) => {
-  try {
-    const db = getFirestore(firebaseConfig);
-    const notificationsRef = collection(db, 'notifications');
-    const q = query(notificationsRef, where('sessionId', '==', sessionId));
-    await runTransaction(db, async (transaction) => {
-      const querySnapshot = await getDocs(q);
-      if (querySnapshot.empty) {
-        setShowMessage({ show: true, text: 'Não foi possível encontrar a notificação.' });
-        return;
-      }
-      const notificationDoc = querySnapshot.docs[0];
-      const notificationDocRef = doc(db, 'notifications', notificationDoc.id);
-      const notificationData = notificationDoc.data();
-      const updatedList = (notificationData.list || []).filter((notification: any) => notification.message !== message);
-      transaction.update(notificationDocRef, { list: updatedList });
-    });
-  } catch (error: unknown) {
-    let errorMessage = "Erro desconhecido";
-    if (error instanceof FirebaseError) {
-      errorMessage = error.message;
-    } else if (error instanceof Error) {
-      errorMessage = error.message;
-    }
-    setShowMessage({ show: true, text: "Ocorreu um erro: " + errorMessage });
-  }
-};
+// export const removeNotification = async (sessionId: string, message: string, setShowMessage: (state: IMessage) => void) => {
+//   try {
+//     const db = getFirestore(firebaseConfig);
+//     const notificationsRef = collection(db, 'notifications');
+//     const q = query(notificationsRef, where('sessionId', '==', sessionId));
+//     await runTransaction(db, async (transaction) => {
+//       const querySnapshot = await getDocs(q);
+//       if (querySnapshot.empty) {
+//         setShowMessage({ show: true, text: 'Não foi possível encontrar a notificação.' });
+//         return;
+//       }
+//       const notificationDoc = querySnapshot.docs[0];
+//       const notificationDocRef = doc(db, 'notifications', notificationDoc.id);
+//       const notificationData = notificationDoc.data();
+//       const updatedList = (notificationData.list || []).filter((notification) => notification.message !== message);
+//       transaction.update(notificationDocRef, { list: updatedList });
+//     });
+//   } catch (error: unknown) {
+//     let errorMessage = "Erro desconhecido";
+//     if (error instanceof FirebaseError) {
+//       errorMessage = error.message;
+//     } else if (error instanceof Error) {
+//       errorMessage = error.message;
+//     }
+//     setShowMessage({ show: true, text: "Ocorreu um erro: " + errorMessage });
+//   }
+// };
 
-// export const approveUser = async (notification: any, session: any, setShowMessage: (state: IMessage) => void) => {
+// export const approveUser = async (notification, session, setShowMessage: (state: IMessage) => void) => {
 //     try {
 //       const db = getFirestore(firebaseConfig);
 //       const dateMessage = await getOfficialTimeBrazil();

@@ -1,8 +1,8 @@
-import { capitalizeFirstLetter, getOfficialTimeBrazil, translate } from "./utilities";
-import firebaseConfig from "./connection";
-import { collection, getDocs, getFirestore, query, runTransaction, Transaction, where } from "firebase/firestore";
-import { authenticate } from "./authenticate";
-import { getPlayerByEmail, getPlayerById } from "./players";
+// import { capitalizeFirstLetter, getOfficialTimeBrazil, translate } from "./utilities";
+// import firebaseConfig from "./connection";
+// import { collection, getDocs, getFirestore, query, runTransaction, Transaction, where } from "firebase/firestore";
+// import { authenticate } from "./authenticate";
+import { getPlayerById } from "./players";
 import { IMessage } from "@/interfaces";
 
 const verifyResult = (
@@ -77,8 +77,8 @@ export const rollTest = (
 	dificulty: number,
 ) => {
 	let realRage = valueOfRage;
-	let resultOfRage = [];
-	let resultOf = [];
+	const resultOfRage = [];
+	const resultOf = [];
 	let valueWithPenaltyOfBonus = Number(penaltyOrBonus) + Number(valueOf);
 	if (valueWithPenaltyOfBonus < 0) {
 		realRage += valueWithPenaltyOfBonus;
@@ -107,173 +107,173 @@ export const rollTest = (
 	}
 }
 
-export const registerMessage = async (
-  sessionId: string,
-  data: any,
-  email: string | null,
-  setShowMessage: (state: IMessage) => void
-) => {
-  try {
-    const authData = await authenticate(setShowMessage);
+// export const registerMessage = async (
+//   sessionId: string,
+//   data,
+//   email: string | null,
+//   setShowMessage: (state: IMessage) => void
+// ) => {
+//   try {
+//     const authData = await authenticate(setShowMessage);
 
-    if (!authData) return;
+//     if (!authData) return;
 
-    const date = await getOfficialTimeBrazil();
-    const db = getFirestore(firebaseConfig);
-    const chatsCollectionRef = collection(db, "chats");
-    const querySession = query(chatsCollectionRef, where("sessionId", "==", sessionId));
-    const querySnapshot = await getDocs(querySession);
+//     const date = await getOfficialTimeBrazil();
+//     const db = getFirestore(firebaseConfig);
+//     const chatsCollectionRef = collection(db, "chats");
+//     const querySession = query(chatsCollectionRef, where("sessionId", "==", sessionId));
+//     const querySnapshot = await getDocs(querySession);
 
-    if (querySnapshot.empty) {
-      setShowMessage({
-        show: true,
-        text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
-      });
-      return;
-    }
+//     if (querySnapshot.empty) {
+//       setShowMessage({
+//         show: true,
+//         text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
+//       });
+//       return;
+//     }
 
-    const sessionDocRef = querySnapshot.docs[0].ref;
+//     const sessionDocRef = querySnapshot.docs[0].ref;
 
-    await runTransaction(db, async (transaction: Transaction) => {
-      const sessionDocSnapshot = await transaction.get(sessionDocRef);
+//     await runTransaction(db, async (transaction: Transaction) => {
+//       const sessionDocSnapshot = await transaction.get(sessionDocRef);
 
-      if (!sessionDocSnapshot.exists()) {
-        setShowMessage({
-          show: true,
-          text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
-        });
-        return;
-      }
+//       if (!sessionDocSnapshot.exists()) {
+//         setShowMessage({
+//           show: true,
+//           text: "Não foi possível localizar a Sessão. Por favor, atualize a página e tente novamente.",
+//         });
+//         return;
+//       }
 
-      const sessionData = sessionDocSnapshot.data();
-      const emailToRecord = email ?? authData.email;
+//       const sessionData = sessionDocSnapshot.data();
+//       const emailToRecord = email ?? authData.email;
 
-      const updatedChat = [
-        ...sessionData.list,
-        { date, email: emailToRecord, user: authData.displayName, ...data, order: sessionData.list.length + 1 },
-      ];
+//       const updatedChat = [
+//         ...sessionData.list,
+//         { date, email: emailToRecord, user: authData.displayName, ...data, order: sessionData.list.length + 1 },
+//       ];
 
-      updatedChat.sort((a, b) => a.order - b.order);
+//       updatedChat.sort((a, b) => a.order - b.order);
 
-      if (updatedChat.length > 15) updatedChat.shift();
+//       if (updatedChat.length > 15) updatedChat.shift();
 
-      transaction.update(sessionDocRef, { list: updatedChat });
-    });
-  } catch (error: unknown) {
-    const message = error instanceof Error ? error.message : String(error);
-    setShowMessage({
-      show: true,
-      text: "Ocorreu um erro ao enviar a mensagem: " + message,
-    });
-  }
-};
+//       transaction.update(sessionDocRef, { list: updatedChat });
+//     });
+//   } catch (error: unknown) {
+//     const message = error instanceof Error ? error.message : String(error);
+//     setShowMessage({
+//       show: true,
+//       text: "Ocorreu um erro ao enviar a mensagem: " + message,
+//     });
+//   }
+// };
   
-export const registerManualRoll = async(
-	sessionId: string,
-	rage: number,
-	valueOf: number,
-	penaltyOrBonus: number,
-	dificulty: number,
-  setShowMessage: (state: IMessage) => void,
-) => {
-	const roll = rollTest(rage, valueOf, penaltyOrBonus, dificulty);
-	const sumDices = rage + valueOf;
-	roll.test = `Foi realizado um teste com ${ sumDices } ${ sumDices > 1 ? 'dados' : 'dado'}`;
-	if (rage > 0 && penaltyOrBonus === 0 && valueOf === 0) 
-		roll.test += ` de Fúria`;
-	else if (rage > 0) roll.test += `, onde ${rage} desses dados ${rage === 1 ? 'é' : 'são'} de Fúria`;
+// export const registerManualRoll = async(
+// 	sessionId: string,
+// 	rage: number,
+// 	valueOf: number,
+// 	penaltyOrBonus: number,
+// 	dificulty: number,
+//   setShowMessage: (state: IMessage) => void,
+// ) => {
+// 	const roll = rollTest(rage, valueOf, penaltyOrBonus, dificulty);
+// 	const sumDices = rage + valueOf;
+// 	roll.test = `Foi realizado um teste com ${ sumDices } ${ sumDices > 1 ? 'dados' : 'dado'}`;
+// 	if (rage > 0 && penaltyOrBonus === 0 && valueOf === 0) 
+// 		roll.test += ` de Fúria`;
+// 	else if (rage > 0) roll.test += `, onde ${rage} desses dados ${rage === 1 ? 'é' : 'são'} de Fúria`;
 
-	if (penaltyOrBonus > 0) roll.test += ' e ' + penaltyOrBonus + ' desses dados é de Bônus';
-	if (penaltyOrBonus < 0) roll.test += ` (${(penaltyOrBonus * -1)} ${(penaltyOrBonus * -1) > 1 ? 'dados foram subtraídos': 'dado foi subtraído'} por conta da penalidade preenchida)`;
-	roll.test += '.'
-	await registerMessage(sessionId, roll, null, setShowMessage);
-}
+// 	if (penaltyOrBonus > 0) roll.test += ' e ' + penaltyOrBonus + ' desses dados é de Bônus';
+// 	if (penaltyOrBonus < 0) roll.test += ` (${(penaltyOrBonus * -1)} ${(penaltyOrBonus * -1) > 1 ? 'dados foram subtraídos': 'dado foi subtraído'} por conta da penalidade preenchida)`;
+// 	roll.test += '.'
+// 	await registerMessage(sessionId, roll, null, setShowMessage);
+// }
 
-export const registerAutomatedRoll = async(
-	sheetId: string,
-	sessionId: string,
-	emailUser: string,
-	atrSelected: string,
-	sklSelected: string,
-	renSelected: string,
-	penaltyOrBonus: number,
-	dificulty: number,
-  setShowMessage: (state: IMessage) => void,
-) => {
-	let valueOf = 0;
-	let rage = 0;
-	try {
-		const player = await getPlayerById(sheetId, setShowMessage);
-		let text = 'Foi realizado um teste de ';
-		if (player) {
-			rage = Number(player.data.rage);
-			if (atrSelected !== '0' && atrSelected !== '1') {
-				valueOf += Number(player.data.attributes[atrSelected]);
-				text += translate(atrSelected) + ' (' + player.data.attributes[atrSelected] + ')';
-			}
-			if (sklSelected !== '0' && sklSelected !== '1') {
-				valueOf += Number(player.data.skills[sklSelected].value);
-				if (text !== 'Foi realizado um teste de ') text += ' + ';
-				text += translate(sklSelected) + ' (' + player.data.skills[sklSelected].value + ')';
-			}
-			if (renSelected !== '0' && renSelected !== '1') {
-				valueOf += Number(player.data[renSelected]);
-				if (text !== 'Foi realizado um teste de ') text += ' + ';
-				text += translate(renSelected) + ' (' + player.data[renSelected] + ')';
-			}
-			if (penaltyOrBonus > 0) text += ' com um Bônus de +' + penaltyOrBonus;
-			if (penaltyOrBonus < 0) text += ' com uma penalidade de ' + penaltyOrBonus;
-			text += '.';
-			if (rage > valueOf) {
-				rage = valueOf;
-				valueOf = 0;
-			} else valueOf -= rage;
-			const roll = rollTest(rage, valueOf, penaltyOrBonus, dificulty);
-			roll.test = text;
-			await registerMessage(sessionId, roll, emailUser, setShowMessage);
-		} else setShowMessage({ show: true, text: 'Sessão não encontrada.' });
-	} catch(error) {
-		setShowMessage({ show: true, text: `Ocorreu um erro ao buscar os dados do Jogador. Por favor, atualize a página e tente novamente (${error})` });
-	}
-}
+// export const registerAutomatedRoll = async(
+// 	sheetId: string,
+// 	sessionId: string,
+// 	emailUser: string,
+// 	atrSelected: string,
+// 	sklSelected: string,
+// 	renSelected: string,
+// 	penaltyOrBonus: number,
+// 	dificulty: number,
+//   setShowMessage: (state: IMessage) => void,
+// ) => {
+// 	let valueOf = 0;
+// 	let rage = 0;
+// 	try {
+// 		const player = await getPlayerById(sheetId, setShowMessage);
+// 		let text = 'Foi realizado um teste de ';
+// 		if (player) {
+// 			rage = Number(player.data.rage);
+// 			if (atrSelected !== '0' && atrSelected !== '1') {
+// 				valueOf += Number(player.data.attributes[atrSelected]);
+// 				text += translate(atrSelected) + ' (' + player.data.attributes[atrSelected] + ')';
+// 			}
+// 			if (sklSelected !== '0' && sklSelected !== '1') {
+// 				valueOf += Number(player.data.skills[sklSelected].value);
+// 				if (text !== 'Foi realizado um teste de ') text += ' + ';
+// 				text += translate(sklSelected) + ' (' + player.data.skills[sklSelected].value + ')';
+// 			}
+// 			if (renSelected !== '0' && renSelected !== '1') {
+// 				valueOf += Number(player.data[renSelected]);
+// 				if (text !== 'Foi realizado um teste de ') text += ' + ';
+// 				text += translate(renSelected) + ' (' + player.data[renSelected] + ')';
+// 			}
+// 			if (penaltyOrBonus > 0) text += ' com um Bônus de +' + penaltyOrBonus;
+// 			if (penaltyOrBonus < 0) text += ' com uma penalidade de ' + penaltyOrBonus;
+// 			text += '.';
+// 			if (rage > valueOf) {
+// 				rage = valueOf;
+// 				valueOf = 0;
+// 			} else valueOf -= rage;
+// 			const roll = rollTest(rage, valueOf, penaltyOrBonus, dificulty);
+// 			roll.test = text;
+// 			await registerMessage(sessionId, roll, emailUser, setShowMessage);
+// 		} else setShowMessage({ show: true, text: 'Sessão não encontrada.' });
+// 	} catch(error) {
+// 		setShowMessage({ show: true, text: `Ocorreu um erro ao buscar os dados do Jogador. Por favor, atualize a página e tente novamente (${error})` });
+// 	}
+// }
 
-export const rageCheck = async(sessionId: string, email: string, sheetId: string, setShowMessage: (state: IMessage) => void, dataSheet: any) => {
-  let resultOfRage = [];
-  let success = 0;
-  const value = Math.floor(Math.random() * 10) + 1;
-  if (value >= 6) success += 1;
-  resultOfRage.push(value);
-  const player = await getPlayerById(sheetId, setShowMessage);
-  if (player) {
-    if (player.data.rage <= 0) {
-      setShowMessage({ show: true, text: 'Você não possui Fúria suficiente para ativar este Teste.' });
-    } else {
-      let text = '';
-      if (success === 0) {
-        player.data.rage -= 1;
-        text = 'Não obteve sucesso no Teste. A fúria foi reduzida para ' + (player.data.rage) + '.';
-      } else text = 'Obteve sucesso no Teste. A fúria foi mantida.';
-      await registerMessage(
-        sessionId,
-        {
-        message: 'Foi realizado um Teste de Fúria para o personagem "' + dataSheet.data.name + '".',
-        rollOfRage: resultOfRage,
-        result: text,
-        rage: player.data.rage,
-        success,
-		user: player.user,
-        type: 'rage-check',
-        },
-        email,
-        setShowMessage,
-      );
-    }
-	return player.data.rage;
-  } return 0;
-}
+// export const rageCheck = async(sessionId: string, email: string, sheetId: string, setShowMessage: (state: IMessage) => void, dataSheet) => {
+//   const resultOfRage = [];
+//   let success = 0;
+//   const value = Math.floor(Math.random() * 10) + 1;
+//   if (value >= 6) success += 1;
+//   resultOfRage.push(value);
+//   const player = await getPlayerById(sheetId, setShowMessage);
+//   if (player) {
+//     if (player.data.rage <= 0) {
+//       setShowMessage({ show: true, text: 'Você não possui Fúria suficiente para ativar este Teste.' });
+//     } else {
+//       let text = '';
+//       if (success === 0) {
+//         player.data.rage -= 1;
+//         text = 'Não obteve sucesso no Teste. A fúria foi reduzida para ' + (player.data.rage) + '.';
+//       } else text = 'Obteve sucesso no Teste. A fúria foi mantida.';
+//       await registerMessage(
+//         sessionId,
+//         {
+//         message: 'Foi realizado um Teste de Fúria para o personagem "' + dataSheet.data.name + '".',
+//         rollOfRage: resultOfRage,
+//         result: text,
+//         rage: player.data.rage,
+//         success,
+// 		user: player.user,
+//         type: 'rage-check',
+//         },
+//         email,
+//         setShowMessage,
+//       );
+//     }
+// 	return player.data.rage;
+//   } return 0;
+// }
 
-export const calculateRageCheck = async(sheetId: any, setShowMessage: (state: IMessage) => void) => {
-	let resultOfRage = [];
+export const calculateRageCheck = async(sheetId: string, setShowMessage: (state: IMessage) => void) => {
+	const resultOfRage = [];
 	let success = 0;
 	const value = Math.floor(Math.random() * 10) + 1;
 	if (value >= 6) success += 1;
@@ -331,43 +331,43 @@ export const calculateRageChecks = async(sheetId: string, number: number, setSho
   }
 }
 
-export const haranoHaugloskCheck = async(
-	sessionId: string,
-	type: string,
-	dataSheet: any,
-	dificulty: number,
-  email: string,
-  setShowMessage: (state: IMessage) => void,
-) => {
-  let rollTest = [];
-  let success = 0;
-  let sumData = 0;
-  sumData += Number(dataSheet.data.harano);
-  sumData += Number(dataSheet.data.hauglosk);
-  if (sumData === 0) sumData = 1;
-  for (let i = 0; i < sumData; i += 1) {
-    const value = Math.floor(Math.random() * 10) + 1;
-    if (value >= 6) success += 1;
-    rollTest.push(value);
-  }
-  let text = '';
-  if (success < dificulty) {
-    dataSheet.data[type] += 1;
-    text = `Não obteve sucesso no Teste. O ${type} foi aumentado para ` + dataSheet.data[type] + '.';
-  } else text = 'Obteve sucesso no Teste. Não houve aumento em ' + type + '.';
-  let emailRoll = null;
-  if (email !== '') emailRoll = email;
-  await registerMessage(
-    sessionId,
-    {
-      message: `Foi realizado um Teste de ${capitalizeFirstLetter(type)} para o personagem "${dataSheet.data.name}"`,
-      rollOf: rollTest,
-      result: text,
-      value: dataSheet.data[type],
-      type: 'harano-hauglosk',
-    },
-    emailRoll,
-    setShowMessage,
-  );
-  return dataSheet.data[type];
-}
+// export const haranoHaugloskCheck = async(
+// 	sessionId: string,
+// 	type: string,
+// 	dataSheet,
+// 	dificulty: number,
+//   email: string,
+//   setShowMessage: (state: IMessage) => void,
+// ) => {
+//   const rollTest = [];
+//   let success = 0;
+//   let sumData = 0;
+//   sumData += Number(dataSheet.data.harano);
+//   sumData += Number(dataSheet.data.hauglosk);
+//   if (sumData === 0) sumData = 1;
+//   for (let i = 0; i < sumData; i += 1) {
+//     const value = Math.floor(Math.random() * 10) + 1;
+//     if (value >= 6) success += 1;
+//     rollTest.push(value);
+//   }
+//   let text = '';
+//   if (success < dificulty) {
+//     dataSheet.data[type] += 1;
+//     text = `Não obteve sucesso no Teste. O ${type} foi aumentado para ` + dataSheet.data[type] + '.';
+//   } else text = 'Obteve sucesso no Teste. Não houve aumento em ' + type + '.';
+//   let emailRoll = null;
+//   if (email !== '') emailRoll = email;
+//   await registerMessage(
+//     sessionId,
+//     {
+//       message: `Foi realizado um Teste de ${capitalizeFirstLetter(type)} para o personagem "${dataSheet.data.name}"`,
+//       rollOf: rollTest,
+//       result: text,
+//       value: dataSheet.data[type],
+//       type: 'harano-hauglosk',
+//     },
+//     emailRoll,
+//     setShowMessage,
+//   );
+//   return dataSheet.data[type];
+// }
