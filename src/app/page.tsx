@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className="bg-black flex flex-col items-center justify-center relative">
-      <header className="h-screen w-full flex flex-col items-center justify-center bg-cover relative bg-[url('/images/wallpapers/06.png')] bg-top">
+      <header className="h-screen w-full flex flex-col items-center justify-center bg-cover relative bg-[url('/images/wallpapers/06.png')] bg-bottom">
         <div className={`absolute w-full h-full bg-black/50`} />
         <div className="h-screen w-full z-10 flex flex-col justify-center items-center">
           <Image
