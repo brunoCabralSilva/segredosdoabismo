@@ -50,14 +50,20 @@ export default function Profile() {
       <Nav />
       {
         showData
-        ? <div className="h-full w-full bg-ritual bg-cover bg-top relative">
-            <div className="absolute w-full h-full bg-black/90" />
+        ? <div className="w-full bg-[url('/images/wallpapers/06.png')] bg-top bg-cover relative">
             <Nav />
-            <section className="h-full relative">
-              <div className="py-6 sm:px-5 text-white flex flex-col items-center sm:items-start text-justify">
-                <h1 className="text-4xl relative">Perfil</h1>
-                <hr className="w-10/12 mt-6" />
-                <div className="w-full bg-black p-4 mt-6 mb-2">
+            <div className="absolute w-full h-full" />
+            <section className="min-h-screen bg-black/90 relative w-full h-full flex flex-col items-center">
+              <div className="py-6 px-5  text-white flex flex-col items-center sm:items-start text-justify min-h-screen w-full xl:min-w-[1150px] lg:max-w-[1150px]">
+                <div className="px-4 w-full">
+                  <h1 className="text-4xl relative">Perfil</h1>
+                  <hr className="w-full my-6" />
+                  <p className="pb-2">
+                    
+                  
+                  </p>
+                </div>
+                <div className="w-full p-4 mt-6 mb-2">
                   <p className="w-full text-center sm:text-left">Usuário registrado:</p>
                   <p className="w-full text-center sm:text-left text-white font-bold capitalize">
                     {nameUser}
@@ -104,7 +110,7 @@ export default function Profile() {
               </div>
             </section>
           </div>
-        : <div className="bg-black/60 text-white h-90vh flex items-center justify-center flex-col">
+        : <div className="bg-black/60 text-white h-[90vh] flex items-center justify-center flex-col">
             <Loading />
           </div>
       }

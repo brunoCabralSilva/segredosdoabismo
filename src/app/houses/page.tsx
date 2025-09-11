@@ -7,17 +7,20 @@ import Image from "next/image";
 
 export default function Houses() {
   return(
-    <div className="w-full bg-[] bg-cover bg-top relative">
+    <div className="w-full bg-[url('/images/wallpapers/04.png')] bg-top bg-cover relative">
     <Nav />
-    <div className="absolute w-full h-full bg-black/80" />
-    <section className="mb-2 min-h-screen relative pb-5">
-    <div className="py-6 px-5 bg-black/90 text-white flex flex-col items-center sm:items-start text-justify">
-        <h1 className="text-4xl relative">Casas</h1>
-        <hr className="w-10/12 my-6" />
-        <p className="pb-2">
-        
-        </p>
-        <div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 w-full relative text-white px-4 pb-4">
+    <div className="absolute w-full h-full" />
+    <section className="min-h-screen bg-black/90 relative w-full h-full flex flex-col items-center">
+      <div className="py-6 px-5  text-white flex flex-col items-center sm:items-start text-justify min-h-screen w-full xl:min-w-[1150px] lg:max-w-[1150px]">
+        <div className="px-4 w-full">
+          <h1 className="text-4xl relative">Casas</h1>
+          <hr className="w-full my-6" />
+          <p className="pb-2">
+            
+          
+          </p>
+        </div>
+        <div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 gap-3 w-full relative text-white px-4 pb-4">
           {
             listHouses
               .sort((a, b) => a.number - b.number)
@@ -53,7 +56,7 @@ export default function Houses() {
         {
           // showFeedback && <Feedback title={ 'Página "Casas"'} /> 
         }
-    </div>
+      </div>
     </section>
     <Footer />
 </div>
