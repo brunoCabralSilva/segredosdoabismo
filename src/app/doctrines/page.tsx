@@ -42,7 +42,7 @@ export default function Doctrines() {
                   <h2 className="text-2xl font-semibold text-center mb-4">
                     { getHouseName(group) }
                   </h2>
-                  <div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-1 mobile:grid-cols-2 sm:grid-cols-3 gap-3">
                     {
                       groupedDoctrines[group].map((doctrine: IDoctrines, index: number) => (
                         <Link
