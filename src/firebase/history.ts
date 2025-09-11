@@ -27,7 +27,7 @@
 
 // export const registerHistory = async (sessionId: string, data, email: string | null, setShowMessage: (state: IMessage) => void) => {
 // 	try {
-// 	  const authData: any = await authenticate(setShowMessage);
+// 	  const authData = await authenticate(setShowMessage);
 // 	  if (authData && authData.email && authData.displayName) {
 // 		const date = await getOfficialTimeBrazil();
 // 		const db = getFirestore(firebaseConfig);

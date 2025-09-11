@@ -106,7 +106,7 @@ export async function getUserById(userId: string, setShowMessage: (state: IMessa
   }
 }
 
-// export async function updateUserById(userData: any, setShowMessage: (state: IMessage) => void
+// export async function updateUserById(userData, setShowMessage: (state: IMessage) => void
 // ): Promise<boolean> {
 //   const db = getFirestore(firebaseConfig);
 //   try {

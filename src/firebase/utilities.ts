@@ -88,7 +88,7 @@ export const playerSheet = {
   },
 };
 
-// export const sheetStructure = (email: string, user: string, message: any) => {
+// export const sheetStructure = (email: string, user: string, message) => {
 //   const sheet = {
 //     email: email,
 //     user: user,

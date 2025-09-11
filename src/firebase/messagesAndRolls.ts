@@ -305,7 +305,7 @@ export const calculateRageChecks = async(sheetId: string, number: number, setSho
     if (player.data.rage < number) {
       setShowMessage({ show: true, text: 'Você não possui Fúria suficiente para ativar este Teste.' });
 	  } else {
-      let resultOfRage = [];
+      const resultOfRage = [];
       let success = 0;
       for (let i = 0; i < number; i += 1) {
       const value = Math.floor(Math.random() * 10) + 1;
