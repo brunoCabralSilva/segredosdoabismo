@@ -13,13 +13,13 @@ export default function Home() {
 
   return (
     <main className="bg-black flex flex-col items-center justify-center relative">
-      <header className="h-screen w-full flex flex-col items-center justify-center bg-cover relative bg-[url('/images/wallpapers/06.png')] bg-bottom">
-        <div className={`absolute w-full h-full bg-black/50`} />
+      <header className="h-screen w-full flex flex-col items-center justify-center bg-cover relative bg-[url('/images/wallpapers/006.png')] bg-top">
+        <div className={`absolute w-full h-full bg-black/70`} />
         <div className="h-screen w-full z-10 flex flex-col justify-center items-center">
           <Image
-            src="/images/logos/text3.png"
+            src="/images/logos/text2.png"
             alt="Nome 'Werewolf the Apocalypse' em formato de imagem"
-            className="h-[50vh] sm:h-[70vh] md:h-[50vh] w-10/12 sm:w-3/5 md:w-1/2 xl:w-5/12 object-contain"
+            className="h-[40vh] sm:h-[60vh] md:h-[40vh] w-10/12 sm:w-3/5 md:w-1/2 xl:w-5/12 object-contain sm:mt-40"
             width={2000}
             height={800}
             priority
