@@ -20,23 +20,20 @@ export interface IHouses {
 
 export interface IListDoctrines {
   level: number;
+  name: string;
   description: string;
   system: string;
   torment: string;
 }
 
-export interface ICapabilities {
-  name: string;
-  description: string;  
-}
-
 export interface IListApocaliptycForm {
   torment: boolean;
-  capabilities: ICapabilities[];
+  name: string;
+  description: string;
 }
 
 export interface IDoctrines {
-   id: string;
+  id: string;
   name: string;
   belonging: string;
   doctrines: IListDoctrines[];

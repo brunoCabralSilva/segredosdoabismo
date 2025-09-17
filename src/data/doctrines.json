@@ -6,33 +6,38 @@
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Manipular a Gravidade",
+                "description": "O demônio é capaz de alterar a maneira como a gravidade afeta seu corpo, o que lhe permite saltar enormes distancias, pairar no ar ou precipitar-se sobre os adversirios como um meteorito.",
+                "system": "Faça um teste de Força + Esportes. O demônio é capaz de saltar (ou escalar) até vinte metros por sucesso, ou então cair uma distância semelhante sem se ferir. Anular totalmente o efeito da gravidade exige um número de sucessos igual ao Vigor do personagem. Os personagens que desafiam a gravidade ainda são afetados por forças externas como de praxe. Os efeitos desta evocação duram um único turno.",
+                "torment": "Os demônios monstruosos que executam esta evocação deixam um rastro de turbulência em sua esteira, aumentando ou diminuindo ao acaso os efeitos da gravidade sobre os objetos ou as pessoas circundantes a uma distância igual à pontuação de Tormento do demônio em metros. O Narrador tem liberdade para descrever como bem entender os efeitos caóticos que ocorrem à passagem do monstro."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Manipular a Aderência",
+                "description": "O demônio consegue afetar a aderência de seu corpo aos objetos físicos. Ele é capaz de subir pelas paredes, pender do teto ou aferrar-se à lateral de um carro em movimento como uma aranha.",
+                "system": "Faça um teste de Destreza + Esportes. A dificuldade é determinada pelo ângulo da superfície em relação ao solo. Escalar um aclive íngreme exige dificuldade 6, uma superfície vertical dificuldade 7, e um plano invertido (como o teto) dificuldade 8. O personagem consegue percorrer até três metros por superfície a cada sucesso obtido. Os efeitos desta evocação duram um único turno.",
+                "torment": "Quando um demônio monstruoso executa esta evocação, as superfícies com as quais ele interage são distorcidas à sua passagem, provocando a irradiação de ondas de calor intenso e deixando impressões das mãos e dos pés do demônio sobre a superfície. Indivíduos que entrarem em contato com essas superfícies no mesmo turno em que o demônio as tocou receberão um nível de dano letal."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Manipular a Inércia",
+                "description": "O demônio é capaz de afetar a inércia de qualquer coisa que tocar, imobilizando-a ou conferindo-lhe um ímpeto irresistível. Ele consegue apanhar projéteis no ar (desde que possa vê-los), ou arremessar um objeto muito mais longe do que um ser humano poderia imaginar.",
+                "system": "Faça um teste de Destreza + Esportes. O demônio consegue arremessar um objeto até trinta metros por sucesso obtido, independentemente de sua Força. Apanhar um projétil exige um número de sucessos igual ou superior à parada de dano do mesmo. O personagem precisa enxergar o projétil para afetá-lo. Cada sucesso adicional ao arremessar um projétil se transforma em um nível automático de dano. Os efeitos desta evocação duram um único turno.",
+                "torment": "Os objetos afetados por um demônio monstruoso tornam-se inerentemente instáveis durante algum tempo, colocando em risco qualquer pessoa que tente utilizá-los. Durante um número de turnos igual ao Tormento do personagem, qualquer objeto que tenha sido alvo desta evocação provocará uma falha crítica se forem obtidos 1, 2 ou 3 nos dados."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Manipular a Aceleração",
+                "description": "O demônio é capaz de afetar a aceleração de seu próprio corpo, o que lhe confere velocidade e força sobrenaturais.",
+                "system": "Use um ponto de Fé e faça um teste de Destreza + Esportes. Cada sucesso permite que o demônio caminhe até 10 metros, marche até 20 metros ou corra 40 metros por turno. Em combate, cada sucesso se converte em níveis automáticos de dano para ataques desarmados, armas brancas ou armas de arremesso, podendo ser divididos entre vários alvos. Os efeitos desta evocação duram um único turno.",
+                "torment": "As acelerações de um demônio monstruoso perturbam o ar ao seu redor, criando uma aura de calor abrasador a uma distância igual à pontuação de Tormento do personagem. Seres vivos dentro desta área recebem um nível de dano por contusão."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Manipular a Coesão",
+                "description": "O demônio consegue manipular o estado de qualquer matéria inanimada que tocar. É capaz de caminhar sobre a água ou no ar e decompor objetos sólidos em suas partículas constituintes.",
+                "system": "O demônio precisa tocar fisicamente a matéria que deseja afetar. Use 1 ponto de Fé e faça um teste de Vigor + Ciência. A dificuldade depende da matéria e do grau de efeito: mudar água para gelo ou vapor = 7; vaporizar madeira, tecidos ou materiais leves = 8; rocha ou metal = 9. Cada sucesso permite afetar 0,03 m³ de matéria. Os efeitos duram um turno, depois os materiais retornam ao normal ou permanecem no estado natural. Seres vivos afetados recebem 1 nível de dano letal por sucesso.",
+                "torment": "A matéria afetada por um demônio monstruoso continua instável por turnos iguais à pontuação de Tormento do personagem, mudando de estado aleatoriamente. O Narrador descreve os efeitos caóticos conforme desejar."
             }
         ],
         "apName": "",
@@ -47,33 +52,38 @@
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Traduzir",
+                "description": "O demônio entende os mortais (e é entendido por eles), não importa o idioma que falem.",
+                "system": "Faça um teste de Manipulação + Empatia. A evocação afeta um número de pessoas igual à quantidade de sucessos obtidos. O demônio entende o idioma de cada indivíduo afetado e é compreendido, mesmo que todos falem línguas diferentes. Os efeitos duram uma cena. Indivíduos que falam idiomas diferentes não se entendem entre si enquanto o poder estiver ativo.",
+                "torment": "Demônios monstruosos precisam superar o obstáculo de seu próprio Tormento para que suas palavras não sejam distorcidas por raiva ou obsessões. Após o sucesso da evocação, faça um teste de Força de Vontade contra dificuldade igual ao Tormento do personagem. Se obtido êxito, o demônio entende perfeitamente as palavras ao redor. Se falhar, a compreensão será distorcida pelo ódio e desespero do personagem. O Narrador pode ocultar os resultados para modelar a informação recebida."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Insinuar-se",
+                "description": "Esta evocação faz com que os mortais instintivamente considerem o demônio um amigo em potencial, suavizando desconfiança ou suspeita e despertando interesse por ele. Servos também podem ser afetados, a menos que possuam resistência a controle mental.",
+                "system": "Faça um teste de Manipulação + Empatia. A evocação afeta um número de indivíduos igual ao de sucessos obtidos. Cada pessoa resiste com um teste de Força de Vontade. Se falharem, confiarão no demônio e conversarão abertamente, reduzindo em 1 ponto as dificuldades de todos os testes subsequentes do demônio. Os efeitos duram uma cena.",
+                "torment": "Demônios monstruosos que executam esta evocação exercem efeito contrário: os indivíduos usam o Tormento do demônio como dificuldade para seus testes de Força de Vontade. Se falharem, serão dominados por repulsa e medo, e todas as dificuldades de testes de Intimidação contra eles são reduzidas em 2 pontos."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Desaparecer",
+                "description": "Os demônios que empregam esta evocação literalmente desaparecem. Mortais simplesmente os ignoram, a menos que os demônios decidam chamar a atenção. Demônios e servos resistentes à ilusão do mestre são imunes aos efeitos.",
+                "system": "Faça um teste de Manipulação + Lábia. Mortais resistem com um teste de Força de Vontade (dificuldade 8). Se bem-sucedido, o demônio passa despercebido, a menos que interaja ou fale diretamente. Os efeitos duram o resto da cena ou até o demônio decidir interromper.",
+                "torment": "Demônios monstruosos desaparecem da vista de mortais normais, mas se destacam para aqueles consumidos por raiva ou desejo de violência."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Confessar",
+                "description": "Os mortais envolvidos numa conversação com o demônio respondem às perguntas dele com toda a franqueza. Mortais não lembram os detalhes da conversa depois, a menos que percebam mais tarde. Servos resistentes ao controle mental dos demônios podem ignorar o efeito.",
+                "system": "Use um ponto de Fé e faça um teste de Manipulação + Lábia. O alvo resiste com um teste de Força de Vontade (dificuldade 7). Se bem-sucedido, o demônio pode fazer qualquer pergunta e o mortal responderá honestamente. Dura um número de turnos igual à pontuação de Fé do personagem.",
+                "torment": "Demônios monstruosos só conseguem expor a natureza sinistra do mortal, descobrindo seus desejos, prevenções e ambições secretas."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Alterar a Memória",
+                "description": "O demônio é capaz de manipular a memória de um mortal e alterar ou remover qualquer recordação a respeito dele, ou então incutir lembranças inexistentes. Servos resistentes ao controle mental dos demônios podem ignorar o efeito.",
+                "system": "Use um ponto de Fé e faça um teste de Manipulação + Lábia. Alterar ou remover uma lembrança existente: dificuldade 7. Incluir uma lembrança falsa: dificuldade 8. O alvo faz teste resistido de Força de Vontade (dificuldade 7). O número de sucessos excedentes necessários depende da abrangência e intensidade da lembrança. Alterações ou inserções de memória são permanentes.",
+                "torment": "Demônios monstruosos provocam episódios de insônia, ansiedade e desespero na vítima por dias ou semanas. Os pesadelos persistem por um número de noites igual ao Tormento do personagem. Cada noite, faça teste de Força de Vontade da vítima contra dificuldade igual ao Tormento. Falha resulta na perda de ponto temporário de Força de Vontade. Se todos os pontos forem perdidos, a vítima adquire uma perturbação temporária."
             }
         ],
         "apName": "",
@@ -88,248 +98,257 @@
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Candeia de Fé",
+                "description": "Esta evocação permite a um Diabo detectar a presença de mortais ou outros demônios em suas proximidades fazendo com que a reserva de Fé do alvo cintile como um farol que só ele é capaz de enxergar. Os indivíduos brilham com uma pálida luz azul que varia em intensidade dependendo da força de sua Fé, enquanto os objetos não-vivos perdem a cor, transformando-se em silhuetas escuras.",
+                "system": "Faça um teste de Percepção + Prontidão. Esta evocação afeta todos os seres vivos num raio em metros igual à Fé do personagem. Os demônios escolhidos como alvos desta evocação (e cientes do uso da mesma) podem resistir a seus efeitos com um teste bem-sucedido de Força de Vontade (dificuldade 8). Os sucessos adicionais permitem ao personagem detectar esses faróis de Fé através de obstáculos intervenientes, o que capacita o demônio a detectar também indivíduos escondidos. Enxergar através de uma divisória simples ou de uma porta exige um sucesso adicional. Enxergar através de um muro de tijolos exige dois sucessos adicionais. Enxergar através de espessas divisórias de metal ou da porta de um cofre exige três ou mais sucessos adicionais. Essa visão especial persiste durante um turno.",
+                "torment": "Os Diabos monstruosos sofrem o efeito contrário desta evocação; seus olhos enxergam apenas os indivíduos cujas almas tenham se tornado tão vazias devido a seus atos de maldade que hoje eles são verdadeiros vácuos de energia espiritual. Esses indivíduos sem alma (incluindo-se outros demônios com um Tormento igual ou superior a 9) aparecem ao demônio como manchas negras contra o escuro plano de fundo do mundo físico."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Enviar Visões",
+                "description": "Em suas antigas funções como os Arautos divinos do Criador, os Namaru geralmente eram convocados para levar as mensagens de Deus a toda a extensão do cosmo, passando adiante as ordens do Céu como poderosas visões que preenchiam a mente de um Celestial com imagens de majestade e assombro. Depois da Queda, os Diabos ainda fizeram bastante uso desta doutrina para transmitir ordens detalhadas a seus subordinados na hoste rebelde ou castigar seus inimigos com visões assustadoras da ira infernal.",
+                "system": "Faça um teste de Manipulação + Expressão. Os Diabos podem empregar esta evocação para enviar instruções complexas a outros demônios à velocidade do pensamento. Diferente de uma invocação, esta visão preenche a mente do destinatário como uma ilusão ou um devaneio, representando, num piscar de olhos, seja qual for a cena que o remetente deseja transmitir. À quantidade de informações que o remetente é capaz de transmitir depende do número de sucessos gerados por seu teste. Cada sucesso permite ao remetente descrever o equivalente a um turno de ação. Por exemplo, se um Diabo deseja instruir um outro demônio a sair de casa, entrar no carro e dar a partida, o jogador precisaria de três sucessos para transmitir por completo suas instruções. Essas instruções podem ser repassadas simultaneamente a um número de indivíduos igual à Fé de seu personagem. Essas visões podem ser enviadas somente para destinatários que se encontrem no campo visual do remetente. Este poder pode ser utilizado tanto com mortais quanto com demônios.",
+                "torment": "Os demônios monstruosos usam esta evocação para abalar ou amedrontar seus adversários em batalha. O remetente pode afetar um número de alvos igual a sua Fé, desde que estes se encontrem em seu campo de visão. Cada sucesso gerado pelo teste provoca um nível de dano por contusão nos alvos, pois estes ficam impressionados com as visões apavorantes da ira do Diabo. Ao contrário do dano por contusão normal, esse ataque mental não pode ser absorvido. Se a ão infligir um número de níveis de dano por contusão superior ao valor de Raciocínio de um alvo, este precisará passar num teste de Força de Vontade (dificuldade 8) para não adquirir uma perturbação temporária."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Esteio de Fé",
+                "description": "Durante todo o nascimento do cosmo e nos primeiros tempos do Paraíso, os Arautos estiveram na vanguarda de todos os principais empreendimentos ordenados pelo Céu e alentaram as energias de outros Celestiais onde quer que isso se fizesse necessário.",
+                "system": "Faça um teste de Manipulação + Liderança. Esta evocação permite ao Diabo acrescentar sua Fé ao empenho de outro anjo caído, conquanto o Diabo conheça o Nome Celestial ou Verdadeiro do demônio e este se encontre em seu campo visual. Cada sucesso acrescenta um dado adicional ao teste de evocação seguinte do alvo. O Diabo não pode fornecer mais dados do que sua pontuação permanente de Fé e, se o remetente sofrer uma falha crítica no teste, o Namaru ainda perderá um ponto de Fé como de praxe.",
+                "torment": "Os demônios monstruosos só podem empregar esta evocação para bloquear ou anular o empenho de outro. Este fenômeno funciona como qualquer outro teste resistido, sendo que os sucessos do Diabo anulam quaisquer sucessos gerados por seu oponente. Mais uma vez, o Diabo precisa conhecer o Nome Celestial ou Verdadeiro do alvo para realizar esta evocação."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "O Fogo dos Céus",
+                "description": "Esta evocação permite ao Diabo concentrar sua Fé numa rajada fulminante de puro fogo branco e castigar o alvo com a ira de um anjo caído.",
+                "system": "Use um ponto de Fé e faça um teste de Destreza + Esportes. O personagem pode ter como alvo qualquer indivíduo ou objeto a uma distância em metros igual a sua pontuação de Fé. Cada sucesso gerado pelo teste inflige um nível de dano agravado (ou dano letal, se o alvo for imune a dano agravado).",
+                "torment": "Os demônios monstruosos são incapazes de concentrar o poder incandescente de sua Fé num único raio. O poder irrompe da criatura, espalhando-se em todas as direções, como uma tempestade de energia devastadora. Quando um demônio de alto Tormento usa esta evocação, o fogo infernal atinge qualquer coisa num raio em metros igual à pontuação permanente de Fé do personagem. A rajada provoca um nível de dano agravado para cada sucesso a tudo que se encontrar nessa área."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "As Mãos da Fé",
+                "description": "As ordens da primeira Casa Celestial eram agir como a voz do Criador e garantir que Seu Grande Plano fosse cumprido dentro dos limites do livre-arbítrio angelical. Se um dos Celestiais se desviasse demasiadamente do plano do Criador no processo da Criação, os Arautos eram capazes de manipular a evocação enquanto esta acontecia e modificar-lhe o resultado para que este não ultrapassasse os limites aceitáveis. Apesar de imposta muito raramente, esta evocação, mais do que qualquer outra, foi responsável pela tendência das outras Casas de proteger zelosamente suas prerrogativas e guardar grande ressentimento dos Arautos.",
+                "system": "Use um ponto de Fé e faça um teste de Manipulação + Liderança. As Mãos da Fé permitem a um Diabo usurpar a evocação de um outro Celestial e controlar seus efeitos como desejar. Você precisa gerar mais sucessos em seu teste de Fé do que o jogador que interpreta o demônio e realiza a invocação, e seu personagem tem de conhecer o Nome Celestial ou Verdadeiro do iniciador. Se bem-sucedido, o Diabo conseguirá alterar o alvo da evocação e seus efeitos como se ele estivesse empregando o poder. Se o Diabo não obtiver sucessos suficientes para assumir o controle da evocação, a tentativa fracassará e a evocação procederá como se pretendia originariamente. Quando este poder for empregado em combate, o Diabo precisará ter uma iniciativa mais alta que o demônio que realiza a evocação: As Mãos da Fé não podem ser executadas como um ato reflexo.",
+                "torment": "Os Diabos monstruosos não conseguem manipular as evocações de outros demônios, mas fazem as evocações que os tenham como alvo ricochetear e afetar os iniciadores. Mais uma vez, para tanto, você precisa gerar mais sucessos com seu teste do que o demônio que realiza a evocação. Se bem-sucedido, aplique os efeitos da evocação no iniciador (se a evocação tiver um efeito de área, centralize-a no iniciador). O Diabo precisa conhecer o Nome Celestial ou Verdadeiro do iniciador para executar esta evocação."
             }
         ],
         "apName": "Bel, o Semblante dos Celestiais",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
+        "apWithouTorment": "A forma apocalíptica da Doutrina dos Celestiais revela o decaído como um anjo resplandecente e imperioso que irradia majestade divina e autoridade. Sua pele literalmente brilha, o que o envolve numa aura de luz dourada de intensidade variável, dependendo de seu estado de espírito. Seus olhos ardem com a luz fria das estrelas. A despeito de sua verdadeira aparência física, o anjo caído parece se destacar em relação a todos a seu redor.",
+        "apWithTorment": "Quando o personagem sucumbe a sua natureza sombria, sua autoridade continua tão forte quanto antes, mas a luz que o banhava é reduzida a um vermelho soturno. Suas asas tornam-se coriáceas e seus olhos ficam tão negros quanto o vácuo do espaço. Se antes foi a personificação da nobreza, agora ele se porta como um tirano arrogante.",
+        "apocalypticForm":[
             {
+                "name": "Asas",
                 "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "Um par de asas de águia se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno."
             },
             {
+                "name": "Aspecto Imperioso",
+                "torment": false,
+                "description": "A aura de autoridade divina do personagem reduz em dois pontos a dificuldade de seus testes de Carisma e Manipulação."
+            },
+            {
+                "name": "Sentidos Aguçados",
+                "torment": false,
+                "description": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, reduzindo em dois pontos a dificuldade de seus testes de Percepção."
+            },
+            {
+                "name": "Presciência Aumentada",
+                "torment": false,
+                "description": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Presciência."
+            },    
+            {
+                "name": "Garras/Dentes",
                 "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "O personagem manifesta garras e presas que provocam Força + 2 de dano agravado."
+            },
+            {
+                "name": "Escamas",
+                "torment": true,
+                "description": "A pele do personagem cobre-se de escamas escuras e lustrosas que fornecem quatro dados de proteção contra ataques físicos."
+            },
+            {
+                "name": "Aumento de Tamanho",
+                "torment": true,
+                "description": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+1), Destreza (+2) e Vigor (+1)."
+            },
+            {
+                "name": "Olhar Atroz",
+                "torment": true,
+                "description": "Os individuos (mortais ou demônios) que olharem o demônio nos olhos e falharem num teste de Força de Vontade (dificuldade 7) serão obrigados a abrir mão de suas ações no turno."
             }
         ]
     },
     {
         "id": "4",
-        "name": "Doutrina da Chama",
+        "name": "Domínio das Chamas",
         "belonging": "namaru",
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Alimentar as Chamas",
+                "description": "O domínio do Diabo sobre o fogo permite-lhe alimentar chamas já existentes com sua Fé, transformando uma simples fonte de calor num incêndio devastador com um só pensamento.",
+                "system": "Faça um teste de Vigor + Sobrevivência. Se houver uma fonte de fogo ou calor num raio em metros igual à sua pontuação de Fé, o Diabo será capaz de aumentar o tamanho das chamas em 0,09 metros quadrados por sucesso.",
+                "torment": "Os Diabos monstruosos alimentam a força de uma chama já existente em vez de suas dimensões. Cada sucesso aumenta a taxa de dano letal do fogo em um nível. Para maiores detalhes sobre o fogo e seus efeitos, consulte a pág. 263 do capítulo sobre sistemas."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Inflamar",
+                "description": "O domínio de um Diabo sobre o fogo como uma força fundamental da Criação permite-lhe criar chamas à vontade.",
+                "system": "Faça um teste de Vigor + Sobrevivência. Esta evocação permite ao Diabo fazer com que objetos inflamáveis irrompam em chamas. O personagem pode tentar incendiar qualquer objeto num raio em metros igual à sua pontuação de Fé, devendo obter um número de sucessos superior à resistência do alvo à combustão. A gasolina, a pólvora ou outro material explosivo pode ter resistência igual a 1; objetos secos e inflamáveis, como madeira ou papel, podem ter resistência igual a 2; metal inerte pode ter resistência igual a 5; água e materiais estritamente não-combustíveis não podem ser inflamados. As chamas criadas dessa maneira não são mais intensas que as naturais e infligem dano como apropriado.",
+                "torment": "Os Diabos monstruosos são tão motivados pelo ódio que não conseguem executar esta evocação com precisão. Todos os objetos inflamáveis num raio em metros igual à pontuação de Fé do personagem são afetados. Um único teste de evocação é realizado, e alguns materiais se inflamam enquanto outros permanecem inalterados, de acordo com os sucessos obtidos."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Comandar as Chamas",
+                "description": "O domínio do Diabo sobre as chamas permite-lhe controlar o fogo com a força de sua vontade: a labareda cresce, encolhe, desloca-se e consome tudo o que ele ordenar.",
+                "system": "Faça um teste de Raciocínio + Sobrevivência e some o número de sucessos obtidos. Os sucessos formam uma parada que será usada nos turnos subsequentes para controlar o avanço do fogo. Os testes para controlar o fogo são realizados contra uma dificuldade igual a 8, podendo aumentar dependendo das circunstâncias. Cada sucesso permite ao personagem fazer o fogo crescer ou diminuir em 0,09 metros quadrados por sucesso, ou espalhar-se numa direção até um metro por sucesso. A parada nunca pode exceder o nível permanente de Fé do personagem. Falha crítica: perda total de controle do fogo.",
+                "torment": "Diabos de alto Tormento têm mais dificuldade para controlar os movimentos do fogo, mas sua frieza aumenta a intensidade das chamas. A parada de controle de um demônio monstruoso é reduzida pela metade (arredondando para cima), e os dados remanescentes são somados como níveis de dano."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Holocausto",
+                "description": "Esta evocação é a expressão definitiva do poder do fogo, destruindo para abrir caminho à nova vida, transformando a energia divina em chamas purificadoras.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Sobrevivência, mas a parada de dados não pode exceder a parada de Fé do alvo. O demônio precisa tocar o alvo para realizar esta evocação. Cada sucesso inflige um nível de dano agravado (ou letal, se o alvo for imune) e consome um ponto temporário de Fé do mesmo. Objetos físicos queimados dessa maneira são reduzidos a cinzas quando toda a sua Fé inerente é consumida.",
+                "torment": "Os demônios monstruosos se deliciam ao alimentar as chamas com o cosmo. Lance toda a sua parada de dados; níveis de dano excedentes acima da Fé do alvo são retirados da parada de Fé do personagem. Se a evocação provocar mais dano do que o alvo suporta, os níveis de dano agravado remanescentes são infligidos ao Diabo, que perde a concentração no êxtase da destruição."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Galgar as Chamas",
+                "description": "Ao executar esta evocação, o Diabo não apenas comanda o fogo, ele é o fogo, transformando seu corpo físico em chamas e controlando-as com sua vontade.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Sobrevivência. O Diabo pode juntar sua essência a uma chama existente ou tornar-se uma coluna de fogo convertendo a Fé disponível. O corpo transforma-se em chamas, consumindo roupas e objetos. Pode aumentar a área da chama em 0,09 metros quadrados para cada ponto extra de Fé investido. Enquanto nessa forma, usa-se a parada de Força de Vontade em vez de Atributos e Habilidades normais. Falha: chama encolhe 0,09 metros quadrados. Falha crítica ou fogo <0,09m²: retorna à forma física.",
+                "torment": "Diabos monstruosos não completam a transformação em chamas; tornam-se figuras esqueléticas e incandescentes, com olhos brilhando como carvões em brasa. Usam Atributos e Habilidades normais, mas não se movem com a velocidade ou desenvoltura da verdadeira chama, e sofrem dano se não incendiariam 0,09m² de material por turno."
             }
         ],
         "apName": "Nusku, o Semblante das Chamas",
-        "apWithouTorment": "",
-        "apWithTorment": "",
+        "apWithouTorment": "Estes demônios se revelam num fulgor amarelo-alaranjado. Sua pele brilha com a radiação efervescente do sol, e sua imagem tremeluz como uma miragem. Seus olhos assumem a cor do ouro polido; quando enfurecidos, irradiam ondas perceptíveis de calor.",
+        "apWithTorment": "Quando o anjo caido se deixa consumir por sua natureza demoníaca, sua pele torna-se negra como fumaça e parece efervescer com padrões de um vermelho soturno que pulsam com as batidas do coração do demônio. Seus olhos brilham como carvões em brasa e sua cabeleira basta se agita com um vento espectral.",
         "apocalypticForm": [
             {
+                "name": "Manto de Chamas",
                 "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "O anjo é cercado por uma aura de chamas sobrenaturais que distrai e confunde seus adversários. As dificuldades de todos os ataques à distância ou com armas brancas direcionados ao personagem aumentam em um ponto."
             },
             {
+                "name": "Imunidade ao Fogo",
+                "torment": false,
+                "description": "Nem o calor nem o fogo infligem dano ao personagem."
+            },
+            {
+                "name": "Ações Adicionais",
+                "torment": false,
+                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação, seguindo ordem decrescente de iniciativa."
+            },
+            {
+                "name": "Iniciativa Aprimorada",
+                "torment": false,
+                "description": "Acrescenta dois pontos à iniciativa do personagem."
+            },
+            {
+                "name": "Garras/Dentes",
                 "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "O personagem manifesta garras e presas que provocam Força + 2 de dano agravado."
+            },
+            {
+                "name": "Cauda Fustigante",
+                "torment": true,
+                "description": "O personagem manifesta uma longa cauda reptiliana terminada por espigão ósseo recurvo que inflige Força -1 de dano agravado."
+            },
+            {
+                "name": "Aumento de Tamanho",
+                "torment": true,
+                "description": "O corpo cresce uma vez e um terço da altura normal, aumentando Força (+2), Destreza (+1) e Vigor (+1)."
+            },
+            {
+                "name": "Sangue Ígneo",
+                "torment": true,
+                "description": "O sangue arde como magma; objetos inflamáveis atingidos por gotas entram em chamas, e oponentes próximos recebem um nível de dano letal toda vez que infligem dano real ao personagem."
             }
         ]
     },
-    {   
+    {
         "id": "5",
-        "name": "Doutrina do Esplendor",
+        "name": "Domínio do Esplendor",
         "belonging": "namaru",
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Voz Celestial",
+                "description": "Esta evocação permite a um demônio falar com uma voz semelhante ao trovão ou com os tons claros e perfeitos de um sino de cristal. A clareza e o poder das palavras do demônio exigem atenção instantânea, forçando até mesmo a mente mais frenética a se deter e considerar o que o antigo espírito tem a dizer.",
+                "system": "Faça um teste de Manipulação + Liderança. O Diabo pode afetar todos os que se encontram a até Fé x 10 metros (dificuldade 8), ou concentrar-se em um único alvo (dificuldade 6). O jogador pode emitir uma ordem; a vítima pode resistir com Força de Vontade. Se obtiver menos sucessos que o Diabo, deve obedecer. A voz é ouvida claramente, independentemente do ruído. Não afeta outros demônios nem servos protegidos de controle mental.",
+                "torment": "Demônios monstruosos declamam torrentes de blasfêmias e ódio tão poderosas que atingem as mentes como um golpe físico. Cada sucesso inflige um nível de dano por contusão. As vítimas podem resistir com Força de Vontade contra dificuldade igual ao Tormento do demônio. Demônios também podem ser afetados e resistir. Se receberem dano, devem passar num teste de Coragem para evitar ganhar um ponto temporário de Tormento."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Exortar",
+                "description": "O poder da voz imperiosa do demônio é suficiente para instilar esperança nos corações mais fracos, estimular os mortais a ignorarem seus medos e arrancar o triunfo das garras da derrota.",
+                "system": "Faça um teste de Manipulação + Liderança. Cada sucesso concede ao alvo um dado adicional em uma parada de dados naquele turno. O demônio pode afetar até Fé mortais (incluindo servos). Cada alvo recebe todos os dados adicionais. Demônios não são afetados por esta evocação.",
+                "torment": "O tom zombeteiro de um demônio monstruoso tem efeito contrário. Cada sucesso é subtraído das paradas de dados dos mortais em um turno. Se a parada for reduzida a zero ou menos, o alvo não poderá agir naquele turno."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Aura Lendária",
+                "description": "Esta evocação desperta memórias atávicas no subconsciente humano, renovando os antigos laços de fidelidade que uniram humanidade e anjos caídos contra a tirania do Céu.",
+                "system": "Faça um teste de Manipulação + Liderança. O Diabo afeta até Fé mortais em seu campo visual que possam ouvi-lo. Se os sucessos excederem o Raciocínio do alvo, este será tomado por devoção e lealdade, defendendo o demônio e obedecendo ordens razoáveis. Se os sucessos forem menores, o alvo pode resistir com Força de Vontade (dificuldade 8). Servos usam a Força de Vontade de seus mestres. Servos imunes ao controle mental podem resistir gastando 1 ponto de Força de Vontade. O efeito dura até o fim da cena. Um mesmo alvo só pode ser afetado uma vez por cena.",
+                "torment": "Demônios monstruosos não inspiram lealdade, mas ódio e violência. Os mortais afetados sucumbem a um frenesi assassino e atacam os seres vivos ao alcance."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Marca dos Celestiais",
+                "description": "Durante a Guerra da Ira, anjos e demônios criaram maneiras de identificar aliados e inimigos, alterando discretamente auras ou imprimindo marcas de fúria e vergonha.",
+                "system": "Use 1 ponto de Fé e faça um teste de Manipulação + Expressão. É necessário saber o nome do alvo (Nome Celestial ou Verdadeiro, no caso de demônios) e tocá-lo, além de enunciar a marca audivelmente. Os sucessos determinam a duração: 1 (1 dia), 2 (2 semanas), 3 (1 mês), 4+ (1 ano). Sempre que alguém encontrar o marcado, compare os sucessos ao Raciocínio do observador: se exceder, este reagirá conforme a marca. Se não, pode resistir com Força de Vontade (dificuldade 7). Demônios com Fé e servos imunes a controle mental avaliam o indivíduo por si mesmos.",
+                "torment": "Demônios monstruosos só criam marcas de violência e infortúnio. Mortais devem resistir com Força de Vontade (dificuldade igual ao Tormento do demônio)."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Revelação",
+                "description": "Esta evocação remove ilusões e disfarces, revelando a verdadeira natureza de um mortal. O alvo é forçado a confrontar sua identidade, virtudes e defeitos.",
+                "system": "Use 1 ponto de Fé e faça um teste resistido de Percepção + Intuição contra a Força de Vontade do alvo. Se vencer, o demônio vê o alvo como realmente é e o indivíduo não pode mentir ou ser evasivo. Após a cena, o alvo faz um teste de Força de Vontade (dificuldade 7): sucesso concede +1 Força de Vontade permanente; falha, -1; falha crítica, -3 e uma perturbação temporária. Não afeta outros demônios, mas pode afetar servos.",
+                "torment": "Demônios monstruosos distorcem a revelação, exaltando os piores impulsos da vítima. Se o mortal falhar no teste inicial de resistência, os impulsos suprimem sua identidade pelo resto da cena."
             }
         ],
         "apName": "Qingu, o Semblante do Esplendor",
-        "apWithouTorment": "",
-        "apWithTorment": "",
+        "apWithouTorment": "A forma apocalíptica do Esplendor é uma figura incandescente envolta em coroa iridescente. Sua pele lembra mármore perfeito, sua voz é cristalina e corta o ruído do mundo mortal como navalha.",
+        "apWithTorment": "Quando o anjo cede a sua natureza demoníaca, as cores de sua aura tornam-se opacas e inflamam-se em tons furiosos de vermelho e azul quando ele se enfurece. Sua fisionomia retém a perfeição do alabastro, mas, se antes inspirava admiração, agora irradia um ar de gélida ameaça e crueldade.",
         "apocalypticForm": [
             {
+                "name": "Asas",
                 "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "Um par de asas de águia se estende dos ombros, cada uma com 1,3x a altura do personagem. Permitem planar até três vezes a velocidade de corrida por turno."
             },
             {
+                "name": "Fascinação Divina",
+                "torment": false,
+                "description": "A voz e a aparência do personagem são elevadas à perfeição divina, concedendo Carisma +2, Manipulação +1 e Aparência +1."
+            },
+            {
+                "name": "Aura Radiante",
+                "torment": false,
+                "description": "O corpo é envolto por uma coroa multicolorida que distrai e confunde. Aumenta em 1 a dificuldade de todos os ataques à distância contra o personagem."
+            },
+            {
+                "name": "Detectar o Oculto",
+                "torment": false,
+                "description": "O personagem possui aptidão sobrenatural para detectar mortais ou demônios escondidos. Dificuldade de testes de Percepção para detectar ocultos no campo visual é reduzida em 2."
+            },
+            {
+                "name": "Voz dos Condenados",
                 "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "A voz exala ódio e maldade inumana. Dificuldades de testes de Intimidação são reduzidas em 2."
+            },
+            {
+                "name": "Sem Reflexo",
+                "torment": true,
+                "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada em câmeras fotográficas ou de vídeo."
+            },
+            {
+                "name": "Saliva Corrosiva",
+                "torment": true,
+                "description": "A saliva do demônio corrói carne como ácido, fazendo com que sua mordida inflija um nível adicional de dano."
+            },
+            {
+                "name": "Chifres",
+                "torment": true,
+                "description": "Um par de chifres de carneiro ou touro se projeta da testa do personagem. Se atacado em combate próximo, o personagem terá direito a um contra-ataque livre. Faça um teste de Destreza + Briga. Se bem-sucedido, o personagem provocará dano agravado igual à Força -1."
             }
         ]
     },
@@ -340,1509 +359,345 @@
         "doctrines": [
             {
                 "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Encontrar os Fiéis",
+                "description": "Esta evocação permite ao Flagelo localizar indivíduos específicos, sejam mortais ou demônios, ao detectar suas reservas de Fé.",
+                "system": "Faça um teste de Percepção + Presciência. Dificuldade 8 se conhecer o nome terreno; 7 se for demônio e souber o Nome Celestial; 6 se souber o Nome Verdadeiro. O alcance é igual a Fé x 2 km. Demônios procurados podem perceber a busca como reflexo e resistir com Força de Vontade (dif. 8). Se tiverem mais sucessos que o Flagelo, passam despercebidos.",
+                "torment": "Demônios monstruosos detectam apenas decadência espiritual ou corrupção. Podem localizar indivíduos cuja Fé ou Força de Vontade esteja reduzida a zero."
             },
             {
                 "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Purificar",
+                "description": "Os Flagelos empregam esta evocação para purificar um ser vivo, expelindo venenos, infecções ou tecidos doentes como um fluído negro e viscoso.",
+                "system": "Faça um teste de Vigor + Medicina. Dif. 6 para toxinas leves (álcool), 8+ para doenças graves (câncer, tuberculose). É tudo ou nada: só uma tentativa por caso específico. É necessário tocar o alvo.",
+                "torment": "Em vez de curar, o Flagelo monstruoso dissemina corrupção. Cada sucesso inflige 1 nível de dano por contusão imediato. Além disso, a vítima sofre 1 nível extra de dano por contusão e perde 1 ponto temporário de Força de Vontade por dia, durante Fé dias. Não pode ser curada por meios médicos."
             },
             {
                 "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Cicatrizar",
+                "description": "Permite ao Flagelo cicatrizar até mesmo ferimentos graves, restaurando a saúde de mortais e demônios.",
+                "system": "Faça um teste de Vigor + Medicina. Cada sucesso remove todo o dano por contusão ou recupera 1 nível de vitalidade perdido por dano letal/agravado. É necessário tocar o alvo.",
+                "torment": "Flagelos monstruosos envenenam a vítima. Cada sucesso reduz temporariamente o Vigor do alvo. Se chegar a 0, entra em coma e perde 1 nível de vitalidade (agravado ou letal, conforme imunidade) por hora para cada sucesso restante. O Vigor perdido só se recupera após Fé dias."
             },
             {
                 "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Animar",
+                "description": "Permite impregnar objetos inanimados com vida rudimentar, tornando-os extensões da vontade do demônio.",
+                "system": "Gaste 1 ponto de Fé e faça um teste de Inteligência + Ofícios. Os sucessos formam uma parada de dados para ações do objeto. Pode animar até Fé objetos ao mesmo tempo. Duração: 1 cena. O objeto precisa ser tocado para ser animado, mas pode ser controlado à distância se estiver no campo visual.",
+                "torment": "Objetos animados por um Flagelo monstruoso ficam contaminados pela fúria. É necessário fazer um teste de Força de Vontade por objeto a cada turno (dif. = Tormento). Se falhar, o objeto enlouquece e ataca o primeiro ser vivo à vista. Se o demônio aceitar que o objeto ataque violentamente, o teste é desnecessário."
             },
             {
                 "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
+                "name": "Devolver a Vida",
+                "description": "Permite insuflar vida em cadáveres, restaurando corpos mas não necessariamente suas almas.",
+                "system": "Gaste 1 ponto de Fé e faça um teste de Vigor + Medicina. Dif. 6 para cadáveres recentes, 7+ para mortos há dias. Corpos muito antigos não podem ser restaurados. Se bem-sucedido, o corpo revive como zumbi irracional sob controle do Flagelo, a menos que uma alma esteja disponível. Anjos caídos desencarnados podem possuir os corpos. Duração: 1 cena, ou permanente ao custo de 1 ponto temporário de Força de Vontade. Pode animar até Fé cadáveres em um raio em metros igual à Fé. ",
+                "torment": "Corpos restaurados por Flagelos monstruosos ficam contaminados pela fúria. Teste de Força de Vontade por corpo a cada turno (dif. = Tormento). Se falhar, o cadáver enlouquece e ataca o primeiro ser vivo à vista. Se o demônio permitir o ataque, o teste é desnecessário."
             }
         ],
         "apName": "Dagan, o Semblante do Despertar",
-        "apWithouTorment": "",
-        "apWithTorment": "",
+        "apWithouTorment": "A forma apocalíptica impregna o corpo mortal com a vitalidade da juventude. A pele brilha com saúde, o corpo se move com graça inumana e uma aura calorosa revigora plantas, animais e pessoas ao redor.",
+        "apWithTorment": "A medida que os Dagan se deixam consumir por suas naturezas demoníacas, seu dominio sobre a vida e a vitalidade volta-se contra eles mesmos, transformando-lhes os corpos mortais em criadouros de doenças e tumores cancerosos. Eles se cobrem de neoplasmas deformados e chagas pustulentas, e sua carne é úmida e esponjosa ao toque.",
         "apocalypticForm": [
             {
+                "name": "Aura de Vitalidade",
                 "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "Seres vivos (plantas e animais) em um raio em metros igual à Fé recuperam 1 nível de vitalidade por turno de dano por contusão."
             },
             {
+                "name": "Sem Deixar Rastro",
+                "torment": false,
+                "description": "A dificuldade de testes de Furtividade do personagem é reduzida em 2. Não deixa pegadas nem altera o ambiente ao passar."
+            },
+            {
+                "name": "Capacidades Físicas Aprimoradas",
+                "torment": false,
+                "description": "O personagem recebe +1 Força, +1 Destreza e +1 Vigor."
+            },
+            {
+                "name": "Asas",
+                "torment": false,
+                "description": "Um par de asas de coruja se estende dos ombros. Cada asa tem 1,3x a altura do personagem. Permitem planar até três vezes a velocidade de corrida por turno."
+            },
+            {
+                "name": "Miasma",
                 "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
+                "description": "Exala fedor de podridão em um raio em metros igual a Fé ÷ 3. Vítimas devem passar em teste de Vigor (dif. 7) ou perdem ações no turno. Falha crítica pode impor doença ou vírus."
+            },
+            {
+                "name": "Níveis de Vitalidade Adicionais",
+                "torment": true,
+                "description": "O demônio recebe 3 níveis extras de vitalidade (Escoriado), válidos para contusão, letal e agravado."
+            },
+            {
+                "name": "Pele Viscosa",
+                "torment": true,
+                "description": "A pele podre se desprende ao ser perfurada, cobrindo o agressor. A dificuldade para engalfinhar aumenta em 2. O personagem pode escapar de grilhões com um teste de Destreza."
+            },
+            {
+                "name": "Apêndices Adicionais",
+                "torment": true,
+                "description": "O demônio desenvolve um segundo par de braços ou uma cauda preênsil. Braços extras permitem aparar/bloquear sem perder ataque, ou realizar até 2 ataques adicionais (ações múltiplas). A cauda tem metade da altura do personagem, usa metade da Força para erguer objetos e pode se pendurar."
             }
         ]
     },
     {
-        "id": "7",
-        "name": "Doutrina do Firmamento",
-        "belonging": "asharu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Anshar, o Semblante do Firmamento",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
+      "id": "7",
+      "name": "Doutrina do Firmamento",
+      "belonging": "asharu",
+      "doctrines": [
+        {
+          "level": 1,
+          "name": "Visão Remota",
+          "description": "Permite ao Flagelo enxergar pelos olhos de um de seus servos, de forma estritamente passiva.",
+          "system": "Teste de Percepção + Empatia. O Flagelo vê pelos olhos do servo durante um número de turnos igual aos sucessos obtidos. Não há limites de alcance.",
+          "torment": "O servo sofre pressão ocular e pode ficar cego. Após o contato, teste de Vigor contra dificuldade igual ao Tormento do demônio. Falha = cegueira por dias iguais ao número de turnos da evocação. Falha crítica = cegueira permanente."
+        },
+        {
+          "level": 2,
+          "name": "Perscrutar",
+          "description": "O Flagelo observa uma vítima à distância conhecendo um de seus nomes ou segurando um objeto seu.",
+          "system": "Teste de Percepção + Empatia. Dif. 8 com nome terreno/objeto, 7 com Nome Celestial, 6 com Nome Verdadeiro. 1 sucesso = imagem imediata. 2 sucessos = visão expandida (metros = Fé). 3 sucessos = inclui voz da vítima. 4+ sucessos = som ambiente completo. Duração: Fé turnos ou até interromper.",
+          "torment": "O alvo sofre dor de cabeça, paranoia e agressividade. A cada turno: teste de Força de Vontade (dif. 6). Falha = 1 nível de dano por contusão + dificuldade social +2 até o fim da cena. Falha crítica = perturbação temporária."
+        },
+        {
+          "level": 3,
+          "name": "Porta-Voz dos Condenados",
+          "description": "Permite ao Flagelo falar e agir por meio do corpo de um servo, como um controle remoto espiritual.",
+          "system": "Teste de Manipulação + Liderança. Sucessos = dados do servo que podem ser usados em uma ação por turno (máx. igual à sua própria reserva). Voz, maneirismos e expressões são os do demônio. Duração: Fé turnos.",
+          "torment": "A cada turno de ação, o servo testa Vigor. Falha = perde permanentemente 1 ponto do Atributo usado. Se usado apenas para falar: teste de Força de Vontade. Falha = perde 1 de Inteligência. O risco é cumulativo."
+        },
+        {
+          "level": 4,
+          "name": "Toque Longínquo",
+          "description": "O Flagelo pode direcionar evocações contra um alvo distante se conhecer seu nome ou possuir objeto significativo.",
+          "system": "Gasta 1 Fé e testa Manipulação + Presciência. Alcance: 20 km x reserva de Fé. Dif. 9 (nome terreno/objeto), 8 (Nome Celestial), 7 (Nome Verdadeiro), 6 (servo). A evocação é aplicada como se o alvo estivesse presente. Áreas têm como centro o alvo.",
+          "torment": "O alvo deve testar Força de Vontade contra dificuldade igual ao Tormento do demônio. Falha = perturbação temporária. Falha crítica = perturbação permanente, além do efeito normal da evocação."
+        },
+        {
+          "level": 5,
+          "name": "Vários Lugares ao Mesmo Tempo",
+          "description": "O Flagelo fala e age através de vários servos ao mesmo tempo.",
+          "system": "Pode controlar até Raciocínio servos. Se controlar menos, pode agir com o próprio corpo; se igual ao limite, entra em coma até a evocação expirar. Gasta 1 Fé e testa Manipulação + Liderança. Sucessos = dados para cada servo. Pode lançar uma evocação por meio de um deles a cada turno. Duração: Fé turnos.",
+          "torment": "Cada ação feita com o servo exige teste de Vigor. Falha = perda permanente de 1 ponto do Atributo usado. Se usado apenas para falar: teste de Força de Vontade. Falha = perde 1 de Inteligência. Se usar evocação por um servo: teste de Vigor contra Tormento. Falha = 1 nível de dano letal."
+        }
+      ],
+      "apName": "Anshar, o Semblante do Firmamento",
+      "apWithouTorment": "A forma apocalíptica é etérea e graciosa, com pele clara, olhos cinzentos e vozes que ecoam suavemente. Alterna entre serenidade e vigilância intensa.",
+      "apWithTorment": "Os Anshar monstruosos parecem ainda mais distantes do reino fisico, envoltos num perturbador manto de sombras e brumas. A pele assume uma coloração cinzenta e quase translúcida, e seus corpos tornam-se esqueléticos e emaciados, com a pele tão esticada sobre as faces a ponto de parecerem caveiras maldosas.",
+      "apocalypticForm": [
+        {
+            "name": "Sentidos Aguçados",
+            "torment": false,
+            "description": "Reduz em 2 a dificuldade de todos os testes de Percepção."
+        },
+        {
+            "name": "Asas",
+            "torment": false,
+            "description": "Um par de asas de coruja (1,3x altura do personagem). Permite planar até 3x a velocidade de corrida por turno."
+        },
+        {
+            "name": "Intuição Acentuada",
+            "torment": false,
+            "description": "Reduz em 2 as dificuldades de testes de Intuição."
+        },
+        {
+            "name": "Esquiva Acentuada",
+            "torment": false,
+            "description": "Reduz em 2 as dificuldades de todos os testes de Esquiva."
+        },
+        {
+            "name": "Manto de Sombras",
+            "torment": true,
+            "description": "Envolto em trevas, reduz dificuldade de Furtividade em 2 na penumbra ou escuridão. O atacante usa regras de Luta às Cegas."
+        },
+        {
+            "name": "Vários Olhos",
+            "torment": true,
+            "description": "Entre 4 e 6 olhos extras surgem na cabeça/pescoço. Oferecem visão 360º e reduzem em 2 a dificuldade de testes de Percepção."
+        },
+        {
+            "name": "Iniciativa Aprimorada",
+            "torment": true,
+            "description": "O personagem recebe +2 à Iniciativa."
+        },
+        {
+            "name": "Garras",
+            "torment": true,
+            "description": "Manifesta garras que causam Força +2 de dano agravado."
+        }
+      ]
     },
     {
-        "id": "8",
-        "name": "Doutrina dos Ventos",
-        "belonging": "asharu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Ellil, o Semblante dos Ventos",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
+      "id": "8",
+      "name": "Doutrina dos Ventos",
+      "belonging": "asharu",
+      "doctrines": [
+        {
+          "level": 1,
+          "name": "Invocar o Vento",
+          "description": "Esta evocação permite ao demônio conjurar o vento aparentemente do nada. O Flagelo é capaz de controlar a direção geral do vento e empregá-lo para aumentar a distância percorrida com um salto ou tolher a eficiência de armas de alcance.",
+          "system": "Faça um teste de Vigor + Sobrevivência. O número de sucessos obtidos determina a força do vento invocado. A força pode ser usada como sucessos automáticos em um teste de Esportes (para saltar), pode aumentar a dificuldade de ataques à distância contra o personagem ou pode ser usada como parada de dados para exercer força contra objetos (empurrar portas, derrubar pessoas etc.). O vento persiste durante um turno e pode ser invocado em qualquer ponto dentro do campo visual.",
+          "torment": "Quando invocado por demônios monstruosos, o vento carrega pestilência e cheiro de morte. Todos os afetados devem passar em um teste de Vigor (dificuldade 7) ou sofrer um nível de dano por contusão inabsorvível. Falha crítica: a vítima perde todas as ações do turno devido ao enjoo."
+        },
+        {
+          "level": 2,
+          "name": "Punho de Ar",
+          "description": "Esta evocação permite ao demônio manipular a pressão do ar, esmagando objetos ou atordoando seres vivos.",
+          "system": "Faça um teste de Vigor + Sobrevivência. Cada sucesso inflige 1 nível de dano por contusão a seres vivos. Contra objetos, os sucessos equivalem a pontos de Força na tabela de Demonstrações de Força. O alvo deve estar no campo de visão. O efeito dura um turno.",
+          "torment": "Demônios monstruosos podem intensificar o poder da evocação, causando dano letal em vez de contusão contra seres vivos."
+        },
+        {
+          "level": 3,
+          "name": "Comandar o Vento",
+          "description": "O Flagelo é cercado por ventos rodopiantes que se tornam extensões de sua vontade, permitindo manipular objetos.",
+          "system": "Faça um teste de Destreza + Sobrevivência. Os sucessos formam uma parada de dados que pode ser usada em ações que envolvam movimento ou controle de objetos. Dificuldade de ações motoras finas é 9. O alcance é igual à pontuação de Fé do personagem. O efeito dura a cena inteira.",
+          "torment": "Os ventos de um demônio monstruoso tornam-se um miasma sufocante. Todos os seres vivos no alcance sofrem 1 nível de dano por contusão a cada turno, inabsorvível sem proteção adequada (como máscaras de gás)."
+        },
+        {
+          "level": 4,
+          "name": "Muralha de Ar",
+          "description": "O demônio condensa o ar em uma barreira sólida e impenetrável, como uma parede invisível.",
+          "system": "Use 1 ponto de Fé e faça um teste de Vigor + Sobrevivência. Os sucessos tornam-se uma parada de dados que pode absorver ataques à distância ou ser usada em testes resistidos contra ataques próximos. A muralha cobre uma área em metros quadrados igual à Fé do personagem e pode assumir qualquer forma. Para atravessá-la, é necessário vencer em um teste resistido de Força + Esportes (dificuldade 7). Pode ser criada em qualquer ponto dentro do campo visual, até a distância da Fé. Persiste até o fim da cena ou até ser removida. Some imediatamente se o personagem for incapacitado.",
+          "torment": "As muralhas criadas por demônios monstruosos assumem forma de redemoinhos cinzentos que queimam como ácido. Qualquer um que tente atravessá-la sofre dano letal em dados iguais ao Tormento do demônio."
+        },
+        {
+          "level": 5,
+          "name": "Ciclone",
+          "description": "O Flagelo invoca um tufão devastador, impregnando o ar com o poder de sua Fé.",
+          "system": "Use 1 ponto de Fé e faça um teste de Vigor + Sobrevivência (dificuldade 7). Os sucessos determinam a Força da tempestade, que afeta tudo em um raio em metros igual à parada de dados normal do personagem. Objetos leves são arremessados, portas e janelas cedem. Compare a Força da tempestade à tabela de Demonstrações de Força para efeitos adicionais. Pode concentrar o ciclone em um alvo específico com teste de Força de Vontade (dificuldade igual à Força da tempestade). Uma vez por turno, role dados iguais à Força da tempestade; cada sucesso inflige 1 nível de dano por contusão a seres vivos ou ao alvo. A cada turno após o primeiro, a tempestade perde 1 de Força e encolhe 1 metro, a menos que seja sustentada com novo teste de Vigor + Sobrevivência e outro ponto de Fé.",
+          "torment": "O ciclone de um demônio monstruoso arranca o ar dos pulmões de todos os vivos em sua área, infligindo 1 nível de dano letal por turno. Se a Força da tempestade exceder a Força de Vontade do demônio, ele perde o controle, e o ciclone atinge tudo, inclusive o próprio invocador."
+        }
+      ],
+      "apName": "Ellil, o Semblante dos Ventos",
+      "apWithouTorment": "Os monarcas do ar se revelam altos e ágeis, com olhos grandes e movimentos graciosos. Estão sempre cercados por ventos que refletem suas emoções, formando vórtices de fumaça e vapor como auréolas sombrias.",
+      "apWithTorment": "Os Ellil que sucumbem a sua natureza demoníaca tornam-se figuras descarnadas de traços finos e compridos, e suas faces são dominadas pelos grandes olhos que jamais piscam. Suas asas outrora magníficas tornam-se esfarrapadas e sarnentas, e suas figuras altivas se inclinam; eles preferem a posição de cócoras a ficar de pé. Estão sempre inquietos, pois não conseguem permanecer num mesmo lugar durante mais de alguns minutos.",
+      "apocalypticForm": [
+        {
+            "name": "Visão Sobrenatural",
+            "torment": false,
+            "description": "Enxerga cinco vezes mais que um humano comum. Pode ver a 50 metros com a mesma nitidez de 10 metros, desde que haja alguma luz. Reduz em 2 pontos a dificuldade de testes de Percepção baseados na visão."
+        },
+        {
+            "name": "Asas",
+            "torment": false,
+            "description": "Um par de asas de coruja se estende dos ombros. Cada asa tem uma vez e um terço da altura do personagem. Permitem planar a até três vezes a velocidade de corrida por turno."
+        },
+        {
+            "name": "Equilíbrio Perfeito",
+            "torment": false,
+            "description": "Reduz em 2 pontos a dificuldade de testes de Esportes relacionados a saltos e acrobacias."
+        },
+        {
+            "name": "Imunidade a Quedas",
+            "torment": false,
+            "description": "Não sofre dano de quedas, independentemente da altura."
+        },
+        {
+            "name": "Garras",
+            "torment": true,
+            "description": "Dedos terminam em garras recurvas que infligem Força + 2 de dano agravado."
+        },
+        {
+            "name": "Ações Adicionais",
+            "torment": true,
+            "description": "Pode gastar pontos de Fé para obter ações adicionais no turno, à razão de 1 ponto por ação, em ordem decrescente de iniciativa."
+        },
+        {
+            "name": "Espinhos",
+            "torment": true,
+            "description": "Ombros e braços cobertos de espinhos afiados. Adversários que atacarem em combate próximo sofrem 1 nível de dano letal, a menos que passem em um teste de Destreza (dificuldade 7)."
+        },
+        {
+            "name": "Bile Cáustica",
+            "torment": true,
+            "description": "Pode vomitar bile corrosiva a uma distância em metros igual à Fé. Requer teste de Destreza + Esportes para acertar. Inflige Força -1 de dano agravado."
+        }
+      ]
     },
     {
-        "id": "9",
-        "name": "Doutrina da Terra",
-        "belonging": "annunaki",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Kishar, o Semblante da Terra",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "10",
-        "name": "Doutrina dos Caminhos",
-        "belonging": "annunaki",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Antu, o Semblante dos Caminhos",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "11",
-        "name": "Doutrina da Forja",
-        "belonging": "annunaki",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Mummu, o Semblante da Forja",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "12",
-        "name": "Doutrina dos Padrões",
-        "belonging": "neberu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Ninsun, o Semblante dos Padrões",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "13",
-        "name": "Doutrina dos Portais",
-        "belonging": "neberu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Nedu, o Semblante dos Portais",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "14",
-        "name": "Doutrina da Luz",
-        "belonging": "neberu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Shamash, o Semblante da Luz",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "15",
-        "name": "Doutrina do Desejo",
-        "belonging": "lammasu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Ismmara, o Semblante do Desejo",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "16",
-        "name": "Doutrina das Tempestades",
-        "belonging": "lammasu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Adad, o Semblante das Tempestades",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "17",
-        "name": "Doutrina da Transfiguração",
-        "belonging": "lammasu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Mammetum, o Semblante da Transfiguração",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "18",
-        "name": "Doutrina da Fera",
-        "belonging": "rabisu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Zaltu, o Semblante da Fera",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "19",
-        "name": "Doutrina da Natureza",
-        "belonging": "rabisu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Ninurtu, o Semblante da Natureza",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "20",
-        "name": "Doutrina da Carne",
-        "belonging": "rabisu",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Aruru, o Semblante da Carne",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "21",
-        "name": "Doutrina da Morte",
-        "belonging": "halaku",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Namtar, o Semblante da Morte",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "22",
-        "name": "Doutrina do Espírito",
-        "belonging": "halaku",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Nergal, o Semblante do Espírito",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "23",
-        "name": "Doutrina dos Reinos",
-        "belonging": "halaku",
-        "doctrines": [
-            {
-                "level": 1,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 2,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 3,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 4,
-                "description": "",
-                "system": "",
-                "torment": ""
-            },
-            {
-                "level": 5,
-                "description": "",
-                "system": "",
-                "torment": ""
-            }
-        ],
-        "apName": "Ereshkigal, o Semblante dos Reinos",
-        "apWithouTorment": "",
-        "apWithTorment": "",
-        "apocalypticForm": [
-            {
-                "torment": false,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            },
-            {
-                "torment": true,
-                "capabilities": [
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    },
-                    {
-                        "name": "",
-                        "description": ""
-                    }
-                ]
-            }
-        ]
+      "id": "9",
+      "name": "Doutrina da Terra",
+      "belonging": "annunaki",
+      "doctrines": [
+        {
+          "level": 1,
+          "name": "Fusão com a Terra",
+          "description": "O demônio une seu corpo físico à terra sob seus pés, tornando-se impossível movê-lo, levantá-lo ou derrubá-lo sem sua vontade.",
+          "system": "Faça um teste de Força + Sobrevivência. Se bem-sucedido, o Malfeitor se funde ao solo e não pode ser movido contra sua vontade.",
+          "torment": "Demônios monstruosos podem afundar no solo e deslocar-se subterraneamente em linha reta. O número de sucessos indica quantos metros percorrem por turno. Cada turno exige novo teste de Força + Esportes; falha força o demônio a emergir à superfície."
+        },
+        {
+          "level": 2,
+          "name": "Revolver a Terra",
+          "description": "O Malfeitor faz a terra revelar segredos enterrados, trazendo à tona objetos ou materiais desejados.",
+          "system": "Determine o objeto buscado e faça um teste de Força + Sobrevivência. O número de sucessos determina o raio em metros (incluindo profundidade) afetado. Se o objeto estiver dentro da área, ele emerge à superfície.",
+          "torment": "Demônios monstruosos criam um vórtice que suga objetos e seres para baixo. O alvo é enterrado a um número de metros igual aos sucessos ÷ 3. Para escapar, é necessário teste prolongado de Força + Esportes (dificuldade 8) com jogadas a cada minuto. Enquanto preso, sofre dano como se estivesse se afogando."
+        },
+        {
+          "level": 3,
+          "name": "Modelar a Terra",
+          "description": "O Malfeitor molda a terra ou a pedra, criando barreiras, passagens ou estruturas conforme sua vontade.",
+          "system": "Faça um teste de Força + Ofícios. Dificuldade varia: 5 (terra solta), 6 (granito), 7 (materiais tratados como concreto). Sucessos ÷ 10 = metros quadrados manipulados. O material pode assumir qualquer forma desejada, dentro do alcance em metros igual à Fé do personagem. As mudanças são permanentes.",
+          "torment": "A terra manipulada torna-se tóxica. Seres vivos em contato com ela sofrem 1 nível de dano letal por turno de exposição."
+        },
+        {
+          "level": 4,
+          "name": "Tempestade de Terra",
+          "description": "O Malfeitor convoca um turbilhão de terra e pedras que o protege e fornece projéteis contra inimigos.",
+          "system": "Use 1 ponto de Fé e faça um teste de Força + Sobrevivência. Sucessos formam uma parada de proteção contra ataques. O demônio pode sacrificar 1 dado dessa parada por turno para lançar um projétil de terra/pedra (teste de Destreza + Esportes). O dano por contusão é igual à Fé do personagem. O alcance é igual à Fé em metros. A tempestade dura até o fim da cena e aumenta em +1 a dificuldade das ações dos inimigos na área.",
+          "torment": "A tempestade torna-se areia corrosiva que inflige dano letal em dados iguais ao Tormento do demônio a tudo no raio de ação (exceto o próprio). Além disso, cria cobertura parcial, aumentando em +1 a dificuldade de ataques à distância contra o Malfeitor."
+        },
+        {
+          "level": 5,
+          "name": "Terremoto",
+          "description": "O Malfeitor desperta o poder da terra, criando tremores capazes de devastar cidades.",
+          "system": "Use 1 ponto de Fé e faça um teste de Força + Sobrevivência. Distribua sucessos entre intensidade e dimensão do tremor. Intensidade: aumenta dificuldade das ações na área e é usada como parada de dados para causar dano a estruturas (dificuldade 6 para resistirem). Dimensão: 1 sucesso = área em metros quadrados igual à Fé ÷ 10; 2 sucessos = área igual à Fé; 3 sucessos = quilômetros quadrados igual a 3 x Fé. O tremor dura 1 turno por ponto de intensidade.",
+          "torment": "O terremoto libera nuvens tóxicas de cinzas e enxofre. Além dos efeitos normais, todos os testes de Percepção na área têm +2 de dificuldade e os vivos sofrem 1 nível de dano por contusão a cada turno de exposição. A duração é igual à intensidade do terremoto."
+        }
+      ],
+      "apName": "Kishar, o Semblante da Terra",
+      "apWithouTorment": "Os Kishar se manifestam como figuras altas e de pele escura, lembrando corpos talhados em pedra. Seus olhos brilham como pedras preciosas e o ar ao redor exala cheiro de terra fértil e revolvida.",
+      "apWithTorment": "Os Kishar atormentados tornam-se colossos ameaçadores, de formas rígidas e rachadas, exalando o odor de rocha partida e morte subterrânea. Seus corpos parecem prestes a desmoronar, mas irradiam força bruta.",
+      "apocalypticForm": [
+        {
+            "name": "Aumento de Tamanho",
+            "torment": false,
+            "description": "O corpo cresce até 1,3x a altura normal. Bônus: Força +2, Destreza +1, Vigor +1."
+        },
+        {
+            "name": "Imunidade a Dano por Contusão",
+            "torment": false,
+            "description": "Não sofre qualquer dano de ataques que causam apenas contusão."
+        },
+        {
+            "name": "Força Irresistível",
+            "torment": false,
+            "description": "Dificuldade de qualquer teste de Demonstração de Força é reduzida em 2 pontos."
+        },
+        {
+            "name": "Visão Mineral",
+            "torment": false,
+            "description": "Os olhos brilham como gemas, capazes de detectar fissuras e fragilidades em estruturas sólidas, reduzindo em 2 pontos a dificuldade de testes relacionados a avaliar ou destruir materiais."
+        },
+        {
+            "name": "Pele Rochosa",
+            "torment": true,
+            "description": "A pele racha em placas afiadas que infligem 1 nível de dano letal em inimigos que atacam em combate próximo."
+        },
+        {
+            "name": "Pisada Sísmica",
+            "torment": true,
+            "description": "Com um golpe no solo, pode causar tremores locais que derrubam inimigos (teste de Força + Esportes, dificuldade 7, para resistir)."
+        },
+        {
+            "name": "Garras de Pedra",
+            "torment": true,
+            "description": "Dedos se transformam em garras de rocha que infligem Força + 2 de dano agravado."
+        },
+        {
+            "name": "Aura de Poeira Tóxica",
+            "torment": true,
+            "description": "Exala nuvens sufocantes de poeira. Todos ao redor sofrem penalidade de -1 em ações físicas e devem passar em teste de Vigor (dificuldade 7) por turno ou perder 1 nível de vitalidade por contusão."
+        }
+      ]
     }
 ]
