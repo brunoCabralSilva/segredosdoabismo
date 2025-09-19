@@ -699,5 +699,356 @@
             "description": "Exala nuvens sufocantes de poeira. Todos ao redor sofrem penalidade de -1 em ações físicas e devem passar em teste de Vigor (dificuldade 7) por turno ou perder 1 nível de vitalidade por contusão."
         }
       ]
+    },
+    {
+        "id": "10",
+        "name": "Doutrina dos Caminhos",
+        "belonging": "annunaki",
+        "doctrines": [
+            {
+            "level": 1,
+            "name": "Encontrar Caminhos",
+            "description": "Esta evocação permite ao Malfeitor determinar se existe um caminho entre ele e seu destino que preencha os critérios por ele estabelecidos. O caminho é visível apenas ao demônio e a quem o toque, revelando-se como uma tênue linha azul-prateada, como um raio de luar.",
+            "system": "Seu personagem estabelece os critérios para o caminho que procura e você faz um teste de Percepção + Sobrevivência. O número de sucessos exigidos depende dos critérios estabelecidos e da distância a ser percorrida. Por exemplo: 1 sucesso pode bastar para encontrar um caminho em meio a um trecho impenetrável de floresta ou pântano; 2 sucessos ou mais para um caminho através de um campo aberto que permita deslocar-se sem ser visto; 3 sucessos ou mais para atravessar ileso uma casa em chamas. Se o personagem falhar no teste, o caminho não será encontrado.",
+            "torment": "Os demônios monstruosos são capazes de procurar caminhos assim como seus semelhantes mais humanos, mas a dificuldade desses testes é igual ao Tormento do demônio. Quanto mais mortífero for o demônio, menos preparado ele estará para empreender uma busca focalizada."
+            },
+            {
+            "level": 2,
+            "name": "Tracar Caminhos",
+            "description": "Neste nível, o Malfeitor não precisa procurar um caminho útil; ele pode traçar uma senda que satisfaça suas necessidades, apesar de não ser algo que possa ser feito de improviso.",
+            "system": "O demônio determina os critérios do caminho que deseja traçar e a distância a percorrer. Você faz um teste de Destreza + Sobrevivência. A dificuldade do teste aumenta de acordo com a complexidade do caminho (um atalho que reduza tempo de viagem, permita passar despercebido e seja largo o suficiente para mais de uma pessoa pode ter dificuldade 9 ou 10). Você precisa conseguir um número de sucessos igual à extensão percorrida pelo caminho em centenas de metros. Esses sucessos podem ser obtidos por meio de uma ação prolongada, mas precisam ser acumulados em turnos sequenciais. Ex.: para 500 metros são necessários 5 sucessos à dificuldade estipulada. O caminho, uma vez traçado, é visível apenas para o Malfeitor (o uso bem-sucedido da evocação Encontrar Caminhos pode detectá-lo como qualquer outro caminho) e continuará em condições de uso durante um número de dias igual à pontuação permanente de Fé do personagem. O jogador pode tornar o caminho permanente com o investimento de um ponto temporário de Força de Vontade.",
+            "torment": "Demônios monstruosos também conseguem traçar caminhos, mas a mácula inserida na tessitura da trilha torna o curso imprevisível e perigoso. Testes para percorrer um caminho traçado por um demônio monstruoso ficam sujeitos a falhas críticas caso resultem em 1 ou 2. A falha crítica faz com que o viajante deixe o caminho num ponto aleatório ao longo de sua extensão, determinado pelo Narrador — potencialmente fatal se o caminho levar ao interior de um lago ou de uma montanha."
+            },
+            {
+            "level": 3,
+            "name": "Ocultar Caminhos",
+            "description": "Os caminhos, uma vez formados, podem ser encontrados e seguidos por qualquer demônio que tenha olhos e saiba procurá-los — a menos que estejam camuflados pelo demônio que os criou.",
+            "system": "Faça um teste de Percepção + Sobrevivência. Qualquer demônio que tente encontrar o caminho mais tarde precisará obter mais sucessos que o Malfeitor ao procurar a rota escondida. Essa dissimulação dura um número de dias igual à pontuação permanente de Fé do personagem ou pode se tornar permanente com o investimento de um ponto temporário de Força de Vontade.",
+            "torment": "Os demônios monstruosos não escondem um caminho: eles preparam uma armadilha para os incautos. Quando a evocação é executada, os sucessos obtidos tornam-se níveis automáticos de dano por contusão, infligidos a qualquer criatura que colocar os pés nesse caminho. Essa armadilha pode ser detectada com um teste de Percepção Sobrenatural, mas não pode ser evitada nem desarmada. Ao contrário da forma mais benigna de dissimulação, essa armadilha não pode ser transformada em algo permanente. Ela desaparecerá após um número de dias igual à pontuação de Tormento do demônio."
+            },
+            {
+            "level": 4,
+            "name": "Fechar Caminho",
+            "description": "Esta evocação permite a um Malfeitor selar as duas extremidades de um caminho e impedir que amigos e inimigos o utilizem até ele ser reaberto. Os caminhos fechados desse modo em geral são “trancados” com o uso de palavras especiais que funcionam como chave para permitir o acesso a indivíduos específicos, restringindo a passagem de outros.",
+            "system": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de metros; o esforço pode ter êxito com um teste prolongado durante um certo número de turnos sequenciais. Obtendo sucesso no teste, o caminho é fechado. Se alguém estiver percorrendo o caminho no momento, a pessoa ficará aprisionada em seu interior até o demônio decidir reabri-lo. Você pode usar um ponto temporário de Força de Vontade em nome do personagem para criar uma palavra-chave que outros demônios (e servos) possam utilizar para destrancar o caminho e percorrê-lo. É possível forçar a abertura de caminhos fechados obtendo sucesso num teste de Força de Vontade; a dificuldade é igual à Força de Vontade apresentada pelo Malfeitor quando fechou o caminho, e o teste precisa render um número de sucessos igual à pontuação de Fé que o Malfeitor possuía ao encerrar. Forçar a abertura pode ser feito como uma ação prolongada ao longo de turnos.",
+            "torment": "Os demônios monstruosos não fecham caminhos: eles os destroem. Novamente você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de metros, e seu personagem pode empreender esse esforço como ação prolongada. Obtendo-se sucesso, o caminho desmorona e é destruído. Se alguém estiver percorrendo o caminho no momento, as consequências podem ser terríveis. O Narrador faz um teste de Destreza + Sobrevivência para cada pessoa (dificuldade 8). Se o teste tiver êxito, a vítima deixará o caminho num ponto aleatório ao longo de sua extensão. No caso de falha, ela se perderá entre os reinos físico e espiritual e começará a sufocar (veja regras de afogamento). O Narrador pode continuar a fazer testes em nome da vítima, minuto a minuto, até que escape ou morra. Se o personagem morrer, seu corpo não retornará ao reino físico."
+            },
+            {
+            "level": 5,
+            "name": "Deformar Caminhos",
+            "description": "Esta evocação permite a um Malfeitor distorcer a natureza de um caminho pré-existente, alterando um ou mais de seus parâmetros: o tempo de viagem, o destino, ou fazendo-o fechar sobre si mesmo em um círculo sem fim.",
+            "system": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Se o personagem desejar aumentar ou diminuir o tempo de viagem, este será modificado segundo um fator igual ao número de sucessos obtidos. Se desejar alterar o destino do caminho ou fazer com que este se feche sobre si mesmo, será necessário obter um número de sucessos igual à extensão do caminho em centenas de metros. O efeito dura um número de dias igual à pontuação de Fé do personagem ou pode tornar-se permanente com o investimento de um único ponto de Força de Vontade.",
+            "torment": "Demônios monstruosos criam caminhos distorcidos que também afligem as mentes dos viajantes. Além das alterações provocadas no próprio caminho, os viajantes que o percorrem precisarão fazer um teste de Força de Vontade ao chegar ao destino: falha = perturbação temporária; falha crítica = perturbação permanente."
+            }
+        ],
+        "apName": "Antu, o Semblante dos Caminhos",
+        "apWithouTorment": "Os anjos dos caminhos lembram muito os mortais à primeira vista. Sua pele é bronzeada, como se tivessem passado a vida toda ao sol, e em volta dos olhos escuros encontram-se rugas profundas que envolvem suas órbitas em sombras permanentes. Só com exame mais atento é que as linhas de expressão se revelam como padrões intrincados que irradiam dos olhos do anjo e continuam a percorrer os planos de sua face, desaparecendo no escalpo e circulando-lhe a garganta em tatuagens complexas. À noite, essas linhas refletem o luar na forma de arabescos espectrais que parecem se mover e realinhar quando o anjo fala.",
+        "apWithTorment": "Os Antu monstruosos não conseguem ocultar as trilhas que ziguezagueiam por suas faces — elas sobressaem como cortes inflamados, negros e rubros contra a pele bronzeada. O ar se move e estremece ao redor deles, e esse efeito aumenta e diminui dependendo da intensidade de suas emoções.",
+        "apocalypticForm": [
+            {
+                "name": "Cálculo de Posição",
+                "torment": false,
+                "description": "O personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importando a que distância esses pontos possam estar. À menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção."
+            },
+            {
+                "name": "Percepção Acentuada",
+                "torment": false,
+                "description": "As dificuldades de todos os testes de Percepção são reduzidas em dois pontos."
+            },
+            {
+                "name": "Iniciativa Aprimorada",
+                "torment": false,
+                "description": "Acrescenta dois pontos ao resultado de iniciativa."
+            },
+            {
+                "name": "Dedos Ligeiros",
+                "torment": false,
+                "description": "O personagem é capaz de proezas sobrenaturais de prestidigitação; consegue retirar um objeto de um bolso ou escondê-lo sem ser detectado com um teste bem-sucedido de Destreza + Esportes."
+            },
+            {
+                "name": "Sem Deixar Rastro",
+                "torment": true,
+                "description": "A dificuldade dos testes de Furtividade é reduzida em dois pontos, e sua passagem não perturba o ambiente circundante — não deixa pegadas nem perturba a folhagem."
+            },
+            {
+                "name": "Alterar o Tamanho",
+                "torment": true,
+                "description": "O demônio é capaz de alterar seu tamanho físico para passar por fendas apertadas ou se esgueirar em espaços muito pequenos; pode reduzir seu tamanho até um terço do volume original. A dificuldade dos ataques direcionados contra a forma reduzida aumenta em dois pontos."
+            },
+            {
+                "name": "Miragem",
+                "torment": true,
+                "description": "O ar se deforma em volta do demônio, criando uma ilusão óptica que engana o oponente quanto à distância real. As dificuldades de todos os ataques à distância contra o demônio são aumentadas em um ponto."
+            },
+            {
+                "name": "Inexorável",
+                "torment": true,
+                "description": "O demônio é capaz de caminhar ou correr sem descanso, percorrendo distâncias sobre-humanas sem sofrer cansaço ou fome enquanto continuar em movimento."
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Doutrina da Forja",
+        "belonging": "annunaki",
+        "doctrines": [
+            {
+            "level": 1,
+            "name": "Aprimorar Objetos",
+            "description": "Esta evocação permite a um Malfeitor compreender de maneira instintiva um objeto e a função para a qual este foi projetado simplesmente passando as mãos pelo artefato ou acionando suas partes móveis. Além disso, ele é capaz de consertar objetos danificados ou fazer ajustes que aprimoram o funcionamento dos mesmos.",
+            "system": "Faça um teste de Percepção + Ofícios. A dificuldade é determinada pela complexidade relativa do objeto: dificuldade 5 no caso de um martelo; 8 para um carro; 10 para objetos de alta tecnologia (computadores). Um único sucesso concede ao demônio compreensão instintiva da construção e funcionamento; permite operar o objeto. Se o objeto estiver danificado, o demônio será capaz de consertá-lo com um único sucesso. Se desejar melhorar o funcionamento, cada sucesso reduzirá a dificuldade requerida para uso do dispositivo. Esse método de refinamento pode ser utilizado apenas uma vez num artefato e dura normalmente uma cena. O demônio pode tornar os efeitos permanentes com investimento de 1 ponto temporário de Força de Vontade.",
+            "torment": "Os objetos consertados ou melhorados por um demônio monstruoso são contaminados pelo ódio da criatura, impregnando-os com tendência a provocar infortúnios e morte. Obtendo-se 1 ou 2 nos dados, esses objetos amaldiçoados provocam uma falha crítica quando empregados. As armas afetadas por esta evocação podem atingir o usuário ou quem estiver perto dele quando da ocorrência da falha crítica, a critério do Narrador."
+            },
+            {
+            "level": 2,
+            "name": "Ativar Objetos",
+            "description": "Com esta evocação, o demônio é capaz de operar objetos mecânicos por meio de simples força de vontade.",
+            "system": "Faça um teste de Inteligência + Ofícios. A dificuldade é determinada pela complexidade do objeto: abrir uma porta exige dificuldade 5; fazer o tambor de um revólver girar e disparar exige dificuldade 8. Esta evocação funciona apenas com objetos que operam por meios simples e mecânicos: dobradiças e alavancas se movem, martelos não se erguem sozinhos nem começam a bater pregos. É possível apertar um botão de elevador ou ligar/desligar um computador, mas o funcionamento interno da máquina não é afetado. O personagem consegue afetar um único objeto num raio em metros igual à sua pontuação de Fé.",
+            "torment": "Uma máquina ativada pela vontade de um demônio monstruoso geralmente se quebra ou fica descontrolada e acaba danificada ou destruída. Ao fazer o teste de Vigor + Ofícios para ativar o objeto, aplique também o número de sucessos obtidos como níveis de dano ao objeto."
+            },
+            {
+            "level": 3,
+            "name": "Criar Objetos",
+            "description": "Esta evocação permite a um Malfeitor trabalhar com facilidade a matéria: uma tábua pode tornar-se um navio em miniatura, uma janela de vidro pode virar uma coroa, um cano de aço pode ser modelado em uma espada afiada.",
+            "system": "Faça um teste de Destreza + Ofícios. O número de sucessos depende da complexidade: um martelo exige 1 sucesso; um relógio, 5 ou mais. É possível obter sucessos por ação prolongada, trabalhando no artefato e voltando depois. Criar máquinas sofisticadas (motores de combustão, geradores) tem dificuldade 9 e pode exigir 10+ sucessos. Artefatos de alta tecnologia (computadores) têm dificuldade 10 e podem exigir 15+ sucessos. Os objetos criados são permanentes, salvo destruição.",
+            "torment": "Os objetos criados por demônios monstruosos são perigosos e imprevisíveis; quando utilizados causam falhas críticas com a obtenção de 1s e 2s nos dados, e o usuário ou quem estiver perto sofrerá as consequências."
+            },
+            {
+            "level": 4,
+            "name": "Encantar Objetos",
+            "description": "Evocação que impregna objetos com qualidades sobrenaturais capazes de transformar mortais em heróis ou monstros; pode trabalhar com objetos criados para esse fim ou impregnar itens pré-existentes.",
+            "system": "Criar um objeto encantado exige tempo e energia. Se o Malfeitor criar o objeto com intenção de encantá-lo, a dificuldade é 6; se trabalhar com objeto pré-existente, a dificuldade é 8. Para encantar, o demônio precisa possuir a linha doutrinária adequada ao efeito (o Narrador decide quais doutrinas e níveis são necessários). Objetos encantados recorrem à convicção do usuário: mortais (incl. servos) precisam passar em teste de Força de Vontade (dif. 8) para usar; demônios precisam passar em teste de Fé (dif. 6). Falha crítica = perder 1 ponto na característica em questão. É possível harmonizar o objeto (mortais/servos gastam 1 ponto de Força de Vontade permanente; demônios, 1 ponto de Fé permanente) para uso sem testes. Se o demônio tiver o conhecimento, faça um teste prolongado de Destreza + Ofícios e use 1 ponto de Fé; o número de sucessos depende do poder do encantamento: 1 (faca que nunca perde o fio), 5 (chave que abre qualquer fechadura), 10 (espelho mágico que mostra o desejo mais recôndito). Falha crítica na criação destrói o objeto. Esta evocação não pode ser empregada em artefatos de alta tecnologia.",
+            "torment": "Demônios monstruosos criam objetos amaldiçoados que consomem as almas de seus proprietários e causam aflição aos que estiverem por perto. Objetos amaldiçoados provocam falha crítica com 1s ou 2s nos dados; as consequências atingem sempre o usuário ou seus entes queridos. Além disso, ao invés de apenas lançar dados para ativar o objeto, os mortais (incl. servos) perderão 1 ponto de Força de Vontade toda vez que o empregarem, enquanto os demônios ganharão 1 ponto de Tormento temporário."
+            },
+            {
+            "level": 5,
+            "name": "Impregnar Objetos",
+            "description": "Permite a um Malfeitor aprisionar uma alma — mortal ou demoníaca — num relicário ou outro objeto especialmente preparado.",
+            "system": "É necessário preparar um recipiente adequado, feito de materiais naturais e trabalhado artesanalmente. Se o próprio Malfeitor preparou o recipiente, a dificuldade é 6; caso contrário, 8. Use 1 ponto de Fé e faça um teste resistido de Vigor + Ofícios contra a Força de Vontade do alvo, a uma distância em metros igual à sua pontuação de Fé. Se bem-sucedido, o espírito é aprisionado no recipiente. Almas mortais aprisionadas não conseguem interagir com o mundo físico; demônios aprisionados permanecem capazes de empregar certas linhas doutrinárias, desde que tenham Fé disponível (pactos com servos continuam ativos). A única maneira de libertar a alma é destruir o recipiente que a contém.",
+            "torment": "Demônios monstruosos que aprisionam almas maculam-nas: as almas mortais aprisionadas recebem uma perturbação permanente determinada pelo Narrador. Anjos caídos aprisionados têm seu Tormento permanente aumentado em função dos sucessos obtidos no teste de Vigor + Ofícios usado para ancorá-los."
+            }
+        ],
+        "apName": "Mummu, o Semblante da Forja",
+        "apWithouTorment": "Os anjos da forja aparecem como gigantes feitos do ferro negro da terra, com formas musculosas iluminadas por veios de magma e olhos como discos de bronze polido. Suas vozes são graves e retumbantes; em forma apocalíptica são imunes a extremos de temperatura e pressão e capazes de manipular brasas quentes como se fossem cubos de gelo.",
+        "apWithTorment": "Mummu de alto Tormento tornam-se pesadelos: pele de ferro com lâminas serrilhadas, rodeados por nuvens de enxofre, olhos como globos de chamas; onde passam, dispositivos elétricos enlouquecem.",
+        "apocalypticForm": [
+            {
+            "name": "Mestre Artesão",
+            "torment": false,
+            "description": "As dificuldades de todos os testes de Ofícios são reduzidas em dois pontos."
+            },
+            {
+            "name": "Aumento de Tamanho",
+            "torment": false,
+            "description": "O corpo do personagem cresce em uma vez e um terço da própria altura. Bônus: Força +2, Destreza +1, Vigor +1."
+            },
+            {
+            "name": "Voz Retumbante",
+            "torment": false,
+            "description": "O grito do personagem estilhaça o vidro e faz a rocha tremer; indivíduos num raio em metros igual à Fé recebem quatro dados de dano por contusão. Usável uma vez por cena e exige uma ação."
+            },
+            {
+            "name": "Imune ao Fogo",
+            "torment": false,
+            "description": "O personagem é imune ao dano provocado pelo fogo."
+            },
+            {
+            "name": "Lâminas",
+            "torment": true,
+            "description": "Os dedos terminam em lâminas recurvas de ferro que provocam Força +2 de dano agravado."
+            },
+            {
+            "name": "Apêndices Adicionais",
+            "torment": true,
+            "description": "O demônio desenvolve um segundo par de braços, permitindo aparar/bloquear sem sacrificar ataque ou realizar até dois ataques adicionais por turno."
+            },
+            {
+            "name": "Campo Magnético",
+            "torment": true,
+            "description": "O demônio é cercado por um campo magnético intenso o bastante para atrapalhar aparelhos eletrônicos num raio em metros igual à Fé."
+            },
+            {
+            "name": "Pele de Ferro",
+            "torment": true,
+            "description": "A pele semelhante ao ferro funciona como couraça, proporcionando quatro dados adicionais para absorver dano por contusão, letal e agravado."
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Doutrina dos Padrões",
+        "belonging": "neberu",
+        "doctrines": [
+            {
+            "level": 1,
+            "name": "Detectar Congruências",
+            "description": "Esta evocação permite a um Infesto detectar localidades ou pessoas que estejam no centro de uma convergência de forças resultantes. Interpretando as forças em ação no grande plano, o Infesto consegue empregar este poder para estar sempre no local certo no momento certo.",
+            "system": "O personagem precisa especificar que tipo de acontecimento ele está tentando detectar (por exemplo, a realização de um ritual de invocação, um acidente automobilístico etc.), e você faz um teste de Percepção + Intuição. O personagem perceberá o padrão com uma antecedência em dias igual a sua pontuação de Fé. O número de sucessos determina a quantidade de informações recebidas pelo Infesto. Um sucesso revela o local onde o acontecimento se dará, mas não quando. Dois sucessos mostram o local e dão uma ideia de quando a coisa acontecerá. Três sucessos mostram onde e quando se dará o acontecimento, bem como imagens das pessoas envolvidas.",
+            "torment": "Os demônios monstruosos são capazes de empregar esta evocação somente no caso da iminência de acontecimentos violentos e destrutivos."
+            },
+            {
+            "level": 2,
+            "name": "Rastrear Padrões",
+            "description": "Esta evocação permite ao Infesto visualizar um determinado acontecimento e analisar as diversas forças que o causaram. Esse discernimento surge na forma de impressões vagas que se tornam imagens minuciosas conforme o demônio dedica toda sua atenção a elas.",
+            "system": "O personagem precisa estar no local onde se deu o acontecimento em questão para utilizar esta evocação. Faça um teste de Percepção + Intuição. O número de sucessos obtidos estabelece o grau de detalhamento da imagem de um determinado acontecimento. Um sucesso leva à descrição das circunstâncias imediatas do ocorrido. Dois sucessos revelam os primeiros minutos que antecederam o acontecimento. Três sucessos podem fazer o demônio retroceder quinze minutos para dar uma ideia mais ampla das forças que levaram ao ocorrido.",
+            "torment": "Os Infestos monstruosos podem tentar rastrear qualquer padrão que desejarem, mas eles só conseguem se concentrar em fontes de violência ou mal que digam respeito ao acontecimento."
+            },
+            {
+            "level": 3,
+            "name": "Antever",
+            "description": "Esta poderosa evocação permite a um Infesto interpretar tendências do destino na área adjacente e predizer acontecimentos e ações que estejam prestes a ocorrer.",
+            "system": "Faça um teste de Raciocínio + Intuição. A evocação dura um número de turnos igual ao de sucessos obtidos. Esta evocação impede que o Infesto seja surpreendido e retira o personagem do sistema normal de iniciativa. À medida que os outros jogadores e o Narrador anunciam suas ações segundo a ordem de Iniciativa, você pode interpor a ação de seu personagem a qualquer momento durante o turno.",
+            "torment": "Os demônios monstruosos estão mais interessados em afligir suas vítimas do que em visualizar as alterações sutis nos padrões. A duração da versão de alto Tormento desta evocação é de um único turno, mas cada sucesso dá ao demônio uma ação de esquiva livre que pode ser utilizada contra quaisquer ataques dirigidos ao Infesto, não importa seu resultado de iniciativa."
+            },
+            {
+            "level": 4,
+            "name": "Influência Causal",
+            "description": "Um Infesto pode usar esta poderosa evocação para obter informações sobre acontecimentos com antecedência de vários dias, e, dependendo de suas intenções, ele pode localizar as linhas causais que precisará afetar para obter o resultado desejado.",
+            "system": "Esta evocação pode se concentrar especificamente numa pessoa (dificuldade 6), local (dificuldade 7) ou acontecimento futuro (dificuldade 9). Use um ponto de Fé e faça um teste de Percepção + Intuição. O número de sucessos obtidos determina com quantos dias de antecedência o Infesto visualizará o tema. Também determina quantas perguntas o jogador poderá fazer ao Narrador sobre aquilo que o personagem vê. A evocação preenche a mente do Infesto com uma torrente de imagens, que mostram o destino mais provável de uma pessoa, um local ou acontecimento específicos, salvo qualquer interferência externa. O Narrador descreve o curso dos acontecimentos como se o demônio fosse um observador externo. Ele desconhece os pensamentos dos indivíduos envolvidos e é obrigado a determinar sozinho o contexto e o significado das relações e ações. No entanto, enquanto ouve a descrição do Narrador, o jogador pode fazer perguntas específicas quanto às causas de uma determinada ação e ao modo como esta se apresenta. Isso pode fornecer ao demônio algumas pistas que ele poderá usar mais tarde para influenciar a situação.",
+            "torment": "Os demônios monstruosos empregam esta evocação para obter informações sobre os perigos que cercam um indivíduo e a maneira de manipular esses riscos para provocar ferimentos ou infortúnios. A versão de alto Tormento desta evocação mostra ao Infesto onde o tema corre o risco de sofrer um acidente ou outro infortúnio, e mostra a melhor maneira de provocar a ocorrência de circunstâncias trágicas."
+            },
+            {
+            "level": 5,
+            "name": "Distorcer o Tempo",
+            "description": "Esta poderosa evocação permite ao Infesto alterar o fluxo do tempo numa pequena área e colocá-la fora de fase em relação ao resto do cosmo. O Infesto e qualquer outra pessoa dentro dessa bolha de tempo distorcido podem agir mais rápido ou mais devagar que o fluxo normal do universo.",
+            "system": "Use um ponto de Fé e faça um teste de Vigor + Intuição. A dificuldade é determinada pelo efeito que o Infesto deseja obter: acelerar o tempo (dif. 7), retardar o tempo (dif. 8) ou parar o tempo (dif. 9). O número de sucessos determina quantos turnos a evocação vai durar. Quando a evocação estiver em efeito, nada nem ninguém dentro da bolha conseguirá interagir com o mundo exterior, e vice-versa. A bolha tem como centro o Infesto e apresenta um diâmetro em metros igual à sua pontuação de Fé. A distorção máxima do tempo é determinada por um múltiplo ou fator da Fé do personagem.",
+            "torment": "Os demônios monstruosos usam esta evocação para colocar as vítimas desavisadas fora de fase em relação ao fluxo do tempo. Para a vítima, a experiência é instantânea e aterrorizante, uma passagem momentânea pelo vácuo entre os reinos que deixa terríveis sequelas na sanidade. As vítimas fora de fase desaparecem durante um certo número de turnos de acordo com a velocidade do tempo dentro da bolha em relação ao mundo exterior e perdem um ponto temporário de Força de Vontade para cada turno passado fora de fase."
+            }
+        ],
+        "apName": "Ninsun, o Semblante dos Padrões",
+        "apWithouTorment": "Os anjos do grande padrão têm peles azuis. Seus corpos glabros são cobertos por linhas e padrões intrincados delineados em luz azul-metálica que se movem e realinham dependendo do ângulo da luz e da intensidade do estado de ânimo do anjo. Seus olhos são como safiras brilhantes que emitem a luz fria das estrelas.",
+        "apWithTorment": "Ninsun de alto Tormento perdem sua coloração azulada e tornam-se negros como o vácuo. Os padrões que recobrem seus corpos assumem a cor do mercúrio, e seus olhos não passam de globos vazios de escuridão. Um par adicional de braços esguios dá a esses demônios uma aparência distintamente aracnídea.",
+        "apocalypticForm": [
+            {
+            "name": "Asas",
+            "torment": false,
+            "description": "Um par de asas de cisne se estende a partir dos ombros do personagem. Quando totalmente estendidas, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno."
+            },
+            {
+            "name": "Iniciativa Aprimorada",
+            "torment": false,
+            "description": "O personagem acrescenta dois pontos à sua iniciativa."
+            },
+            {
+            "name": "Intuição Acentuada",
+            "torment": false,
+            "description": "O discernimento extraordinário do personagem reduz em dois pontos as dificuldades de todos os testes de Intuição."
+            },
+            {
+            "name": "Acuidade Mental Acentuada",
+            "torment": false,
+            "description": "O personagem recebe os seguintes bônus: Inteligência +1, Raciocínio +1 e Percepção +2."
+            },
+            {
+            "name": "Aura de Infortúnio",
+            "torment": true,
+            "description": "Todos os indivíduos que se encontram a uma distância em metros do demônio menor ou igual à sua pontuação de Tormento estão sujeitos a falhas críticas ao obter 1 ou 2 nos dados."
+            },
+            {
+            "name": "Ações Adicionais",
+            "torment": true,
+            "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação. Essas ações ocorrem segundo a ordem decrescente de iniciativa."
+            },
+            {
+            "name": "Apêndices Adicionais",
+            "torment": true,
+            "description": "O demônio desenvolve um segundo par de braços. Os braços adicionais permitem aparar ou bloquear ataques em combate próximo sem sacrificar o próprio ataque, ou realizar até dois ataques adicionais por turno."
+            },
+            {
+            "name": "Sussurros Sibilinos",
+            "torment": true,
+            "description": "As dificuldades de todos os testes de Lábia são reduzidas em dois pontos."
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Doutrina dos Portais",
+        "belonging": "neberu",
+        "doctrines": [
+            {
+            "level": 1,
+            "name": "Abrir/Fechar Portais",
+            "description": "O Infesto adquire controle total sobre portais que encontra, como portas e janelas, podendo destrancá-los, abri-los ou fechá-los ao seu comando.",
+            "system": "Faça um teste de Manipulação + Intuição. O número de sucessos necessários depende da complexidade do portal e de seus mecanismos: uma porta de casa exige 1 sucesso; uma cela, 3 sucessos. Obtendo êxito, o portal abre, fecha, tranca ou destranca ao toque do personagem.",
+            "torment": "Em alto Tormento, o demônio não apenas abre ou fecha, mas arromba ou emperra os portais. O número de sucessos obtidos também é aplicado como pontos de Força contra o portal, causando dano como se fosse uma demonstração de Força."
+            },
+            {
+            "level": 2,
+            "name": "Criar Proteção Mágica",
+            "description": "Permite ao Infesto lacrar todos os portais de uma área, tornando-os invioláveis a forças externas.",
+            "system": "O personagem deve estar dentro da área a selar. Faça um teste de Carisma + Intuição. Obtendo êxito, todas as entradas da área tornam-se intransponíveis, até mesmo contra outras doutrinas (como Caminhos ou Reinos). Para atravessar a proteção, o intruso deve superar os sucessos obtidos e realizar o teste com dificuldade igual à Força de Vontade do Infesto. A área permanece selada até o fim da cena.",
+            "torment": "A proteção criada pelo demônio monstruoso inflige dor aos que tentam cruzá-la. Intrusos sofrem níveis de dano por contusão igual ao número de sucessos do teste. Esse dano pode ser absorvido, mas a dificuldade é igual ao Tormento do Infesto."
+            },
+            {
+            "level": 3,
+            "name": "Teletransporte",
+            "description": "Permite ao Infesto usar um portal pré-existente para viajar instantaneamente até outro portal semelhante, a grandes distâncias.",
+            "system": "Faça um teste de Inteligência + Intuição. O número de sucessos depende da familiaridade com o destino: 1 (porta de sua própria casa), 2 (lugar visitado com frequência), 3 (lugar visitado apenas uma vez). O destino deve ter um portal idêntico ao usado na partida. O Infesto percorre até 150 km por ponto de Fé.",
+            "torment": "Em alto Tormento, o demônio corre risco de perder o foco. Após um sucesso, deve passar em um teste de Força de Vontade (dificuldade igual ao Tormento). Se falhar, é transportado para outro local aleatório (mas conhecido), definido pelo Narrador."
+            },
+            {
+            "level": 4,
+            "name": "Unir Localidades",
+            "description": "Permite ao Infesto criar um vínculo temporário entre dois portais, possibilitando a travessia de várias pessoas.",
+            "system": "Gaste 1 ponto de Fé e faça um teste de Vigor + Intuição. A dificuldade depende da familiaridade: 6 (bem conhecido), 7 (várias visitas), 8 (uma única visita), 9 (guiado por outra pessoa). Cada sucesso mantém o portal aberto por 1 turno. O Infesto pode percorrer até 150 km por ponto de Fé. Podem atravessar quantas pessoas o portal comportar enquanto ativo.",
+            "torment": "O vínculo criado pelo demônio monstruoso expõe os viajantes ao seu Tormento. Cada indivíduo deve passar em teste de Força de Vontade (dificuldade igual ao Tormento). Falha gera perturbação temporária; falha crítica pode levar à loucura."
+            },
+            {
+            "level": 5,
+            "name": "Passagem para as Trevas",
+            "description": "Permite criar uma abertura para o espaço irreal entre os reinos físico e espiritual: um reflexo sombrio e desolado do mundo.",
+            "system": "Gaste 1 ponto de Fé e faça um teste de Vigor + Presciência. A evocação exige um portal físico (porta, janela). A abertura dura 1 turno. Mortais perdem 1 ponto de Força de Vontade por turno; quando esgotada, sofrem perturbação temporária e 1 nível de dano por contusão por turno (não absorvível). Demônios podem permanecer por turnos iguais à sua Fé; após isso sofrem dano por contusão. É necessário repetir a evocação para criar uma saída de volta.",
+            "torment": "Se o demônio monstruoso falhar em manter o foco, energias escapam para o mundo físico. Faça um teste de Força de Vontade (dificuldade igual ao Tormento). Em caso de falha, todos os mortais próximos devem passar em teste de Força de Vontade (dif. 8) ou fugirão aterrorizados; falha crítica gera perturbação temporária."
+            }
+        ],
+        "apName": "Nedu, o Semblante dos Portais",
+        "apWithouTorment": "Os anjos do limiar são figuras etéreas e altas, e seus membros longilíneos e corpos esbeltos são cingidos por um véu de sombras em movimento. Seus gestos são fluídos e silenciosos, e seus pés não deixam marcas de sua passagem. Quando eles se escondem nas sombras, seus olhos brilham com uma luz fria e azul.",
+        "apWithTorment": "Os Nedu monstruosos são como sombras vivas, efêmeras e da cor do ébano. Suas vozes são como o lamento do vento que passa por rochas pontiagudas, e seu toque é mais frio que o do gelo.",
+        "apocalypticForm": [
+            {
+            "name": "Sem Deixar Rastro",
+            "torment": false,
+            "description": "A dificuldade dos testes de Furtividade do personagem é reduzida em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
+            },
+            {
+            "name": "Percepção Acentuada",
+            "torment": false,
+            "description": "As dificuldades de todos os testes de Percepção são reduzidas em dois pontos."
+            },
+            {
+            "name": "Presciência Aumentada",
+            "torment": false,
+            "description": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Presciência."
+            },
+            {
+            "name": "Asas",
+            "torment": false,
+            "description": "Um par de asas de cisne se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço da altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno."
+            },
+            {
+            "name": "Manto de Sombras",
+            "torment": true,
+            "description": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio se encontrar nas sombras ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor."
+            },
+            {
+            "name": "Iniciativa Aprimorada",
+            "torment": true,
+            "description": "Acrescente dois pontos ao resultado de iniciativa do personagem."
+            },
+            {
+            "name": "Esquiva Acentuada",
+            "torment": true,
+            "description": "As dificuldades de todos os testes de Esquiva são reduzidas em dois pontos."
+            },
+            {
+            "name": "Sem Reflexo",
+            "torment": true,
+            "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada por uma câmera fotográfica ou de vídeo."
+            }
+        ]
     }
+
+
+
 ]
