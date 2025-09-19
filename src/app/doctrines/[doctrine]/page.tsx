@@ -91,14 +91,21 @@ export default function Doctrine() {
                     </div>
                   </div>
                 </div>
-                : <div
-                    className="border-2 border-white p-4 mt-2 w-full flex items-center justify-between cursor-pointer"
-                    onClick={ () => setShowDetails(!showDetails) }
-                  >
-                    <div className="font-bold text-xl">
-                      { doctrines.apName }
-                    </div>
-                    <IoIosArrowDown />
+                : 
+                  <div>
+                    {
+                      doctrines.apName ?
+                      <div
+                        className="border-2 border-white p-4 mt-2 w-full flex items-center justify-between cursor-pointer"
+                        onClick={ () => setShowDetails(!showDetails) }
+                      >
+                        <div className="font-bold text-xl">
+                          { doctrines.apName }
+                        </div>
+                        <IoIosArrowDown />
+                      </div>
+                      : <div />
+                    }
                   </div>
               }
             </div>
