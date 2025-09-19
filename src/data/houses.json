@@ -1,85 +1,272 @@
 [
-    {
-        "number": 1,
-        "name": "namaru",
-        "namePtBr": "Diabos",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 4,
-        "doctrines": ["Doutrina dos Celestiais", "Doutrina da Chama", "Doutrina do Esplendor"],
-        "fraquezas": []
-    },
-    {
-        "number": 2,
-        "name": "asharu",
-        "namePtBr": "Flagelos",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 3,
-        "doctrines": ["Doutrina dos Ventos", "Doutrina do Despertar", "Doutrina do Firmamento"],
-        "fraquezas": []
-    },
-    {
-        "number": 3,
-        "name": "annunaki",
-        "namePtBr": "Malfeitores",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 3,
-        "doctrines": ["Doutrina da Terra", "Doutrina da Forja", "Doutrina dos Caminhos"],
-        "fraquezas": []
-    },
-    {
-        "number": 4,
-        "name": "neberu",
-        "namePtBr": "Infestos",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 3,
-        "doctrines": ["Doutrina da Luz", "Doutrina dos Padrões", "Doutrina dos Portais"],
-        "fraquezas": []
-    },
-    {
-        "number": 5,
-        "name": "lammasu",
-        "namePtBr": "Profanadores",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 3,
-        "doctrines": ["Doutrina do Desejo", "Doutrina fas Tempestades", "Doutrina da Transfiguração"],
-        "fraquezas": []
-    },
-    {
-        "number": 6,
-        "name": "rabisu",
-        "namePtBr": "Devoradores",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 4,
-        "doctrines": ["Doutrina da Fera", "Doutrina da Carne", "Doutrina da Natureza"],
-        "fraquezas": []
-    },
+  {
+    "number": 1,
+    "name": "namaru",
+    "phrase": "Siga-me, e eu lhe darei o que seu coração desejar. Idolatre-me, e eu farei de você Sua luz para iluminar toda a criação.",
+    "namePtBr": "Diabos",
+    "description": [
+        "As maiores e mais perfeitas criações de Deus, os Arautos portavam o estandarte do Senhor e traziam Sua luz para iluminar toda a criação. Os maiores dentre os anjos eram os líderes e príncipes dos Celestiais, exemplos resplandecentes de tudo o que era glorioso e correto aos olhos de Deus.",
+        "Acima de tudo, o dever da Primeira Casa era transmitir a vontade do Céu às Casas da Hoste e instruí-las quanto a seu papel seqüencial na criação do cosmo. Para os Diabos, arcar com essa imensa responsabilidade era motivo de orgulho, e eles se faziam conhecer entre seus semelhantes só quando absolutamente necessário. Mas a liberdade de alterar o rumo do cosmo de acordo com a própria vontade tornou-se uma fonte de húbris que contribuiu para a Queda.",
+        "Quando o Grande Plano finalmente culminou no nascimento da humanidade, os Celestiais surpreenderam-se com a ordem do Criador para que permanecessem invisíveis e permitissem que a humanidade descobrisse sozinha o próprio potencial. Sua insatisfação encontrou voz no maior dentre seus membros: Lúcifer, a Estrela da Manhã. No fim, quase metade dos Arautos decidiu se aliar à Estrela da Manhã — uma porcentagem maior de desertores do que em qualquer outra Casa Celestial.",
+        "Agora amaldiçoados como os Diabos, esses rebeldes tornaram-se generais, líderes e heróis da rebelião. Munidos de poderes impressionantes de liderança e inspiração, os Diabos tinham a intenção de levar a humanidade a uma nova era e encorajar os mortais a renunciar ao Criador. Mas, com o arrastar da guerra, os Diabos foram se distanciando dos seres humanos que outrora amaram. De heróis e protetores, os Diabos passaram a demagogos e ditadores que manipulavam títeres humanos com palavras doces e mentiras envenenadas.",
+        "Cheios de orgulho e rebeldia, os Diabos recusaram-se a acreditar na possibilidade de fracasso até que o céu triunfou e os demônios foram encarcerados nas trevas do Abismo. Com o desaparecimento de Lúcifer, os outros demônios viraram-se furiosos contra seus antigos líderes. Para se defender — e disfarçar a própria dúvida —, os Diabos usaram os poderes do carisma e da ilusão para virar os outros demônios uns contra os outros.",
+        "Mas agora as barreiras ao redor do Inferno foram rompidas, e muitos Diabos rastejaram de volta ao mundo dos mortais. Para os Diabos ainda dedicados ao Inferno, agora é o momento de fazer a humanidade recordar as glórias passadas e curvar-se a serviço da raça dos demônios. Os Diabos decaídos que buscam a redenção têm uma nova oportunidade: salvar a humanidade dos males que ameaçam destruí-la, criar uma nova Utopia para os mortais e os celestiais, e talvez provar que a cruzada de Lúcifer em sua essência era justa."
+    ],
+    "factions": [
+        "Os Diabos são criaturas intensamente políticas — manipuladores que vivem para controlar e influenciar os outros. Formam os escalões superiores de várias das principais facções, liderando outros demônios assim como antes haviam feito no Céu.",
+        "Não é surpresa que muitos Diabos sejam Luciferanos, ainda leais à visão do primeiro e maior dos rebeldes. Eles ainda se dedicam ao sonho de destronar o Criador e conduzir os seres humanos a um futuro glorioso.",
+        "Depois dos Luciferanos, muitos Diabos acham-se atraídos pelos Faustianos. Apesar de outrora os Arautos anelarem o amor e o respeito da humanidade, esses Diabos decidiram que a adoração e a fé dos mortais constituem uma recompensa igualmente doce. Com o poder da humanidade por trás deles, os Faustianos se esforçam para erigir um império na Terra, sendo os Diabos os primeiros entre iguais.",
+        "O mistério do desaparecimento de Lúcifer pesa sobre os Diabos mais do que sobre os outros demônios. Por esta razão, muitos Diabos tornam-se Ocultos, desesperados para descobrir a verdade quanto à Queda, seu mentor e a verdadeira causa de sua danação.",
+        "Os Arautos realmente amavam a humanidade, e alguns Diabos ainda sentem um vestígio daquele amor. Esses Diabos são minoria em sua Casa e deixam-se atrair pela facção dos Reconciliadores.",
+        "Poucos Diabos pertencem à facção dos Rapinantes. Aceitar o fracasso da guerra e acolher a destruição seria admitir que a rebelião de Lúcifer foi um erro, e a maioria dos Diabos é orgulhosa e arrogante demais para aceitar uma coisa dessas. Mas alguns Diabos sucumbiram à dúvida e ao arrependimento, e eles nada mais desejam além de destruir o mundo, um lembrete de sua insensatez e de seu fracasso."
+    ],
+    "preludio": [
+        "Os Diabos são criaturas sociais; são sedutores e impostores. Tão logo chegam à Terra, são atraídos por mortais que também apresentam essa aptidão e perderam suas almas em busca de poder e influência.",
+        "Uma certa tendência para usar outras pessoas, controlar aqueles que o cercam e cultivar seguidores e sequazes também chamará a atenção de um Diabo. Como bons exemplos desse tipo de gente temos os políticos, os executivos, os músicos, os atores e os pregadores carismáticos.",
+        "Quer tenham sido os cavaleiros resplandecentes do Céu ou os paladinos negros do Inferno, os Diabos sempre foram heróis: exemplos de coragem em luta contra dificuldades esmagadoras.",
+        "Na alma maculada de um Diabo, não importa quão deturpada esta seja, resta um núcleo de heroísmo e nobreza, e eles respondem aos mortais que possuem essas qualidades. Um Diabo poderia possuir um policial condecorado que perdeu sua alma em virtude da corrupção ou da violência desumana; a mãe que protege os filhos do marido agressivo com o corpo e a alma; ou um político antes idealista esmagado pelo peso do escândalo e da falsidade."
+    ],
+    "faith": [
+        "Os Diabos são os mestres da manipulação, capazes de avaliar os desejos e as fraquezas de um mortal com um único olhar, ou dirigir uma multidão de seguidores com um simples movimento do dedo.",
+        "Pode-se pensar que os Diabos achariam fácil coletar a fé dos mortais — e é verdade que os Diabos geralmente têm mais sucesso ao adquirir fé do que outros demônios. O processo de aquisição da fé humana nunca é fácil, e mesmo os grandes impostores do Inferno precisam lutar por sua preciosa energia espiritual.",
+        "O termo 'culto de personalidade' descreve perfeitamente o séquito de servos de um Diabo. A formação de uma seita de adoradores normalmente é uma das grandes prioridades dos Diabos, e eles fazem uso de seu recurso mais abundante: seguidores mortais.",
+        "A seita de um Diabo pode lembrar uma corrente de vendas, na qual cada devoto procura e recruta novos membros, alvos fáceis para o carisma do Diabo. Logo o Diabo se verá cercado por fanáticos que o adoram como a um deus: a posição que ele desejava ardentemente desde a Queda."
+    ],
+    "playerCreation": [
+        "Não é surpresa que os Diabos apresentem uma certa tendência a salientar seus Atributos Sociais, principalmente Manipulação e Carisma, devido a sua posição de líderes guerreiros e paladinos.",
+        "Os Atributos Mentais não são tão importantes para os Diabos, embora muitos possuam níveis elevados de Raciocínio, pois mentir com eficiência exige o talento de pensar rápido.",
+        "Nenhuma habilidade é tão útil a um Diabo quanto Lábia, e quase todos os membros desta Casa têm níveis elevados nesse Talento.",
+        "Muitos Diabos têm fortes Habilidades físicas e de combate, o que reflete seu papel como comandantes e heróis em tempos idos. Esportes, Briga e Armas Brancas são opções bastante comuns."
+    ],
+    "initialTorment": 4,
+    "doctrines": ["Doutrina dos Celestiais", "Doutrina da Chama", "Doutrina do Esplendor"],
+    "fraquezas": [
+        "A recordação de sua antiga nobreza é algo que todo Diabo luta para esquecer, mas nunca consegue. Os Diabos sabem que foram um dia os príncipes perfeitos do Céu, mas, não importa o quanto tentem fingir o contrário, sua existência atual é um simulacro indigno dessa perfeição.",
+        "O encarceramento infindável no Inferno também encheu muitos Diabos de dúvida, arrependimento e vergonha — emoções que nunca conseguem expressar. Devastados por esses sentimentos, os Diabos são atraídos por atos de bravura insensata e coragem quixotesca."
+    ]
+  },
+  {
+    "number": 2,
+    "name": "asharu",
+    "phrase": "Nada é capaz de proteger você para sempre. Então, não se preocupe com a eternidade. Preocupe-se com o presente.",
+    "namePtBr": "Flagelos",
+    "description": [
+        "Antes da Idade da Ira, os Anjos da Guarda tinham um papel invejável no Paraíso. Incumbidos de transmitir o sagrado Sopro da Vida, seus deveres colocavam-nos em íntimo contato com sua amada humanidade. Melhor ainda, eram encarregados de proteger continuamente cada criatura animada por eles. Enquanto um outro anjo poderia se sentir culpado por chegar tão perto de violar a proibição da interferência, os Anjos do Vento estavam em sua esfera de ação quando respeitosamente observavam os seres humanos. Outros Flagelos continuam a jurar fidelidade a Lúcifer e acreditam que, de algum modo, ele escapou à fúria dos anjos verdugos. Se ele existe, secretamente consideravam-no assim como filhos de Deus.",
+        "Mas, mesmo sentindo intensamente o prazer pela presença da humanidade, eles sentiam com intensidade ainda maior a dor de sua frustração. A proximidade dos seres humanos era tanto um tormento quanto uma alegria, e a tensão entre os dois extremos acabou levando muitos desses anjos às raias da loucura. Quando sobreveio a rebelião, Lúcifer encontrou muitos seguidores entusiasmados no Firmamento. De fato, além da própria Casa da Estrela da Manhã, a Casa do Vento Ascendente gerou os anjos de mais alto escalão a decair.",
+        "Na guerra, os Flagelos foram guerreiros empenhados. A condenação do Céu não lhes sujeitou a vontade: longe disso, o peso do castigo que recaiu sobre a humanidade muito fez para empedernir os Flagelos em sua oposição a Deus e à Divina.",
+        "Visto que, em batalha no mundo, não se comparavam aos Anjos do Fundamento e da Natureza, a velocidade e os poderes de dissimulação dos Flagelos fizeram deles excelentes infiltradores, batedores e espiões.",
+        "Na era da fuga do Abismo, os Flagelos são bastante respeitados. Seus feitos corajosos durante a guerra angariaram-lhes a merecida reputação de soldados leais mesmo in extremis. Todas as facções entre os anjos caídos que escaparam do Inferno desejam defensores leais, principalmente aqueles capazes de curar com a mão direita e ferir com a esquerda."
+    ],
+    "factions": [
+        "Os Flagelos mais esperançosos geralmente procuram o partido dos Reconciliadores. O conceito de um mundo sadio é mais tentador que a ideia de um mundo governado pelos Faustianos ou arruinado pelos Ocultos.",
+        "Os Faustianos têm Flagelos em suas fileiras. A Segunda Casa estava — e, de certo modo, ainda está — essencialmente preocupada com a segurança da humanidade. Eles são capazes de abençoar ou amaldiçoar, mas não é fácil usar as pessoas friamente.",
+        "O pedido de socorro de um de seus filhos ainda chama atenção de um Flagelo. Mas este mundo — os escombros do Paraíso — está cheio de temores reais e imaginários. É possível que um Flagelo seja atraído pelo medo genuíno apenas para descobrir que se tratava de um sentimento egoísta."
+    ],
+    "preludio": [
+        "Almas receosas clamam por defensores e, mesmo em sua condição de decaídos, os antigos Anjos Protetores acham difícil resistir a esse clamor.",
+        "Os Flagelos foram outrora os pais da raça humana — e, na verdade, de toda a vida —, e o pedido de socorro de um de seus filhos ainda chama sua atenção.",
+        "Os Flagelos sem sorte encontram-se aprisionados nos corpos daqueles que temiam as consequências das decisões erradas, ou daqueles que receavam os efeitos dos problemas que nada fizeram para resolver ou evitar."
+    ],
+    "faith": [
+        "Na prática, adquirir a Fé dos mortais é um trabalho fácil para os Flagelos. A saúde é um bem precioso para a humanidade. Alguns pagariam qualquer preço por uma cura fora do alcance da medicina.",
+        "Fundar uma igreja ou uma seita com base nos 'Espíritos da Integridade' não é um desafio para seres realmente capazes de curar a AIDS, reparar uma espinha partida, ou corrigir as deformidades de um recém-nascido com espinha bífida.",
+        "O principal desafio dessas estratégias geralmente é ético, pois esses arranjos prometem, mesmo que implicitamente, que o benfeitor demoníaco é capaz de proteger o fiel para todo o sempre. Por outro lado, os Flagelos que desistiram da raça humana simplesmente agem com honestidade e se apresentam como espíritos da saúde e do mal.",
+        "Os Flagelos cruéis (ou simplesmente despóticos) tendem a ser desumanos com seus servos. A maldição divina da Segunda Casa atingiu duramente seus membros, e a consciência de que todos os seres humanos estão condenados a morrer de qualquer jeito pode levar rapidamente ao desespero e à insensibilidade.",
+        "Os flagelos de baixo Tormento são os que mais provavelmente compreendem a tentação de reassumir um papel protetor. Portanto, é mais provável que tomem como servos aqueles que julgam dignos de sua proteção. É claro que os mortais 'dignos' e dispostos a vender suas almas geralmente são difíceis de encontrar, mas a recompensa está no fato de que suas qualidades morais permitem ao Flagelo resistir mais facilmente à vontade desumana de exauri-los."
+    ],
+    "playerCreation": [
+        "As pessoas que atraem os Flagelos geralmente possuem Atributos Sociais em níveis baixos: uma vida controlada pelo medo normalmente limita as oportunidades de fazer amigos.",
+        "Um hipocondríaco ansioso pode ter características Físicas surpreendentemente altas, particularmente o Vigor, como resultado de uma vida passada na academia de ginástica, onde ele sempre se forçava um pouco além da conta só para tentar afastar o Ceifador Implacável.",
+        "Entre as características Mentais, a Percepção geralmente é alta, exagerada por uma vida inteira de sobressaltos e ansiosa vigilância na escuridão de uma casa vazia. O medo constante também pode se traduzir em níveis acima da média na Habilidade Esquiva.",
+        "Geralmente, os hospedeiros possuem uma Perícia ou um Conhecimento de nível baixo que reflete a natureza de seu bicho-papão particular. Por exemplo, é comum aqueles que se preocupavam constantemente com a saúde apresentarem uma pequena pontuação na Habilidade Medicina, apesar de não terem sido profissionais da área médica.",
+        "Outros temores mais discretos — o medo da inadequação intelectual ou social — poderiam levar à aquisição de Etiqueta ou Instrução. Os Antecedentes variam bastante, mas muitos hospedeiros, vítimas de um medo egoísta, foram em vida avarentos com níveis elevados de Recursos. No caso daqueles cujos medos são mais justificados — por viverem numa área ou situação perigosa —, Contatos ou Aliados são comuns."
+    ],
+    "initialTorment": 3,
+    "doctrines": ["Doutrina dos Ventos", "Doutrina do Despertar", "Doutrina do Firmamento"],
+    "fraquezas": [
+        "Um problema que as outras Casas têm com os Flagelos — e os Flagelos têm com si mesmos — é sua dificuldade de lidar com os mortais. Os Guardiões decaídos tendem a apresentar pontos de vista extremistas sobre os seres humanos, que são vistos como tesouros preciosos que devem ser protegidos e auxiliados o tempo todo, ou então suas vidas breves e essencialmente limítrofes são consideradas sem sentido, sem valor e definitivamente absurdas.",
+        "Os mortais são o fator central da existência de um Flagelo e, de um jeito ou de outro, é difícil equilibrar suas atitudes. Um dos efeitos desse problema é uma certa tendência a julgar as coisas coletivamente. Os Flagelos raramente tomam decisões caso a caso: tentam levar suas vidas segundo princípios absolutos e inflexíveis. Portanto, alguns Flagelos condenam Gandhi e Martin Luther King juntamente com o resto da humanidade, enquanto outros defendem Hitler e Stalin como parte integrante da raça humana."
+    ]
+  },
+  {
+    "number": 3,
+    "name": "annunaki",
+    "phrase": "Eu sei que magoaram você. Tenho algo aqui que pode melhorar sua vida.",
+    "namePtBr": "Malfeitores",
+    "description": [
+        "No terceiro dia, Deus separou os mares da terra, e Ele deu a intendência da terra a um grupo seleto de anjos. Denominados os Artífices, esses Celestiais governavam — e amavam — a terra e tudo o mais contido em seu interior. Foram presenteados com uma afinidade pelo solo, pelas pedras preciosas e pela rocha, pelas chamas que ardem sob a superfície da terra e, principalmente, pelo metal.",
+        "Os Artífices também receberam a responsabilidade de ajudar a raça humana a usar a terra: a lavrar os campos, minerar os metais e fabricar as ferramentas de que precisariam para dar forma ao mundo. Os anjos entregaram-se à tarefa de bom grado, ansiosos por dividir o amor pela terra com seus protegidos. Mas os seres humanos não estavam preparados para lidar com tamanha responsabilidade. Eles tentaram usar as ferramentas miraculosas dos anjos, mas eram incapazes de fazer com que estas funcionassem corretamente — isso quando conseguiam fazê-las funcionar. A humanidade melindrou-se com seus preceptores secretos e passou a temer-lhes a perfeição, enquanto os Artífices se quedavam confusos e perplexos, incapazes de se relacionar com os seres humanos do mesmo modo que se relacionavam com os elementos previsíveis da terra e do fogo.",
+        "Quando a guerra irrompeu entre os anjos rebeldes e as forças do Céu, muitos Artífices penderam para o lado de Lúcifer. Sentiam-se rejeitados pela humanidade que tentaram amar e estavam furiosos com o Criador, que atara suas mãos ao proibir os anjos de ajudar diretamente os seres humanos. Além disso, aliaram-se aos rebeldes porque sentiam que apenas seus semelhantes eram capazes de compreendê-los e amá-los, já que os seres humanos simplesmente se recusavam a fazer o mesmo.",
+        "Quando os rebeldes perderam a guerra e foram encarcerados no Inferno, os Malfeitores acharam difícil tolerá-lo, pois foram separados da terra e do fogo que eram sua razão de ser. Essa solidão terrível tornou muitos Malfeitores frios e distantes, incapazes de interagir muito bem até mesmo com seus companheiros demônios. Eles se tornaram astutos e meditabundos, e preferiam o planejamento meticuloso e a paciência às convulsões emocionais da raiva e do imediatismo.",
+        "Agora, livres do Inferno, os Malfeitores se encontram num mundo transformado. A humanidade finalmente adotou o uso de ferramentas e tornou-se uma raça de construtores, mas, ao fazê-lo, devastou a terra e deixou-a ferida e feia. Os Malfeitores ainda a serviço do Inferno reprimem a dor e procuram novas oportunidades de causar devastação no seio da humanidade. Para os anjos caídos, o mundo é uma ferida aberta e, às vezes, o desejo de simplesmente sucumbir e chorar é irresistível. Mas, se o mundo deve ser curado, então os Malfeitores precisam suportar a dor e entregar-se ao trabalho, assim como o fizeram milénios atrás."
+    ],
+    "factions": [
+        "A maioria dos Malfeitores pertence aos Faustianos, e assim é desde os últimos dias da guerra. Com seu pendor para a manipulação dos seres humanos por meio de dádivas envenenadas e presentes amaldiçoados, e seu desejo de forjar o retorno da humanidade a uma posição servil e respeitosa, essa facção é uma escolha natural para a Casa do Fundamento.",
+        "Os Reconciliadores formam o segundo grande bloco de Malfeitores, principalmente entre os anjos caídos. Apesar de todas as tentativas de deixar de se importar com o mundo, esses demônios jamais conseguem de fato romper seu vínculo com a terra e a natureza. Soltos no mundo, muitos Malfeitores são subjugados por um amor esquecido, deixam de lado as antigas mágoas e tentam se redimir.",
+        "Os Malfeitores entre os Ocultos dirigem sua astúcia e inteligência naturais à revelação dos mistérios da guerra e da Queda. Para muitos Malfeitores, esta facção lhes proporciona o objetivo de que precisam com tanta urgência, além de dificilmente colocá-los em contato com os seres humanos.",
+        "Os Malfeitores entre os Luciferanos não são muito comuns. A Queda machucou muitos deles e deixou tantas sequelas emocionais que esses anjos caídos perderam a fé em seu líder desaparecido. Entretanto, a esperança custa a morrer mesmo nos demônios, e existem alguns Luciferanos nesta Casa. Esses demônios tendem a tratar a causa luciferana como uma vocação sagrada e dedicam-se à mesma com grande paixão.",
+        "Em vista de seu amor pela terra e pelas ferramentas — coisas que, para serem criadas, exigem tempo e grande cuidado —, o desejo de destruição absoluta é algo raramente experimentado por esses demônios. Os poucos que de fato pertencem à facção dos Rapinantes são terríveis, geralmente os mais destrutivos e violentos da facção."
+    ],
+    "preludio": [
+        "Tão logo escapam do Inferno, os Malfeitores geralmente são atraídos por almas tão feridas emocionalmente quanto eles próprios. Os Malfeitores são, em muitos aspectos, criaturas solitárias e inseguras, separadas da terra que outrora mantinham junto ao peito.",
+        "Seus hospedeiros tendem a ser indivíduos semelhantes: pessoas solitárias e carentes que sempre sentiram como se faltasse alguma coisa em suas vidas, alguma coisa que as teria completado. Bons exemplos desses indivíduos são os dependentes químicos, os feios ou desfigurados, pessoas que se apegam a cônjuges violentos, ou adolescentes que tentam modificar seus corpos com tatuagens e piercings.",
+        "Um outro grupo de fortes candidatos é o das pessoas que se afastam de outros seres humanos e se sentem mais à vontade com as máquinas ou a terra: isso combina perfeitamente com a psique dos Malfeitores. É uma categoria ampla que poderia incluir qualquer coisa desde um ciberpirata que só se sente à vontade online a um sociopata que vê outras pessoas meramente como coisas, ou um ambientalista que despreza os seres humanos por espoliarem o planeta."
+    ],
+    "faith": [
+        "Os Malfeitores geralmente acham difícil coletar a Fé dos mortais, devido a dois fatores. Primeiro, obviamente, têm dificuldade para entender os seres humanos e relacionar-se com eles. A humanidade não é tão previsível e confiável quanto a rocha. Como são incapazes de verdadeiramente conhecer os seres humanos, os Malfeitores acham difícil inspirá-los sem esforço.",
+        "Um obstáculo ainda maior é a dependência dos Malfeitores em relação a seus instrumentos e artefatos mágicos. Um mortal sem dúvida ficaria mudo e estupefato diante dos poderes de um espelho mágico, mas isso não significa que irá associar automaticamente o espelho ao demônio que o fez ou presenteou. À menos que o ser humano estabeleça uma forte ligação entre o objeto e o Malfeitor, a Fé simplesmente desaparece na esfera etérea.",
+        "Ao colher a Fé dos mortais, o Malfeitor precisa utilizar um objeto criado por ele. Pode ser um item terreno — como uma faca de prata usada para esfolar a pele de uma vítima —, ou uma criação miraculosa — como um espelho que mostra a beleza interior de um mortal. O demônio pode usar instrumentos diferentes em distintas tentativas de colher Fé; o importante é que o artefato seja algo criado por ele mesmo, e o mortal deve se concentrar no objeto enquanto sua Fé é recolhida.",
+        "Os Malfeitores se aproximam do mesmo tipo de pessoas que os atraiu quando precisaram escolher um hospedeiro: os perdidos, os carentes e os feridos. Particularmente, a tendência dos Malfeitores é visar às pessoas que buscam alguma coisa que possa consertar suas vidas, dar fim a seus problemas — uma solução concreta, não um conceito meramente filosófico."
+    ],
+    "playerCreation": [
+        "Os Malfeitores tendem a ressaltar os Atributos Mentais, particularmente o Raciocínio, que governa a criatividade e a astúcia. Como são mineradores e operários, também tendem a apresentar bons níveis de Vigor e Força.",
+        "Os Atributos Sociais geralmente são baixos, devido à dificuldade dos Malfeitores de se relacionar com os seres humanos — apesar de darem ênfase à Manipulação, pois esses demônios têm um certo talento para usar os seres humanos.",
+        "Para refletir sua condição de inventores demoníacos, quase todos os Malfeitores têm níveis elevados de Ofícios. Muitos também apresentam níveis excelentes de Pesquisa. Lábia é bastante comum. Apesar de os Malfeitores não possuírem a propensão natural dos Diabos para a manipulação, eles se esforçam para superar essa deficiência."
+    ],
+    "initialTorment": 3,
+    "doctrines": ["Doutrina da Terra", "Doutrina da Forja", "Doutrina dos Caminhos"],
+    "fraquezas": [
+        "A principal fraqueza desta Casa é uma certa dificuldade de entender a raça humana. Os seres humanos são criaturas imprevisíveis e confusas, e os demônios acham difícil confrontá-los, mesmo depois de pilhar as lembranças e as personalidades de seus hospedeiros.",
+        "Os demônios chegam a ter um pouco de medo da humanidade. Os Malfeitores ficaram confusos e extremamente magoados com a rejeição da humanidade, e o temor de uma nova rejeição pode inconscientemente subverter e influenciar os planos e as ações de um demônio."
+    ]
+  },
+  {
+    "number": 4,
+    "name": "neberu",
+    "phrase": "Você tem perguntas, meu amigo, mas será que está preparado para as respostas?",
+    "namePtBr": "Infestos",
+    "description": [
+        "No princípio, Deus criou os grandes mecanismos do Céu para regular o cosmo. Todas as órbitas das estrelas e dos planetas estavam confinadas no raio de uma roda dentada, um volante celestial que ligava outras dessas engrenagens num mecanismo imenso e interdependente. Os céus foram dispostos numa tapeçaria intrincada de órbitas, eclipses, períodos e constantes, um padrão impossivelmente vasto que desafiava a compreensão total.",
+        "Os profetas comandavam essas grandes órbitas e esses imensos circuitos. Sabiam quando e onde tudo estaria, daí a um dia ou em coisa de um milénio. Regulavam o modo como os céus afetavam a Terra, dirigiam a cheia das marés por meio da trajetória da lua e faziam a Terra se mover para provocar a mudança das estações. Dentre todos os anjos, contudo, estavam entre os mais distantes da humanidade. Amavam seus irmãos e irmãs de barro, mas era seu destino viver acima do Éden e interagir com os mortais por meio dos mistérios entretecidos na abóbada estrelada.",
+        "Quando sobreveio a rebelião, um fator central dividiu os profetas. Foi um deles, um profeta chamado Ahrimal, quem primeiro viu os terríveis presságios que se revelariam como a Queda. Na época, Ahrimal e seus companheiros acreditaram que a catástrofe iminente ocorreria se os anjos deixassem de agir; portanto, eles estavam entre os proponentes mais sinceros da rebelião. De fato, a Queda foi a raiz da catástrofe prevista por Ahrimal, e não há um Infesto sequer, até os dias de hoje, que não seja assombrado pelo erro coletivo de sua Casa.",
+        "Lúcifer estimava os Infestos como conselheiros e estrategistas, pois a capacidade desses demônios de adivinhar o futuro conquistou-lhe várias vitórias rápidas. No entanto, a guerra mostrou-se custosa, pois os Infestos não anteciparam sua destrutividade. Foi um sinal de hubris terem considerado que o grande plano não seria perturbado por suas ações.",
+        "Por fim, Deus lançou os rebeldes condenados no Abismo, o que mergulhou os Infestos num inferno próprio todo especial. Antes, eles haviam sido criaturas da ordem e da existência disciplinada, mas o Abismo não podia ser compilado, nem mapeado e muito menos conduzido. Sem os grandes mecanismos do Céu a proporcionar uma rotina calculada, eles enlouqueceram.",
+        "Quando os muros do Abismo foram arrasados pelo Turbilhão, os Infestos sentiram novamente a presença dos grandes mecanismos e viram as rachaduras que levavam à liberdade. Ao ressurgirem, entretanto, encontraram os céus abandonados — sem direção, e o grande mecanismo propriamente dito movia-se com enferrujada deselegância. Os Infestos haviam recuperado sua pedra de toque, mas ela estava rachada e gasta, talvez sem conserto. Mas o mesmo podia se dizer dos próprios Infestos."
+    ],
+    "factions": [
+        "Os Infestos prezam a busca por conhecimento acima de tudo. Em seus corações combalidos jaz uma necessidade genuína de recapturar aquela clareza absoluta do tempo em que o universo ocultava poucos segredos. Alguns dizem que sua busca por esses fragmentos de congruência não passa de uma distração que os afasta do inevitável auto-exame que leva muitos Infestos aos Rapinantes. No entanto, praticamente nenhum Infesto acredita que destruir os grandes mecanismos da Criação fará algo além de condenar todos os anjos caídos a um oblívio ainda mais tenebroso que o Abismo.",
+        "Por razões óbvias, muitos Infestos preferem os Ocultos e sua busca pela verdade.",
+        "Poucos Infestos são atraídos pelos Reconciliadores, simplesmente porque os Infestos viviam sempre tão distantes do Éden antes da guerra. O Paraíso nunca foi realmente seu lar, então por que suspirar por uma coisa que eles nunca tiveram?",
+        "Não, a segunda facção mais popular entre os Infestos é a dos Luciferanos. Talvez porque Lúcifer tenha poupado os Infestos da recriminação quando a guerra estava em seus piores momentos.",
+        "Por fim, existem alguns Infestos que se acham atraídos pelos Faustianos. Alguns Infestos acreditam que controlar o destino da humanidade é só mais um trajeto a ser mapeado e dirigido. Outros veem a humanidade moderna como um organismo tão imensamente complexo quanto o próprio cosmo e digno sucessor de suas habilidades."
+    ],
+    "preludio": [
+        "Os Infestos têm uma certa simpatia pelos que buscam pacientemente o conhecimento, aqueles — como eles próprios — que questionam o universo, espicaçam-no corajosamente, entregam-se ao trabalho e tateiam no escuro sem se preocupar com o corpo nem a alma.",
+        "Seja um jornalista que sacrifica os laços com a família e os amigos em busca da matéria de sua vida, ou um ocultista disposto a abrir-se aos espíritos fora de seu alcance, os Infestos são atraídos por indivíduos que trocam suas almas por iluminação.",
+        "A verdade importante para o Infesto não é a pergunta em si mesma, mas a busca pela resposta e a luta para obtê-la. Quanto mais alguém se esforçar para descobrir o conhecimento que foi esquecido ou os mistérios do universo — e quanto mais de si mesmos perderem com isso —, maior a fascinação dos Infestos."
+    ],
+    "faith": [
+        "Todos têm suas perguntas, mas poucas pessoas se dispõem a encontrar as respostas. Os Infestos contam com essa dualidade para se reabastecerem. De fato, como os Infestos se fazem passar por ouvintes ávidos, as pessoas acham mais fácil confiar neles, principalmente já que esses demônios se colocam em posições de autoridade e conhecimento.",
+        "A maioria dos Infestos de baixo Tormento estimula a busca por conhecimento, e não sua aquisição. Visam àqueles que procuram a iluminação, apresentam-se como disseminadores de ideias e fazem perguntas suficientes para impelir o mortal na direção correta. Tão logo ganham a confiança do mortal, oferecem pactos para encorajar a jornada em vez de simplesmente levá-lo ao objetivo final.",
+        "Do mesmo modo, os Infestos também desprezam os mortais que buscam apenas respostas rápidas na vida. Em geral, é dessa gente que colhem a Fé, mostrando-lhes vislumbres dos terríveis destinos que os aguardam. Colhem para se reabastecer tanto quanto para castigar, mas correm o risco de se expor ao próprio Tormento ao conjurar suas apavorantes ilusões.",
+        "Por outro lado, os Infestos de alto Tormento dependem das mesmíssimas pessoas ávidas por soluções temporárias para que possam selar pactos. Usam ilusões para corromper os mortais e prometem-lhes ganhos materiais, separando os que preferem a aquisição rápida daqueles que se dedicam a atividades esotéricas. Também colhem a fé daqueles que honestamente procuram o conhecimento, torturando-os com meias-verdades e informações falsas, e arranhando-lhes a sanidade com segredos obscenos que seria melhor não revelar."
+    ],
+    "playerCreation": [
+        "Os Infestos acreditam que o conhecimento é sinônimo de poder; portanto, dão preferência a Atributos Mentais de níveis elevados. Outros contam com o controle que exercem sobre as pessoas por meio de sua clarividência, o que torna os Atributos Sociais a principal preferência.",
+        "No tocante às Habilidades, os Infestos valorizam os Conhecimentos acima de tudo, sendo de principal interesse: Investigação, Instrução e Religião. São também versados nos mistérios da Linguística, do Ocultismo e da Pesquisa.",
+        "Com respeito aos Antecedentes, as duas escolhas fundamentais são Aliados e Contatos. O mortal que busca conhecimento geralmente estabelece uma rede de aliados humanos para facilitar sua jornada. Não é incomum um Infesto ter Mentores mortais, principalmente se seu hospedeiro estivesse se aprofundando em assuntos misteriosos."
+    ],
+    "initialTorment": 3,
+    "doctrines": ["Doutrina da Luz", "Doutrina dos Padrões", "Doutrina dos Portais"],
+    "fraquezas": [
+        "À curiosidade talvez seja o calcanhar-de-aquiles dos Infestos. Foi a curiosidade em relação ao desconhecido que os levou à ruína, e o que os aflige agora é uma necessidade de investigar mistérios quando confrontados por paradoxos.",
+        "Essa curiosidade geralmente é derivada de uma cadeia imprevista de acontecimentos que surge com o desenrolar de suas ações. Um indivíduo pode fazer ou dizer algo significativo não previsto na cadeia de acontecimentos cuidadosamente orquestrados do Infesto. A maioria dos Infestos vai querer saber por que isso aconteceu e concentrará suas habilidades analíticas para encontrar a fonte da anomalia. Ao fazê-lo, perdem de vista a tarefa mais imediata."
+    ]
+  },
+  {
+      "number": 5,
+      "name": "lammasu",
+      "phrase": "Posso lhe mostrar coisas que o deixarão maravilhado. É só segurar minha mão, e eu mudarei sua vida para sempre.",
+      "namePtBr": "Profanadores",
+      "description": [
+          "Antes da existência do menor sinal de terra, os grandes oceanos abarcavam o mundo. Os anjos a quem foi outorgado o domínio sobre este vasto e poderoso reino eram chamados Nereidas e estavam entre as mais belas criações de Deus.",
+          "Eram as nascentes e as musas, e seus poderes repercutiam as paixões que levavam à arte e à busca por discernimento e verdade.",
+          "As Nereidas foram criadas para inspirar a humanidade, entretê-la com mistérios e incitá-la a se aventurar pelo mundo e descobrir-lhe os prodígios secretos.",
+          "Eram a personificação do espírito do desejo; sempre tentadoras, mas eternamente fora de alcance. Seu poder conferia-lhes a mais profunda compreensão dos desejos humanos, mas o plano de Deus garantia que o vasto abismo do mar sempre se colocaria entre eles.",
+          "Logo passaram a lamentar a obediência ao Céu e o amor pela humanidade. Em retrospecto, muitos Profanadores acreditam que, se Lúcifer não tivesse tomado à frente e levantado a bandeira da revolta, teria sido apenas uma questão de tempo até que uma Nereida fizesse o mesmo.",
+          "A Queda galvanizou os Profanadores, que usaram seus poderes para inspirar tanto os mortais quanto os anjos rebeldes no conflito com o Céu. Tornaram-se os símbolos vivos do conflito, pois refletiam as melhores virtudes da resistência e estimulavam os demais a fazer o mesmo. Sobretudo, sustentaram o moral dos rebeldes, mesmo nos dias mais tenebrosos da guerra, fechando as feridas espirituais que nenhum Flagelo ou Devorador seria capaz de curar. A devoção inspirada por esses anjos caídos levou a algumas das façanhas mais heróicas da guerra e se transformou na origem dos épicos românticos que ainda ecoam nas almas de todos os seres humanos.",
+          "A derrota na guerra foi um golpe terrível para os Profanadores, que jamais vacilaram em sua convicção de que a rebelião era justa. Apesar de mais acostumados ao isolamento que a maioria dos anjos caídos, estavam entre os primeiros a sucumbir às agonias do Abismo e a amputar a dor de sua perda com as lâminas incandescentes do ódio.",
+          "Agora que os portões do Abismo se romperam e os Profanadores estão livres novamente, eles podem colocar em ação seus estratagemas em meio a uma civilização que preza a aparência acima de tudo. Podem levar homens e mulheres a atos de obsessão, ciúme e desejo que arruínam famílias, põem fim a carreiras e derrubam governos inteiros. Mas também podem encorajar a compreensão humana da filosofia, do companheirismo e da arte, e proporcionar uma visão bela em meio à realidade estéril do mundo moderno.",
+          "Foram criados como mistérios vivos, perigosos e enganadores, com a função de inspirar os atos de coragem e força que nutrem o crescimento da alma humana."
+      ],
+      "factions": [
+          "Os Profanadores muito provavelmente tornam-se Faustianos ou Rapinantes. No primeiro caso, foram cativados pela humanidade: reagem com prazer — ou, no mínimo, respeito — a sua relação com os seres humanos renovada.",
+          "Os Rapinantes agem como amantes desprezados e exigem retribuição (geralmente discreta, mas sempre inesquecível) daqueles que perpetraram uma traição tão terrível. Eles despedaçam corações e mentes e espalham a discórdia de maneira que possam assistir à desintegração de grupos sociais sob o peso de recriminações rancorosas e da violência.",
+          "Outros Profanadores se decepcionam com a civilização humana, mas tornam-se Faustianos mesmo assim. Anseiam pela bela visão que tinham antes da guerra e reconhecem que os seres humanos são uma parte essencial da mesma.",
+          "Alguns Profanadores também podem se deixar fascinar pelas demandas dos Luciferanos ou dos Ocultos, dependendo de suas alianças e experiências na guerra. Pouquíssimos tornam-se Reconciliadores. Mesmo que o desejassem, muitos Profanadores sabem que não há como retornar ao paraíso e, agora que as velhas barreiras ruíram, estas não podem ser reconstruídas."
+      ],
+      "preludio": [
+          "Os Profanadores são atraídos pelos vaidosos e irascíveis. Em vida, seus hospedeiros dificilmente foram filósofos espirituais ou lógicos, e sim pessoas que se deleitavam com tudo o que fosse físico e imediato.",
+          "Não eram necessariamente promíscuos, mas muito provavelmente gastavam tudo o que tinham com a última moda ou os brinquedinhos mais extravagantes. Em geral, tinham verdadeira obsessão pelas coisas triviais e ajustavam-se constantemente ao presente para ignorar o ritmo acelerado das mudanças a sua volta.",
+          "Os idealistas que atraem um Profanador não se interessam por teorias abstratas e realidades práticas, e sim pela ação imediata para mudar o mundo. Os candidatos mais sagazes são os artistas que tentam refletir grandes porções da realidade em suas obras, certos de que conseguirão capturar as complexidades do mundo que os cerca.",
+          "Outros candidatos podem ter sido afetados mais profundamente pelas questões da carne. Aqueles que amaram intensamente, ou com frequência, e foram rejeitados; aqueles que apoiaram uma causa e foram por ela traídos: essas pessoas também podem estar encarceradas no presente, onde a autopiedade e as ideias de vingança banal tomam o lugar do pesar e da cólera.",
+          "Uma outra categoria de hospedeiro provável é a dos que sofreram em nome de sua arte num sentido literal: artistas famintos, escritores fracassados e músicos marginais que tiveram seus espíritos alquebrados pela rejeição, pela dúvida e pelo vício."
+      ],
+      "faith": [
+          "Colher a fé é complicado para muitos Profanadores, pois eles não estão acostumados ao contato íntimo com os seres humanos. Atrair a atenção das pessoas é fácil; o difícil é focalizá-la.",
+          "Com o uso indiscriminado de suas doutrinas, o Profanador consegue reunir um grande grupo de seguidores muito rapidamente (e talvez provocar alguns tumultos com isso), mas essa multidão é de pouca utilidade.",
+          "A adulação cega e o desejo autodestrutivo não se comparam à fé, apesar de que, com um pouco de paciência, podem proporcionar uma base sobre a qual criá-la. Em essência, um Profanador precisa convencer seus seguidores de que são dignos das dádivas que ele lhes concede.",
+          "Muitas dessas dádivas envolvem a expansão da percepção para além do demônio e a abertura da mente ao vasto mundo. Permitem aos servos desenvolver seu conhecimento e, sobretudo, uma compreensão intuitiva do mundo que os cerca. Geralmente isso se manifesta em obras de arte ou na expressão por meio de formas mais diretas, como o ativismo político ou social."
+      ],
+      "playerCreation": [
+          "Os Atributos Sociais prevalecem. Todos são importantes e, não importa a condição do corpo do hospedeiro, a Aparência deve ser de pelo menos três pontos.",
+          "Talentos como Empatia, Intuição e Lábia são instintivos, assim como Sobrevivência.",
+          "A origem dos Profanadores como espíritos da água confere-lhes uma certa flexibilidade que normalmente se traduz em Destreza elevada, além de bons níveis em Esquiva e Furtividade, e talvez também Briga.",
+          "A maioria não se preocupa com o conhecimento detalhado da erudição moderna e assuntos correlatos, além de considerar vulgar a política humana."
+      ],
+      "initialTorment": 3,
+      "doctrines": ["Doutrina do Desejo", "Doutrina das Tempestades", "Doutrina da Transfiguração"],
+      "fraquezas": [
+          "Os Profanadores podem ser criaturas frustrantes e caprichosas, capazes de divagar e arrastar consigo todo o grupo num atoleiro voraginoso de trivialidades.",
+          "Podem continuar com uma farsa mesmo quando esta já não é mais útil e tornam-se petulantes e intempestivos à menor provocação. Para evitar isso, geralmente só precisam de um pouco de espaço.",
+          "Quanto mais ordenada e claustrofóbica uma situação se tornar, mais provável será que eles se mostrem ríspidos com os companheiros, façam algo insensato ou simplesmente tomem uma direção diferente. Mas esse comportamento é difícil de prever e pode até mesmo se manifestar — se é que o fará — dias após o estopim."
+      ]
+  },
+  {
+    "number": 6,
+    "name": "rabisu",
+    "phrase": "Há muito tempo não sinto o gosto do sangue no vento. Esta noite, voltaremos a caçar.",
+    "namePtBr": "Devoradores",
+    "description": [
+        "À Casa da Natureza foi outorgado o domínio sobre todas as coisas vivas que rastejavam, corriam, ou voavam por toda a terra. Conforme a vida selvagem se espalhava, os Anjos da Natureza teciam as incontáveis meadas da vida numa tapeçaria intrincada de beleza, majestade e poder. Os Anjos da Natureza cumpriam suas obrigações com orgulho solene e um forte senso de honra pessoal, governando seu reino com justiça e compaixão. O nascimento da humanidade foi fonte tanto de assombro quanto de consternação para os Anjos da Natureza. Apesar de Deus deixar claro que a humanidade havia sido criada para dominar a natureza, os seres humanos desconheciam completamente seu funcionamento. Isso apresentou um paradoxo aos anjos: proteger e preservar a natureza, mas a maior ameaça à ordem natural era a ignorância humana, e eles não tinham permissão para interferir.",
+        "Apesar da reputação de feras impetuosas, os Anjos da Natureza foram os membros da Hoste que mais relutaram a aceitar a rebelião. No fim, porém, aqueles que se juntaram às fileiras dos anjos caídos acreditavam que não havia outro jeito de se manter fiéis a suas ordens. Depois de se comprometerem, os Devoradores foram os mais corajosos e dedicados; preencheram as legiões rebeldes e, sem misericórdia, combateram seus antigos companheiros por toda a extensão do Paraíso. Eram temidos e respeitados de ambos os lados, e nunca perderam a crença na vitória final.",
+        "A princípio aceitaram o exílio estoicamente, mas a separação do mundo dos vivos cobrou seu tributo. O desaparecimento de Lúcifer foi um golpe terrível, levando muitos à intensa sensação de traição. Com o crescimento da cólera e da dor, reverteram cada vez mais sua natureza feroz, trocando a razão pelo instinto irracional.",
+        "Ao fugir do Abismo, assustaram-se ao descobrir o quanto o mundo mudara. Humanos haviam esquecido tudo que aprenderam, pilharam os recursos e provocaram a extinção de espécies inteiras. Para muitos, isso levou a uma entrega completa aos impulsos monstruosos; para outros, bastou a dor da terra agonizante para estimulá-los a restaurá-la e levar a humanidade à beira da aniquilação."
+    ],
+    "factions": [
+        "Os Devoradores tendem a se encaixar em Faustianos ou Rapinantes. Muitos ainda acreditam que sua lealdade a Lúcifer e à causa dos anjos caídos deve ser respeitada. Aqueles que não se juntam aos Luciferanos procuram vingança contra a humanidade.",
+        "Outro grupo se encontra entre os Reconciliadores: os cansados de guerra que buscam reconstruir os jardins destruídos pelo tempo.",
+        "Menos comuns são os Ocultos, que procuram respostas para o desaparecimento de Lúcifer, e os mais raros seguem os Faustianos, acreditando que só subjugando a humanidade restaurarão a terra."
+    ],
+    "preludio": [
+        "Superficialmente, poderiam parecer atraídos por soldados, traficantes, membros de gangues e policiais. Mas também se interessam por corretores da Bolsa, vendedores, bombeiros e ativistas políticos, que enfrentam grandes dificuldades e sobrevivem com sequelas emocionais.",
+        "São atraídos por hospedeiros que apresentam obsessão por proteger ou explorar os animais e a natureza, como ambientalistas radicais ou caçadores de troféus insensíveis."
+    ],
+    "faith": [
+        "Os Devoradores são mestres na arte de colher a fé, sentindo-se mais à vontade com ganhos de curto prazo que qualquer outro demônio.",
+        "De baixo Tormento, colhem fé de criminosos ou indivíduos que destroem o meio-ambiente, evitando matar quando possível, usando ações dolorosas ou aterrorizantes como aviso.",
+        "De alto Tormento, qualquer indivíduo pode ser alvo; a fé é fé, mesmo que leve à morte da vítima.",
+        "São atraídos por indivíduos fortes e agressivos, que conhecem a violência de perto, mas também por intelectuais obsessivos, ativistas ou empreendedores."
+    ],
+    "playerCreation": [
+        "Atributos Físicos são prioritários, seguidos dos Mentais.",
+        "Devem possuir pontos em Prontidão, Empatia com Animais, Briga, Esquiva, Intimidação, Sobrevivência e Furtividade. Podem herdar pontos em Armas de Fogo e Armas Brancas do hospedeiro.",
+        "Orientações sociais incomuns dão prioridade a Intimidação e Liderança, balanceadas com Esportes.",
+        "Antecedentes incluem Seguidores, Aliados e Contatos; os mais sociais podem ter Influência e Recursos elevados."
+    ],
+    "initialTorment": 4,
+    "doctrines": ["Doutrina da Fera", "Doutrina da Carne", "Doutrina da Natureza"],
+    "fraquezas": [
+        "Falta de tato e diplomacia; podem enfurecer-se facilmente e provocar brigas à menor provocação.",
+        "Costumam piorar situações delicadas apenas por sua presença.",
+        "Facilmente manipuláveis, mas se enganados, buscam vingança imediata e sangrenta."
+    ]
+  },
+
     {
         "number": 7,
         "name": "halaku",
+        "phrase": "",
         "namePtBr": "Algozes",
         "description": [],
         "factions": [],
@@ -89,5 +276,45 @@
         "initialTorment": 4,
         "doctrines": ["Doutrina da Morte", "Doutrina dos Reinos", "Doutrina do Espírito"],
         "fraquezas": []
-    }
+    },
+    {
+      "number": 7,
+      "name": "halaku",
+      "phrase": "Você pode me amar ou odiar como bem entender, mas viva. Viva agora e até seu último suspiro. Deixe o tempo passar. Haveremos de nos encontrar novamente.",
+      "namePtBr": "Algozes",
+      "description": [
+          "Representantes da última Casa Celestial, os Anjos da Morte receberam a tarefa lúgubre de desfazer todos os prodígios que seus colegas criavam, pondo fim a vidas e apagando grandes obras para que outras pudessem substituí-las.",
+          "Embora satisfeitos com seu trabalho, os Ceifeiros foram confrontados com a humanidade. Desejavam aplacar os temores humanos, mas foram proibidos por Deus. Muitos se juntaram à Queda para serem amados, não temidos.",
+          "O contra-ataque do Céu trouxe a maldição da mortalidade. Agora, os Algozes são forçados a dar fim às vidas das pessoas que amam, afastando-os ainda mais da humanidade e dos anjos caídos.",
+          "Durante a Guerra da Ira, muitos serviram como guerreiros e campeões, mas a maior parte dedicava-se a suavizar as mortes humanas. Após a libertação, veem um mundo que sofreu demais com sua ausência, motivando alguns a restaurar o equilíbrio e conceder uma morte misericordiosa à humanidade."
+      ],
+      "factions": [
+          "Pouquíssimos são Luciferanos, pois nunca foram leais a Lúcifer. Estavam mais concentrados em salvar humanos e subverter planos do inimigo do que em vencer batalhas.",
+          "Muitos tornam-se Faustianos ou Reconciliadores, concentrando-se no potencial da humanidade e tentando recriar o mundo antes da revogação da imortalidade.",
+          "Ocultos atraem um número considerável de Algozes devido à natureza abstrata e investigativa da facção. Rapinantes também atraem alguns, movidos por inveja ou pelo desejo de cumprir ordens divinas na ausência de Deus."
+      ],
+      "preludio": [
+          "São atraídos por indivíduos que pouco se importam com a vida, incluindo aqueles que tentaram suicídio ou sofreram violência, como policiais, soldados e viciados.",
+          "Também se interessam por pessoas que dedicam suas vidas a ajudar outros, mesmo à custa da própria existência, ou que seguem filosofias e religiões focadas na próxima vida."
+      ],
+      "faith": [
+          "Colher a fé é difícil, pois devem fazer os humanos relevar a própria mortalidade e o papel do demônio em suas vidas.",
+          "Alguns imitam outras Casas, como Diabos (orgulho) ou Infestos (segredos), ou formam seitas genéricas. Outros centram sua seita na morte ou na destruição.",
+          "Procuram diversidade de seguidores, mas suas escolhas podem ser arbitrárias; alguns eliminam todos que os procuram, outros focam intensamente em indivíduos específicos."
+      ],
+      "playerCreation": [
+          "Nenhum grupo de atributos é prioritário, embora Mentais sejam comuns (principalmente Percepção).",
+          "Vigor tende a ser alto, enquanto Força e Carisma diminuem em relação ao hospedeiro original. Manipulação pode ser elevada, mas o uso é cauteloso.",
+          "Habilidades preferenciais incluem Presciência, Intuição e Furtividade. Intimidação e Investigação também são boas opções.",
+          "Conhecimentos variados são adequados, e Liderança ou Empatia podem surgir dependendo das experiências do Algoz durante a guerra."
+      ],
+      "initialTorment": 4,
+      "doctrines": ["Doutrina da Morte", "Doutrina dos Reinos", "Doutrina do Espírito"],
+      "fraquezas": [
+          "Indiferença aparente aos vivos que disfarça atenção extrema. Mesmo lembranças dos hospedeiros parecem estranhas.",
+          "Podem ser peritos em tarefas complexas, mas ludibriados por motivações humanas simples.",
+          "Tomam decisões rapidamente e têm dificuldade em admitir enganos. O mal causado por um Algoz de alto Tormento está ligado a obsessão em deixar sua marca numa realidade em extinção."
+      ]
+  }
+
 ]

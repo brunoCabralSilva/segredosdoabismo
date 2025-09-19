@@ -38,7 +38,7 @@ export interface IDoctrines {
   belonging: string;
   doctrines: IListDoctrines[];
   apName: string,
-  apWithouTorment: string,
+  apWithoutTorment: string,
   apWithTorment: string,
   apocalypticForm: IListApocaliptycForm[];
 }

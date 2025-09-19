@@ -58,7 +58,7 @@ export default function Doctrine() {
                         Forma Apocalíptica sem Tormento:
                       </div>
                       <hr className="w-full mb-2" />
-                      <div>{ doctrines.apWithouTorment }</div>
+                      <div>{ doctrines.apWithoutTorment }</div>
                     </div>
                     <div>
                       {
