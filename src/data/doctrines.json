@@ -872,7 +872,7 @@
             {
                 "level": 4,
                 "name": "Toque Longínquo",
-                "cost": "1 ponto de Força de Vontade",
+                "cost": "1 Checagem de Fé",
                 "pool": [
                     "manipulation",
                     "awareness"
@@ -890,6 +890,7 @@
             {
                 "level": 5,
                 "name": "Vários Lugares ao Mesmo Tempo",
+                "cost": "1 Checagem de Fé",
                 "pool": [
                     "manipulation",
                     "leadership"
@@ -969,6 +970,7 @@
             {
                 "level": 1,
                 "name": "Invocar o Vento",
+                "cost": "1 ponto de Força de Vontade",
                 "pool": [
                     "stamina",
                     "survival"
@@ -986,6 +988,7 @@
             {
                 "level": 2,
                 "name": "Punho de Ar",
+                "cost": "1 ponto de Força de Vontade",
                 "pool": [
                     "stamina",
                     "survival"
@@ -1003,6 +1006,7 @@
             {
                 "level": 3,
                 "name": "Comandar o Vento",
+                "cost": "1 ponto de Força de Vontade",
                 "pool": [
                     "dexterity",
                     "survival"
@@ -1020,6 +1024,7 @@
             {
                 "level": 4,
                 "name": "Muralha de Ar",
+                "cost": "1 Checagem de Fé",
                 "pool": [
                     "stamina",
                     "survival"
@@ -1037,6 +1042,7 @@
             {
                 "level": 5,
                 "name": "Ciclone",
+                "cost": "1 Checagem de Fé",
                 "pool": [
                     "stamina",
                     "survival"
@@ -1109,7 +1115,6 @@
         ]
     },
     {
-        "here": true,
         "id": "9",
         "name": "Doutrina da Terra",
         "belonging": "annunaki",
@@ -1117,87 +1122,147 @@
             {
                 "level": 1,
                 "name": "Fusão com a Terra",
-                "description": "O demônio une seu corpo físico à terra sob seus pés, tornando-se impossível movê-lo, levantá-lo ou derrubá-lo sem sua vontade.",
-                "system": "",
-                "system5th": "Faça um teste de Força + Sobrevivência. Se bem-sucedido, o Malfeitor se funde ao solo e não pode ser movido contra sua vontade.",
-                "torment": "Demônios monstruosos podem afundar no solo e deslocar-se subterraneamente em linha reta. O número de sucessos indica quantos metros percorrem por turno. Cada turno exige novo teste de Força + Atletismo; falha força o demônio a emergir à superfície."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "strength",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação permite ao demônio unir seu corpo físico à terra sob seus pés. Conquanto a evocação continue em efeito, não será possivel mové-lo, levantá-lo nem derrubá-lo, a menos que ele deseje fazé-lo.",
+                "system": "Faca um teste de Força + Sobrevivência. Se bem sucedido, o Malfeitor vai se unir à terra e não será possível movê-la daquele ponto a menos que ele assim o deseje.",
+                "system5th": "Faca um teste de Força + Sobrevivência. Se bem sucedido, o Malfeitor vai se unir à terra e não será possível movê-la daquele ponto a menos que ele assim o deseje.",
+                "torment": "Os demônios monstruosos conseguem afundar no solo e deslocar-se sob a terra em qualquer direção que desejarem. O número de sucessos obtidos determina quantos metros o demônio é capaz de percorrer em linha reta. Cada turno de deslocamento exige um teste de Força + Esportes. Se falhar no teste, o demônio será forçado de volta à superfície.",
+                "torment5th": "Os demônios monstruosos conseguem afundar no solo e deslocar-se sob a terra em qualquer direção que desejarem. O número de sucessos obtidos determina quantos metros o demônio é capaz de percorrer em linha reta. Cada turno de deslocamento exige um teste de Força + Atletismo. Se falhar no teste, o demônio será forçado de volta à superfície.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 186
             },
             {
                 "level": 2,
                 "name": "Revolver a Terra",
-                "description": "O Malfeitor faz a terra revelar segredos enterrados, trazendo à tona objetos ou materiais desejados.",
-                "system": "",
-                "system5th": "Determine o objeto buscado e faça um teste de Força + Sobrevivência. O número de sucessos determina o raio em metros (incluindo profundidade) afetado. Se o objeto estiver dentro da área, ele emerge à superfície.",
-                "torment": "Demônios monstruosos criam um vórtice que suga objetos e seres para baixo. O alvo é enterrado a um número de metros igual aos sucessos ÷ 3. Para escapar, é necessário teste prolongado de Força + Atletismo (dificuldade 3) com jogadas a cada minuto. Enquanto preso, sofre dano como se estivesse se afogando."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "strength",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação permite a um Malfeitor fazer com que a terra renuncie a seus segredos enterrados. Concentrando-se num determinado tipo de objeto (por exemplo, ouro, ferro e cadáveres), o demônio faz a terra ao redor dele se revolver, o que força o item desejado a aparecer na superfície.",
+                "system": "O personagem determina o que ele procura no interior da terra e você faz um teste de Força + Sobrevivência. O número de sucessos obtidos determina o raio em metros — o que inclui a profundidade — afetado pela evocação a partir da posição do personagem. Se o objeto ou o material se encontrar nessa área, este será forçado a aparecer na superficie.",
+                "system5th": "O personagem determina o que ele procura no interior da terra e você faz um teste de Força + Sobrevivência. O número de sucessos obtidos determina o raio em metros — o que inclui a profundidade — afetado pela evocação a partir da posição do personagem. Se o objeto ou o material se encontrar nessa área, este será forçado a aparecer na superficie.",
+                "torment": "Os demônios monstruosos podem empregar esta doutrina para criar uma espécie de vórtice que suga os objetos para baixo. Os demônios ou seres humanos afetados pela evocação podem tentar evitar os efeitos da mesma se tiverem uma ação disponível no mesmo turno. O alvo é enterrado a um número de metros igual ao número total de sucessos obtidos dividido por 3. Para sair dessa tumba de terra é necessário um teste prolongado de Força + Esportes (dificuldade 8), com jogadas a cada minuto. Até obter mais sucessos que você, a vítima continuará enterrada e receberá dano como se estivesse se afogando (consulte a pág. 263 do capitulo de sistemas para os detalhes).",
+                "torment5th": "Os demônios monstruosos podem empregar esta doutrina para criar uma espécie de vórtice que suga os objetos para baixo. Os demônios ou seres humanos afetados pela evocação podem tentar evitar os efeitos da mesma se tiverem uma ação disponível no mesmo turno. O alvo é enterrado a um número de metros igual ao número total de sucessos obtidos dividido por 3. Para sair dessa tumba de terra é necessário um teste de Força + Atletismo (dificuldade 2 + 1 para cada metro afundado, arredondando para cima). Até obter mais sucessos que você, a vítima continuará enterrada e receberá dano como se estivesse se afogando.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 186
             },
             {
                 "level": 3,
                 "name": "Modelar a Terra",
-                "description": "O Malfeitor molda a terra ou a pedra, criando barreiras, passagens ou estruturas conforme sua vontade.",
-                "system": "",
-                "system5th": "Faça um teste de Força + Ofícios. Dificuldade varia: 1 (terra soltaou granito), 3 (materiais tratados como concreto). Sucessos ÷ 10 = metros quadrados manipulados. O material pode assumir qualquer forma desejada, dentro do alcance em metros igual à Fé do personagem. As mudanças são permanentes.",
-                "torment": "A terra manipulada torna-se tóxica. Seres vivos em contato com ela sofrem 1 nível de dano letal por turno de exposição."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "strength",
+                    "craft"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pelo tipo de material afetado (é igual a 1 para a terra não compactada; 2 para o granito; 3 para materiais tratados, como o concreto).",
+                "description": "Esta poderosa evocação permite ao Malfeitor fazer com que a terra se mova e ganhe forma segundo a vontade dele. Com um gesto da mão, uma muralha de terra ou pedra pode saltar do solo para abrigá-lo, ou as paredes de um edifício podem escorrer como cera derretida, criando uma passagem que antes não existia.",
+                "system": "Faça um teste de Força + Ofícios. A dificuldade é determinada pelo tipo de material afetado (é igual a 5 para a terra não compactada; 6 para o granito; 7 para materiais tratados, como o concreto). O número de sucessos obtidos, dividido por dez, determina quantos metros quadrados do material o demônio é capaz de manipular. O material afetado pode receber ordens para assumir qualquer forma que o demônio desejar dentro desses parâmetros. O material afetado precisa estar a uma distância menor ou igual a um número de metros igual à Fé do personagem, e as mudanças impostas são permanentes.",
+                "system5th": "Faça um teste de Força + Ofícios. A dificuldade é determinada pelo tipo de material afetado (é igual a 1 para a terra não compactada; 2 para o granito; 3 para materiais tratados, como o concreto). O personagem consegue manipular 1 + quantidade de sucessos adicionais em metros quadrados do material, divididos por cinco. O material afetado pode receber ordens para assumir qualquer forma que o demônio desejar dentro desses parâmetros. O material afetado precisa estar a uma distância menor ou igual a um número de metros igual à Fé do personagem, e as mudanças impostas são permanentes.",
+                "torment": "Os demônios monstruosos conseguem afetar a terra da mesma maneira que os demônios menos atormentados, mas o material manipulado é incrivelmente tóxico. Os seres vivos que entrarem em contato com essa terra maculada receberão um nível de dano letal por turno de exposição.",
+                "torment5th": "Os demônios monstruosos conseguem afetar a terra da mesma maneira que os demônios menos atormentados, mas o material manipulado é incrivelmente tóxico. Os seres vivos que entrarem em contato com essa terra maculada receberão um nível de dano Superficial por turno de exposição.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 186
             },
             {
                 "level": 4,
                 "name": "Tempestade de Terra",
-                "description": "O Malfeitor convoca um turbilhão de terra e pedras que o protege e fornece projéteis contra inimigos.",
-                "system": "",
-                "system5th": "Use 1 ponto de Fé e faça um teste de Força + Sobrevivência. Sucessos formam uma parada de proteção contra ataques. O demônio pode sacrificar 1 dado dessa parada por turno para lançar um projétil de terra/pedra (teste de Destreza + Atletismo). O dano por contusão é igual à Fé do personagem. O alcance é igual à Fé em metros. A tempestade dura até o fim da cena e aumenta em +1 a dificuldade das ações dos inimigos na área.",
-                "torment": "A tempestade torna-se areia corrosiva que inflige dano letal em dados iguais ao Tormento do demônio a tudo no raio de ação (exceto o próprio). Além disso, cria cobertura parcial, aumentando em +1 a dificuldade de ataques à distância contra o Malfeitor."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "strength",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação faz com que torrões de terra e fragmentos de rocha ou concreto irrompam do solo e formem um turbilhão de projéteis mortíferos que cerca o Malfeitor e proporciona proteção contra ataques, além de fornecer mísseis para o demônio arremessar contra os adversários.",
+                "system": "Use um ponto de Fé e faça um teste de Força + Sobrevivência. O número de sucessos obtidos forma uma parada de proteção, lançada com o intuito de absorver o dano provocado por quaisquer ataques dirigidos ao Malfeitor. A própria tempestade tem como centro o anjo caído e desloca-se quando ele se move. Se desejar, o Malfeitor pode sacrificar um dado de sua parada durante qualquer turno para arremessar um projétil de terra ou pedra do tamanho de um punho contra um alvo. Como no caso de qualquer ataque à distancia, faça um teste de Destreza + Esportes para acertar o alvo, sendo a parada de dados de dano por contusão igual à pontuação de Fé do personagem. O alcance da evocação estende-se a um número de metros igual à pontuação de Fé do personagem. Os indivíduos surpreendidos nessa área são fustigados por rajadas lancinantes de saibro, o que aumenta em um ponto a dificuldade de qualquer ação. Os efeitos desta evocação duram o resto da cena.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Força + Sobrevivência. O número de sucessos obtidos forma uma parada de proteção, lançada com o intuito de absorver o dano provocado por quaisquer ataques dirigidos ao Malfeitor. A própria tempestade tem como centro o anjo caído e desloca-se quando ele se move. Se desejar, o Malfeitor pode sacrificar um dado de sua parada durante qualquer turno para arremessar um projétil de terra ou pedra do tamanho de um punho contra um alvo, realizando um teste de Destreza + Briga para acertar o alvo. O alcance da evocação estende-se a um número de metros igual à pontuação de Fé do personagem. Os indivíduos surpreendidos nessa área são fustigados por rajadas lancinantes de saibro, o que aumenta em um ponto a dificuldade de qualquer ação. Os efeitos desta evocação duram o resto da cena.",
+                "torment": "A barragem de artilharia conjurada por um demônio monstruoso é mais semelhante a uma tempestade de areia que esfola os seres vivos e consome os objetos inanimados em questão de minutos. A versão de alto Tormento desta evocação não proporciona dados de absorção adicionais, mas inflige um número de dados de dano letal igual ao Tormento do personagem a tudo o que for surpreendido no raio de ação da tempestade, exceto o proprio demônio. Além disso, as nuvens rodopiantes de terra e rocha pulverizada servem em grande parte para ocultar o demônio em seu interior, o que aumenta em um ponto a dificuldade dos ataques à distância dirigidos contra ele.",
+                "torment5th": "A barragem de artilharia conjurada por um demônio monstruoso é mais semelhante a uma tempestade de areia que esfola os seres vivos e consome os objetos inanimados em questão de minutos. A versão de alto Tormento desta evocação inflige um número de dados de dano Superficial igual ao modificador de Tormento do personagem a tudo o que for surpreendido no raio de ação da tempestade, exceto o proprio demônio. Além disso, as nuvens rodopiantes de terra e rocha pulverizada servem em grande parte para ocultar o demônio em seu interior, o que aumenta em mais um ponto a dificuldade dos ataques à distância dirigidos contra ele.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 187
             },
             {
                 "level": 5,
                 "name": "Terremoto",
-                "description": "O Malfeitor desperta o poder da terra, criando tremores capazes de devastar cidades.",
-                "system": "",
-                "system5th": "Use 1 ponto de Fé e faça um teste de Força + Sobrevivência. Distribua sucessos entre intensidade e dimensão do tremor. Intensidade: aumenta dificuldade das ações na área e é usada como parada de dados para causar dano a estruturas (dificuldade 2 para resistirem). Dimensão: sucesso na checagem = área em metros quadrados igual à Fé ÷ 10; 1 sucesso excedente na margem = área igual à Fé; 2 sucessos excedentes na margem = quilômetros quadrados igual a 3 x Fé. O tremor dura 1 turno por ponto de intensidade.",
-                "torment": "O terremoto libera nuvens tóxicas de cinzas e enxofre. Além dos efeitos normais, todos os testes de Raciocínio na área têm +2 de dificuldade e os vivos sofrem 1 nível de dano por contusão a cada turno de exposição. A duração é igual à intensidade do terremoto."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "strength",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Concentrando o poder de sua vontade, o Malfeitor é capaz de incitar a energia encerrada nas profundezas da terra e criar um breve mas poderoso tremor que pode reverberar por toda uma cidade.",
+                "system": "Use um ponto de Fé e faça um teste de Força + Sobrevivência, depois distribua os sucessos obtidos entre a intensidade e a dimensão do tremor. A intensidade do tremor é acrescentada à dificuldade das ações de quaisquer pessoas dentro da área e é empregada como uma parada de dados para determinar o dano a estruturas verticais. Uma pequena construção de madeira, como uma choça, tem um ou talvez dois pontos de estrutura, enquanto uma casa de tijolos poderia ter três ou quatro. A dificuldade do teste de avaliação de dano é igual a 6. Se receber um montante de dano superior a seus pontos de estrutura, a construção vai desmoronar. A dimensão do tremor determina seu raio efetivo. Um sucesso faz o tremor afetar um número de metros quadrados igual à pontuação de Fé do personagem dividida por dez. Dois sucessos afetam um número de metros quadrados igual à pontuação de Fé. Três sucessos afetam um número de quilômetros quadrados igual a trés vezes essa pontuação. Portanto, o demônio é capaz de provocar uma enorme destruição em pequena escala, uma destruição significativa em média escala ou pouco dano em larga escala.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Força + Sobrevivência, depois distribua os sucessos obtidos entre a intensidade e a dimensão do tremor. A intensidade do tremor é acrescentada à dificuldade das ações de quaisquer pessoas dentro da área e é empregada como uma parada de dados para determinar o dano a estruturas verticais. Uma pequena construção de madeira, como uma choça, tem um ou talvez dois pontos de estrutura, enquanto uma casa de tijolos poderia ter três ou quatro. A dificuldade do teste de avaliação de dano é igual a 1. Se receber um montante de dano superior a seus pontos de estrutura, a construção vai desmoronar. A dimensão do tremor determina seu raio efetivo. Um sucesso faz o tremor afetar um número de metros quadrados igual à pontuação de Fé do personagem dividida por dois, arredondado para cima. Dois sucessos afetam um número de metros quadrados igual à pontuação de Fé. Três sucessos ou mais afetam um número de quilômetros quadrados igual a sua pontuação de Fé. Portanto, o demônio é capaz de provocar uma enorme destruição em pequena escala, uma destruição significativa em média escala ou pouco dano em larga escala. O tremor persiste durante um turno para cada ponto de intensidade que lhe for designado.",
+                "torment": "Um demônio de alto Tormento faz a terra se agitar e vomitar nuvens tóxicas repletas de cinzas e que fedem a enxofre. Além dos efeitos anteriormente descritos, o fedor aumenta em dois pontos as dificuldades de todos os testes de Percepção realizados no interior da área afetada, e as vítimas recebem um nível de dano por contusão a cada turno de exposição às exalações. Os efeitos continuam durante um número de turnos igual à intensidade do terremoto.",
+                "torment5th": "Um demônio de alto Tormento faz a terra se agitar e vomitar nuvens tóxicas repletas de cinzas e que fedem a enxofre. Além dos efeitos anteriormente descritos, o fedor aumenta em dois pontos as dificuldades de todos os testes de Percepção realizados no interior da área afetada, e as vítimas recebem um nível de dano Superficial a cada turno de exposição às exalações. Os efeitos continuam durante um número de turnos igual à intensidade do terremoto.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 187
             }
         ],
         "apName": "Kishar, o Semblante da Terra",
-        "apWithoutTorment": "Os Kishar se manifestam como figuras altas e de pele escura, lembrando corpos talhados em pedra. Seus olhos brilham como pedras preciosas e o ar ao redor exala cheiro de terra fértil e revolvida.",
-        "apWithTorment": "Os Kishar atormentados tornam-se colossos ameaçadores, de formas rígidas e rachadas, exalando o odor de rocha partida e morte subterrânea. Seus corpos parecem prestes a desmoronar, mas irradiam força bruta.",
+        "apWithoutTorment": "Estes anjos se manifestam como figuras muito altas e de pele escura, que varia de um castanho cremoso ao mais absoluto negror, e seus corpos parecem ter sido talhados na pedra, com músculos e ossos delineados em alto-relevo num corpo desprovido de carne macia ou gordura. Os Kishar não têm pélos, e as íris de seus olhos têm a clareza e a cor de pedras preciosas: rubis, safiras, esmeraldas, granadas, topázios e diamantes. O ar em volta deles cheira a terra revolvida, saturado com promessas de vida.",
+        "apWithTorment": "Os Kishar monstruosos são imensos e deformados, sua pele semelhante à pedra se cobre de nódulos e espigões afiados e é recortada por profundas rachaduras que vertem um pus negro e oleoso.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 188,
         "apocalypticForm": [
             {
                 "name": "Aumento de Tamanho",
                 "torment": false,
-                "description": "O corpo cresce até 1,3x a altura normal. Bônus: Força +2, Destreza +1, Vigor +1."
+                "description": "O corpo do personagem cresce até o máximo de uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+1) e Vigor (+1).",
+                "description5th": "O corpo do personagem cresce até o máximo de uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+1) e Vigor (+1)."
             },
             {
                 "name": "Imunidade a Dano por Contusão",
                 "torment": false,
-                "description": "Não sofre qualquer dano de ataques que causam apenas contusão."
+                "description": "O personagem é imune aos ataques que provocam somente dano por contusão.",
+                "description5th": "O personagem sofre apenas metade do dano Superficial sofrido, arredondado para cima."
             },
             {
                 "name": "Força Irresistível",
                 "torment": false,
-                "description": "Dificuldade de qualquer teste de Demonstração de Força é reduzida em 2 pontos."
+                "description": "A dificuldade de qualquer Demonstração de Força (consulte a pág. 232) por parte do personagem é reduzida em dois pontos.",
+                "description5th": "A dificuldade de qualquer Demonstração de Força por parte do personagem é reduzida em dois pontos."
             },
             {
-                "name": "Visão Mineral",
+                "name": "Visão Noturna",
                 "torment": false,
-                "description": "Os olhos brilham como gemas, capazes de detectar fissuras e fragilidades em estruturas sólidas, reduzindo em 2 pontos a dificuldade de testes relacionados a avaliar ou destruir materiais."
+                "description": "O personagem enxerga na escuridão absoluta como se fosse em plena luz do dia.",
+                "description5th": "O personagem enxerga na escuridão absoluta como se fosse em plena luz do dia."
             },
             {
-                "name": "Pele Rochosa",
+                "name": "Apêndices Adicionais",
                 "torment": true,
-                "description": "A pele racha em placas afiadas que infligem 1 nível de dano letal em inimigos que atacam em combate próximo."
+                "description": "O demônio desenvolve um segundo par de braços. Os braços adicionais permitem ao personagem aparar ou bloquear ataques em combate próximo sem sacrificar o proprio ataque, ou então realizar até dois ataques adicionais por turno (que são considerados ações maltiplas).",
+                "description5th": "O demônio desenvolve um segundo par de braços. Os braços adicionais permitem a um personagem aparar ou bloquear ataques desarmados ou com armas brancas sem sacrificar seu próprio ataque, ou então realizar dois ataques e realizar o melhor resultado."
             },
             {
-                "name": "Pisada Sísmica",
+                "name": "Bocarra Escancarada",
                 "torment": true,
-                "description": "Com um golpe no solo, pode causar tremores locais que derrubam inimigos (teste de Força + Atletismo, dificuldade 2, para resistir)."
+                "description": "O metabolismo do demônio é como um alto-forno, capaz de consumir praticamente qualquer material sem se ferir. O metal, a rocha e a carne são mastigados e digeridos com facilidade. A dificuldade dos ataques por mordida é reduzida em dois pontos, e a mordida provoca Força + 4 de dano agravado.",
+                "description5th": "O metabolismo do demônio é como um alto-forno, capaz de consumir praticamente qualquer material sem se ferir. O metal, a rocha e a carne são mastigados e digeridos com facilidade. A dificuldade dos ataques por mordida é reduzida em dois pontos, e a mordida provoca + 4 de dano agravado."
             },
             {
-                "name": "Garras de Pedra",
+                "name": "Espigões",
                 "torment": true,
-                "description": "Dedos se transformam em garras de rocha que infligem Força + 2 de dano agravado."
+                "description": "O corpo do demônio se cobre de espigões rochosos e afiados, o que acrescenta dois dados de dano agravado aos ataques desarmados do Kishar.",
+                "description5th": "O corpo do demônio se cobre de espigões rochosos e afiados, o que acrescenta +2 de dano agravado aos ataques desarmados do Kishar."
             },
             {
-                "name": "Aura de Poeira Tóxica",
+                "name": "Pus",
                 "torment": true,
-                "description": "Exala nuvens sufocantes de poeira. Todos ao redor sofrem penalidade de -1 em ações físicas e devem passar em teste de Vigor (dificuldade 2) por turno ou perder 1 nível de vitalidade por contusão."
+                "description": "Um pus negro e pútrido cobre o corpo do demônio, tornando-o difícil de se agarrar ou conter. A dificuldade de todas as tentativas de engalfinhamento dirigidas ao demonio aumenta em dois pontos.",
+                "description5th": "Um pus negro e pútrido cobre o corpo do demônio, tornando-o difícil de se agarrar ou conter. A dificuldade de todas as tentativas de engalfinhamento dirigidas ao demonio aumenta em dois pontos."
             }
         ]
     },
@@ -1209,87 +1274,147 @@
             {
                 "level": 1,
                 "name": "Encontrar Caminhos",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "resolve",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade depende dos critérios estabelecidos e da distancia a se percorrer. Por exemplo, se o personagem deseja encontrar um caminho em meio a um trecho impenetrável de floresta ou pântano, a dificuldade é 1. Se ele quiser um caminho através de um campo aberto que lhe permita se deslocar sem ser visto, a dificuldade é 2. Um caminho para fazê-lo atravessar ileso uma casa em chamas tem dificuldade 3 ou mais.",
                 "description": "Esta evocação permite ao Malfeitor determinar se existe um caminho entre ele e seu destino que preencha os critérios por ele estabelecidos. O caminho é visível apenas ao demônio e a quem o toque, revelando-se como uma tênue linha azul-prateada, como um raio de luar.",
-                "system": "",
-                "system5th": "Seu personagem estabelece os critérios para o caminho que procura e você faz um teste de Determinação + Sobrevivência. O número de sucessos exigidos depende dos critérios estabelecidos e da distância a ser percorrida. Por exemplo: 1 sucesso pode bastar para encontrar um caminho em meio a um trecho impenetrável de floresta ou pântano; 2 sucessos ou mais para um caminho através de um campo aberto que permita deslocar-se sem ser visto; 3 sucessos ou mais para atravessar ileso uma casa em chamas. Se o personagem falhar no teste, o caminho não será encontrado.",
-                "torment": "Os demônios monstruosos são capazes de procurar caminhos assim como seus semelhantes mais humanos, mas a dificuldade desses testes é igual ao modificador de Tormento do demônio. Quanto mais mortífero for o demônio, menos preparado ele estará para empreender uma busca focalizada."
+                "system": "Seu personagem estabelece os critérios para o caminho que procura e vocé um teste de Percepção + Sobrevivência. O número de sucessos exigidos depende dos critérios estabelecidos e da distancia a se percorrer. Por exemplo, se o personagem deseja encontrar um caminho em meio a um trecho impenetrável de floresta ou pântano, você talvez precise de apenas um sucesso. Se ele quiser um caminho através de um campo aberto que lhe permita se deslocar sem ser visto, você precisará de dois sucessos ou mais. Um caminho para fazê-lo atravessar ileso uma casa em chamas exigiria três sucessos ou mais. Se o personagem falhar no teste, o caminho não será encontrado.",
+                "system5th": "Seu personagem estabelece os critérios para o caminho que procura e vocé um teste de Determinação + Sobrevivência. A dificuldade depende dos critérios estabelecidos e da distancia a se percorrer. Por exemplo, se o personagem deseja encontrar um caminho em meio a um trecho impenetrável de floresta ou pântano, a dificuldade é 1. Se ele quiser um caminho através de um campo aberto que lhe permita se deslocar sem ser visto, a dificuldade é 2. Um caminho para fazê-lo atravessar ileso uma casa em chamas tem dificuldade 3 ou mais. Se o personagem falhar no teste, o caminho não será encontrado.",
+                "torment": "Os demônios monstruosos são capazes de procurar caminhos assim como seus semelhantes mais humanos, mas a dificuldade desses testes é igual ao Tormento do demônio. Quanto mais mortífero for o demônio, menos preparado ele estará para empreender uma busca focalizada.",
+                "torment5th": "Os demônios monstruosos são capazes de procurar caminhos assim como seus semelhantes mais humanos, mas a dificuldade desses testes é igual ao modificador de Tormento do demônio. Quanto mais mortífero for o demônio, menos preparado ele estará para empreender uma busca focalizada.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 188
             },
             {
                 "level": 2,
                 "name": "Traçar Caminhos",
-                "description": "Neste nível, o Malfeitor não precisa procurar um caminho útil; ele pode traçar uma senda que satisfaça suas necessidades, apesar de não ser algo que possa ser feito de improviso.",
-                "system": "",
-                "system5th": "O demônio determina os critérios do caminho que deseja traçar e a distância a percorrer. Você faz um teste de Destreza + Sobrevivência. A dificuldade do teste aumenta de acordo com a complexidade do caminho (um atalho que reduza tempo de viagem, permita passar despercebido e seja largo o suficiente para mais de uma pessoa pode ter dificuldade 4 ou 5). Você precisa conseguir um sucesso para cada duzentos metros de extensão percorrida pelo caminho, arredondados para cima. Ex.: para 500 metros são necessários 3 sucessos. O caminho, uma vez traçado, é visível apenas para o Malfeitor (o uso bem-sucedido da evocação Encontrar Caminhos pode detectá-lo como qualquer outro caminho) e continuará em condições de uso durante um número de dias igual à pontuação permanente de Fé do personagem. O jogador pode tornar o caminho permanente com o investimento de um ponto temporário de Força de Vontade.",
-                "torment": "Demônios monstruosos também conseguem traçar caminhos, mas a mácula inserida na tessitura da trilha torna o curso imprevisível e perigoso. Testes para percorrer um caminho traçado por um demônio monstruoso ficam sujeitos a falhas críticas caso resultem em 1 ou 2. A Falha Infernal faz com que o viajante deixe o caminho num ponto aleatório ao longo de sua extensão, determinado pelo Narrador — potencialmente fatal se o caminho levar ao interior de um lago ou de uma montanha."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "dexterity",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade do teste aumenta de acordo com a complexidade do caminho. Um atalho que reduza o tempo de viagem, permita ao usuário passar despercebido e seja largo o suficiente para deixar mais de uma pessoa caminhar por ele ao mesmo tempo é muito complexo e poderia ter uma dificuldade igual a 4 ou 5.",
+                "description": "Neste nível, o Malfeitor não precisa procurar um caminho útil. Ele pode traçar uma senda que satisfaça suas necessidades, apesar de não ser algo que possa ser feito de improviso.",
+                "system": "O demônio determina os critérios do caminho que deseja traçar e a distância a percorrer. Você faz um teste de Destreza + Sobrevivência. A dificuldade do teste aumenta de acordo com a complexidade do caminho. Um atalho que reduza o tempo de viagem, permita ao usuário passar despercebido e seja largo o suficiente para deixar mais de uma pessoa caminhar por ele ao mesmo tempo é muito complexo e poderia ter uma dificuldade igual a 9 ou 10. Você precisa conseguir um número de sucessos igual à extensão percorrida pelo caminho em centenas de metros. Esses sucessos podem ser obtidos por meio de uma ação prolongada, mas precisam ser acumulados em turnos sequienciais. Usando o exemplo anterior, se o Malfeitor quisesse traçar aquele caminho entre dois pontos que estivessem a quinhentos metros um do outro, você precisaria obter cinco sucessos a uma dificuldade igual a 9 ou 10. O caminho, uma vez traçado, é visível apenas para o Malfeitor (mas o uso bem-sucedido da evocação Encontrar Caminhos pode detectá-lo como no caso de qualquer outro caminho) e continuará em condições de uso durante um número de dias igual à pontuação de Fé permanente do personagem. O jogador pode tornar o caminho permanente com o investimento de um ponto temporário de Força de Vontade.",
+                "system5th": "O demônio determina os critérios do caminho que deseja traçar, fazendo um teste de Destreza + Sobrevivência. A dificuldade do teste aumenta de acordo com a complexidade do caminho. Um atalho que reduza o tempo de viagem, permita ao usuário passar despercebido e seja largo o suficiente para deixar mais de uma pessoa caminhar por ele ao mesmo tempo é muito complexo e poderia ter uma dificuldade igual a 4 ou 5. A extensão desse caminho terá no máximo 100 metros para cada ponto de Fé do evocador. O caminho, uma vez traçado, é visível apenas para o Malfeitor (mas o uso bem-sucedido da evocação Encontrar Caminhos pode detectá-lo como no caso de qualquer outro caminho) e continuará em condições de uso durante um número de dias igual à pontuação de Fé do personagem. O jogador pode tornar o caminho permanente com o investimento de um ponto de Força de Vontade.",
+                "torment": "Os demônios monstruosos também conseguem traçar caminhos, mas a mácula que se insere na tessitura de uma trilha torna o curso imprevisível e perigoso. Os testes realizados para percorrer um caminho traçado por um demônio monstruoso ficam sujeitos a falhas criticas caso resultem em 1 ou 2. A falha critica faz com que o viajante deixe o caminho num ponto aleatório ao longo de sua extensão, determinado pelo Narrador — um contratempo possivelmente fatal se o caminho em questão levar ao interior de um lago ou de uma montanha.",
+                "torment5th": "Os demônios monstruosos também conseguem traçar caminhos, mas a mácula que se insere na tessitura de uma trilha torna o curso imprevisível e perigoso. Passa a ser necessário realizar um teste para percorrer um caminho traçado por um demônio monstruoso, realizando um teste de Força de Vontade com dificuldade igual o estipulado para traçar o caminho. Este teste fica sujeito a Falhas Infernais (ou falhas críticas se tratando de não demônios) caso resultem em 1 ou 2. A Falha Infernal (ou falha crítica) faz com que o viajante deixe o caminho num ponto aleatório ao longo de sua extensão, determinado pelo Narrador — um contratempo possivelmente fatal se o caminho em questão levar ao interior de um lago ou de uma montanha.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 188
             },
             {
                 "level": 3,
                 "name": "Ocultar Caminhos",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "resolve",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "Os caminhos, uma vez formados, podem ser encontrados e seguidos por qualquer demônio que tenha olhos e saiba procurá-los — a menos que estejam camuflados pelo demônio que os criou.",
-                "system": "",
+                "system": "Faça um teste de Percepção + Sobrevivência. Qualquer demônio que tente encontrar o caminho mais tarde precisará obter mais sucessos que o Malfeitor ao procurar a rota escondida. Essa dissimulação dura um número de dias igual à pontuação permanente de Fé do personagem ou pode se tornar permanente com o investimento de um ponto temporário de Força de Vontade.",
                 "system5th": "Faça um teste de Determinação + Sobrevivência. Qualquer demônio que tente encontrar o caminho mais tarde precisará obter mais sucessos que o Malfeitor ao procurar a rota escondida. Essa dissimulação dura um número de dias igual à pontuação permanente de Fé do personagem ou pode se tornar permanente com o investimento de um ponto temporário de Força de Vontade.",
-                "torment": "Os demônios monstruosos não escondem um caminho: eles preparam uma armadilha para os incautos. Quando a evocação é executada, os sucessos obtidos tornam-se níveis automáticos de dano por contusão, infligidos a qualquer criatura que colocar os pés nesse caminho. Essa armadilha pode ser detectada com um teste de Ocultismo, mas não pode ser evitada nem desarmada. Ao contrário da forma mais benigna de dissimulação, essa armadilha não pode ser transformada em algo permanente. Ela desaparecerá após um número de dias igual à pontuação de Tormento do demônio."
+                "torment": "Os demônios monstruosos não escondem um caminho: eles preparam uma armadilha para os incautos. Quando a evocação é executada, os sucessos obtidos tornam-se níveis automáticos de dano por contusão, infligidos a qualquer criatura que colocar os pés nesse caminho. Essa armadilha pode ser detectada com um teste de percepção sobrenatural (consulte a pág. 172), mas não pode ser evitada nem desarmada. Ao contrário da forma mais benigna de dissimulação, essa armadilha não pode ser transformada em algo permanente. Ela desaparecerá após um número de dias igual à pontuação de Tormento do demônio.",
+                "torment5th": "Os demônios monstruosos não escondem um caminho: eles preparam uma armadilha para os incautos. Quando a evocação é executada, os sucessos obtidos tornam-se níveis automáticos de dano Superficial, infligidos a qualquer criatura que colocar os pés nesse caminho. Essa armadilha pode ser detectada com um teste de percepção sobrenatural, mas não pode ser evitada nem desarmada. Ao contrário da forma mais benigna de dissimulação, essa armadilha não pode ser transformada em algo permanente. Ela desaparecerá após um número de dias igual à pontuação de Tormento do demônio.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 189
             },
             {
                 "level": 4,
                 "name": "Fechar Caminho",
-                "description": "Esta evocação permite a um Malfeitor selar as duas extremidades de um caminho e impedir que amigos e inimigos o utilizem até ele ser reaberto. Os caminhos fechados desse modo em geral são “trancados” com o uso de palavras especiais que funcionam como chave para permitir o acesso a indivíduos específicos, restringindo a passagem de outros.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de metros; o esforço pode ter êxito com um teste prolongado durante um certo número de turnos sequenciais. Obtendo sucesso no teste, o caminho é fechado. Se alguém estiver percorrendo o caminho no momento, a pessoa ficará aprisionada em seu interior até o demônio decidir reabri-lo. Você pode usar um ponto temporário de Força de Vontade em nome do personagem para criar uma palavra-chave que outros demônios (e servos) possam utilizar para destrancar o caminho e percorrê-lo. É possível forçar a abertura de caminhos fechados obtendo sucesso num teste de Força de Vontade; a dificuldade é igual à Força de Vontade apresentada pelo Malfeitor quando fechou o caminho, e o teste precisa render um número de sucessos igual à pontuação de Fé que o Malfeitor possuía ao encerrar. Forçar a abertura pode ser feito como uma ação prolongada ao longo de turnos.",
-                "torment": "Os demônios monstruosos não fecham caminhos: eles os destroem. Novamente você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de metros, e seu personagem pode empreender esse esforço como ação prolongada. Obtendo-se sucesso, o caminho desmorona e é destruído. Se alguém estiver percorrendo o caminho no momento, as consequências podem ser terríveis. O Narrador faz um teste de Destreza + Sobrevivência para cada pessoa (dificuldade 3). Se o teste tiver êxito, a vítima deixará o caminho num ponto aleatório ao longo de sua extensão. No caso de falha, ela se perderá entre os reinos físico e espiritual e começará a sufocar (veja regras de afogamento). O Narrador pode continuar a fazer testes em nome da vítima, minuto a minuto, até que escape ou morra. Se o personagem morrer, seu corpo não retornará ao reino físico."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "dexterity",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é igual à 1 para cada 100 metros percorridos pelo caminho.",
+                "description": "Esta evocação permite a um Malfeitor selar as duas extremidades de um caminho e impedir que amigos e inimigos o utilizem até ele ser reaberto. Os caminhos fechados desse modo em geral são “trancados” com o uso de palavras especiais que podem então ser empregadas como um tipo de chave para permitir que indivíduos específicos tenham acesso ao caminho ao mesmo tempo em que restringe a passagem de outros.",
+                "system": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de metros, e o esforço pode ter êxito com um teste prolongado no decorrer de um certo número de turnos sequenciais. Obtendo-se sucesso no teste, o caminho é fechado. Se alguém estiver percorrendo o caminho no momento, a pessoa ficará aprisionada em seu interior até o demônio decidir reabrí-lo. Você pode usar um ponto temporário de Força de Vontade em nome do personagem para criar uma palavra-chave que outros demônios (e servos) possam utilizar para destrancar o caminho e percorrê-lo. É possível forçar a abertura de caminhos fechados com este poder obtendo-se sucesso num teste de Força de Vontade. A dificuldade é igual à Força de Vontade apresentada pelo Malfeitor quando este fechou o caminho, e o teste precisa render um número de sucessos igual a pontuação de Fé do mesmo por ocasião do encerramento. É possível forçar a abertura de um caminho dessa maneira como se fosse uma ação prolongada no decorrer de um certo número de turnos.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Destreza + Sobrevivência. A dificuldade é igual à 1 para cada 100 metros percorridos pelo caminho. Obtendo-se sucesso no teste, o caminho é fechado. Se alguém estiver percorrendo o caminho no momento, a pessoa ficará aprisionada em seu interior até o demônio decidir reabrí-lo. Você pode usar um ponto de Força de Vontade em nome do personagem para criar uma palavra-chave que outros demônios (e servos) possam utilizar para destrancar o caminho e percorrê-lo. É possível forçar a abertura de caminhos fechados com este poder obtendo-se sucesso num teste de Força de Vontade. A dificuldade é igual à quantidade de sucessos que o Malfeitor obteve ao fechar o caminho.",
+                "torment": "Os demônios monstruosos não fecham caminhos: eles os destroem. Mais uma vez, você precisa obter um número de sucessos igual à distância percorrida pelo caminho em centenas de mertros, e seu personagem pode empreender esse esforço como uma ação prolongada no decorrer de um certo número de turnos. Obtendo-se sucesso, o caminho desmorona e é destruido. Se alguém estiver percorrendo o caminho no momento, as consequências serão terríveis. O Narrador faz um teste de Destreza + Sobrevivência para cada pessoa (dificuldade 8). Se o teste tiver êxito, a vítima deixará o caminho num ponto aleatório ao longo de sua extensão. No caso de uma falha, ela se perderá entre os reinos físico e espiritual e começará a sufocar (consulte as regras de afogamento na pág. 263 do capítulo sobre sistemas para maiores detalhes). O Narrador pode continuar a fazer testes em nome da vítima aprisionada de minuto em minuto até ela escapar ou morrer. Se o personagem morrer, seu corpo não retorna ao reino físico.",
+                "torment5th": "Os demônios monstruosos não fecham caminhos: eles os destroem. Obtendo-se sucesso pelos testes e dificuldades já citados, o caminho desmorona e é destruído. Se alguém estiver percorrendo o caminho no momento, as consequências serão terríveis. O Narrador faz um teste de Destreza + Sobrevivência para cada pessoa (dificuldade 3). Se o teste tiver êxito, a vítima deixará o caminho num ponto aleatório ao longo de sua extensão. No caso de uma falha, ela se perderá entre os reinos físico e espiritual e começará a sufocar. O Narrador pode continuar a fazer testes em nome da vítima aprisionada de minuto em minuto até ela escapar ou morrer. Se o personagem morrer, seu corpo não retorna ao reino físico.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 189
             },
             {
                 "level": 5,
                 "name": "Deformar Caminhos",
-                "description": "Esta evocação permite a um Malfeitor distorcer a natureza de um caminho pré-existente, alterando um ou mais de seus parâmetros: o tempo de viagem, o destino, ou fazendo-o fechar sobre si mesmo em um círculo sem fim.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Se o personagem desejar aumentar ou diminuir o tempo de viagem, este será modificado segundo um fator igual ao número de sucessos obtidos. Se desejar alterar o destino do caminho ou fazer com que este se feche sobre si mesmo, será necessário obter um número de sucessos igual à extensão do caminho em centenas de metros. O efeito dura um número de dias igual à pontuação de Fé do personagem ou pode tornar-se permanente com o investimento de um único ponto de Força de Vontade.",
-                "torment": "Demônios monstruosos criam caminhos distorcidos que também afligem as mentes dos viajantes. Além das alterações provocadas no próprio caminho, os viajantes que o percorrem precisarão fazer um teste de Força de Vontade ao chegar ao destino: falha = perturbação temporária; Falha Infernal = perturbação permanente."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "dexterity",
+                    "survival"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é igual à 1 para cada 100 metros percorridos pelo caminho.",
+                "description": "Esta evocação permite a um Malfeitor distorcer a natureza de um caminho pré-existente, alterando um ou mais de seus parâmetros. O caminho pode ser percorrido num período de tempo maior ou menor, pode levar os viajantes de volta ao ponto de partida, pode levar a um destino completamente diferente ou simplesmente se fechar sobre si mesmo num circulo sem fim.",
+                "system": "Use um ponto de Fé e faça um teste de Destreza + Sobrevivência. Se o personagem desejar aumentar ou diminuir o tempo de viagem, este será modificado segundo um fator igual ao número de sucessos obtidos. Se desejar alterar o destino do caminho ou fazer com que este se feche sobre si mesmo, você precisará obter um número de sucessos igual à extensão do caminho em centenas de metros. A duração do efeito é de um número de dias igual à pontuação de Fé do personagem ou pode se tornar permanente com o investimento de um único ponto de Força de Vontade.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Destreza + Sobrevivência. Se o personagem desejar aumentar ou diminuir o tempo de viagem, este será modificado segundo um fator igual ao número de sucessos obtidos. Se desejar alterar o destino do caminho ou fazer com que este se feche sobre si mesmo, você precisará obter um número de sucessos igual à extensão do caminho em centenas de metros. A duração do efeito é de um número de dias igual à pontuação de Fé do personagem ou pode se tornar permanente com o investimento de um ponto de Força de Vontade.",
+                "torment": "Os demônios monstruosos criam caminhos distorcidos que também afligem as mentes dos viajantes. Além das alterações provocadas no próprio caminho, os viajantes que o percorrem precisarão fazer um teste de Força de Vontade ao chegar a seu destino. No caso de uma falha, eles vão adquirir uma perturbação temporária. No caso de uma falha critica, a perturbação se tornará permanente.",
+                "torment5th": "Os demônios monstruosos criam caminhos distorcidos que também afligem as mentes dos viajantes. Além das alterações provocadas no próprio caminho, os viajantes que o percorrem precisarão fazer um teste de Força de Vontade ao chegar a seu destino, com uma dificuldade igual ao número de sucessos obtivos pelo Malfeitor ao Deformar Caminhos. No caso de uma falha, eles vão adquirir uma perturbação temporária. No caso de uma Falha Infernal (ou falha crítica, no caso de não demônios), a perturbação se tornará permanente.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 189
             }
         ],
         "apName": "Antu, o Semblante dos Caminhos",
-        "apWithoutTorment": "Os anjos dos caminhos lembram muito os mortais à primeira vista. Sua pele é bronzeada, como se tivessem passado a vida toda ao sol, e em volta dos olhos escuros encontram-se rugas profundas que envolvem suas órbitas em sombras permanentes. Só com exame mais atento é que as linhas de expressão se revelam como padrões intrincados que irradiam dos olhos do anjo e continuam a percorrer os planos de sua face, desaparecendo no escalpo e circulando-lhe a garganta em tatuagens complexas. À noite, essas linhas refletem o luar na forma de arabescos espectrais que parecem se mover e realinhar quando o anjo fala.",
-        "apWithTorment": "Os Antu monstruosos não conseguem ocultar as trilhas que ziguezagueiam por suas faces — elas sobressaem como cortes inflamados, negros e rubros contra a pele bronzeada. O ar se move e estremece ao redor deles, e esse efeito aumenta e diminui dependendo da intensidade de suas emoções.",
+        "apWithoutTorment": "Os anjos dos caminhos lembram muito os mortais à primeira vista. Sua pele é bronzeada, como se tivessem passado à vida toda ao sol, e em volta dos olhos escuros encontram-se rugas profundas que envolvem suas órbitas em sombras permanentes. Só com um exame mais de perto é que as linhas de expressão se revelam como padrões intrincados que irradiam dos olhos do anjo e continuam a percorrer os planos de sua face, desaparecendo no escalpo e circulando-lhe a garganta em tatuagens complexas. À noite, essas linhas refletem o luar na forma de arabescos espectrais que parecem se mover e realinhar quando o anjo fala.",
+        "apWithTorment": "Os Antu monstruosos não conseguem ocultar as trilhas que ziguezagueiam por suas faces - elas se sobressaem como inflamados cortes negros e rubros contra a pele bronzeada. O ar se move e estremece ao redor deles, e esse efeito aumenta e diminui dependendo da intensidade de suas emoções.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 189,
         "apocalypticForm": [
             {
                 "name": "Cálculo de Posição",
                 "torment": false,
-                "description": "O personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importando a que distância esses pontos possam estar. À menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção."
+                "description": "Seu personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importa a que distância esses pontos possam estar. A menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção.",
+                "description5th": "Seu personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importa a que distância esses pontos possam estar. A menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção."
             },
             {
-                "name": "Determinação Acentuada",
+                "name": "Percepção Acentuada",
                 "torment": false,
-                "description": "As dificuldades de todos os testes de Determinação sao reduzidas em dois pontos."
+                "description": "As dificuldades de todos os testes de Percepção são reduzidas em dois pontos.",
+                "description5th": "As dificuldades de todos os testes de Percepção sao reduzidas em dois pontos."
             },
             {
                 "name": "Iniciativa Aprimorada",
                 "torment": false,
-                "description": "Acrescenta dois pontos ao resultado de iniciativa."
+                "description": "Acrescente dois pontos a seu resultado de iniciativa,",
+                "description5th": "Acrescente dois pontos ao resultado de iniciativa."
             },
             {
                 "name": "Dedos Ligeiros",
                 "torment": false,
-                "description": "O personagem é capaz de proezas sobrenaturais de prestidigitação; consegue retirar um objeto de um bolso ou escondê-lo sem ser detectado com um teste bem-sucedido de Destreza + Atletismo."
+                "description": "O personagem é capaz de proezas sobrenaturais de prestidigitação; ele parece conjurar objetos do nada e fazê-los aparecer novamente com um giro do pulso. Ele consegue retirar um objeto de um bolso ou escondê-lo sem ser detectado com um teste bem-sucedido de Destreza + Esportes.",
+                "description5th": "O personagem é capaz de proezas sobrenaturais de prestidigitação; ele parece conjurar objetos do nada e fazê-los aparecer novamente com um giro do pulso. Ele consegue retirar um objeto de um bolso ou escondê-lo sem ser detectado com um teste bem-sucedido de Destreza + Atletismo."
             },
             {
                 "name": "Sem Deixar Rastro",
                 "torment": true,
-                "description": "A dificuldade dos testes de Furtividade é reduzida em dois pontos, e sua passagem não perturba o ambiente circundante — não deixa pegadas nem perturba a folhagem."
+                "description": "A dificuldade dos testes de Furtividade é reduzida em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem.",
+                "description5th": "A dificuldade dos testes de Furtividade é reduzida em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
             },
             {
                 "name": "Alterar o Tamanho",
                 "torment": true,
-                "description": "O demônio é capaz de alterar seu tamanho físico para passar por fendas apertadas ou se esgueirar em espaços muito pequenos; pode reduzir seu tamanho até um terço do volume original. A dificuldade dos ataques direcionados contra a forma reduzida aumenta em dois pontos."
+                "description": "O demônio é capaz de alterar seu tamanho físico a fim de passar por fendas apertadas ou se esgueirar para dentro de espaços extremamente pequenos. Ele é capaz de reduzir seu tamanho até um terço de seu volume original, se assim desejar. A dificuldade dos ataques direcionados contra o demônio em miniatura aumenta em dois pontos.",
+                "description5th": "O demônio é capaz de alterar seu tamanho físico a fim de passar por fendas apertadas ou se esgueirar para dentro de espaços extremamente pequenos. Ele é capaz de reduzir seu tamanho até um terço de seu volume original, se assim desejar. A dificuldade dos ataques direcionados contra o demônio aumenta em dois pontos."
             },
             {
                 "name": "Miragem",
                 "torment": true,
-                "description": "O ar se deforma em volta do demônio, criando uma ilusão óptica que engana o oponente quanto à distância real. As dificuldades de todos os ataques à distância contra o demônio são aumentadas em um ponto."
+                "description": "O ar se deforma em volta do demônio, criando uma ilusão de óptica que engana o oponente quanto a que distância a criatura realmente se encontra. As dificuldades de todos os ataques à distância contra o demônio são aumentadas em um ponto. Outros demônios conseguem resistir a esses efeitos, assim como a qualquer outra ilusão (veja pág. 171).",
+                "description5th": "O ar se deforma em volta do demônio, criando uma ilusão de óptica que engana o oponente quanto a que distância a criatura realmente se encontra. As dificuldades de todos os ataques à distância contra o demônio são aumentadas em um ponto. Outros demônios conseguem resistir a esses efeitos, assim como a qualquer outra ilusão."
             },
             {
                 "name": "Inexorável",
                 "torment": true,
-                "description": "O demônio é capaz de caminhar ou correr sem descanso, percorrendo distâncias sobre-humanas sem sofrer cansaço ou fome enquanto continuar em movimento."
+                "description": "O demônio é capaz de caminhar ou correr sem descanso, percorrer distâncias sobre-humanas sem intervalo. Desde que continue em movimento, ele não será afetado pelo cansaço nem pela fome.",
+                "description5th": "O demônio é capaz de caminhar ou correr sem descanso, percorrer distâncias sobre-humanas sem intervalo. Desde que continue em movimento, ele não será afetado pelo cansaço nem pela fome."
             }
         ]
     },
@@ -1301,91 +1426,152 @@
             {
                 "level": 1,
                 "name": "Aprimorar Objetos",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "wits",
+                    "craft"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela complexidade relativa do objeto: a dificuldade é igual a 1 no caso de um martelo, e 3 quando se trata de um carro. Os objetos de alta tecnologia, como os computadores, exigem uma dificuldade igual a 4 ou mais.",
                 "description": "Esta evocação permite a um Malfeitor compreender de maneira instintiva um objeto e a função para a qual este foi projetado simplesmente passando as mãos pelo artefato ou acionando suas partes móveis. Além disso, ele é capaz de consertar objetos danificados ou fazer ajustes que aprimoram o funcionamento dos mesmos.",
-                "system": "",
-                "system5th": "Faça um teste de Raciocínio + Ofícios. A dificuldade é determinada pela complexidade relativa do objeto: dificuldade 1 no caso de um martelo; 3 para um carro; 5 para objetos de alta tecnologia (computadores). Um único sucesso concede ao demônio compreensão instintiva da construção e funcionamento; permite operar o objeto. Se o objeto estiver danificado, o demônio será capaz de consertá-lo com um único sucesso. Se desejar melhorar o funcionamento, cada sucesso reduzirá a dificuldade requerida para uso do dispositivo. Esse método de refinamento pode ser utilizado apenas uma vez num artefato e dura normalmente uma cena. O demônio pode tornar os efeitos permanentes com investimento de 1 ponto temporário de Força de Vontade.",
-                "torment": "Os objetos consertados ou melhorados por um demônio monstruoso são contaminados pelo ódio da criatura, impregnando-os com tendência a provocar infortúnios e morte. Obtendo-se 1 ou 2 nos dados, esses objetos amaldiçoados provocam uma Falha Infernal quando empregados. As armas afetadas por esta evocação podem atingir o usuário ou quem estiver perto dele quando da ocorrência da Falha Infernal, a critério do Narrador."
+                "system": "Faça um teste de Percepção + Ofícios. A dificuldade é determinada pela complexidade relativa do objeto: a dificuldade é igual a 5 no caso de um martelo, e 8 quando se trata de um carro. Os objetos de alta tecnologia, como os computadores, exigem uma dificuldade igual a 10. Um único sucesso concede ao demônio uma compreensão instintiva da construção do objeto e de seu funcionamento; ele é capaz de operar o objeto como se conhecesse as capacidades fundamentais do mesmo. Se o objeto estiver danificado, o demônio será capaz de consertá-lo com um único sucesso. Se ele desejar melhorar o funcionamento do objeto, cada sucesso reduzirá a dificuldade requerida para fazer uso do dispositivo. Esse método de refinamento pode ser utilizado apenas uma vez num determinado artefato e dura normalmente uma cena. O demônio pode tornar os efeitos permanentes, se assim desejar, com o investimento de um ponto temporário de Força de Vontade.",
+                "system5th": "Faça um teste de Raciocínio + Ofícios. A dificuldade é determinada pela complexidade relativa do objeto: a dificuldade é igual a 1 no caso de um martelo, e 3 quando se trata de um carro. Os objetos de alta tecnologia, como os computadores, exigem uma dificuldade igual a 4 ou mais. Um sucesso no teste concede ao demônio uma compreensão instintiva da construção do objeto e de seu funcionamento; ele é capaz de operar o objeto como se conhecesse as capacidades fundamentais do mesmo. Se o objeto estiver danificado, o demônio será capaz de consertá-lo. Se ele desejar melhorar o funcionamento do objeto, a dificuldade requerida para fazer uso do dispositivo é diminuída em 1 + quantidade de sucessos adicionais. Esse método de refinamento pode ser utilizado apenas uma vez num determinado artefato e dura normalmente uma cena. O demônio pode tornar os efeitos permanentes, se assim desejar, com o investimento de um ponto de Força de Vontade.",
+                "torment": "Os objetos consertados ou melhorados por um demônio monstruoso são contaminados pelo ódio da criatura que os impregna com uma certa tendência a provocar infortúnios e a morte. Obtendo-se 1 ou 2 nos dados, esses objetos amaldiçoados provocam uma falha crítica quando empregados. As armas afetadas por esta evocação atingem o usuário ou quem estiver perto dele quando da ocorrência da falha critica, a critério do Narrador.",
+                "torment5th": "Os objetos consertados ou melhorados por um demônio monstruoso são contaminados pelo ódio da criatura que os impregna com uma certa tendência a provocar infortúnios e a morte. Obtendo-se 1 ou 2 nos dados, esses objetos amaldiçoados provocam uma Falha Infernal quando empregados. As armas afetadas por esta evocação atingem o usuário ou quem estiver perto dele quando da ocorrência da Falha Infernal, a critério do Narrador.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 190
             },
             {
                 "level": 2,
                 "name": "Ativar Objetos",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "craft"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela complexidade do objeto. Fazer com que uma porta se abra exige uma dificuldade igual a 1, enquanto fazer o tambor de um revólver girar e disparar requer uma dificuldade igual a 3.",
                 "description": "Com esta evocação, o demônio é capaz de operar objetos mecânicos por meio de simples força de vontade.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Ofícios. A dificuldade é determinada pela complexidade do objeto: abrir uma porta exige dificuldade 1; fazer o tambor de um revólver girar e disparar exige dificuldade 3. Esta evocação funciona apenas com objetos que operam por meios simples e mecânicos: dobradiças e alavancas se movem, martelos não se erguem sozinhos nem começam a bater pregos. É possível apertar um botão de elevador ou ligar/desligar um computador, mas o funcionamento interno da máquina não é afetado. O personagem consegue afetar um único objeto num raio em metros igual à sua pontuação de Fé.",
-                "torment": "Uma máquina ativada pela vontade de um demônio monstruoso geralmente se quebra ou fica descontrolada e acaba danificada ou destruída. Ao fazer o teste de Vigor + Ofícios para ativar o objeto, aplique também o número de sucessos obtidos como níveis de dano ao objeto."
+                "system": "Faça um teste de Inteligência + Ofícios. A dificuldade é determinada pela complexidade do objeto. Fazer com que uma porta se abra exige uma dificuldade igual a 5, enquanto fazer o tambor de um revólver girar e disparar requer uma dificuldade igual a 8. Esta evocação funciona apenas com objetos que operam por meios simples e mecânicos. As dobradiças e as alavancas se movem, mas os martelos não se erguem sozinhos nem começam a bater pregos. É possível apertar um botão de elevador ou ligar e desligar um computador, mas o funcionamento interno da máquina não é afetado. O personagem consegue afetar um único objeto num raio em metros igual a sua pontuação de Fé.",
+                "system5th": "Faça um teste de Inteligência + Ofícios. A dificuldade é determinada pela complexidade do objeto. Fazer com que uma porta se abra exige uma dificuldade igual a 1, enquanto fazer o tambor de um revólver girar e disparar requer uma dificuldade igual a 3. Esta evocação funciona apenas com objetos que operam por meios simples e mecânicos. As dobradiças e as alavancas se movem, mas os martelos não se erguem sozinhos nem começam a bater pregos. É possível apertar um botão de elevador ou ligar e desligar um computador, mas o funcionamento interno da máquina não é afetado. O personagem consegue afetar um único objeto num raio em metros igual a sua pontuação de Fé.",
+                "torment": "Uma máquina afetada pela vontade de um demônio monstruoso geralmente se quebra ou fica descontrolada e acaba danificada ou destruída. Ao fazer um teste de Vigor + Ofícios para ativar o objeto, aplique também o número de sucessos obtidos como níveis de dano ao objeto",
+                "torment5th": "Uma máquina ativada pela vontade de um demônio monstruoso geralmente se quebra ou fica descontrolada e acaba danificada ou destruída. Ao fazer o teste de Vigor + Ofícios para ativar o objeto, aplique também o número de sucessos obtidos como níveis de dano ao objeto.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 190
             },
             {
                 "level": 3,
                 "name": "Criar Objetos",
-                "description": "Esta evocação permite a um Malfeitor trabalhar com facilidade a matéria: uma tábua pode tornar-se um navio em miniatura, uma janela de vidro pode virar uma coroa, um cano de aço pode ser modelado em uma espada afiada.",
-                "system": "",
-                "system5th": "Faça um teste de Destreza + Ofícios. A dficuldade depende da complexidade: um martelo tem dificuldade 1; um relógio, 2 ou mais. Criar máquinas sofisticadas (motores de combustão, geradores) tem dificuldade 4. Artefatos de alta tecnologia (computadores) têm dificuldade 5. Os objetos criados são permanentes, salvo destruição.",
-                "torment": "Os objetos criados por demônios monstruosos são perigosos e imprevisíveis; quando utilizados causam falhas críticas com a obtenção de 1s e 2s nos dados, e o usuário ou quem estiver perto sofrerá as consequências."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "dexterity",
+                    "craft"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade depende da complexidade do objeto que seu personagem deseja criar. Um martelo tem dificuldade 1, enquanto um relógio tem dificuldade 4 ou mais. É possível obter esses sucessos com uma ação prolongada, o que permite ao personagem trabalhar no artefato, deixá-lo de lado e voltar horas ou até mesmo dias depois. A dificuldade para criar máquinas sofisticadas, como motores de combustão interna ou geradores elétricos é igual a 10 para que a ação seja completada em uma ação prolongada. Os artefatos de alta tecnologia, como os computadores, apresentam uma dificuldade igual a 12 para que a ação seja completada em uma ação prolongada.",
+                "description": "Esta evocação permite a um Malfeitor trabalhar com facilidade a matéria. Uma tábua de madeira pode ser transformada num navio em miniatura, uma janela de vidro laminado pode se tornar uma delicada coroa de vidro ou um cano de aço pode ser modelado pelas mãos do Malfeitor e ganhar a forma de uma espada afiada.",
+                "system": "Faça um teste de Destreza + Ofícios. Você precisa obter um certo número de sucessos dependendo da complexidade do objeto que seu personagem deseja criar. Um martelo exige um sucesso, enquanto um relógio precisaria de cinco ou mais. É possível obter esses sucessos com uma ação prolongada, o que permite ao personagem trabalhar no artefato, deixá-lo de lado e voltar horas ou até mesmo dias depois. A dificuldade para criar máquinas sofisticadas, como motores de combustão interna ou geradores elétricos é igual a 9 e pode exigir dez ou mais sucessos para que a ação seja completada. Os artefatos de alta tecnologia, como os computadores, apresentam uma dificuldade igual a 10 e podem exigir quinze ou mais sucessos para que a ação seja completada. Os objetos criados são permanentes, a menos que sejam destruídos.",
+                "system5th": "Faça um teste de Destreza + Ofícios. A dificuldade depende da complexidade do objeto que seu personagem deseja criar. Um martelo tem dificuldade 1, enquanto um relógio tem dificuldade 4 ou mais. É possível obter esses sucessos com uma ação prolongada, o que permite ao personagem trabalhar no artefato, deixá-lo de lado e voltar horas ou até mesmo dias depois. A dificuldade para criar máquinas sofisticadas, como motores de combustão interna ou geradores elétricos é igual a 10 para que a ação seja completada em uma ação prolongada. Os artefatos de alta tecnologia, como os computadores, apresentam uma dificuldade igual a 12 para que a ação seja completada em uma ação prolongada. Os objetos criados são permanentes, a menos que sejam destruídos.",
+                "torment": "Os objetos criados por demônios monstruosos são perigosos e imprevisíveis, igualmente capazes de provocar tragédias quando em funcionamento. Quando utilizados, os objetos criados dessa maneira causam Falhas críticas com a obtenção de 1 e 2 nos dados, e o usuário ou quem estiver perto dele arcará com as consequências.",
+                "torment5th": "Os objetos criados por demônios monstruosos são perigosos e imprevisíveis, igualmente capazes de provocar tragédias quando em funcionamento. Quando utilizados, os objetos criados dessa maneira causam Falhas Infernais (ou falhas críticas no caso de não demônios) com a obtenção de 1 e 2 nos dados, e o usuário ou quem estiver perto dele arcará com as consequências.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 190
             },
             {
                 "level": 4,
                 "name": "Encantar Objetos",
-                "description": "Evocação que impregna objetos com qualidades sobrenaturais capazes de transformar mortais em heróis ou monstros; pode trabalhar com objetos criados para esse fim ou impregnar itens pré-existentes.",
-                "system": "",
-                "system5th": "Criar um objeto encantado exige tempo e energia. Se o Malfeitor criar o objeto com intenção de encantá-lo, a dificuldade é 1; se trabalhar com objeto pré-existente, a dificuldade é 3. Para encantar, o demônio precisa possuir a linha doutrinária adequada ao efeito (o Narrador decide quais doutrinas e níveis são necessários). Objetos encantados recorrem à convicção do usuário: mortais (incl. servos) precisam passar em teste de Força de Vontade (Dificuldade 3) para usar; demônios precisam passar em uma checagem de Fé. Falha Infernal = perder 1 ponto na característica em questão. É possível harmonizar o objeto (mortais/servos gastam 1 ponto de Força de Vontade permanente; demônios, 1 ponto de Fé) para uso sem testes. Se o demônio tiver o conhecimento, faça um teste prolongado de Destreza + Ofícios e realize uma checagem de Fé; a dificuldade: 1 (faca que nunca perde o fio), 2 (chave que abre qualquer fechadura), 5 (espelho mágico que mostra o desejo mais recôndito). Falha Infernal na criação destrói o objeto. Esta evocação não pode ser empregada em artefatos de alta tecnologia.",
-                "torment": "Demônios monstruosos criam objetos amaldiçoados que consomem as almas de seus proprietários e causam aflição aos que estiverem por perto. Objetos amaldiçoados provocam Falha Infernal com 1s ou 2s nos dados; as consequências atingem sempre o usuário ou seus entes queridos. Além disso, ao invés de apenas lançar dados para ativar o objeto, os mortais (incl. servos) perderão 1 ponto de Força de Vontade toda vez que o empregarem, enquanto os demônios ganharão 1 ponto de Tormento temporário."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "dexterity",
+                    "craft"
+                ],
+                "dificulty": 3,
+                "dificultyText": "A dificuldade depende do poder e da abrangência do encantamento. Uma criação simples, como uma faca que nunca perde o fio, tem dificuldade 3. Uma chave que abre qualquer fechadura tem dificuldade 4. Um espelho mágico que mostra a realização do desejo mais secreto de um mortal tem difiduldade 5 ou mais. Se o Malfeitor trabalhar com um objeto pré-existente, as dificuldades citadas aumentam em 1.",
+                "description": "Esta poderosa evocação é a que mais está associada aos anjos da terra: a habilidade de impregnar objetos com qualidades sobrenaturais capazes de transformar os mortais comuns em heróis... ou monstros. Muitos desses objetos são criados especificamente com esse propósito, mas os Malfeitores também são peritos em impregnar objetos pré-existentes com novas e assustadoras capacidades.",
+                "system": "Criar um objeto encantado é um processo árduo e custoso que exige um investimento substancial de tempo e energia. Se o Malfeitor criar o objeto com a intenção de encantá-lo, a dificuldade para realizar esta evocação será igual a 6. Se trabalhar com um objeto pré-existente, a dificuldade será igual a 8. Para encantar um item, o demônio primeiro precisa possuir uma linha doutrinária que evoque a investidura em questão. Por exemplo, se quiser criar um espelho mágico que mostra uma ilusão de beleza perfeita a quem quer que se admire no mesmo, o demônio precisará possuir pelo menos um ponto na Doutrina da Luz, a linha que rege as ilusões. Os efeitos mais complexos podem exigir uma combinação de doutrinas pertinentes. Se quisesse que o espelho percebesse o desejo mais recôndito de um mortal e apresentasse uma ilusão para personificá-lo, o demônio precisaria de um pouco Doutrina da Luz e da Doutrina da Humanidade. O Narrador é o árbitro final quanto a quais doutrinas são necessárias (e em quais níveis) para criar um determinado objeto. Os objetos encantados recorrem à convicção do usuário para desempenhar suas funções sobrenaturais. Os mortais (o que inclui os servos) precisam passar num teste de Força de Vontade (dificuldade 8) para ter acesso às capacidades do objeto, enquanto os demônios precisam ter sucesso num teste de Fé (dificuldade 6). Esse teste será obrigatório toda vez que o objeto for utilizado. Se qualquer um dos testes tiver como resultado uma falha crítica, o personagem perderá um ponto na característica em questão. Como alternativa, os personagens poderão se harmonizar com um objeto e criar um vínculo permanente para manter o artefato sempre energizado. Harmonizar um objeto dessa maneira custa um ponto de Força de Vontade permanente (no caso de mortais e servos) ou um ponto de Fé permanente (no caso dos demônios). Uma vez harmonizado o dispositivo, o personagem poderá fazer uso do mesmo à vontade sem que sua ativação exija um teste. Se o demônio possuir o conhecimento necessário, faça um teste prolongado de Destreza + Ofícios e use um ponto de Fé. O número de sucessos necessários depende do poder e da abrangência do encantamento. Uma criação simples, como uma faca que nunca perde o fio, exige um sucesso. Uma chave que abre qualquer fechadura requer cinco sucessos. Um espelho m mágico que mostra a realização do desejo mais secreto de um mortal exige dez sucessos. Se o teste de criação tiver como resultado uma falha critica, o objeto será destruído. Esta evocação não pode ser empregada com artefatos de alta tecnologia, como computadores ou outros equipamentos eletrônicos.",
+                "system5th": "Criar um objeto encantado é um processo árduo e custoso que exige um investimento substancial de tempo e energia. Para encantar um item, o demônio primeiro precisa possuir uma linha doutrinária que evoque a investidura em questão. Por exemplo, se quiser criar um espelho mágico que mostra uma ilusão de beleza perfeita a quem quer que se admire no mesmo, o demônio precisará possuir pelo menos um ponto na Doutrina da Luz, a linha que rege as ilusões. Os efeitos mais complexos podem exigir uma combinação de doutrinas pertinentes. Se quisesse que o espelho percebesse o desejo mais recôndito de um mortal e apresentasse uma ilusão para personificá-lo, o demônio precisaria de um pouco Doutrina da Luz e da Doutrina da Humanidade. O Narrador é o árbitro final quanto a quais doutrinas são necessárias (e em quais níveis) para criar um determinado objeto. Os objetos encantados recorrem à convicção do usuário para desempenhar suas funções sobrenaturais. Os mortais (o que inclui os servos) precisam passar num teste de Força de Vontade (dificuldade 3) para ter acesso às capacidades do objeto, enquanto os demônios precisam realizar uma Checagem de Fé. Esse teste será obrigatório toda vez que o objeto for utilizado. Se qualquer um dos testes tiver como resultado uma falha crítica, o personagem perderá um ponto na característica em questão. Como alternativa, os personagens poderão se harmonizar com um objeto e criar um vínculo permanente para manter o artefato sempre energizado. Harmonizar um objeto dessa maneira custa um ponto de Força de Vontade (no caso de mortais e servos) ou um ponto de Fé (no caso dos demônios). Uma vez harmonizado o dispositivo, o personagem poderá fazer uso do mesmo à vontade sem que sua ativação exija um teste. Se o demônio possuir o conhecimento necessário, faça uma Checagem de Fé e um teste de Destreza + Ofícios. A dificuldade depende do poder e da abrangência do encantamento. Uma criação simples, como uma faca que nunca perde o fio, tem dificuldade 3. Uma chave que abre qualquer fechadura tem dificuldade 4. Um espelho mágico que mostra a realização do desejo mais secreto de um mortal tem difiduldade 5 ou mais. Se o Malfeitor trabalhar com um objeto pré-existente, as dificuldades citadas aumentam em 1. Se o teste de criação tiver como resultado uma Falha Infernal, o objeto será destruído. Esta evocação não pode ser empregada com artefatos de alta tecnologia, como computadores ou outros equipamentos eletrônicos.",
+                "torment": "Os demônios monstruosos criam objetos amaldiçoados que consomem as almas de seus proprietários e causam aflição a quem estiver por perto. Os objetos amaldiçoados sofrem falha critica com a obtenção de 1s ou 2s nos dados, e as consequências desse acidente têm sempre como alvo o usuário ou amigos e entes queridos que porventura estejam por perto. Além disso, em vez de lançar os dados para ativar o objeto, os mortais (o que inclui servos) perderão um ponto de Força de Vontade toda vez que o empregarem, enquanto os demônios ganharão um ponto de Tormento Temporário.",
+                "torment5th": "Os demônios monstruosos criam objetos amaldiçoados que consomem as almas de seus proprietários e causam aflição a quem estiver por perto. Os objetos amaldiçoados sofrem falha critica com a obtenção de 1s ou 2s nos dados, e as consequências desse acidente têm sempre como alvo o usuário ou amigos e entes queridos que porventura estejam por perto. Além disso, em vez de lançar os dados para ativar o objeto, os mortais (o que inclui servos) perderão um ponto de Força de Vontade toda vez que o empregarem, enquanto os demônios ganharão uma mácula de Tormento.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 191
             },
             {
                 "level": 5,
                 "name": "Impregnar Objetos",
-                "description": "Permite a um Malfeitor aprisionar uma alma — mortal ou demoníaca — num relicário ou outro objeto especialmente preparado.",
-                "system": "",
-                "system5th": "É necessário preparar um recipiente adequado, feito de materiais naturais e trabalhado artesanalmente. Se o próprio Malfeitor preparou o recipiente, a dificuldade é 1; caso contrário, 3. Realize uma checagem de Fé e faça um teste resistido de Vigor + Ofícios contra a Força de Vontade do alvo, a uma distância em metros igual à sua pontuação de Fé. Se bem-sucedido, o espírito é aprisionado no recipiente. Almas mortais aprisionadas não conseguem interagir com o mundo físico; demônios aprisionados permanecem capazes de empregar certas linhas doutrinárias, desde que tenham Fé disponível (pactos com servos continuam ativos). A única maneira de libertar a alma é destruir o recipiente que a contém.",
-                "torment": "Demônios monstruosos que aprisionam almas maculam-nas: as almas mortais aprisionadas recebem uma perturbação permanente determinada pelo Narrador. Anjos caídos aprisionados têm seu Tormento permanente aumentado em função dos sucessos obtidos no teste de Vigor + Ofícios usado para ancorá-los."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "stamina",
+                    "craft"
+                ],
+                "dificulty": 2,
+                "dificultyText": "A dificuldade depende da complexidade e do poder que o alvo armazena.",
+                "description": "Se, por um lado, a capacidade de encantar objetos fez com que os Annunaki fossem muito procurados entre os anjos caídos, esta evocação tornou-os igualmente temidos, pois ela permite a um Malfeitor aprisionar uma alma — mortal ou demoníaca — num relicário ou outro objeto especialmente preparado.",
+                "system": "O personagem precisa preparar um recipiente adequado para conter o espírito em questão. Esse recipiente precisa ser feito de materiais naturais e trabalhado artesanalmente. Se o próprio Malfeitor tiver preparado o recipiente, a dificuldade para executar esta evocação será igual a 6. Do contrário, esta será igual a 8. Com esse recipiente em mãos, o personagem poderá usar esta evocação com qualquer espírito desencarnado (como um demônio privado de seu hospedeiro ou um fantasma) a uma distância em metros igual a sua pontuação de Fé. Use um ponto de Fé e faça um teste resistido de Vigor + Oficios contra a Força de Vontade do alvo. Se seu esforço for bem-sucedido, o espírito será aprisionado dentro do recipiente. As almas dos mortais aprisionadas desse modo não conseguem interagir com o mundo físico. Os demônios, por outro lado, ainda são capazes de empregar seus poderes inatos e suas linhas doutrinárias, desde que tenham Fé disponivel (todos os possíveis pactos com servos mortais continuam ativos). A única maneira de libertar uma alma aprisionada desse jeito é destruir o recipiente que a contém.",
+                "system5th": "O personagem precisa preparar um recipiente adequado para conter o espírito em questão. Esse recipiente precisa ser feito de materiais naturais e trabalhado artesanalmente. Com esse recipiente em mãos, o personagem poderá usar esta evocação com qualquer espírito desencarnado (como um demônio privado de seu hospedeiro ou um fantasma) a uma distância em metros igual a sua pontuação de Fé. Realize uma Checagem de Fé e faça um teste resistido de Vigor + Oficios. A dificuldade depende da complexidade e do poder que o alvo armazena. Se seu esforço for bem-sucedido, o espírito será aprisionado dentro do recipiente. As almas dos mortais aprisionadas desse modo não conseguem interagir com o mundo físico. Os demônios, por outro lado, ainda são capazes de empregar seus poderes inatos e suas linhas doutrinárias, desde que tenham Fé disponivel (todos os possíveis pactos com servos mortais continuam ativos). A única maneira de libertar uma alma aprisionada desse jeito é destruir o recipiente que a contém.",
+                "torment": "Os demônios monstruosos que aprisionam almas com essa evocação são maculados pelo Tormento do Malfeitor, o que desvirtua os espiritos, transformando-os em entidades ensandecidas e malévolas. As almas mortais aprisionadas desse jeito recebem uma perturbação permanente, determinada pelo Narrador. Os anjos caídos aprisionados desse modo tem seu Tormento permanente aumentado em função do número de sucessos obtidos no teste de Vigor + Oficios utilizado para ancorá-los.",
+                "torment5th": "Os demônios monstruosos que aprisionam almas com essa evocação são maculados pelo Tormento do Malfeitor, o que desvirtua os espiritos, transformando-os em entidades ensandecidas e malévolas. As almas mortais aprisionadas desse jeito recebem uma perturbação permanente, determinada pelo Narrador. Os anjos caídos aprisionados desse modo tem seu Tormento permanente aumentado em função do seu modificador de Tormento.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 191
             }
         ],
         "apName": "Mummu, o Semblante da Forja",
-        "apWithoutTorment": "Os anjos da forja aparecem como gigantes feitos do ferro negro da terra, com formas musculosas iluminadas por veios de magma e olhos como discos de bronze polido. Suas vozes são graves e retumbantes; em forma apocalíptica são imunes a extremos de temperatura e pressão e capazes de manipular brasas quentes como se fossem cubos de gelo.",
-        "apWithTorment": "Mummu de alto Tormento tornam-se pesadelos: pele de ferro com lâminas serrilhadas, rodeados por nuvens de enxofre, olhos como globos de chamas; onde passam, dispositivos elétricos enlouquecem.",
+        "apWithoutTorment": "Os anjos da forja aparecem como gigantes feitos do ferro negro da terra, suas formas musculosas se iluminam com veios de magma incandescente e seus olhos brilham como discos de bronze polido. Suas vozes são graves e retumbantes, como o rugido de uma fornalha. Quando se encontram em sua forma apocaliptica, estes anjos caídos são imunes aos extremos de temperatura e pressão. São capazes de manipular brasas quentes como os mortais brincam com cubos de gelo.",
+        "apWithTorment": "Os Mummu de alto Tormento são criaturas saídas de pesadelos, com pele de ferro e lâminas serrilhadas, cercadas por uma nuvem de enxofre fumegante. Seus olhos são dois globos idênticos de chamas revoltas e, aonde quer que eles vão, os dispositivos elétricos enlouquecem: as luzes piscam e os aparelhos de TV e rádio são afligidos pela estática.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 191,
         "apocalypticForm": [
             {
                 "name": "Mestre Artesão",
                 "torment": false,
-                "description": "As dificuldades de todos os testes de Ofícios são reduzidas em dois pontos."
+                "description": "As dificuldades de todos os testes de Ofícios são reduzidas em dois pontos.",
+                "description5th": "As dificuldades de todos os testes de Ofícios são reduzidas em dois pontos."
             },
             {
                 "name": "Aumento de Tamanho",
                 "torment": false,
-                "description": "O corpo do personagem cresce em uma vez e um terço da própria altura. Bônus: Força +2, Destreza +1, Vigor +1."
+                "description": "O corpo do personagem cresce em uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+1) e Vigor (+1).",
+                "description5th": "O corpo do personagem cresce em uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+1) e Vigor (+1)."
             },
             {
                 "name": "Voz Retumbante",
                 "torment": false,
-                "description": "O grito do personagem estilhaça o vidro e faz a rocha tremer; indivíduos num raio em metros igual à Fé recebem quatro dados de dano por contusão. Usável uma vez por cena e exige uma ação."
+                "description": "O grito do personagem estilhaça o vidro e faz a rocha tremer. Os indivíduos num raio em metros igual à Fé do personagem recebem quatro dados de dano por contusão. Esta habilidade pode ser usada apenas uma vez por cena e exige uma ação para ser empregada.",
+                "description5th": "O grito do personagem estilhaça o vidro e faz a rocha tremer. Os indivíduos num raio em metros igual à Fé do personagem recebem +4 de dano Superficial. Esta habilidade pode ser usada apenas uma vez por cena e exige uma ação para ser empregada."
             },
             {
                 "name": "Imune ao Fogo",
                 "torment": false,
-                "description": "O personagem é imune ao dano provocado pelo fogo."
+                "description": "O personagem é imune ao dano provocado pelo fogo.",
+                "description5th": "O personagem é imune ao dano provocado pelo fogo."
             },
             {
                 "name": "Lâminas",
                 "torment": true,
-                "description": "Os dedos terminam em lâminas recurvas de ferro que provocam Força +2 de dano agravado."
+                "description": "Os dedos do Mummu terminam em lâminas recurvas de ferro afiado, o que provoca Força + 2 de dano agravado.",
+                "description5th": "Os dedos do Mummu terminam em lâminas recurvas de ferro afiado, o que provoca + 2 de dano agravado."
             },
             {
                 "name": "Apêndices Adicionais",
                 "torment": true,
-                "description": "O demônio desenvolve um segundo par de braços, permitindo aparar/bloquear sem sacrificar ataque ou realizar até dois ataques adicionais por turno."
+                "description": "O demônio desenvolve um segundo par de braços. Os braços adicionais permitem ao personagem aparar ou bloquear ataques em combate próximo sem sacrificar o proprio ataque, ou então realizar até dois ataques adicionais por turno (que são considerados ações maltiplas).",
+                "description5th": "O demônio desenvolve um segundo par de braços. Os braços adicionais permitem a um personagem aparar ou bloquear ataques desarmados ou com armas brancas sem sacrificar seu próprio ataque, ou então realizar dois ataques e realizar o melhor resultado."
             },
             {
                 "name": "Campo Magnético",
                 "torment": true,
-                "description": "O demônio é cercado por um campo magnético intenso o bastante para atrapalhar aparelhos eletrônicos num raio em metros igual à Fé."
+                "description": "O demônio é cercado por um campo magnético intenso o bastante para atrapalhar o funcionamento de aparelhos eletrônicos num raio em metros igual à Fé do personagem.",
+                "description5th": "O demônio é cercado por um campo magnético intenso o bastante para atrapalhar o funcionamento de aparelhos eletrônicos num raio em metros igual à Fé do personagem."
             },
             {
                 "name": "Pele de Ferro",
                 "torment": true,
-                "description": "A pele semelhante ao ferro funciona como couraça, proporcionando quatro dados adicionais para absorver dano por contusão, letal e agravado."
+                "description": "A pele semelhante ao ferro do personagem atua como uma couraça e proporciona quatro dados a mais para absorver dano por contusão, dano letal e agravado.",
+                "description5th": "A pele semelhante ao ferro do personagem atua como uma couraça e proporciona + 4 em Vigor."
             }
         ]
     },
     {
+        "here": true,
         "id": "12",
         "name": "Doutrina dos Padrões",
         "belonging": "neberu",
