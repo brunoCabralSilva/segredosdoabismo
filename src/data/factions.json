@@ -2,26 +2,165 @@
     {
         "name": "faustians",
         "namePtBr": "Faustianos",
-        "description": []
-    },
-    {
-        "name": "luciferans",
-        "namePtBr": "Luciferanos",
-        "description": []
-    },
-    {
-        "name": "cryptics",
-        "namePtBr": "Ocultos",
-        "description": []
-    },
-    {
-        "name": "reconcilers",
-        "namePtBr": "Reconciliadores",
-        "description": []
+        "description": [
+            "Os Faustianos examinaram o poder da Fé humana e concluíram que, mesmo aprisionados num mundo único e não-facetado, os Filhos de Addo têm poder de natureza equivalente ao de Deus. Há que se admitir que o grau de poder é minúsculo, mas toda criança ao nascer carrega uma centelha da chama divina. Se você reunir centelhas suficientes, o fogo poderia um dia ofuscar o sol.",
+            "Os Faustianos consideram a condição geral da humanidade extremamente degradada em relação à época do Éden. Como aves rabugentas, eles estão convencidos de que as pessoas hoje em dia são mais fracas, mais estúpidas, mais idiotas, menos razoáveis, menos respeitosas... Simplesmente um retrocesso geral desde os tempos da memória. Mas, ao mesmo tempo, a capacidade coletiva dos seres humanos de definir a realidade a seu redor é, no mínimo, mais forte do que quando era possível contá-los aos milhares, e não aos bilhões. Mas a humanidade está usando boa parte de sua maior força para se reprimir! Sua maior fé é depositada na evidência: a única coisa que não precisa da fé para ser verdadeira. Consequentemente, apesar de tornar-se mais forte seu domínio sobre o mundo, esse mesmo domínio constringe e constrange a realidade dentro de instâncias cada vez mais apertadas e estreitas. É possível que, caso os seres humanos continuem nesse rumo, a fé desapareça, deixando para trás um mundo frio de certeza absoluta e mecânica.",
+            "Apesar de um mundo assim não ter lugar para Deus, tampouco teria um nicho para os demônios e, portanto, é intolerável aos Faustianos.",
+            "A humanidade, como está se encontra no mundo decaído, é um incêndio que começa a escapar ao controle, esgota rapidamente as fontes óbvias de combustível e ameaça espalhar brasas. A filosofia faustiana baseia-se no aproveitamento e na administração desse poder: controlar a queima, renovar o combustível e construir motores que possam canalizar as energias divinas da humanidade para fora, e não para dentro. É claro que algo assim exigirá direção cautelosa — liderança, mas, no fim, a fé humana constitui por si só a melhor esperança de libertar o mundo do jugo de Deus."
+        ],
+        "rivals": [
+            "Os Faustianos demonstram uma tolerância bestificada com os Reconciliadores. É verdade que os Reconciliadores se apegam à crença tola de que podem fazer as pazes com o Todo-poderoso, mas, tão logo superem esse otimismo adolescente, poderão crescer e voltar-se para objetivos mais maduros (isto é, faustianos). Os Luciferanos geralmente recebem o mesmo tratamento. É possível que tenham tomado a estrada errada para chegar à vitória sobre o Céu, mas ao menos eles não fazem segredo do mapa.",
+            "A ambiguidade dos Faustianos de consumar a rebelião humana contra Deus (ou, dependendo de que Faustiano você perguntar, de escravizar a humanidade para uma rebelião espiritual contra Deus) vai diretamente de encontro à política dos Rapinantes de devastar tudo e matar todo o mundo. Consequentemente, os demônios Rapinantes são vigorosamente encorajados a deixar de lado sua ira irracional e recuperar a esperança. Se isso não der certo, os Faustianos tendem a atacá-los com os seres humanos que lhes são fiéis.",
+            "Existe uma oposição mais discreta em relação aos Ocultos. Os Faustianos estão bastante confiantes de que já entenderam tudo, e indagadores incômodos são mais do que simples pestes: podem ameaçar a determinação dos anjos caídos que empreendem a grande obra de construir o futuro. Pior ainda, eles podem semear dúvidas nos corações dos seguidores mortais.",
+            "Apesar de os Faustianos desprezarem os Rapinantes como agentes do caos e da destruição, seu agravo em relação aos Ocultos é mais sério e fatigante, pois estes são muito resistentes à persuasão. Para um Faustiano dedicado, uma pergunta inconveniente é pior que as garras de um Rapinante em volta da garganta."
+        ],
+        "houses": [
+            "A grandiosidade e o alcance do plano dos Faustianos agradam a muitos demônios ambiciosos. Obrigar os seres humanos a fazer boa parte do trabalho duro restringe esse apelo, limitando-o àqueles que se sentem à vontade fazendo com que outras pessoas cuidem do serviço sujo. Mas, para aqueles que se encaixam nas duas categorias, o faustianismo é uma filosofia perfeita.",
+            "Os Diabos, por serem os antigos comandantes do Universo, são sem dúvida usados para garantir que os demais obedeçam às ordens e, já que formam a Primeira Casa, têm a confiança necessária para tamanha ousadia. Os Profanadores também sempre tiveram grandes esperanças em relação ao poder coletivo da humanidade: inspirá-la a ascender à apoteose parece uma aventura fascinante. Por último, existem muitos Faustianos entre os Malfeitores. Para eles, o apelo não está tanto no alcance do plano, mas em seu pragmatismo. Os Faustianos têm um plano com objetivos concretos que podem ser alcançados agora. A impressionante habilidade dos Malfeitores de seduzir e manipular os seres humanos é só a cobertura do bolo.",
+            "A única Casa notavelmente ausente do edifício faustiano é a Segunda. Os Flagelos têm aguda — e talvez mórbida — consciência da natureza frágil, assustadiça e combalida da humanidade. Depender desses elos fracos parece (a eles) uma receita para o fracasso."
+        ],
+        "leaders": [
+            "O Diabo Belfigor é um dos anjos caídos mais fortes que já retornou à Terra, e ele voltou com o brinde adicional de um corpo atraente e vigoroso. Belfigor logo se insinuou na hierarquia de uma das religiões esotéricas dos Estados Unidos e lançou sua própria versão. Operando dentro dessa estrutura, Belfigor espera livrar o mundo da interferência divina antes que se passem duas gerações.",
+            "O Profanador Senivel, o primeiro embaixador de sua Casa junto à humanidade, também é um Faustiano, mas apresenta uma inclinação mais humanista. Enquanto Belfigor vê a revolução faustiana como a melhor esperança dos demônios, Senivel espera que ela represente a satisfação plena tanto dos mortais quanto dos Elohim (dos mortais, ao permitir que estes tomem o lugar de Deus, seu Pai, no leme do universo; dos espíritos, ao oferecer-lhes um novo mestre)."
+        ],
+        "objectives": [
+            "De modo geral, os Faustianos são a favor da paz mundial e se opõem à contracepção — não por razões caridosas, mas porque desejam mais seres humanos em circulação.",
+            "Os Faustianos infestaram Roma e Jerusalém, onde esperam encontrar (e aproveitar) populações com altas concentrações de Fé. No entanto, seu principal posto avançado fica nos Estados Unidos (parece claro aos Faustianos que os Estados Unidos são a nação mais poderosa da atualidade e, portanto, perfeitos candidatos à submissão). A 'Igreja da Espiritualidade Científica' de Belfigor comprou um grande lote de deserto nos arredores de Flagstaff, Arizona. A milhas de qualquer outro centro populacional, pretendem criar uma cidade a partir do zero e encorajar as pessoas 'do tipo certo' a se estabelecerem por lá.",
+            "Os anjos caídos mais atentos desconfiam que a proximidade do local a uma gigantesca cratera não seja acidental. Uma das primeiras vitórias dos anjos rebeldes na Guerra da Ira foi abater o grande Vejovis, um anjo do Firmamento. Muitos desconfiam que o 'meteoro' no fundo da cratera é nada menos que o antigo cadáver de Vejovis."
+        ]
     },
     {
         "name": "raveners",
         "namePtBr": "Rapinantes",
-        "description": []
+        "description": [
+            "A Idade da Ira foi longa e difícil. Muitas pessoas boas e Elohim valentes sofreram e morreram. Perderam-se as ilusões. A honra cedeu ao pragmatismo, que, por sua vez, afundou sob o peso da vingança, da cólera e do simples desespero. Os homens descobriram o mal, e os anjos aprenderam a acolher o ódio. Ao final da guerra, muitos anjos caídos haviam se tornado pouco mais que máquinas vivas de destruição, e sua alegria pela criação foi pervertida e transformada num amor exclusivo pela aniquilação.",
+            "Eles enlouqueceram, corromperam-se e aviltaram-se antes de perder a guerra. Antes de serem despojados da maior parte de seu poder. Antes de serem condenados a uma temporada que pareceu eterna, mesmo a seres imortais, num Inferno enlouquecedor de isolamento e privação.",
+            "Agora, esses amargos e irados Elohim emergiram do Abismo depois de eras durante as quais sua única distração foi a dor da própria sanidade a devorar a si mesma... e encontraram um mundo tão repugnante e corrompido quanto eles próprios. Ao contemplar um planeta emporcalhado, uma humanidade aviltada e cruel e um cosmo reduzido a um vestígio ressecado de sua antiga glória, eles vislumbram apenas um ato significativo: destruir; destruir tudo.",
+            "Exterminar esse arremedo cruel do Paraíso que eles um dia planejaram. Dar à humanidade o silêncio misericordioso do túmulo. Destruir as obras de Deus a todo e qualquer momento, esperando incitá-Lo a finalmente aniquilá-los.",
+            "A vitória é impossível para os anjos caídos, mas talvez eles ainda sejam fortes o bastante para arrasar o troféu — o mundo —, mesmo quando este é arrancado de suas garras ávidas."
+        ],
+        "rivals": [
+            "Sendo a facção mais radical, os Rapinantes têm mais inimigos.",
+            "Eles odeiam os Luciferanos por se deixarem enganar. Se foi Lúcifer quem engendrou a Grande Fuga, onde está ele?",
+            "É asqueroso ver seres que um dia foram os senhores da criação correndo de um lado para outro à procura de um novo patriarca de longas barbas para conduzi-los à glória, punir os perversos e colocá-los na cama à noite. Dá na mesma esperar Godot ou sua preciosa Estrela da Manhã.",
+            "Talvez o único espetáculo mais repulsivo que os Elohim a agir como crianças seja a visão de Elohim a agir como pais. Os Faustianos deixaram de servir a Deus para se opor a Deus, deixaram de ser brutalizados por Deus... para pensar que podem substituir Deus? Os Rapinantes acham essa linha de raciocínio risível, principalmente porque os Faustianos pensam que eles é que são os loucos.",
+            "Os Faustianos e os Luciferanos estão malucos se pensam que ainda são capazes de empreender qualquer tipo de ataque significativo a Deus, mas ao menos eles compreendem que há uma guerra em andamento, e que ela não foi interrompida só porque um lado foi derrotado e subjugado durante milhões de anos.",
+            "Os Reconciliadores são, talvez, os vencedores do calorosamente disputado título de “Mais Desprezados pelos Rapinantes”, simplesmente porque eles são os mais otimistas.",
+            "A única facção que os Rapinantes chegam a tolerar é a dos Ocultos, simplesmente porque eles (ainda) não significam muita coisa. Os Rapinantes acham que um dia eles vão se encher de ficar perguntando, e começarão a destroçar as coisas. É o único curso natural para um realista."
+        ],
+        "houses": [
+            "O Devorador rapace é o estereótipo do Rapinante, e por bons motivos. Os Devoradores são, talvez, os menos propensos à reflexão deliberada, e os Rapinantes são a facção da ação. Ao contrário de todos os outros grupos, os Rapinantes não acalentam a menor esperança de vitória futura, então por que se incomodar com planos para daqui a centenas de anos, ou dez, ou mesmo um? Levar uma vida dura e ser ainda mais duro de se matar são metas honradas para os viris Devoradores.",
+            "Os Rapinantes mais discretos são os Profanadores que se desencantaram com a beleza depois da guerra e do exílio. Agora dedicados a tornar um mundo feio mais horroroso ainda, eles são a luva de pelica, geralmente invisível, que encobre o punho de ferro de um Devorador. Se um Devorador rapace encontrar você, é bem provável que ele simplesmente o mate. Um Profanador rapace muito provavelmente tornará você autodestrutivo, depois de minar aos poucos ou arrasar de uma só vez tudo a que você um dia deu valor.",
+            "A maioria dos Malfeitores se dispõe contra os Rapinantes. Talvez sua sintonia com as profundezas da Terra faça com que a decadência da superfície pareça-lhes menos ofensiva. Talvez essas naturezas sóbrias e cuidadosas, empregadas na magnitude do tempo geológico, não se sintam à vontade com a aparente espontaneidade da facção. Ou talvez eles não consigam reprimir suas naturezas essencialmente criativas o bastante para se tornarem vassalos da destruição."
+        ],
+        "leaders": [
+            "Sauriel, o Libertador, tem o respeito e a obediência de seus companheiros rapinantes. Um dos raros Algozes a adotar a filosofia dos Rapinantes, ele é um dos poucos capazes de dar continuidade à vingança e à crueldade mesmo além-túmulo. Outrora um dos arquiduques de Lúcifer, ele lidera por meio de ameaças e intimidação mais do que pela persuasão.",
+            "Sua contraparte é Suflatus. Ela costumava ser a Doadora das Águas Correntes, mas agora é a Duquesa do Pó. Ela acredita (e proclama em alto e bom som) que a ruína da rebelião deveu-se à traição interna — especificamente, a traição do rebelde que se ausentou do Abismo. “Aquele que traiu uma vez, trairia novamente”, declara, e ela agora impõe a si mesma a tarefa de minar os melhores esforços de homens, anjos e demônios. O ódio recíproco de Suflatus e Nazathor é tão intenso que aquele que se interpõe entre as duas pode ser escaldado pela ira."
+        ],
+        "objectives": [
+            "Apesar de serem conhecidos como carniceiros irracionais, os Rapinantes são, na verdade, bastante cautelosos ao escolher alvos que possam ser isolados e atacados sem represália. Os Rapinantes são particularmente ativos em regiões divididas pela guerra, e a culpa pode ser atribuída, de um lado ou de outro (ou, um pelo outro) à sua depravação. No entanto, o empreendimento dessas missões exige uma base de operações segura para a qual voltar.",
+            "As bases dos Rapinantes estão atualmente em construção no norte do Iraque, na Macedônia, nas montanhas do México e na Caxemira. Mais Rapinantes estão sendo enviados ao oeste da África, às montanhas andinas, na América do Sul, e às áreas entre os mares de Aral e Céspio. Os Rapinantes operam na América do Norte, mas em números menores e com mais discrição do que em outros locais."
+        ]
+    },
+    {
+        "name": "reconcilers",
+        "namePtBr": "Reconciliadores",
+        "description": [
+            "Os anjos são, por natureza, criaturas virtuosas. Mesmo os decaídos recordam sua natureza incorrupta.",
+            "Algumas virtudes são naturais a seres de sabedoria e poder quase divinos. Como os Ocultos, os Reconciliadores passaram seu tempo no cárcere meditando sobre questões profundas. Mas, enquanto os Ocultos olhavam para o exterior e para o passado, os Reconciliadores olhavam para o interior... e para o futuro.",
+            "Sua pergunta mais essencial era: e se estávamos errados? E se? E se a rebelião era tão maligna quanto disseram Miguel e a Hoste legalista? E se o toque punitivo de Deus foi de algum modo justificado pela desobediência de Seus servos e filhos? E se Usiel e Lailah estavam certos o tempo todo? Ao tentar evitar a Idade da Ira, a Hoste Profana só a tornou real? Se assim for — se a construção do Inferno foi necessária, se o estilhaçamento das facetas foi merecido, se a condenação dos rebeldes foi justa —, então o que os anjos caídos devem fazer agora?",
+            "Alguns acreditam que, mesmo no último momento, é possível encontrar a misericórdia de Deus. Esses Reconciliadores ouvem com esperança as histórias sobre Jesus, Maomé e outros profetas e salvadores humanos. Talvez Deus tenha perdoado a humanidade. E, se Ele é capaz de perdoá-la, será que Sua misericórdia não se estenderia também aos servos penitentes?",
+            "Mesmo que Seu castigo seja eterno, e os Elohim tenham sido banidos eternamente de Sua presença... bem, não seria possível consertar a Terra? Talvez não restaurar o Paraíso de outrora, mas será que algo grande, glorioso e, quem sabe, até mesmo puro não se ergueria das cinzas? Os anjos caídos perderam boa parte de seu poder, é verdade, mas o mundo também é menor. Será que um terço da Hoste Celestial não poderia ainda melhorar o universo, não poderia ainda assistir e servir à humanidade?",
+            "Esta é a esperança dos Reconciliadores: fazer as pazes com seu Criador e carcereiro. Se isso fracassar, eles esperam se conformar ao exílio sem fim."
+        ],
+        "rivals": [
+            "Os Reconciliadores são recatadamente amistosos para com os Faustianos. Afinal, as duas facções têm o mesmo objetivo de melhorar o mundo, mesmo que não estejam de acordo quanto a como ou por que fazê-lo.",
+            "Também são acessíveis aos Ocultos, pois acham que as perguntas levadas inevitavelmente às respostas dos Reconciliadores.",
+            "Não, os Reconciliadores consideram seus principais inimigos os Luciferanos e os Rapinantes. Os Luciferanos, porque a oposição a Deus é seu objetivo principal — declarado (há que se admitir que esse também é o objetivo dos Faustianos, mas parece secundário ao auto-engrandecimento). Essa resistência planejada e organizada é o tipo de coisa que torna a reconciliação muito menos provável.",
+            "Se os Luciferanos são desprezados por sua recusa sistemática e estúpida de encarar os fatos, os Rapinantes são ainda piores em função de seu desespero e niilismo inconsequentes e caóticos. É patético um antigo agente da criação não conseguir conceber um objetivo melhor do que: 'Que se dane tudo o que eu fiz.'"
+        ],
+        "houses": [
+            "Sendo o objetivo menos destrutivo, a reconciliação oferece pouco apelo aos irrequietos Devoradores. Embora a ideia de refazer o mundo possa parecer tentadora, o programa faustiano — que tende a ser mais atuante e menos contemplativo — atrai esses Devoradores que ainda demonstram algum interesse em melhorar as coisas.",
+            "A natureza abstrata e de longo prazo dos objetivos dos Reconciliadores tende a atrair demônios mais pensativos e conceituais, particularmente os da Segunda e da Última Casas. O Flagelo e o Algoz estão intimamente ligados à deterioração e à morte dos seres humanos (e do cosmo), de modo que a promessa de renovação e reinvenção é claramente sedutora para ambos. Além disso, as duas Casas tendem a se sentir culpadas pela mortalidade e pelo declínio que infligiram à humanidade. De todos os objetivos dos anjos caídos, a Reconciliação oferece a maior promessa de compensação."
+        ],
+        "leaders": [
+            "A Diabra Nuriel lidera os Reconciliadores, e sua reputação é tal que leva até mesmo o Rapinante mais desdenhoso a hesitar. Antes da Queda, ela era o Trono da Ordem Inexorável. Durante a rebelião, foi a Suserana da Liberação Ousada, e muitos Elohim devem a própria existência às incursões de resgate esplendidamente executadas por ela durante a Idade da Ira.",
+            "Nuriel é uma guerreira cansada da luta e busca um caminho melhor. Embora ela seja a porta-voz (e estrategista) dos Reconciliadores, a verdadeira alma filosófica da facção é Ouestucati, dos Flagelos, outrora Arcanjo do Vento Oceânico. Uma das poucas rebeldes a se arrepender sem o menor sinal de raiva, ela lidera principalmente pelo exemplo. Sua tranquilidade e esperança oferecem aos demais a esperança de que eles também podem se adaptar ao degredo."
+        ],
+        "objectives": [
+            "O objetivo imediato dos Reconciliadores é inventariar o cosmo e aprender tanto quanto possível sobre sua atual condição. Isso significa explorar a condição humana; portanto, muitos Reconciliadores são viajantes e procuram um ponto de vista equilibrado a respeito da humanidade e do mundo dos homens.",
+            "No entanto, eles não se detêm às margens da experiência humana. Também estão à procura da verdade quanto ao sobrenatural. Seria que todos os anjos legalistas abandonaram realmente o mundo? Ou restam algumas facetas, mesmo que parciais?"
+        ]
+    },
+    {
+        "name": "luciferans",
+        "namePtBr": "Luciferanos",
+        "description": [
+            "Os anjos são criaturas imortais, considerando-se a duração de uma vida infinita, qualquer revés, com exceção da destruição, é algo temporário.",
+            "Nem todos os espíritos aprisionados no Inferno perderam a fé. Nem todos os anjos caídos abandonaram a esperança. Mesmo derrotados, alguns permaneceram fiéis aos princípios que os levaram à rebelião: o amor pela humanidade, a lealdade a Lúcifer, o compromisso de acreditar que sua causa era justa e que o Céu e a Hoste obediente estavam errados.",
+            "Os Luciferanos se encontram hoje tão preparados para lutar pelo que acreditam quanto eras atrás, quando foram arremessados em sua sombria prisão ainda vociferando rebeldia. Apesar de muitos se sentirem prostrados, rancorosos e atormentados, eles continuam indomados. De fato, muitos encontram bastante coragem em suas novas condições.",
+            "O mundo pode estar arruinado, pode ser único e mecanicista, mas, ao mesmo tempo, parece que não restaram anjos para controlar as coisas. Até mesmo um exército extremamente enfraquecido é capaz de triunfar se tomar o campo sem oposição.",
+            "Acrescente a isso o fato encorajador de que eles conseguiram escapar do cárcere em primeiro lugar. Se realmente são antítemas para Deus, odiados a Seus olhos e, segundo as palavras de Seu mensageiro, condenados à eterna tortura, como foi possível que tantos reentrassem no mundo dos homens? Os Ocultos podem cochichar sobre os estratagemas divinos, mas não é mais fácil pensar que o poder de Deus está simplesmente desaparecendo? E que os demônios do Inferno encontram liberdade porque as jaulas de Deus perderam sua força?",
+            "Sobretudo, eles apontam triunfantes para a ausência de Lúcifer do Inferno. Os Luciferanos não acreditam que ele tenha merecido um castigo exclusivo, e sim que ele tenha escapado inteiramente ao castigo. Talvez o mais forte dos seus tenha permanecido livre porque os inimigos não conseguiram confiná-lo! Talvez o Adversário esteja à espreita, esperando para ver quem ainda está preparado para lutar... e quem se revelará fraco demais."
+        ],
+        "rivals": [
+            "Os Luciferanos são surpreendentemente tolerantes em relação aos Rapinantes. Já que os Rapinantes mantêm sua inclinação militar, os Luciferanos tendem a considerá-los como soldados com um entusiasmo admirável. Só precisam de um pouco de disciplina para se tornarem úteis novamente.",
+            "O mesmo tipo de condescendência e boa-vontade ambígua estende-se aos Faustianos, só que ao contrário. Para um Luciferano, os Faustianos têm disciplina suficiente e a ideia geral correta; só precisam lembrar quem é que manda.",
+            "Não, as facções que merecem a ira dos Luciferanos são as hesitantes, as covardes, as desnorteadas e indecisas: os Ocultos e os Reconciliadores.",
+            "Os Ocultos são como para-quedistas que questionam o ato em plena queda. Estão tão obcecados com a classificação de miríades de possibilidades que consideram superficialmente os fatos ordinários e o aqui e agora. O ensimesmamento neurastênico ofende a dignidade de qualquer Elohim, mas essa é, apesar de tudo, a principal preocupação dos Ocultos. Para os Luciferanos mais afeitos à ação, os indagadores contemplativos são essencialmente inúteis e fracos.",
+            "A única coisa pior que a fraqueza é a traição. Portanto, a única coisa pior que um Oculto hesitante é um Reconciliador lambe-botas. Esses Elohim patéticos e frustrados são como pára-quedistas que se viram em pleno ar e tentam voltar ao avião! Aparentemente, não estavam prestando atenção quando todas as implicações da rebelião foram discutidas, nem quando a Hoste Celestial condenou-os ao Abismo. Seria plausível pensar que uma temporada no Inferno mostraria a eles a verdade sobre o perdão divino, mas não. Eles se agarram como lampreias à ideia de se reconciliar com Deus."
+        ],
+        "houses": [
+            "Lúcifer regia a Primeira Casa, e a lealdade angelical não se extingue com facilidade. Muitos Diabos ainda se reúnem sob o estandarte de seu antigo (e futuro?) senhor. Alguns podem simplesmente acreditar que, como são os Espíritos da Aurora, terão posições de importância no novo mundo da Estrela da Manhã. Outros — embora jamais venham a admiti-lo — voltam-se para Lúcifer a fim de preencher o vazio deixado pela rejeição de Deus. Eles anseiam por ordens a cumprir, e o Adversário sempre soube como distribuí-las.",
+            "Alguns dos Devoradores que lutaram bem na guerra continuam leais, entusiasmados pelas lembranças de glória e pela expectativa de vingança. Em geral, esses Devoradores são menos oprimidos pelo Tormento que seus companheiros no partido dos Rapinantes. Ao contrário dos niilistas, os Devoradores entre os Luciferanos ainda têm esperança de que alguma coisa pode ser construída neste mundo — tão logo todo o entulho seja removido, é claro.",
+            "Os Flagelos também são atraídos pela causa luciferana por muitas das mesmas razões que os Diabos. Como perfazem o segundo escalão da nobreza, há um certo apelo em se aliar ao antigo Anjo Excelso. Mais do que isso, há um profundo apelo em acreditar que a Hoste Profana não está simplesmente se reerguendo, mas que ela jamais tombou. Se for verdade, então é possível que os castigos impostos por Deus e declarados por Miguel também sejam revogados, particularmente a devastadora maldição que impõe a decadência e a morte aos seres humanos.",
+            "Apesar dessa promessa, poucos Algozes seguem os Luciferanos. Como pertencem à Última Casa, a possibilidade de ascensão não os atrai. Mais do que isso, porém, os Algozes — cujo castigo foi plausivelmente o mais horripilante de todos — parecem os menos capazes de acreditar que a primeira guerra representou algo além de uma derrota decisiva para os rebeldes."
+        ],
+        "leaders": [
+            "Grifiel, o rebelde de mais alta patente da Casa da Natureza, continua leal a Lúcifer apesar da derrota e de toda a angústia que ele tem suportado em nome da Estrela da Manhã. Outrora um guerreiro nobre e honrado, Grifiel desfez-se de sua ética e de todos os seus escrúpulos, um a um — juntamente com sua beleza, sua sanidade e sua capacidade de amar. Ele segue o Adversário nem tanto por convicção quanto por louca obsessão. Negar Lúcifer seria como admitir que tudo o que ele perdeu e sofreu não faz sentido. Ele prefere ser arremessado de volta ao Inferno ou reduzido a absolutamente nada a abandonar a rebelião.",
+            "Enquanto Grifiel detém a astúcia e a crueldade necessárias num comandante das linhas de frente, Nazriel, dos Flagelos, surgiu como a líder definitiva dos Luciferanos — até que a Estrela da Manhã retorne, é claro. Intitulando-se Nazathor, Princesa da Libertação Sublime, ela manobra sua facção com cuidado e cautela: ataca com vigor, mas logo retorna à segurança das trevas. Supostamente a amante de Lúcifer, poucos se atrevem a fazer-lhe oposição."
+        ],
+        "objectives": [
+            "O principal objetivo da facção dos Luciferanos é, obviamente, a localização de seu líder. Realizar tal coisa envolve um plano tríplice. Primeiro, os batedores luciferanos recebem ordens para vagar pelo planeta em busca de qualquer sinal de atividade demoníaca. A princípio, eram enviados individualmente, mas muitos lobos solitários foram abatidos por Terrestres, facções demoníacas hostis ou seres mais misteriosos. Agora são enviados em bandos.",
+            "Segundo, os Luciferanos estão mantendo vigilância cerrada sobre a mídia. Especificamente, estão tentando investir dinheiro e conquistar servos influentes a fim de conseguir com exclusividade notícias frescas que possam envolver demônios. Isso também lhes proporciona uma vantagem ao acobertar atividades luciferanas, bem como um meio de enviar mensagens veladas. Mas, como no caso dos batedores, os Luciferanos também encontraram uma oposição incomum na mídia.",
+            "Terceiro, os Luciferanos estão montando uma campanha agressiva de comunicação entre os anjos caídos. O próprio Lúcifer não respondeu ao chamado, mas cedo ou tarde, todo Elohim condenado ao Inferno cujo nome seja lembrado por um Luciferano pode esperar uma invocação e uma requisição de informações."
+        ]
+    },
+    {
+        "name": "cryptics",
+        "namePtBr": "Ocultos",
+        "description": [
+            "Passar eras incontáveis encarcerado num vácuo desprovido de luz, som e sensação é um castigo bastante severo, mas de fato proporciona uma coisa: muito tempo para pensar.",
+            "Depois do choque inicial da derrota — depois do horror e da agonia do Inferno, e mesmo depois do desespero de tediosas eras infindáveis —, alguns anjos caídos retrocederam um passo e reconsideraram suas suposições iniciais.",
+            "Alguns refletiram, avaliaram e tentaram entender o que saiu tão desastrosamente errado.",
+            "Esses Elohim curiosos chegaram a algumas conclusões alarmantes.",
+            "Em primeiro lugar, a perspectiva de Deus é onisciente, ou tão remota e difusa a ponto de ser quase onisciente, principalmente em comparação a criaturas tão limitadas quanto os seres humanos e até mesmo os anjos. Se uma luz humilde como Ahrimal foi capaz de enxergar o problema em formação, Deus certamente o previra eras antes.",
+            "Segundo, Deus é perfeito ou (de novo) está tão perto da perfeição que isso não faz a menor diferença. Portanto, os anjos criados por Ele devem ter sido um modelo perfeito de Seus desejos, ou chegaram tão perto desse modelo quanto a realidade seria capaz de tolerar. Embora seja possível que a matéria bruta do mundo físico fosse muito fraca para suportar servos perfeitos, é impraticável imaginar que Deus permitiria a essa imperfeição manifestar-se como desobediência... a menos que a rebelião não fosse uma imperfeição.",
+            "Terceiro, Lúcifer — como o primeiro entre os anjos e o mais próximo de Deus em poder — deve, em virtude de seu poder e posição, estar mais próximo do ideal de Deus do que qualquer outro. O fato observado de que ele foi o primeiro e o melhor dos rebeldes é o argumento decisivo de que a rebelião — com a consequente deterioração da realidade e o castigo medonho imposto a homens e Elohim — foi, na verdade, o cumprimento do plano de Deus, e não um desvio.",
+            "Agora que estão livres de sua prisão, esses Ocultos tomaram suas premissas lógicas e usaram-nas como fundamentação para novas perguntas.",
+            "Se Deus sabia da rebelião, certamente também previu a inevitável fuga dos demônios do Abismo. Qual, então, é o novo plano de Deus para Seus servos involuntários?",
+            "Já que Lúcifer não foi encarcerado, e ele não atende a nenhum chamado, qual terá sido o destino da Estrela da Manhã? A destruição, já que assumira o papel de líder? Algum outro tormento, quem sabe ainda pior que o Inferno? Ou — muito provavelmente — teria ele escapado ao castigo porque conhecia o plano de Deus o tempo todo?",
+            "Por último, e mais importante: se os anjos caídos foram os títeres de Deus todo esse tempo, existe algum jeito de escapar a esse destino no futuro? Será que devem sequer tentar?"
+        ],
+        "rivals": [
+            "Os Ocultos não gostam muito dos Rapinantes — gostar do quê? —, mas consideram basicamente sem sentido o ímpeto ensandecido e irracional dessa facção. Como as formigas de um formigueiro destruído, eles correm para lá e para cá, desvairados, mas nada realizam.",
+            "Os Reconciliadores são idealistas demais, mas ao menos questionam em vez de proclamar respostas capciosas. Não, as facções que realmente incomodam os Ocultos são a dos Luciferanos e a dos Faustianos. Os dois grupos têm os mesmos problemas. Falam e não escutam. Fazem declarações orgulhosas que, na maioria das vezes, revelam as falhas de sua lógica. Fecharam os olhos e as mentes, e eles se compadecem de todos os que não compartilham de seu senso de dever cego e desorientado.",
+            "Se os Rapinantes andam caoticamente em círculos, e os Reconciliadores se perdem em lástimas confusas, os Luciferanos e os Faustianos constroem diligentemente o mesmo formigueiro destruído da última vez, ou um outro inteiramente novo. Nenhum deles se detém para perguntar quais deveriam ser realmente seus objetivos."
+        ],
+        "houses": [
+            "Muitos Malfeitores entram para a roda dos indagadores. Esta se ajusta naturalmente a suas tendências equilibradas e metódicas. Constituindo, talvez, a mais pragmática de todas as Casas, os anjos do Fundamento parecem extraordinariamente capazes de examinar seus pressupostos fundamentais sem repreender a si mesmos pelos erros cometidos. Quase se pode vê-los dando de ombros e murmurando: 'Não funcionou. O que podemos tentar agora?'",
+            "Uma Casa mais ardorosamente inquisitiva é a dos Algozes. Apesar de fazerem as mesmas perguntas que os Malfeitores, eles têm um interesse pessoal e contundente nas respostas. Na guerra, foram obrigados a levar a atrocidade da morte a sua adorada humanidade, e a culpa e o pesar que ainda sentem exigem respostas."
+        ],
+        "leaders": [
+            "Ahrimal, o humilde Fado a primeiro prever a Idade da Ira, surgiu como um dos Ocultos mais ativos e influentes. No entanto, sua posição entre os anjos caídos é estranha. Famoso (ou famigerado) como um dos arquitetos da revolução e o anjo mais humilde a ser nomeado príncipe por Lúcifer, ele agora é um dos indagadores mais insistentes. Ele contrapõe muitas das pressões que assolam a sociedade demoníaca: as patentes da criação contra a meritocracia da rebelião; a lealdade contra a autonomia; a esperança contra o desespero. Admirado, respeitado ou simplesmente desprezado, mencionar seu nome é geralmente uma boa maneira de dar início a discussões acaloradas entre os anjos caídos.",
+            "Guipontel, um Fundamento e outrora Arcanjo, representa uma facção mais acessível da Inquisição. Um autoproclamado forjador de coalizões, ele estimula os Ocultos a estabelecer tréguas e até mesmo alianças com outras facções a fim de observar, entender e, quem sabe, até mesmo aprender. Se as contribuições dos Ocultos estimulam uma atitude mais aberta e curiosa nos demais, isso seria algo ruim?"
+        ],
+        "objectives": [
+            "O acesso à informação — demoníaca, científica, histórica humana, mitológica ou 'de outro tipo' — é um anseio geral dos Ocultos. Qualquer dado em particular poderia conter uma pista vital.",
+            "Os Ocultos estabeleceram seu principal bastião em Atlanta, no estado norte-americano da Geórgia, e estão rapidamente aumentando bases de operações subsidiárias em Dallas, Chicago e Washington, nos Estados Unidos.",
+            "Basicamente, têm como objetivo estabelecer uma célula forte em todos os principais eixos de rotas aéreas. Estão se expandindo de maneira similar na Europa, começando com Heathrow, em Londres. Células menores foram designadas para Tóquio, Pequim e Rio de Janeiro.",
+            "A finalidade de fortes posições defensivas perto de grandes aeroportos é preservar sua mobilidade e sua capacidade de monitorar as viagens de outros anjos caídos. Seu objetivo imediato é gerar um inventário de todos os anjos caídos que caminham pela Terra. A descoberta dos Terrestres também tornou prioritário encontrar esses demônios.",
+            "Essas listas — o Scelestinomicon (O livro dos rebeldes) para os anjos caídos, e o Crucianomicon (O livro dos atormentados) para os Terrestres — a princípio têm a intenção de formar o núcleo de uma rede de informações para todos os anjos caídos. Com o crescimento da facção dos Ocultos, o uso dessas listas pode se tornar mais definido ou menos livre."
+        ]
     }
 ]

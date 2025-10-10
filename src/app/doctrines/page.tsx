@@ -35,8 +35,6 @@ export default function Doctrines() {
             <h1 className="text-4xl relative">Doutrinas</h1>
             <hr className="w-full my-6" />
             <p className="pb-2">
-              
-            
             </p>
           </div>
           <div className="w-full relative text-white px-4 pb-4">

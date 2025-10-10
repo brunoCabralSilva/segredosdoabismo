@@ -34,11 +34,11 @@ export default function Faction() {
   if (dataHouse) {
     return(
       <div>
-        <div className="w-full bg-ritual bg-cover bg-top relative">
-          <div className="absolute w-full h-full bg-black/90 z-20" />
+        <div className="w-full bg-[url('/images/wallpapers/06.png')] bg-top bg-cover relative text-left">
           <Nav />
-          <section className="mb-2 relative px-2 min-h-screen z-30">
-            <div className="py-10 flex flex-col items-center sm:items-start w-full z-20 text-white text-justify overflow-y-auto">
+          <div className="absolute w-full h-full" />
+          <section className="min-h-screen bg-black/95 relative w-full h-full flex flex-col items-center">
+            <div className="py-6 px-5 text-white flex flex-col items-center sm:items-start text-justify min-h-screen w-full xl:min-w-[1150px] lg:max-w-[1150px]">
               <div className="flex items-center justify-center w-full relative h-full">
                 <div className="absolute h-full w-full sm:w-5/12 flex items-center justify-center">
                   { isLoading && <Loading /> }
@@ -56,71 +56,76 @@ export default function Faction() {
                 <h2 className="font-bold text-xl sm:text-2xl w-full text-center">
                   { dataHouse.namePtBr }
                 </h2>
-                <div>
-                  Tormento Inicial: { dataHouse.initialTorment }
+                <div className="pt-10">
+                  <span className="font-bold">Tormento Inicial:</span> { dataHouse.initialTorment }
                 </div>
                 <div>
-                  Doutrinas da Casa: { returnDoctrines(dataHouse.doctrines) }
+                  <span className="font-bold">Doutrinas da Casa:</span> { returnDoctrines(dataHouse.doctrines) }
                 </div>
-                <div>
+                <div className="pt-3">
                   {
                     dataHouse.description.map((desc: string, index: number) => (
-                      <p key={ index } className="pt-3">{ desc }</p>
+                      <p key={ index } className="pt-1">{ desc }</p>
                     ))
                   }
                 </div>
-                <h2>Facções:</h2>
+                <h2 className="pt-3 font-bold">Facções:</h2>
+                <hr className="w-full mb-2" />
                 <div>
                   {
                     dataHouse.factions.map((faction: string, index: number) => (
-                      <p key={ index } className="pt-3">{ faction }</p>
+                      <p key={ index } className="pt-1">{ faction }</p>
                     ))
                   }
                 </div>
-                <h2>Prelúdio:</h2>
+                <h2 className="pt-3 font-bold">Prelúdio:</h2>
+                <hr className="w-full mb-2" />
                 <div>
                   {
                     dataHouse.preludio.map((prelud: string, index: number) => (
-                      <p key={ index } className="pt-3">{ prelud }</p>
+                      <p key={ index } className="pt-1">{ prelud }</p>
                     ))
                   }
                 </div>
-                <h2>Fé:</h2>
+                <h2 className="pt-3 font-bold">Fé:</h2>
+                <hr className="w-full mb-2" />
                 <div>
                   {
                     dataHouse.faith.map((fai: string, index: number) => (
-                      <p key={ index } className="pt-3">{ fai }</p>
+                      <p key={ index } className="pt-1">{ fai }</p>
                     ))
                   }
                 </div>
-                <h2>Criação de Personagem:</h2>
+                <h2 className="pt-3 font-bold">Criação de Personagem:</h2>
+                <hr className="w-full mb-2" />
                 <div>
                   {
                     dataHouse.playerCreation.map((playerC: string, index: number) => (
-                      <p key={ index } className="pt-3">{ playerC }</p>
+                      <p key={ index } className="pt-1">{ playerC }</p>
                     ))
                   }
                 </div>
-                <h2>Fraquezas:</h2>
+                <h2 className="pt-3 font-bold">Fraquezas:</h2>
+                <hr className="w-full mb-2" />
                 <div>
                   {
                     dataHouse.fraquezas.map((fraq: string, index: number) => (
-                      <p key={ index } className="pt-3">{ fraq }</p>
+                      <p key={ index } className="pt-1">{ fraq }</p>
                     ))
                   }
                 </div>
               </div>
             </div>
+            <div className="w-full relative flex items-center justify-center z-30">
+              <button
+                type="button"
+                className="px-6 text-orange-300 hover:text-orange-600 transition-colors duration-300 mt-5 cursor-pointer underline"
+                // onClick={() => setShowFeedback(true) }
+              >
+                Enviar Feedback
+              </button>
+            </div>
           </section>
-          <div className="w-full relative flex items-center justify-center z-30">
-            <button
-              type="button"
-              className="px-6 text-orange-300 hover:text-orange-600 transition-colors duration-300 mt-5 cursor-pointer underline"
-              // onClick={() => setShowFeedback(true) }
-            >
-              Enviar Feedback
-            </button>
-          </div>
           {
             // showFeedback && <Feedback title={ dataHouse.name } /> 
           }

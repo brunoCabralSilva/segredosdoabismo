@@ -262,21 +262,6 @@
         "Facilmente manipuláveis, mas se enganados, buscam vingança imediata e sangrenta."
     ]
   },
-
-    {
-        "number": 7,
-        "name": "halaku",
-        "phrase": "",
-        "namePtBr": "Algozes",
-        "description": [],
-        "factions": [],
-        "preludio": [],
-        "faith": [],
-        "playerCreation": [],
-        "initialTorment": 4,
-        "doctrines": ["Doutrina da Morte", "Doutrina dos Reinos", "Doutrina do Espírito"],
-        "fraquezas": []
-    },
     {
       "number": 7,
       "name": "halaku",
@@ -316,5 +301,4 @@
           "Tomam decisões rapidamente e têm dificuldade em admitir enganos. O mal causado por um Algoz de alto Tormento está ligado a obsessão em deixar sua marca numa realidade em extinção."
       ]
   }
-
 ]

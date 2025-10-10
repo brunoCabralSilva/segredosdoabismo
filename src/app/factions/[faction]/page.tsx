@@ -27,11 +27,11 @@ export default function Faction() {
   if (dataFaction) {
     return(
       <div>
-        <div className="w-full bg-ritual bg-cover bg-top relative">
-          <div className="absolute w-full h-full bg-black/90 z-20" />
+        <div className="w-full bg-[url('/images/wallpapers/06.png')] bg-top bg-cover relative text-left">
           <Nav />
-          <section className="mb-2 relative px-2 min-h-screen z-30">
-            <div className="py-10 flex flex-col items-center sm:items-start w-full z-20 text-white text-justify overflow-y-auto">
+          <div className="absolute w-full h-full" />
+          <section className="min-h-screen bg-black/95 relative w-full h-full flex flex-col items-center">
+            <div className="py-6 px-5 text-white flex flex-col items-center sm:items-start text-justify min-h-screen w-full xl:min-w-[1150px] lg:max-w-[1150px]">
               <div className="flex items-center justify-center w-full relative h-full">
                 <div className="absolute h-full w-full sm:w-5/12 flex items-center justify-center">
                   { isLoading && <Loading /> }
@@ -56,18 +56,54 @@ export default function Faction() {
                     ))
                   }
                 </div>
+                <h2 className="pt-3 font-bold">Rivais:</h2>
+                <hr className="w-full mb-2" />
+                <div>
+                  {
+                    dataFaction.rivals.map((desc: string, index: number) => (
+                      <p key={ index } className="pt-3">{ desc }</p>
+                    ))
+                  }
+                </div>
+                <h2 className="pt-3 font-bold">Casas:</h2>
+                <hr className="w-full mb-2" />
+                <div>
+                  {
+                    dataFaction.houses.map((desc: string, index: number) => (
+                      <p key={ index } className="pt-3">{ desc }</p>
+                    ))
+                  }
+                </div>
+                <h2 className="pt-3 font-bold">Líderes:</h2>
+                <hr className="w-full mb-2" />
+                <div>
+                  {
+                    dataFaction.leaders.map((desc: string, index: number) => (
+                      <p key={ index } className="pt-3">{ desc }</p>
+                    ))
+                  }
+                </div>
+                <h2 className="pt-3 font-bold">Objetivos:</h2>
+                <hr className="w-full mb-2" />
+                <div>
+                  {
+                    dataFaction.objectives.map((desc: string, index: number) => (
+                      <p key={ index } className="pt-3">{ desc }</p>
+                    ))
+                  }
+                </div>
               </div>
             </div>
+            <div className="w-full relative flex items-center justify-center z-30">
+              <button
+                type="button"
+                className="px-6 text-orange-300 hover:text-orange-600 transition-colors duration-300 mt-5 cursor-pointer underline"
+                // onClick={() => setShowFeedback(true) }
+              >
+                Enviar Feedback
+              </button>
+            </div>
           </section>
-          <div className="w-full relative flex items-center justify-center z-30">
-            <button
-              type="button"
-              className="px-6 text-orange-300 hover:text-orange-600 transition-colors duration-300 mt-5 cursor-pointer underline"
-              // onClick={() => setShowFeedback(true) }
-            >
-              Enviar Feedback
-            </button>
-          </div>
           {
             // showFeedback && <Feedback title={ dataFaction.name } /> 
           }

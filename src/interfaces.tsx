@@ -2,6 +2,10 @@ export interface IFactions {
   name: string;
   namePtBr: string;
   description: string[];
+  rivals: string[];
+  houses: string[];
+  leaders: string[];
+  objectives: string[];
 }
 
 export interface IHouses {
