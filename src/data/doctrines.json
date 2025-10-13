@@ -190,7 +190,7 @@
                 "description": "O deménio é capaz de manipular a memória de um mortal e alterar ou remover qualquer recordação a respeito dele, ou então incutir lembranças inexistentes. A não ser que tenham sido dotados da resisténcia ao controle mental dos demônios, os servos também podem ser afetados por esta evocação.",
                 "system": "Use um ponto de Fé e faga um teste de Manipulação + Lábia. Se o personagem tentar alterar ou remover uma lembrança já existente, a dificuldade será igual a 7. Para incutir uma lembrança inteiramente falsa, a dificuldade será igual a 8. Faz-se um teste resistido de Força de Vontade pelo alvo (dificuldade 7). Vocé precisa conseguir um número de sucessos excedentes determinado pelo Narrador, dependendo da intensidade e da abrangência da lembrança ou lembranças que seu personagem tenta manipular. Editar ou remover as lembranças de um encontro breve requer um sucesso, enquanto incutir ou alterar uma série de lembranças que abrange um período de dias ou semanas exige dois sucessos ou mais. As lembranças alteradas ou inventadas são permanentes.",
                 "system5th": "Realize uma Checagem de Fé e faça um teste de Manipulação + Subterfúgio. A dificuldade varia de acordo com a intensidade e a abrangência da lembrança ou lembranças que seu personagem tenta manipular. Editar ou remover as lembranças de um encontro breve requer 3 sucessos, enquanto incutir ou alterar uma série de lembranças que abrange um período de dias ou semanas exige 4 sucessos ou mais. Se o Narrador preferir, também pode realizar um teste resistido de Força de Vontade pelo alvo. As lembranças alteradas ou inventadas são permanentes.",
-                "torment": "Os demônios monstruosos que executam esta evocação também provocam episódios de insônia, ansiedade e desespero que duram dias ou semanas. Os pesadelos persistem durante um número de noites igual à pontuação de Tormento do personagem. A cada noite, faça um teste de Força de Vontade pela vítima contra uma dificuldade igual ao Tormento do demônio. Se falhar no teste, a vítima perderá um ponto temporário de Força de Vontade. Se perder todos os pontos de Forga de Vontade, a vítima vai adquirir uma perturbação temporária.",
+                "torment": "Os demônios monstruosos que executam esta evocação também provocam episódios de insônia, ansiedade e desespero que duram dias ou semanas. Os pesadelos persistem durante um número de noites igual à pontuação de Tormento do personagem. A cada noite, faça um teste de Força de Vontade pela vítima contra uma dificuldade igual ao Tormento do demônio. Se falhar no teste, a vítima perderá um ponto temporário de Força de Vontade. Se perder todos os pontos de Força de Vontade, a vítima vai adquirir uma perturbação temporária.",
                 "torment5th": "Os demônios monstruosos que executam esta evocação também provocam episódios de insônia, ansiedade e desespero que duram dias ou semanas. Os pesadelos persistem durante um número de noites igual à pontuação de Tormento do personagem. A cada noite, faça um teste de Força de Vontade pela vítima contra uma dificuldade igual ao modificador de Tormento do demônio. Se falhar no teste, a vítima sofrerá um ponto de dano superficial na sua Força de Vontade. Se perder todos os pontos de Força de Vontade, a vítima vai adquirir uma perturbação temporária.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 174
@@ -470,8 +470,8 @@
             },
             {
                 "name": "Ações Adicionais",
-                "torment": false,
-                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação, seguindo ordem decrescente de iniciativa.",
+                "torment": true,
+                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação. Essas ações ocorrem segundo a ordem decrescente de iniciativa, de maneira que, se um Ninsun com uma iniciativa igual a 7 conseguir uma ação adicional, ele realizará sua ação normal à contagem de sete e sua ação adicional à contagem de seis. O jogador precisa decidir adquirir as ações adicionais no início de um turno antes de realizar quaisquer outras ações.",
                 "description5th": "É possível usar pontos de Fé para obter sucessos adicionais em um teste."
             },
             {
@@ -653,7 +653,7 @@
             {
                 "name": "Chifres",
                 "torment": true,
-                "description": "Um par de chifres de careiro ou touro se projeta da testa do personagem. Se atacado em combate proximo, o personagem terá direito a um contra-ataque livre. Faga um teste de Destreza + Briga. Se bem-sucedido, o personagem provocará dano agravado igual à Forga -1.",
+                "description": "Um par de chifres de careiro ou touro se projeta da testa do personagem. Se atacado em combate proximo, o personagem terá direito a um contra-ataque livre. Faga um teste de Destreza + Briga. Se bem-sucedido, o personagem provocará dano agravado igual à Força -1.",
                 "description5th": "Um par de chifres de carneiro ou touro se projeta da testa do personagem. Uma vez por tudno, se atacado em combate próximo, o personagem terá direito a um contra-ataque como ação livre. Faça um teste de Destreza + Briga, contra Raciocínio + Briga do alvo. Se bem-sucedido, o personagem provocará dano agravado igual à sua Força."
             }
         ]
@@ -756,7 +756,7 @@
         ],
         "apName": "Dagan, o Semblante do Despertar",
         "apWithoutTorment": "A forma apocaliptica dos mestres da vida impregna o corpo mortal do anjo com o rubor da juventude e uma saúde vibrante: até mesmo o mais velho hospedeiro mortal parece estar na flor da vida e move-se com graça, velocidade e força inumanas. Essa aura de vitalidade é irradiada como uma sensação perceptivel de calor — feito um raio de sol — e todos os seres vivos tocados são temporariamente impregnados com esse poder. As flores murchas ganham vida, os feridos recuperam as forças e os velhos esquecem suas aflições.",
-        "apWithTorment": "A medida que os Dagan se deixam consumir por suas naturezas demoníacas, seu domínio sobre a vida e a vitalidade volta-se contra eles mesmos, transformando-lhes os corpos mortais em criadouros de doenças e tumores cancerosos. Eles se cobrem de neoplasmas deformados e chagas pustulentas, e sua carne é úmida e esponjosa ao toque.",
+        "apWithTorment": "A medida que os Dagan se deixam consumir por suas naturezas demoníacas, seu domínio sobre a vida e a vitalidade volta-se contra eles mesmos, transformando-lhes os corpos mortais em criadouros de doenças e turnores cancerosos. Eles se cobrem de neoplasmas deformados e chagas pustulentas, e sua carne é úmida e esponjosa ao toque.",
         "font": "Demônio: A Queda (Corebook)",
         "page": 182,
         "apocalypticForm": [
@@ -775,8 +775,8 @@
             {
                 "name": "Capacidades Físicas Aprimoradas",
                 "torment": false,
-                "description": "O anjo caído acrescenta os seguintes bônus às Características: Forga (+1), Destreza (+1) e Vigor (+1).",
-                "description5th": "O anjo caído acrescenta os seguintes bônus às Características: Forga (+1), Destreza (+1) e Vigor (+1)."
+                "description": "O anjo caído acrescenta os seguintes bônus às Características: Força (+1), Destreza (+1) e Vigor (+1).",
+                "description5th": "O anjo caído acrescenta os seguintes bônus às Características: Força (+1), Destreza (+1) e Vigor (+1)."
             },
             {
                 "name": "Asas",
@@ -1096,8 +1096,8 @@
             },
             {
                 "name": "Ações Adicionais",
-                "torment": false,
-                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação, seguindo ordem decrescente de iniciativa.",
+                "torment": true,
+                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação. Essas ações ocorrem segundo a ordem decrescente de iniciativa, de maneira que, se um Ninsun com uma iniciativa igual a 7 conseguir uma ação adicional, ele realizará sua ação normal à contagem de sete e sua ação adicional à contagem de seis. O jogador precisa decidir adquirir as ações adicionais no início de um turno antes de realizar quaisquer outras ações.",
                 "description5th": "É possível usar pontos de Fé para obter sucessos adicionais em um teste."
             },
             {
@@ -1250,7 +1250,7 @@
                 "name": "Bocarra Escancarada",
                 "torment": true,
                 "description": "O metabolismo do demônio é como um alto-forno, capaz de consumir praticamente qualquer material sem se ferir. O metal, a rocha e a carne são mastigados e digeridos com facilidade. A dificuldade dos ataques por mordida é reduzida em dois pontos, e a mordida provoca Força + 4 de dano agravado.",
-                "description5th": "O metabolismo do demônio é como um alto-forno, capaz de consumir praticamente qualquer material sem se ferir. O metal, a rocha e a carne são mastigados e digeridos com facilidade. A dificuldade dos ataques por mordida é reduzida em dois pontos, e a mordida provoca + 4 de dano agravado."
+                "description5th": "O metabolismo do demônio é como um alto-forno, capaz de consumir praticamente qualquer material sem se ferir. O metal, a rocha e a carne são mastigados e digeridos com facilidade. Ataques por mordida provocam + 4 de dano agravado."
             },
             {
                 "name": "Espigões",
@@ -2320,7 +2320,7 @@
                 "name": "Couro de Tubarão",
                 "torment": true,
                 "description": "A pele do demônio, semelhante a de um tubarão, atua como um tipo de proteção, proporcionando quatro dados adicionais para absorver dano por contusão, letal e agravado.",
-                "description5th": "A pele do demônio, semelhante a de um tubarão, atua como um tipo de proteção, proporcionando quatro dados adicionais de Vitalidade."
+                "description5th": "A pele do demônio, semelhante a de um tubarão, atua como um tipo de proteção. Marque apenas metade do dano Superficial e Agravado sofridos."
             },
             {
                 "name": "Nuvem de Tinta",
@@ -2417,8 +2417,8 @@
                 "description": "Esta evocação dá ao Profanador domínio total sobre suas características físicas ou as de outra pessoa. Ele pode transformar a si mesmo ou outra pessoa no ápice da beleza humana. Ele também pode condenar aqueles que o desagradam ao pesadelo de ter seus corpos deformados.",
                 "system": "Use um ponto de Fé e faça um teste de Inteligência + Medicina. Seu personagem tem de tocar o indivíduo. Faz-se um teste resistido de Força de Vontade (dificuldade 8) no caso de um alvo que se recusa a mudar. Se tiver êxito no teste, o personagem poderá alterar sua aparência física (ou a de outra pessoa) para qualquer coisa que desejar. Se ele quiser alterar a aparência de outra pessoa para que esta se adapte a seus desejos específicos (ao contrário do caso de um voluntário), a dificuldade chegará a 7. O Atributo Aparência é aumentado ou reduzido em um ponto para cada sucesso obtido no teste, respeitando-se os limites de 5 e zero para um mortal. Outros Atributos e Habilidades de seu personagem ou da vítima permanecem iguais, não importa a forma assumida. Os efeitos desta evocação duram um número de turnos igual à pontuação de Fé do Profanador, ou então podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade. Não se trata de ilusão — o corpo muda de fato —, de modo que outros demônios podem ser enganados por este poder.",
                 "system5th": "Realize uma Checagem de Fé e faça um teste de Inteligência + Medicina. Seu personagem tem de tocar o indivíduo. Faz-se um teste resistido de Força de Vontade (ou uma dificuldade imposta pelo Narrador para evitar testes excessivos) no caso de um alvo que se recusa a mudar. Caso o alvo não se recuse a mudar, a dificuldade é igual a 2. Se ele quiser alterar a aparência de outra pessoa para que esta se adapte a seus desejos específicos (ao contrário do caso de um voluntário), a dificuldade chegará aumentará para 3. Se obtiver êxito no teste, o personagem poderá alterar sua aparência física (ou a de outra pessoa) para qualquer coisa que desejar. O Atributo Carisma é aumentado ou reduzido em um ponto para cada sucesso obtido no teste, respeitando-se os limites de 5 e zero para um mortal. Outros Atributos e Habilidades de seu personagem ou do alvo permanecem iguais, não importa a forma assumida. Os efeitos desta evocação duram um número de turnos igual à pontuação de Fé do Profanador, ou então podem se tornar permanentes com o investimento de um ponto de Força de Vontade. Não se trata de ilusão — o corpo muda de fato —, de modo que outros demônios podem ser enganados por este poder.",
-                "torment": "Os demônios monstruosos precisam ter muito cuidado ao executar esta evocação, ou então correrão o risco de criar uma imagem de seu próprio Tormento. Se a evocação for executada com êxito, faça um teste de Forga de Vontade contra uma dificuldade igual ao Tormento do personagem. Se você falhar no teste, o indivíduo assumirá a forma de um monstro hediondo. Os mortais que estiverem na presença desse personagem saído de um pesadelo fugirão aterrorizados se não passarem num teste de Força de Vontade (dificuldade 8). Se ocorrer uma falha crítica no teste de Força de Vontade, a testemunha adquirirá uma perturbação temporária.",
-                "torment5th": "Os demônios monstruosos precisam ter muito cuidado ao executar esta evocação, ou então correrão o risco de criar uma imagem de seu próprio Tormento. Se a evocação for executada com êxito, faça um teste de Forga de Vontade contra uma dificuldade igual ao modificador de Tormento do personagem. Se você falhar no teste, o indivpiduo assumirá a forma de um monstro hediondo. Os mortais que estiverem na presença desse personagem saído de um pesadelo fugirão aterrorizados se não passarem num teste de Força de Vontade (dificuldade 3). Se ocorrer uma falha crítica no teste de Força de Vontade, a testemunha adquirirá uma perturbação temporária.",
+                "torment": "Os demônios monstruosos precisam ter muito cuidado ao executar esta evocação, ou então correrão o risco de criar uma imagem de seu próprio Tormento. Se a evocação for executada com êxito, faça um teste de Força de Vontade contra uma dificuldade igual ao Tormento do personagem. Se você falhar no teste, o indivíduo assumirá a forma de um monstro hediondo. Os mortais que estiverem na presença desse personagem saído de um pesadelo fugirão aterrorizados se não passarem num teste de Força de Vontade (dificuldade 8). Se ocorrer uma falha crítica no teste de Força de Vontade, a testemunha adquirirá uma perturbação temporária.",
+                "torment5th": "Os demônios monstruosos precisam ter muito cuidado ao executar esta evocação, ou então correrão o risco de criar uma imagem de seu próprio Tormento. Se a evocação for executada com êxito, faça um teste de Força de Vontade contra uma dificuldade igual ao modificador de Tormento do personagem. Se você falhar no teste, o indivpiduo assumirá a forma de um monstro hediondo. Os mortais que estiverem na presença desse personagem saído de um pesadelo fugirão aterrorizados se não passarem num teste de Força de Vontade (dificuldade 3). Se ocorrer uma falha crítica no teste de Força de Vontade, a testemunha adquirirá uma perturbação temporária.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 203
             }
@@ -2489,144 +2489,150 @@
                 "name": "Invocar os Animais",
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
-                    "intelligence",
-                    "medicine"
+                    "resolve",
+                    "animalKen"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
                 "description": "Esta evocação permite ao Devorador detectar a presença de vida animal na área circundante e invocar essas criaturas. Esses animais protegem instintivamente o demônio.",
-                "system": "Faça um teste de Percepção + Empatia com Animais. Se tiver êxito no teste, seu personagem obterá uma noção detalhada da diversificada vida animal da área, de insetos a mamíferos. A percepção do Devorador se estende num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Munido com esse conhecimento, o Devorador pode escolher quais animais de um único tipo ele deseja invocar, até o número de sucessos obtidos. Se o Devorador quiser invocar um enxame de animais nocivos ou insetos, o número de sucessos
-obtidos determinard o número de metros quadrados tomados
-pelo enxame. Esses animais vão até o Devorador o mais rápido
-possivel e formam um circulo protetor em volta dele, atacando qualquer um que o ameace. Os efeitos desta evocagio
-duram uma cena ou até o demdnio liberar os animais.",
-                "system5th": "Faça um teste de Determinação + Empatia com Animais. Se tiver êxito, seu personagem obterá uma visão detalhada da vida animal da área, de insetos a mamíferos. À percepção do Devorador se estende num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Munido desse conhecimento, o Devorador pode escolher quais animais de um único tipo deseja invocar, até o número de sucessos obtidos. No caso de enxames de animais nocivos ou insetos, o número de sucessos determinará a área em metros quadrados ocupada pelo enxame. Esses animais vão até o Devorador o mais rápido possível e formam um círculo protetor em volta dele, atacando qualquer um que o ameace. Os efeitos desta evocação duram uma cena ou até o demônio liberar os animais.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos só conseguem invocar animais carnívoros, e seu Tormento induz um frenesi assassino nessas criaturas. É necessário fazer um teste de Força de Vontade a cada turno contra uma dificuldade igual ao modificador de Tormento do Devorador. No caso de falha, os animais se voltam contra o ser humano ou o demônio mais próximo, incluindo o próprio Devorador. Ele pode tentar readquirir o controle com um novo teste de Força de Vontade no turno seguinte.",
+                "system": "Faça um teste de Percepção + Empatia com Animais. Se tiver êxito no teste, seu personagem obterá uma noção detalhada da diversificada vida animal da área, de insetos a mamíferos. A percepção do Devorador se estende num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Munido com esse conhecimento, o Devorador pode escolher quais animais de um único tipo ele deseja invocar, até o número de sucessos obtidos. Se o Devorador quiser invocar um enxame de animais nocivos ou insetos, o número de sucessos obtidos determinará o número de metros quadrados tomados pelo enxame. Esses animais vão até o Devorador o mais rápido possivel e formam um círculo protetor em volta dele, atacando qualquer um que o ameace. Os efeitos desta evocação duram uma cena ou até o demônio liberar os animais.",
+                "system5th": "Faça um teste de Determinação + Empatia com Animais. Se tiver êxito no teste, seu personagem obterá uma noção detalhada da diversificada vida animal da área, de insetos a mamíferos. A percepção do Devorador se estende num raio em quilômetros igual duas vezes sua pontuação de Fé. Munido com esse conhecimento, o Devorador pode escolher quais animais de um único tipo ele deseja invocar, até o número de sucessos obtidos. Se o Devorador quiser invocar um enxame de animais nocivos ou insetos, o número de sucessos obtidos determinará o número de metros quadrados tomados pelo enxame. Esses animais vão até o Devorador o mais rápido possivel e formam um círculo protetor em volta dele, atacando qualquer um que o ameace. Os efeitos desta evocação duram uma cena ou até o demônio liberar os animais.",
+                "torment": "Os demônios monstruosos só conseguem invocar animais carnívoros e seu Tormento induz um frenesi assassino nessas criaturas. É necessário fazer um teste de Força de Vontade a cada turno contra uma dificuldade igual ao Tormento do Devorador. No caso de uma falha, os animais se voltam contra o ser humano ou o demônio mais próximo, incluindo-se o próprio Devorador. O Devorador pode tentar readquirir o controle sobre os animais enfurecidos com mais um teste de Força de Vontade num turno subsequente.",
+                "torment5th": "Os demônios monstruosos só conseguem invocar animais carnívoros e seu Tormento induz um frenesi assassino nessas criaturas. É necessário fazer um teste de Força de Vontade a cada turno contra uma dificuldade igual ao modificador de Tormento do Devorador. No caso de uma falha, os animais se voltam contra o ser humano ou o demônio mais próximo, incluindo-se o próprio Devorador. O Devorador pode tentar readquirir o controle sobre os animais enfurecidos com mais um teste de Força de Vontade num turno subsequente.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 204
             },
             {
-                "name": "Comandar os Animais",
                 "level": 2,
+                "name": "Comandar os Animais",
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
-                    "intelligence",
-                    "medicine"
+                    "manipulation",
+                    "animalKen"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
                 "description": "Esta evocação amplia a influência do Devorador sobre os animais da terra, permitindo-lhe ordenar que um ou mais animais façam sua vontade.",
-                "system": "",
-                "system5th": "Faça um teste de Manipulação + Empatia com Animais. O Devorador consegue comandar um número de animais igual à quantidade de sucessos obtidos. Os animais já precisam estar na presença do demônio. A evocação também acentua a inteligência desses animais, presumindo que tenham Inteligência efetiva de 1 ponto, podendo chegar a 2 a critério do Narrador. O Devorador não precisa falar com os animais para emitir ordens, comunicando seus desejos diretamente às mentes deles. Os efeitos desta evocação duram um dia.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos só conseguem comandar animais carnívoros, e seu Tormento os torna agressivos e homicidas. A menos que estejam na presença do Devorador, atacarão qualquer mortal ou demônio que encontrarem caso falhem num teste de Inteligência (dificuldade 2).",
-                
+                "system": "Faça um teste de Manipulação + Empatia com Animais. O Devorador consegue comandar um número de animais igual à quantidade de sucessos obtidos. Os animais já precisam estar na presença do demônio para este poder funcionar. A evocação também acentua a inteligência desses animais. Presuma que as criaturas tenham uma Inteligência efetiva de 1 ponto, apesar de algumas raças excepcionais às vezes apresentarem nível 2, a critério do Narrador. O Devorador não precisa falar com os animais para emitir ordens. Ao contrário, ele comunica seus desejos ao inserí-los diretamente nas mentes dos animais. Os efeitos desta evocação duram um único dia.",
+                "system5th": "Faça um teste de Manipulação + Empatia com Animais. O Devorador consegue comandar um número de animais igual à quantidade de sucessos obtidos. Os animais já precisam estar na presença do demônio para este poder funcionar. A evocação também acentua a inteligência desses animais. Presuma que as criaturas tenham uma Inteligência efetiva de 1 ponto, apesar de algumas raças excepcionais às vezes apresentarem nível 2, a critério do Narrador. O Devorador não precisa falar com os animais para emitir ordens. Ao contrário, ele comunica seus desejos ao inserí-los diretamente nas mentes dos animais. Os efeitos desta evocação duram um único dia.",
+                "torment": "Os demônios monstruosos só conseguem comandar animais carnívoros, e o peso de seu Tormento os torna agressivos e homicidas. A menos que estejam na presença do Devorador, eles atacarão qualquer mortal ou demônio que encontrarem caso falhem num teste de Inteligência (dificuldade 7).",
+                "torment5th": "Os demônios monstruosos só conseguem comandar animais carnívoros, e o peso de seu Tormento os torna agressivos e homicidas. A menos que estejam na presença do Devorador, eles atacarão qualquer mortal ou demônio que encontrarem caso falhem num teste de Inteligência (dificuldade 1).",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 204
             },
             {
-                "name": "Possessão de Animais",
                 "level": 3,
+                "name": "Possessão de Animais",
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
                     "intelligence",
-                    "medicine"
+                    "animalKen"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
-                "description": "O demônio é capaz de possuir um ou mais animais e agir por meio deles como uma extensão de sua vontade. Durante a Guerra da Ira, muitos Devoradores possuíram bandos inteiros de animais terríveis que causavam estragos entre os aliados humanos da Hoste.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Empatia com Animais. O Devorador consegue controlar um número de animais igual ao número de sucessos obtidos. Se esse número for maior que o Raciocínio do demônio, seu corpo mortal entrará em estado comatoso. Caso contrário, ainda poderá se mover e agir com todas as paradas de dados reduzidas pela metade. Ele controla os animais a um número de quilômetros menor ou igual à sua pontuação de Fé. Esta evocação dura um número de turnos igual à pontuação de Fé do personagem.",
+                "description": "O demônio é capaz de possuir um ou mais animais e agir por meio deles como uma extensão de sua vontade. Durante a Guerra da Ira, muitos devoradores foram para a batalha possuindo bandos inteiros de animais terríveis que causavam estrago entre os aliados humanos da Hoste.",
+                "system": "Faça um teste de Inteligência + Empatia com Animais. O Devorador consegue controlar um número de animais igual ao de sucessos obtidos. Se este número for maior que o Raciocínio do demônio, seu corpo mortal entrará num estado comatoso. Do contrário, ele ainda poderá se mover e agir com todas as suas paradas de dados reduzidas pela metade. Seu personagem consegue controlar os animais a um número de quilômetros menor ou igual a sua pontuação de Fé. Esta evocação dura um número de turnos igual à pontuação de Fé do personagem.",
+                "system5th": "Faça um teste de Inteligência + Empatia com Animais. O Devorador consegue controlar um número de animais igual ao de sucessos obtidos. Se este número for maior que o Raciocínio do demônio, seu corpo mortal entrará num estado comatoso. Do contrário, ele ainda poderá se mover e agir com todas as suas paradas de dados reduzidas pela metade. Seu personagem consegue controlar os animais a um número de quilômetros menor ou igual a sua pontuação de Fé. Esta evocação dura um número de turnos igual à pontuação de Fé do personagem.",
                 "torment": "",
                 "torment5th": "",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 204
             },
             {
-                "name": "Forma Animal",
                 "level": 4,
+                "name": "Forma Animal",
                 "cost": "1 Checagem de Fé",
                 "pool": [
-                    "intelligence",
-                    "medicine"
+                    "stamina",
+                    "animalKen"
                 ],
-                "dificulty": 1,
-                "dificultyText": "",
-                "description": "O Devorador é capaz de assumir a forma de qualquer animal cujo sangue ou carne ele tenha provado. A conservação de massa não se aplica, de modo que uma mulher de cinquenta quilos pode se transformar num tigre de 350 quilos se desejar.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Vigor + Empatia com Animais. Se tiver êxito, a transformação leva um turno. Os efeitos duram uma cena, a menos que seja intencionalmente interrompida.",
-                "torment": "",
-                "torment5th": "Os Devoradores monstruosos precisam de vontade férrea para não se entregarem à natureza bestial da forma animal. Faça um teste de Força de Vontade por turno contra a dificuldade igual ao modificador de Tormento do Devorador. Se falhar, o demônio sucumbirá aos instintos bestiais da forma assumida, e o Narrador controlará o personagem até o fim da evocação.",
+                "dificulty": 2,
+                "dificultyText": "A dificuldade é 2",
+                "description": "O Devorador é capaz de assumir a forma de qualquer animal cujo sangue ou cuja carne ele tenha provado. A conservação de massa não se aplica, de modo que uma mulher de cinquenta quilos pode se transformar num tigre de 350 quilos se o demônio assim desejar.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Empatia com Animais (dificuldade 2). Se você tiver êxito, a transformação levará um único turno. Os efeitos desta evocação duram uma cena, a menos que seja intencionalmente interrompida antes disso.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Empatia com Animais. Se você tiver êxito, a transformação levará um único turno. Os efeitos desta evocação duram uma cena, a menos que seja intencionalmente interrompida antes disso.",
+                "torment": "Os Devoradores monstruosos precisam exercer uma vontade férrea para não se entregarem à natureza bestial das criaturas nas quais se transformam. Faça um teste de Força de Vontade por turno, contra uma dificuldade igual ao Tormento do Devorador. Se falhar no teste, o demônio sucumbirá aos instintos bestiais da forma animal que assumiu, e o Narrador passará a controlar o personagem até a evocação expirar.",
+                "torment5th": "Os Devoradores monstruosos precisam exercer uma vontade férrea para não se entregarem à natureza bestial das criaturas nas quais se transformam. Faça um teste de Força de Vontade por turno, contra uma dificuldade igual ao modificador de Tormento do Devorador. Se falhar no teste, o demônio sucumbirá aos instintos bestiais da forma animal que assumiu e o Narrador passará a controlar o personagem. Se obtiver uma Falha Infernal, esta condição se mantém até a evocação expirar.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 204
             },
             {
-                "name": "Criar Quimeras",
                 "level": 5,
+                "name": "Criar Quimeras",
                 "cost": "1 Checagem de Fé",
                 "pool": [
                     "intelligence",
-                    "medicine"
+                    "animalKen"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
-                "description": "O Devorador é capaz de manipular o corpo físico de um animal, acentuar suas capacidades ou transformá-lo numa criatura fantástica e horripilante que combina características de vários animais.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Inteligência + Empatia com Animais. Cada sucesso permite acrescentar um ponto a uma característica específica ou alterar um traço da forma física do animal. As leis da física e a conservação de massa não se aplicam. Grandes mudanças podem exigir demais da psique do animal. Some o total de pontos de característica e alterações aplicadas, e faça um teste de Força de Vontade do personagem. Se obtiver mais sucessos que o número total de modificações, o animal sairá ileso. Se falhar, ele se tornará instável. O Narrador determina as especificidades do comportamento alterado e pode adiar a revelação até que a verdadeira natureza do animal se manifeste. Os efeitos duram um número de dias igual à pontuação de Fé do personagem ou podem se tornar permanentes com um ponto de Força de Vontade.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos invariavelmente impregnam suas criações com a mácula do próprio Tormento, gerando feras assassinas atormentadas pela dor. Não é necessário teste de Força de Vontade para determinar o estado mental dessas criaturas; são sempre animais perturbados e raivosos que existem apenas para matar e mutilar outros seres vivos.",
+                "description": "O Devorador é capaz de manipular o corpo físico de um animal, acentuar suas capacidades ou transformá-lo numa criatura fantástica e horripilante que combina características de vários animais diferentes.",
+                "system": "Use um ponto de Fé e faça um teste de Inteligência + Empatia com Animais. Cada sucesso permite ao Devorador acrescentar um ponto a uma caracteristica específica, ou então alterar um determinado traço da forma física do animal. As leis da física e da conservação se aplicam. Portanto, se quiser criar um tigre alado, o Devorador pode, no entanto, mudanças muito grandes e muito rápidas podem exigir demais da psique do animal. Some o total de pontos de característica e as alterações que foram acrescentadas ao animal e faça um teste de Força de Vontade por seu personagem. Se você obtiver mais sucessos que o número total de modificações aplicadas, o animal sairá ileso do processo. Se você falhar no teste, o animal se tornará perigosamente instável. O Narrador determina as especificidades do comportamento  alterado do animal e, para criar tensão, ele pode fazer o teste de Força de Vontade por você, e omitir o resultado até a verdadeira natureza do animal de manifestar. Os efeitos desta evocação duram um número de dias igual à pontução de Fé do personagem ou pode se tornar permanente com o investimento de um ponto de Força de Vontade.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Inteligência + Empatia com Animais. Cada sucesso permite ao Devorador acrescentar um ponto a uma caracteristica específica, ou então alterar um determinado traço da forma física do animal. As leis da física e da conservação se aplicam. Portanto, se quiser criar um tigre alado, o Devorador pode, no entanto, mudanças muito grandes e muito rápidas podem exigir demais da psique do animal. Some o total de pontos de alterações que foram acrescentadas ao animal e faça um teste de Força de Vontade por seu personagem, com dificuldade igual a +1 para cada alteração feita. Se você obtiver mais sucessos que o número total de modificações aplicadas, o animal sairá ileso do processo. Se você falhar no teste, o animal se tornará perigosamente instável. O Narrador determina as especificidades do comportamento alterado do animal e, para criar tensão, ele pode fazer o teste de Força de Vontade por você, e omitir o resultado até a verdadeira natureza do animal de manifestar. Os efeitos desta evocação duram um número de dias igual à pontução de Fé do personagem ou pode se tornar permanente com o investimento de um ponto de Força de Vontade.",
+                "torment": "Os demônios monstruosos invariavelmente impregnam suas criações com a mácula do próprio tormento, o que gera feras assassinas atormentadas pela dor. Não é necessário um teste de Força de Vontade para determinar o estado mental dessas criaturas. São sempre animais perturbados e raivosos que existem apenas para matar e mutilar outros seres vivos.",
+                "torment5th": "Os demônios monstruosos invariavelmente impregnam suas criações com a mácula do próprio tormento, o que gera feras assassinas atormentadas pela dor. Não é necessário um teste de Força de Vontade para determinar o estado mental dessas criaturas. São sempre animais perturbados e raivosos que existem apenas para matar e mutilar outros seres vivos.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 204
             }
         ],
         "apName": "Zaltu, o Semblante da Fera",
-        "apWithoutTorment": "A força e a majestade dos anjos da Fera são temíveis. Eles espreitam no escuro com força e graça flexível, como panteras. As aparências físicas desses anjos caídos são variadas, mas a maioria tem músculos fortes e aparece envolta num manto de pelos, com olhos grandes e dourados que brilham como brasas ao luar. Suas vozes são graves, fluentes e retumbantes, e, mesmo a quilômetros de distância, seus uivos de caça dão calafrios.",
-        "apWithTorment": "Os Zaltu que se rendem ao Tormento parecem emaciados e doentios, com falhas ou emaranhados de pelagem suja ou ensanguentada. Salpicos de espuma pingam de suas bocas escancaradas, e sua pele se transforma em couro cartilaginoso e flácido.",
+        "apWithoutTorment": "A força e a majestade dos anjos da caçada são temíveis. Eles espreitam no escuro com a força e a graça flexível das panteras. As aparências físicas desses anjos caídos são muitas e variadas, mas a maioria tem músculos fortes e aparece envolta num manto de pêlos, com olhos grandes e dourados que brilham como brasas ao luar. Suas vozes são graves, fluentes e retumbantes, e, mesmo a quilômetros de distância, seus uivos de caça dão calafrios.",
+        "apWithTorment": "Os Zaltu que se rendem ao Tormento parecem emaciados e doentios, sua pelagem apresenta falhas ou emaranhados de sujeira ou sangue. Salpicos de espuma pingam de suas bocas escancaradas, e sua pele se transforma num couro cartilaginoso e flácido.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 205,
         "apocalypticForm": [
             {
                 "name": "Aumento de Tamanho",
                 "torment": false,
-                "description": "O corpo do personagem cresce uma vez e um terço da altura, acrescentando os seguintes bônus às Características: Força (+2), Destreza (+2), Vigor (+1)."
+                "description": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+2), Vigor (+1).",
+                "description5th": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+2), Destreza (+2), Vigor (+1)."
             },
             {
                 "name": "Sentidos Aguçados",
                 "torment": false,
-                "description": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, reduzindo em dois pontos a dificuldade dos testes de Raciocínio."
+                "description": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, o que reduz em dois pontos as dificuldades dos testes de Percepção.",
+                "description5th": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, o que reduz em dois pontos as dificuldades dos testes de Percepção."
             },
             {
                 "name": "Garras/Dentes",
                 "torment": false,
-                "description": "O personagem manifesta garras e presas que provocam Força +2 de dano agravado."
+                "description": "O personagem manifesta garras e presas que provocam Força +2 de dano agravado.",
+                "description5th": "O personagem manifesta garras e presas que provocam +2 de dano agravado."
             },
             {
                 "name": "Ações Adicionais",
-                "torment": false,
-                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação. Essas ações ocorrem segundo a ordem decrescente de iniciativa. O jogador decide adquirir ações adicionais no início do turno antes de quaisquer outras ações."
+                "torment": true,
+                "description": "É possível usar pontos de Fé para obter ações adicionais num turno à razão de um ponto por ação. Essas ações ocorrem segundo a ordem decrescente de iniciativa, de maneira que, se um Ninsun com uma iniciativa igual a 7 conseguir uma ação adicional, ele realizará sua ação normal à contagem de sete e sua ação adicional à contagem de seis. O jogador precisa decidir adquirir as ações adicionais no início de um turno antes de realizar quaisquer outras ações.",
+                "description5th": "É possível usar pontos de Fé para obter sucessos adicionais em um teste."
             },
             {
                 "name": "Couro Duro",
                 "torment": true,
-                "description": "A pele semelhante ao ferro do personagem atua como proteção, fornecendo mais quatro dados de absorção para dano por contusão, letal e agravado."
+                "description": "A pele semelhante ao ferro do personagem atua como um tipo de proteção e proporciona mais quatro dados de absorção para dano por contusão, letal e agravado.",
+                "description5th": "A pele semelhante ao ferro do personagem atua como um tipo de proteção. Marque apenas metade do dano Superficial e Agravado sofridos."
             },
             {
                 "name": "Bocarra Escancarada",
                 "torment": true,
-                "description": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder, incluindo metal, rocha e carne. As dificuldades de ataque por mordida são reduzidas em dois pontos e inflige Força +4 de dano agravado."
+                "description": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. As dificuldades dos ataques por mordida são reduzidas em dois pontos, e a mordida em si inflige Força +4 de dano agravado.",
+                "description5th": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. Ataques por mordida provocam + 4 de dano agravado."
             },
             {
-                "name": "Membros Adicionais",
+                "name": "Apêndices Adicionais",
                 "torment": true,
-                "description": "O demônio desenvolve um segundo par de braços ou uma cauda preênsil. Os braços permitem aparar ou bloquear ataques sem sacrificar ataques próprios ou realizar até dois ataques extras por turno (ações múltiplas). A cauda usa metade da força e permite ficar dependurado."
+                "description": "O demônio desenvolve um segundo par de braços ou uma cauda preênsil, a critério do jogador. Os braços adicionais permitem a um personagem aparar ou bloquear ataques desarmados ou com armas brancas sem sacrificar seu próprio ataque, ou então realizar até dois ataques adicionais por turno (todos eles considerados ações múltiplas). A cauda preênsil tem metade da altura do personagem, usa só metade da Força do mesmo (arredondada para baixo) para erguer objetos e permite que o personagem fique dependurado.",
+                "description5th": "O demônio desenvolve um segundo par de braços ou uma cauda preênsil, a critério do jogador. Os braços adicionais permitem a um personagem aparar ou bloquear ataques desarmados ou com armas brancas sem sacrificar seu próprio ataque, ou então realizar dois ataques e realizar o melhor resultado. A cauda preênsil tem metade da altura do personagem, usa só metade da Força do mesmo (arredondada para baixo) para erguer objetos e permite que o personagem fique dependurado."
             },
             {
                 "name": "Pele de Camaleão",
                 "torment": true,
-                "description": "A pele do demônio permite que ele se misture ao ambiente. Dificuldades de testes de Furtividade são reduzidas em um ponto em movimento e dois pontos parado."
+                "description": "A pele do demônio permite que ele se misture ao ambiente. As dificuldades de todos os testes de Furtividade serão reduzidas em um ponto se o demônio estiver em movimento; dois, se estiver parado.",
+                "description5th": "A pele do demônio permite que ele se misture ao ambiente. As dificuldades de todos os testes de Furtividade serão reduzidas em um ponto se o demônio estiver em movimento; dois, se estiver parado."
             }
         ]
     },
     {
+        "here": true,
         "id": "19",
         "name": "Doutrina da Natureza",
         "belonging": "rabisu",
@@ -2634,42 +2640,92 @@ duram uma cena ou até o demdnio liberar os animais.",
             {
                 "level": 1,
                 "name": "Sentidos Naturais",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "animalKen"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O Devorador tem noção imediata da área que o circunda, constrói um mapa mental das características naturais da região, das plantas e animais que habitam o lugar, bem como da localização de intrusos que a fauna local considera uma ameaça.",
                 "system": "",
                 "system5th": "Faça um teste de Determinação + Sobrevivência. Os demônios na área podem tentar evitar a detecção por meio de um teste resistido de Força de Vontade (dificuldade 2). Se tiver êxito no teste, seu personagem obterá um mapa mental minucioso das cercanias que pode ser consultado conforme a necessidade, além das localizações aproximadas dos animais e das pessoas que se encontram por perto. Apesar de funcionar melhor em áreas silvestres, esta evocação também pode ser usada em ambientes urbanos a uma dificuldade igual a 3. Seu Devorador pode obter informações sobre uma determinada área num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Os efeitos da evocação duram uma cena.",
-                "torment": "Os demônios monstruosos que executam esta evocação transmitem sua natureza homicida à área circundante, fazendo com que a flora e a fauna reajam de maneira hostil aos invasores humanos. Qualquer animal nessa área reage agressivamente aos invasores, atacando-os se for capaz. Os invasores precisam passar em testes de Atletismo ou Sobrevivência para evitar o perigo ou escapar ao ataque, sendo a dificuldade igual ao modificador de Tormento do Devorador."
+                "torment": "",
+                "torment5th": "Os demônios monstruosos que executam esta evocação transmitem sua natureza homicida à área circundante, fazendo com que a flora e a fauna reajam de maneira hostil aos invasores humanos. Qualquer animal nessa área reage agressivamente aos invasores, atacando-os se for capaz. Os invasores precisam passar em testes de Atletismo ou Sobrevivência para evitar o perigo ou escapar ao ataque, sendo a dificuldade igual ao modificador de Tormento do Devorador.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 206
             },
             {
                 "level": 2,
                 "name": "Acelerar o Crescimento",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "animalKen"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O Devorador é capaz de promover o crescimento rápido e desenfreado da vida vegetal local. As árvores lançam-se em direção ao céu, as trepadeiras ficam mais grossas, espalham-se rachaduras por toda a extensão de um objeto ao qual estejam enraizadas, e as urzes recobrem o ambiente.",
                 "system": "",
                 "system5th": "Faça um teste de Vigor + Sobrevivência. O Devorador se concentra numa determinada planta e faz com que a mesma aumente em tamanho à razão de um número de metros cúbicos igual ao de sucessos obtidos, tudo no intervalo de um único turno. As trepadeiras ou as raízes infligem o mesmo número de pontos de dano a estruturas físicas com as quais estejam em contato (considere cada sucesso um ponto de Força e compare os resultados à tabela de Demonstrações de Força da pág. 232). Os objetos apanhados no raio de crescimento são tragados. A planta continuará exagerada e provocará dano durante um número de turnos igual ao de sucessos obtidos.",
-                "torment": "Os demônios monstruosos fazem as plantas crescerem e emaranharem qualquer ser vivo ao alcance das mesmas, estrangulando-os ou fazendo-os em pedaços. Para cada ser vivo dentro da área de crescimento da planta, lance um número de dados igual à Força de Vontade do Devorador. Considere essa ação uma tentativa de engalfinhamento que as vítimas podem tentar aparar ou da qual se esquivar como de praxe. Se o ataque for bem-sucedido, lance um número de dados de dano igual ao Tormento do Devorador. Cada sucesso inflige um nível de dano letal."
+                "torment": "",
+                "torment5th": "Os demônios monstruosos fazem as plantas crescerem e emaranharem qualquer ser vivo ao alcance das mesmas, estrangulando-os ou fazendo-os em pedaços. Para cada ser vivo dentro da área de crescimento da planta, lance um número de dados igual à Força de Vontade do Devorador. Considere essa ação uma tentativa de engalfinhamento que as vítimas podem tentar aparar ou da qual se esquivar como de praxe. Se o ataque for bem-sucedido, lance um número de dados de dano igual ao Tormento do Devorador. Cada sucesso inflige um nível de dano letal.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 206
             },
             {
                 "level": 3,
                 "name": "Comandar a Natureza",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "animalKen"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O Devorador consegue direcionar o crescimento rápido das plantas locais com a força de sua vontade, afetando o ambiente de determinadas maneiras de acordo com a intenção do demônio.",
                 "system": "",
                 "system5th": "Faça um teste de Inteligência + Sobrevivência. O personagem pode afetar um número de plantas igual à sua pontuação de Fé. Cada planta cresce um número de metros cúbicos igual ao de sucessos obtidos e se expande na direção e segundo a configuração especificada pelo personagem. Se o crescimento da planta for direcionado para uma estrutura específica, compare o número de sucessos obtidos à tabela de Demonstrações de Força da pág. 232 do capítulo sobre sistemas para determinar o dano infligido aos objetos.",
-                "torment": "Além de dirigir o crescimento das plantas, os demônios monstruosos fazem com que os vegetais afetados se tornem hostis à carne e ao sangue, desenvolvendo espinhos pontiagudos e seiva venenosa. A manifestação exata é determinada pelo Narrador, mas é necessário um teste bem-sucedido de Destreza + Atletismo (ou Sobrevivência) para se tentar atravessar a área; do contrário a pessoa receberá um número de dados de dano letal igual ao Tormento do demônio."
+                "torment": "",
+                "torment5th": "Além de dirigir o crescimento das plantas, os demônios monstruosos fazem com que os vegetais afetados se tornem hostis à carne e ao sangue, desenvolvendo espinhos pontiagudos e seiva venenosa. A manifestação exata é determinada pelo Narrador, mas é necessário um teste bem-sucedido de Destreza + Atletismo (ou Sobrevivência) para se tentar atravessar a área; do contrário a pessoa receberá um número de dados de dano letal igual ao Tormento do demônio.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 206
             },
             {
                 "level": 4,
                 "name": "Possessão de Plantas",
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "intelligence",
+                    "animalKen"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O demônio consegue controlar a essência vital de uma ou mais plantas, transformando-as em extensões de sua vontade. As plantas se movem com velocidade e força sobrenaturais e realizam qualquer ação que o Devorador desejar.",
                 "system": "",
                 "system5th": "Use um ponto de Fé e faça um teste de Vigor + Sobrevivência. O Devorador consegue controlar um número de plantas igual ao de sucessos obtidos. As plantas afetadas por esta evocação são obrigadas a permanecer enraizadas, mas são capazes de realizar qualquer outra ação dentro dos limites de sua composição física e de seu tamanho. Uma roseira consegue enredar uma vítima, ou a hera é capaz de destruir o muro ao qual está ancorada. Os efeitos da evocação duram uma cena. Considere que as plantas têm uma pontuação de Força igual à Força de Vontade do demônio e consulte a tabela de Demonstrações de Força (pág. 232) para determinar o dano que plantas podem causar aos objetos. Esse mesmo número de dados é usado para fazer ataques e testes de avaliação de dano quando as plantas atacam alvos vivos e provocam dano por contusão.",
-                "torment": "Os Devoradores monstruosos espalham a mácula de seu Tormento para as plantas sob seu controle, destruindo-as de dentro para fora e reduzindo-as a cascas sem vida em questão de minutos. Cada planta possuída perde um nível de vitalidade por turno e esse dano não pode ser absorvido. Como regra geral, presuma que uma determinada planta tem um “nível de vitalidade” para cada 0,03 metros cúbicos de volume. Quando todos os níveis de vitalidade da planta forem consumidos, a planta morrerá."
+                "torment": "",
+                "torment5th": "Os Devoradores monstruosos espalham a mácula de seu Tormento para as plantas sob seu controle, destruindo-as de dentro para fora e reduzindo-as a cascas sem vida em questão de minutos. Cada planta possuída perde um nível de vitalidade por turno e esse dano não pode ser absorvido. Como regra geral, presuma que uma determinada planta tem um “nível de vitalidade” para cada 0,03 metros cúbicos de volume. Quando todos os níveis de vitalidade da planta forem consumidos, a planta morrerá.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 206
             },
             {
                 "level": 5,
                 "name": "Alterar Plantas",
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "intelligence",
+                    "animalKen"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O Devorador é capaz de manipular à vontade a composição e a forma de uma planta, criando linhagens novas e especializadas de acordo com seus desejos.",
                 "system": "",
                 "system5th": "Use um ponto de Fé e faça um teste de Inteligência + Sobrevivência. O personagem consegue alterar ou acrescentar uma nova característica vegetal para cada sucesso obtido. Entre as alterações temos: metabolismo acelerado (maior velocidade de crescimento), casca ou córtex espessos e espinhos duros. Esses sucessos podem ser gerados como parte de um teste prolongado durante dias (um teste por dia) à medida que o demônio “brinca” com sua criação. Os efeitos da evocação persistem durante um número de dias igual à pontuação de Fé do personagem ou podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade.",
-                "torment": "Os demônios monstruosos que empregam esta evocação criam vida vegetal com uma certa predileção por sangue. Faça um teste de Força de Vontade contra uma dificuldade igual ao modificador de Tormento do personagem. No caso de uma falha, o metabolismo da planta sofrerá mutação espontânea e desenvolverá armas naturais que lhe permitirão matar seres vivos e deles se alimentar — incluindo o próprio demônio. As paradas de ataque e avaliação de dano da planta são iguais ao Tormento do personagem."
+                "torment": "",
+                "torment5th": "Os demônios monstruosos que empregam esta evocação criam vida vegetal com uma certa predileção por sangue. Faça um teste de Força de Vontade contra uma dificuldade igual ao modificador de Tormento do personagem. No caso de uma falha, o metabolismo da planta sofrerá mutação espontânea e desenvolverá armas naturais que lhe permitirão matar seres vivos e deles se alimentar — incluindo o próprio demônio. As paradas de ataque e avaliação de dano da planta são iguais ao Tormento do personagem.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 207
             }
         ],
         "apName": "Ninurtu, o Semblante da Natureza",
@@ -2797,7 +2853,8 @@ duram uma cena ou até o demdnio liberar os animais.",
             {
                 "name": "Bocarra Escancarada",
                 "torment": true,
-                "description": "O demônio consegue mastigar e digerir praticamente qualquer coisa: metal, rocha ou carne. As dificuldades dos testes de ataque são reduzidas em dois pontos, e a própria mordida inflige Força +4 de dano agravado."
+                "description": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. As dificuldades dos ataques por mordida são reduzidas em dois pontos, e a mordida em si inflige Força +4 de dano agravado.",
+                "description5th": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. Ataques por mordida provocam + 4 de dano agravado."
             },
             {
                 "name": "Regeneração",
