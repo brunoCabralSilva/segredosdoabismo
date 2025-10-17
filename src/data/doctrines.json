@@ -794,7 +794,7 @@
                 "name": "Níveis de Vitalidade Adicionais",
                 "torment": true,
                 "description": "O demônio ganha três níveis de vitalidade Escoriado para aguentar dano por contusão, letal e agravado.",
-                "description5th": "O demônio ganha três níveis de vitalidade Escoriado para aguentar dano Superficial e Agravado."
+                "description5th": "O demônio ganha mais três níveis de Vitalidade."
             },
             {
                 "name": "Pele Viscosa",
@@ -1839,10 +1839,10 @@
             {
                 "name": "Presciência Aumentada",
                 "torment": false,
-                "description": "O anjo caido tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Determinação.",
-                "description5th": "O anjo caido tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Determinação."
+                 "description": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Presciência.",
+                "description5th": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Raciocínio."
             },
-             {
+            {
                 "name": "Asas",
                 "torment": false,
                 "description": "Um par de asas de cisne se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno.",
@@ -2642,16 +2642,16 @@
                 "name": "Sentidos Naturais",
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
-                    "intelligence",
-                    "animalKen"
+                    "resolve",
+                    "survival"
                 ],
                 "dificulty": 1,
-                "dificultyText": "",
-                "description": "O Devorador tem noção imediata da área que o circunda, constrói um mapa mental das características naturais da região, das plantas e animais que habitam o lugar, bem como da localização de intrusos que a fauna local considera uma ameaça.",
-                "system": "",
-                "system5th": "Faça um teste de Determinação + Sobrevivência. Os demônios na área podem tentar evitar a detecção por meio de um teste resistido de Força de Vontade (dificuldade 2). Se tiver êxito no teste, seu personagem obterá um mapa mental minucioso das cercanias que pode ser consultado conforme a necessidade, além das localizações aproximadas dos animais e das pessoas que se encontram por perto. Apesar de funcionar melhor em áreas silvestres, esta evocação também pode ser usada em ambientes urbanos a uma dificuldade igual a 3. Seu Devorador pode obter informações sobre uma determinada área num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Os efeitos da evocação duram uma cena.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos que executam esta evocação transmitem sua natureza homicida à área circundante, fazendo com que a flora e a fauna reajam de maneira hostil aos invasores humanos. Qualquer animal nessa área reage agressivamente aos invasores, atacando-os se for capaz. Os invasores precisam passar em testes de Atletismo ou Sobrevivência para evitar o perigo ou escapar ao ataque, sendo a dificuldade igual ao modificador de Tormento do Devorador.",
+                "dificultyText": "Os demônios na área podem tentar evitar a detecção por meio de um teste resistido de Força de Vontade, ou o Narrador pode impor uma dificuldade para evitar testes excessivos. Apesar de funcionar melhor em áreas silvestres, esta evocação também pode ser usada em ambientes urbanos com uma penalidade de um dado a menos ao realizar o teste (ou o Narrador pode impor uma dificuldade maior do que a pré-estabelecida para evitar testes excessivos).",
+                "description": "O Devorador tem noção imediata da área que o circunda, constrói um mapa mental das caracrerísticas naturais da região, das plantas e animais que habitam o lugar, bem como da localização de intrusos que a fauna local considera uma ameaça.",
+                "system": "Faça um teste de Percepção + Sobrevivência. Os demônios na área podem tentar evitar a detecção por meio de um teste resistido de Força de Vontade (dificuldade 7). Se tiver êxito no teste, seu personagem obrerá um mapa mental minucioso das cercanias que pode ser consultado conforme a necessidade, além das localizações aproximadas dos animais e das pessoas que se encontram por perto. Apesar de funcionar melhor em áreas silvestres, esta evocação também pode ser usada em ambientes urbanos a uma dificuldade igual a 8. Seu Devorador pode obter informações sobre uma determinada área num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Os efeitos da evocação duram uma cena.",
+                "system5th": "Faça um teste de Determinação + Sobrevivência. Os demônios na área podem tentar evitar a detecção por meio de um teste resistido de Força de Vontade. Se tiver êxito no teste, seu personagem obrerá um mapa mental minucioso das cercanias que pode ser consultado conforme a necessidade, além das localizações aproximadas dos animais e das pessoas que se encontram por perto. Apesar de funcionar melhor em áreas silvestres, esta evocação também pode ser usada em ambientes urbanos com uma penalidade de um dado a menos ao realizar o teste. Seu Devorador pode obter informações sobre uma determinada área num raio em quilômetros igual a uma vez e meia sua pontuação de Fé. Os efeitos da evocação duram uma cena.",
+                "torment": "Os demônios monstruosos que executam esta evocação transmitem sua natureza homicida à área circundante, fazendo com que a flora e a fauna reajam de maneira hostil aos invasores humanos. Qualquer animal nessa área reage agressivamente aos invasores, atacando-os se for capaz. Os invasores precisam passar em testes de Esportes ou Sobrevivência para evitar o perigo ou escapar ao ataque, sendo a dificuldade igual à pontuação de Tormento do Devorador.",
+                "torment5th": "Os demônios monstruosos que executam esta evocação transmitem sua natureza homicida à área circundante, fazendo com que a flora e a fauna reajam de maneira hostil aos invasores humanos. Qualquer animal nessa área reage agressivamente aos invasores, atacando-os se for capaz. Os invasores precisam passar em testes de Destreza + Atletismo ou Raciocínio + Sobrevivência para evitar o perigo ou escapar ao ataque, sendo a dificuldade igual ao modificador de Tormento do Devorador.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 206
             },
@@ -2660,16 +2660,16 @@
                 "name": "Acelerar o Crescimento",
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
-                    "intelligence",
-                    "animalKen"
+                    "stamina",
+                    "survival"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
-                "description": "O Devorador é capaz de promover o crescimento rápido e desenfreado da vida vegetal local. As árvores lançam-se em direção ao céu, as trepadeiras ficam mais grossas, espalham-se rachaduras por toda a extensão de um objeto ao qual estejam enraizadas, e as urzes recobrem o ambiente.",
-                "system": "",
-                "system5th": "Faça um teste de Vigor + Sobrevivência. O Devorador se concentra numa determinada planta e faz com que a mesma aumente em tamanho à razão de um número de metros cúbicos igual ao de sucessos obtidos, tudo no intervalo de um único turno. As trepadeiras ou as raízes infligem o mesmo número de pontos de dano a estruturas físicas com as quais estejam em contato (considere cada sucesso um ponto de Força e compare os resultados à tabela de Demonstrações de Força da pág. 232). Os objetos apanhados no raio de crescimento são tragados. A planta continuará exagerada e provocará dano durante um número de turnos igual ao de sucessos obtidos.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos fazem as plantas crescerem e emaranharem qualquer ser vivo ao alcance das mesmas, estrangulando-os ou fazendo-os em pedaços. Para cada ser vivo dentro da área de crescimento da planta, lance um número de dados igual à Força de Vontade do Devorador. Considere essa ação uma tentativa de engalfinhamento que as vítimas podem tentar aparar ou da qual se esquivar como de praxe. Se o ataque for bem-sucedido, lance um número de dados de dano igual ao Tormento do Devorador. Cada sucesso inflige um nível de dano letal.",
+                "description": "O Devorador é capaz de promover o crescimento rápido e desenfreado da vida vegetal local. As árvores lançam-se em direção aos céu, as trepadeiras ficam mais grossas, espalham-se rachaduras por toda a extensão de um objeto ao qual estejam enraizadas, e as urzes recobrem o ambiente.",
+                "system": "Faça um teste de Vigor + Sobrevivência. O Devorador se concentra numa determinada planta e faz com que a mesma aumente em tamanho à razão de um número de metros cúbicos igual ao de sucessos obtidos, tudo no intervalo de um único turno. As trepadeiras ou as raízes infligem o mesmo número de pontos de dano a estruturas físicas com as quais estejam em contato (considere cada sucesso um ponto de Força e compare os resultados à tabela de Demonstrações de Força da pag. 232). Os objetos apanhados no raio de crescimento são tragados. A planta continuará exagerada e provocará dano durante um número de turnos igual ao de sucessos obtidos.",
+                "system5th": "Faça um teste de Vigor + Sobrevivência. O Devorador se concentra numa determinada planta e faz com que a mesma aumente em tamanho à razão de um número de metros cúbicos igual ao de sucessos obtidos, tudo no intervalo de um único turno. As trepadeiras ou as raízes infligem o mesmo número de pontos de dano a estruturas físicas com as quais estejam em contato igual ao número de sucessos no teste. Os objetos apanhados no raio de crescimento são tragados. A planta continuará exagerada e provocará dano durante um número de turnos igual ao de sucessos obtivos.",
+                "torment": "Os demônios monstruosos fazem as plantas crescerem e emaranharem qualquer ser vivo ao alcance das mesmas, estrangulando-os ou fazendo-os em pedaços. Para cada ser vivo dentro da área de crescimento da planta, lance um número de dados igual à Força de Vontade do Devorador. Considere essa ação uma tentativa de engalfinhamento que as vítimas podem tentar aparar ou dela se esquivar como de praxe. Se o ataque for bem-sucedido, lance um número de dados de dano igual ao modificador de Tormento do Devorador. Cada sucesso inflige um nivel de dano letal.",
+                "torment5th": "Os demônios monstruosos fazem as plantas crescerem e emaranharem qualquer ser vivo ao alcance das mesmas, estrangulando-os ou fazendo-os em pedaços. Personagens nessas áreas precisam passar em um teste de Destreza + Sobrevivência para escapar de ataques realizados pelas trepadeiras ou das raízes, que causam dano superficial e impedem as vítimas de se moverem.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 206
             },
@@ -2679,15 +2679,15 @@
                 "cost": "1 ponto de Força de Vontade",
                 "pool": [
                     "intelligence",
-                    "animalKen"
+                    "survival"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
                 "description": "O Devorador consegue direcionar o crescimento rápido das plantas locais com a força de sua vontade, afetando o ambiente de determinadas maneiras de acordo com a intenção do demônio.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Sobrevivência. O personagem pode afetar um número de plantas igual à sua pontuação de Fé. Cada planta cresce um número de metros cúbicos igual ao de sucessos obtidos e se expande na direção e segundo a configuração especificada pelo personagem. Se o crescimento da planta for direcionado para uma estrutura específica, compare o número de sucessos obtidos à tabela de Demonstrações de Força da pág. 232 do capítulo sobre sistemas para determinar o dano infligido aos objetos.",
-                "torment": "",
-                "torment5th": "Além de dirigir o crescimento das plantas, os demônios monstruosos fazem com que os vegetais afetados se tornem hostis à carne e ao sangue, desenvolvendo espinhos pontiagudos e seiva venenosa. A manifestação exata é determinada pelo Narrador, mas é necessário um teste bem-sucedido de Destreza + Atletismo (ou Sobrevivência) para se tentar atravessar a área; do contrário a pessoa receberá um número de dados de dano letal igual ao Tormento do demônio.",
+                "system": "Faça um teste de Inteligência + Sobrevivência. O personagem pode afetar um número de plantas igual a sua pontuação de Fé. Cada planta cresce um número de metros cúbicos igual ao de sucessos obridos e se expande na direção e segundo a configuração especificada pelo personagem. Se o crescimento da planta for  direcionado para uma estrutura específica, compare o número de sucessos obtidos à tabela de Demonstrações de Força da pág. 232 do capítulo sobre sistemas para determinar o dano infligido aos objetos.",
+                "system5th": "Faça um teste de Inteligência + Sobrevivência. O personagem pode afetar um número de plantas igual a sua pontuação de Fé. Cada planta cresce um número de metros cúbicos igual ao de sucessos obridos e se expande na direção e segundo a configuração especificada pelo personagem. As trepadeiras ou as raízes infligem o mesmo número de pontos de dano a estruturas físicas com as quais estejam em contato igual ao número de sucessos no teste. Os objetos apanhados no raio de crescimento são tragados.",
+                "torment": "Além de dirigir o crescimento das plantas, os demônios monstruosos fazem com que os vegetais afetados se tornem hostis à carne e ao sangue, desenvolvendo espinhos pontiagudos e seiva venenosa. A manifestação exata é determinada pelo Narrador, mas é necessário um teste bem-sucedido de Destreza + Esportes (ou Sobrevivência) para se tentar atravessar a área, do contrário a pessoa receberá um número de dados de dano letal igual ao Tormento do demônio.",
+                "torment5th": "Além de dirigir o crescimento das plantas, os demônios monstruosos fazem com que os vegetais afetados se tornem hostis à carne e ao sangue, desenvolvendo espinhos pontiagudos e seiva venenosa. A manifestação exata é determinada pelo Narrador, mas é necessário um teste bem-sucedido de Destreza + Atletismo (ou Sobrevivência) para se tentar atravessar a área, do contrário a pessoa receberá um número de dados de dano letal igual ao modificador de Tormento do demônio.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 206
             },
@@ -2696,15 +2696,15 @@
                 "name": "Possessão de Plantas",
                 "cost": "1 Checagem de Fé",
                 "pool": [
-                    "intelligence",
-                    "animalKen"
+                    "stamina",
+                    "survival"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
                 "description": "O demônio consegue controlar a essência vital de uma ou mais plantas, transformando-as em extensões de sua vontade. As plantas se movem com velocidade e força sobrenaturais e realizam qualquer ação que o Devorador desejar.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Vigor + Sobrevivência. O Devorador consegue controlar um número de plantas igual ao de sucessos obtidos. As plantas afetadas por esta evocação são obrigadas a permanecer enraizadas, mas são capazes de realizar qualquer outra ação dentro dos limites de sua composição física e de seu tamanho. Uma roseira consegue enredar uma vítima, ou a hera é capaz de destruir o muro ao qual está ancorada. Os efeitos da evocação duram uma cena. Considere que as plantas têm uma pontuação de Força igual à Força de Vontade do demônio e consulte a tabela de Demonstrações de Força (pág. 232) para determinar o dano que plantas podem causar aos objetos. Esse mesmo número de dados é usado para fazer ataques e testes de avaliação de dano quando as plantas atacam alvos vivos e provocam dano por contusão.",
-                "torment": "",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Sobrevivência. O Devorador consegue controlar um número de plantas igual ao de sucessos obtidos. As plantas afetadas por esta evocação são obrigadas a permanecer enraizadas, mas são capazes de realizar qualquer outra ação dentro dos limites de sua composição física e de seu tamanho. Uma roseira consegue enredar uma vítima, ou a hera é capaz de destruir o muro ao qual está ancorada. Os efeitos da evocação duram uma cena. Considere que as plantas têm uma pontuação de Força igual à Força de Vontade do demônio e consulte a tabela de Demonstrações de Força (pág. 232) para determinar o dano que as plantas podem causar aos objetos. Esse mesmo número de dados é usado para fazer ataques e testes de avaliação de dano quando as plantas atacam alvos vivos e provocam dano por contusão.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Sobrevivência. O Devorador consegue controlar um número de plantas igual ao de sucessos obtidos. As plantas afetadas por esta evocação são obrigadas a permanecer enraizadas, mas são capazes de realizar qualquer outra ação dentro dos limites de sua composição física e de seu tamanho. Uma roseira consegue enredar uma vítima, ou a hera é capaz de destruir o muro ao qual está ancorada. Os efeitos da evocação duram uma cena. Considere que as plantas têm uma pontuação de Força igual à Força de Vontade do demônio. Esse mesmo número de dados é usado para fazer ataques e testes de avaliação de dano quando as plantas atacam alvos vivos e provocam dano Superficial.",
+                "torment": "Os Devoradores monstruosos espalham a mácula de seu Tormento para as plantas sob seu controle, destruindo-as de dentro para fora e reduzindo-as a cascas sem vida em questão de minutos. Cada planta possuída perde um nível de vitalidade por turno e esse dano não pode ser absorvido. Como regra geral, presuma que uma determinada planta tem um “nível de vitalidade” para cada 0,03 metros cúbicos de volume. Quando todos os níveis de vitalidade da planta forem consumidos, a planta morrerá.",
                 "torment5th": "Os Devoradores monstruosos espalham a mácula de seu Tormento para as plantas sob seu controle, destruindo-as de dentro para fora e reduzindo-as a cascas sem vida em questão de minutos. Cada planta possuída perde um nível de vitalidade por turno e esse dano não pode ser absorvido. Como regra geral, presuma que uma determinada planta tem um “nível de vitalidade” para cada 0,03 metros cúbicos de volume. Quando todos os níveis de vitalidade da planta forem consumidos, a planta morrerá.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 206
@@ -2715,15 +2715,15 @@
                 "cost": "1 Checagem de Fé",
                 "pool": [
                     "intelligence",
-                    "animalKen"
+                    "survival"
                 ],
                 "dificulty": 1,
                 "dificultyText": "",
-                "description": "O Devorador é capaz de manipular à vontade a composição e a forma de uma planta, criando linhagens novas e especializadas de acordo com seus desejos.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Inteligência + Sobrevivência. O personagem consegue alterar ou acrescentar uma nova característica vegetal para cada sucesso obtido. Entre as alterações temos: metabolismo acelerado (maior velocidade de crescimento), casca ou córtex espessos e espinhos duros. Esses sucessos podem ser gerados como parte de um teste prolongado durante dias (um teste por dia) à medida que o demônio “brinca” com sua criação. Os efeitos da evocação persistem durante um número de dias igual à pontuação de Fé do personagem ou podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade.",
-                "torment": "",
-                "torment5th": "Os demônios monstruosos que empregam esta evocação criam vida vegetal com uma certa predileção por sangue. Faça um teste de Força de Vontade contra uma dificuldade igual ao modificador de Tormento do personagem. No caso de uma falha, o metabolismo da planta sofrerá mutação espontânea e desenvolverá armas naturais que lhe permitirão matar seres vivos e deles se alimentar — incluindo o próprio demônio. As paradas de ataque e avaliação de dano da planta são iguais ao Tormento do personagem.",
+                "description": "O Devorador é capaz de manipular vontade a composição e a forma de uma planta, criando linhagens novas e especializadas de acordo com seus desejos.",
+                "system": "Use um ponto de Fé e faça um teste de Inteligência + Sobrevivência. O personagem consegue alterar ou acrescentar uma nova característica vegetal para cada sucesso obtido. Entre as alterações temos: metabolismo acelerado (maior velocidade de crescimento), casca ou córtex espessos e espinhos duros. Esses sucessos podem ser gerados como parte de um teste prolongado durante dias (um teste por dia) à medida que o demonio “brinca” com sua criação. Os efeitos da evocação persistem durante um número de dias igual a pontuação de Fé do personagem ou podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Inteligência + Sobrevivência. O personagem consegue alterar ou acrescentar uma nova característica vegetal para cada sucesso obtido. Entre as alterações temos: metabolismo acelerado (maior velocidade de crescimento), casca ou córtex espessos e espinhos duros. Os efeitos da evocação persistem durante um número de dias igual a pontuação de Fé do personagem ou podem se tornar permanentes com o investimento de um ponto de Força de Vontade.",
+                "torment": "Os demônios monstruosos que empregam esta evocação criam vida vegetal com uma certa predileção por sangue. Faça um teste de Força de Vontade contra uma dificuldade igual ao Tormento do personagem. No caso de uma falha, o metabolismo da planta sofrerá mutação espontânea e desenvolverá armas naturais que lhe permitirão matar seres vivos e deles se alimentar — incluindo o próprio demônio. As paradas de ataque e avaliação de dano da planta são iguais ao Tormento do personagem, e o dano é letal.",
+                "torment5th": "Os demônios monstruosos que empregam esta evocação criam vida vegetal com uma certa predileção por sangue. Faça um teste de Força de Vontade contra uma dificuldade igual ao Tormento do personagem. No caso de uma falha, o metabolismo da planta sofrerá mutação espontânea e desenvolverá armas naturais que lhe permitirão matar seres vivos e deles se alimentar — incluindo o próprio demônio. As paradas de ataque da planta são iguais ao Tormento do personagem e o dano é Superficial.",
                 "font": "Demônio: A Queda (Corebook)",
                 "page": 207
             }
@@ -2731,42 +2731,56 @@
         "apName": "Ninurtu, o Semblante da Natureza",
         "apWithoutTorment": "Os anjos da natureza se manifestam como um amálgama da flora que comandam e da fauna que prospera sob sua égide. Sua pele normalmente se cobre de um fino pelame semelhante ao de um gamo, e eles muitas vezes possuem cascos em lugar de pés. Seus corpos são musculosos e seus olhos mudam de cor como as estações, variando do cinza claro ao verde intenso do verão.",
         "apWithTorment": "Os Ninurtu monstruosos têm uma tez mais escura, e seus olhos assumem a coloração prateada da lua. Eles aumentam em tamanho, e sua aparência transuda o tipo de ameaça agreste das florestas densas ou das montanhas altas.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 207,
         "apocalypticForm": [
             {
                 "name": "Sentidos Aguçados",
                 "torment": false,
-                "description": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, o que reduz em dois pontos a dificuldade dos testes de Raciocínio."
+                "description": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, o que reduz em dois pontos as dificuldades dos testes de Percepção.",
+                "description5th": "Os cinco sentidos do personagem são elevados a níveis sobre-humanos, o que reduz em dois pontos as dificuldades dos testes de Percepção."
             },
             {
                 "name": "Pele de Camaleão",
                 "torment": false,
-                "description": "A pele do demônio permite que ele se misture ao ambiente. As dificuldades de todos os testes de Furtividade serão reduzidas em um ponto se o demônio estiver em movimento; duas, se estiver imóvel. Sua passagem não perturba o ambiente circundante: ele não deixa pegadas nem perturba a folhagem."
+                "description": "A pele do demônio permite que ele se misture ao ambiente. As dificuldades de todos os testes de Furtividade serão reduzidas em um ponto se o demônio estiver em movimento; dois, se estiver imóvel.",
+                "description5th": "A pele do demônio permite que ele se misture ao ambiente. As dificuldades de todos os testes de Furtividade serão reduzidas em um ponto se o demônio estiver em movimento; dois, se estiver imóvel."
+            },
+            {
+                "name": "Sem Deixar Rastro",
+                "torment": false,
+                "description": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem.",
+                "description5th": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
             },
             {
                 "name": "Níveis de Vitalidade Adicionais",
                 "torment": false,
-                "description": "A vitalidade do personagem lhe proporciona mais três níveis Escoriados para fins de absorção de dano."
+                "description": "A vitalidade do personagem lhe proporciona mais três níveis Escoriados para fins de absorção de dano.",
+                "description5th": "O demônio ganha mais três níveis de Vitalidade."
             },
             {
                 "name": "Acúleos",
                 "torment": true,
-                "description": "Os ombros, o peito e os braços do demônio cobrem-se de acúleos negros e pontiagudos que infligem um nível de dano agravado a qualquer agressor que venha efetivamente a golpear o demônio ou a engalfinhar-se com ele em combate desarmado."
+                "description": "Os ombros, o peito e os braços do demônio cobrem-se de acúleos negros e pontiagudos que infligem um nível de dano agravado a qualquer agressor que venha efetivamente a golpear o demônio ou a engalfinhar-se com ele em combate desarmado.",
+                "description5th": "Os ombros, o peito e os braços do demônio cobrem-se de acúleos negros e pontiagudos que infligem um nível de dano agravado a qualquer agressor que venha efetivamente a golpear o demônio ou a engalfinhar-se com ele em combate desarmado."
             },
             {
                 "name": "Aumento de Tamanho",
                 "torment": true,
-                "description": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+1), Destreza (+2) e Vigor (+1)."
+                "description": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+1), Destreza (+2) e Vigor (+1).",
+                "description5th": "O corpo do personagem cresce uma vez e um terço a própria altura, o que acrescenta os seguintes bônus às Características: Força (+1), Destreza (+2) e Vigor (+1)."
             },
-            {
+             {
                 "name": "Membros Adicionais",
                 "torment": true,
-                "description": "O demônio desenvolve uma cauda preênsil que tem a metade da altura do personagem, usa apenas metade de sua Força (arredondada para baixo) para erguer objetos e permite-lhe ficar dependurado."
+                "description": "O demônio desenvolve uma cauda preênsil que tem metade da altura do personagem, usa só metade da Força do mesmo (arredondada para baixo) para erguer objetos e permite que o personagem fique dependurado.",
+                "description5th": "O demônio desenvolve uma cauda preênsil que tem metade da altura do personagem, usa só metade da Força do mesmo (arredondada para baixo) para erguer objetos e permite que o personagem fique dependurado."
             },
             {
                 "name": "Peçonha",
                 "torment": true,
-                "description": "As garras e a saliva dos Ishhara são venenosas. Os alvos expostos à peçonha (seja por meio de um arranhão ou de um simples beijo) ficam sujeitos a uma parada de dados de dano por contusão igual ao Tormento do demônio. Esse dano não pode ser absorvido.",
-                "description5th": "As garras e a saliva dos Ishhara são venenosas. Os alvos expostos à peçonha (seja por meio de um arranhão ou de um simples beijo) ficam sujeitos a +2 de dano Agravado. Esse dano não pode ser absorvido."
+                "description": "A saliva do demônio contém uma forma intoxicante de peçonha que afeta a vontade da vítima. Se for exposta à saliva do demônio (por meio de uma ferida aberta ou um beijo), a vítima perderá um ponto de Força de Vontade para cada ponto de Tormento do demônio, a menos que tenha êxito num teste de Vigor (dificuldade 7). Se perder todos os pontos de Força de Vontade dessa maneira, a vítima entrará em coma profundo. Os efeitos da peçonha duram um número de dias igual ao Tormento do personagem.",
+                "description5th": "A saliva do demônio contém uma forma intoxicante de peçonha que afeta a vontade da vítima. Se for exposta à saliva do demônio (por meio de uma ferida aberta ou um beijo), a vítima perderá um ponto de Força de Vontade igual ao modificador de Tormento do demônio, a menos que tenha êxito num teste de Vigor (dificuldade 2). Se perder todos os pontos de Força de Vontade dessa maneira, a vítima entrará em coma profundo. Os efeitos da peçonha duram um número de dias igual ao modificador de Tormento do personagem."
             }
         ]
     },
@@ -2778,88 +2792,147 @@
             {
                 "level": 1,
                 "name": "Controle Corpóreo",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade depende da complexidade da alteração metabólica. Eliminar as toxinas da fadiga exige uma dificuldade igual a 1. Expulsar o álcool do organismo de uma pessoa requer 2 ou mais, dependendo do nível de intoxicação. Fazer o corpo entrar em coma profundo exige uma dificuldade igual ou superior a 4 ou mais. O indivíduo pode tentar resistir à tentativa com um teste resistido de Força de Vontade (ou uma dificuldade imposta pelo Narrador para evitar testes excessivos).",
                 "description": "Esta evocação permite ao Devorador alterar a química corpórea de seu hospedeiro e de outras pessoas. Ele consegue eliminar venenos (tanto os naturais quanto os artificiais) e acelerar ou reduzir o metabolismo.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Medicina. A dificuldade depende da complexidade da alteração metabólica. Eliminar as toxinas da fadiga exige uma dificuldade igual a 2. Expulsar o álcool do organismo de uma pessoa requer 3 ou mais, dependendo do nível de intoxicação. Fazer o corpo entrar em coma profundo exige uma dificuldade igual ou superior a 4. Para realizar esta evocação numa outra pessoa, o demônio precisa ser capaz de estabelecer contato físico, e o indivíduo pode tentar resistir à tentativa com um teste resistido de Força de Vontade (dificuldade 3). Os efeitos desta evocação duram uma cena, depois do que os venenos removidos ou o metabolismo normal voltam a valer. Esta evocação é capaz de anular completamente um episódio de envenenamento com o investimento de um ponto temporário de Força de Vontade.",
-                "torment": "Os demônios monstruosos usam de força bruta ao realizar esta evocação, o que exige demais do alvo. Feito o teste, o total de sucessos é comparado ao Vigor do alvo. Os sucessos que excederem o Vigor da vítima serão convertidos em níveis de dano por contusão que não podem ser absorvidos."
+                "system": "Faça um teste de Inteligência + Medicina. A dificuldade depende da complexidade da alteração metabólica. Eliminar as toxinas da fadiga exige uma dificuldade igual a 6. Expulsar o álcool do organismo de uma pessoa requer 7 ou mais, dependendo do nível de intoxicação. Fazer o corpo entrar em coma profundo exige uma dificuldade igual ou superior a 9. Para realizar esta evocação numa outra pessoa, o demônio precisa ser capaz de estabelecer contato físico, e o indivíduo pode tentar resistir à tentativa com um teste resistido de Força de Vontade (dificuldade 8). Os efeitos desta evocação duram uma cena, depois do que os venenos removidos ou o metabolismo normal voltam a valer. Esta evocação é capaz de anular completamente um episódio de envenenamento com o investimento de um ponto temporário de Força de Vontade.",
+                "system5th": "Faça um teste de Inteligência + Medicina. A dificuldade depende da complexidade da alteração metabólica. Eliminar as toxinas da fadiga exige uma dificuldade igual a 1. Expulsar o álcool do organismo de uma pessoa requer 2 ou mais, dependendo do nível de intoxicação. Fazer o corpo entrar em coma profundo exige uma dificuldade igual ou superior a 4 ou mais. Para realizar esta evocação numa outra pessoa, o demônio precisa ser capaz de estabelecer contato físico, e o indivíduo pode tentar resistir à tentativa com um teste resistido de Força de Vontade (ou uma dificuldade imposta pelo Narrador para evitar testes excessivos). Os efeitos desta evocação duram uma cena, depois do que os venenos removidos ou o metabolismo normal voltam a valer. Esta evocação é capaz de anular completamente um episódio de envenenamento com o investimento de um ponto temporário de Força de Vontade.",
+                "torment": "Os demônios monstruosos usam de força bruta ao realizar esta evocação, o que exige demais do alvo. Feito o teste, o total de sucessos é comparado ao Vigor do alvo. Os sucessos que excederem o Vigor da vítima serão convertidos em níveis de dano por contusão que não podem ser absorvidos.",
+                "torment5th": "Os demônios monstruosos usam de força bruta ao realizar esta evocação, o que exige demais do alvo. O alvo deve realizar um teste de Força de Vontade contra uma dificuldade igual ao número de sucessos obtidos pelo Devorador. Caso falhe, sofrerá um total de dano Superficial igual ao modificador de Tormento do mesmo.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 207
             },
             {
                 "level": 2,
                 "name": "Manipular os Nervos",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela complexidade do efeito desejado. Reduzir os efeitos da dor exige uma dificuldade igual a 1, enquanto aumentar a velocidade de resposta dos reflexos de uma pessoa (aumentando sua Destreza) pede 2 ou 3. Aguçar os sentidos de uma pessoa (ou embotá-los) pode exigir uma dificuldade igual ou superior a 4. É possivel fazer um teste resistido de Força de Vontade para resistir à tentativa do personagem, com uma dificuldade igual ao número de sucesso obtidos pelo conjurador da evocação.",
                 "description": "Do mesmo modo que Controle Corpóreo, esta evocação permite ao demônio manipular o sistema nervoso de uma pessoa. A força e os reflexos podem ser acentuados, os sentidos podem ser embotados ou aguçados, ou a pessoa pode ser submetida a ondas de intenso prazer ou dor.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Medicina. A dificuldade é determinada pela complexidade do efeito desejado. Reduzir os efeitos da dor exige uma dificuldade igual a 2, enquanto aumentar a velocidade de resposta dos reflexos de uma pessoa (aumentando sua Destreza) pede 3 ou 4. Aguçar os sentidos de uma pessoa (ou embotá-los) pode exigir uma dificuldade igual ou superior a 4. Cada sucesso aumenta ou reduz em um ponto uma característica física relevante ou uma penalidade devida a ferimentos, o que for apropriado à tentativa. Os efeitos desta evocação duram uma cena. Para realizar esta evocação com outro indivíduo, o demônio precisa ser capaz de estabelecer contato físico, e é possível fazer um teste resistido de Força de Vontade (dificuldade 3) para resistir à tentativa.",
-                "torment": "Um demônio monstruoso corre o risco de infligir danos físicos gravíssimos ao alvo ao manipular rudemente o sistema nervoso da vítima. Feito o teste, o total de sucessos é comparado ao Vigor do alvo. Os sucessos que excederem o Vigor da vítima serão convertidos em níveis de dano letal."
+                "system": "Faça um teste de Inteligência + Medicina. A dificuldade é determinada pela complexidade do efeito desejado. Reduzir os efeitos da dor exige uma dificuldade igual a 6, enquanto aumentar a velocidade de resposta dos reflexos de uma pessoa (aumentando sua Destreza) pede 7 ou 8. Aguçar os sentidos de uma pessoa (ou embotá-los) pode exigir uma dificuldade igual ou superior a 9. Cada sucesso aumenta ou reduz em um ponto uma característica física relevante ou uma penalidade devida a ferimentos, o que for apropriado à tentativa. Os efeitos desta evocação duram uma cena. Para realizar esta evocação com outro indivíduo, o demônio precisa ser capaz de estabelecer contato fisico, e é possivel fazer um teste resistido de Força de Vontade (dificuldade 8) para resistir à tentativa do personagem.",
+                "system5th": "Faça um teste de Inteligência + Medicina. A dificuldade é determinada pela complexidade do efeito desejado. Reduzir os efeitos da dor exige uma dificuldade igual a 1, enquanto aumentar a velocidade de resposta dos reflexos de uma pessoa (aumentando sua Destreza) pede 2 ou 3. Aguçar os sentidos de uma pessoa (ou embotá-los) pode exigir uma dificuldade igual ou superior a 4. Cada sucesso aumenta ou reduz em um ponto uma característica física relevante ou uma penalidade devida a ferimentos, o que for apropriado à tentativa. Os efeitos desta evocação duram uma cena. Para realizar esta evocação com outro indivíduo, o demônio precisa ser capaz de estabelecer contato fisico, e é possivel fazer um teste resistido de Força de Vontade para resistir à tentativa do personagem, com uma dificuldade igual ao número de sucesso obtidos pelo conjurador da evocação.",
+                "torment": "Um demônio monstruoso corre o risco de infligir danos físicos gravíssimos ao alvo ao manipular rudemente o sistema nervoso da vítima. Feito o teste, o total de sucessos é comparado ao Vigor do alvo. Os sucessos que excederem o Vigor da vítima serão convertidos em níveis de dano letal.",
+                "torment5th": "Um demônio monstruoso corre o risco de infligir danos físicos gravíssimos ao alvo ao manipular rudemente o sistema nervoso da vítima. Realize o teste de Inteligência + Medicina uma segunda vez e, caso este segundo seja maior que o primeiro, os sucessos que excederem serão convertidos em níveis de dano Superficial.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 208
             },
             {
                 "level": 3,
                 "name": "Manipular a Carne",
-                "description": "Esta evocação permite ao demônio manipular a forma física de uma pessoa (seja ele próprio ou outro indivíduo), acrescentando massa muscular, aumentando a densidade dos ossos ou expandindo as faculdades mentais.",
-                "system": "",
-                "system5th": "Faça um teste de Inteligência + Medicina. Cada sucesso representa um ponto a ser adicionado a qualquer um dos Atributos Físicos ou Mentais do alvo. Compare o número total de sucessos ao Vigor do alvo. Os sucessos excedentes serão convertidos em níveis de dano por contusão devido ao trauma, que não podem ser absorvidos. Para realizar esta evocação com outro indivíduo, o demônio precisa ser capaz de estabelecer contato físico, e a pessoa pode tentar resistir aos efeitos (o Narrador faz um teste de Força de Vontade contra uma dificuldade igual a 3).",
-                "torment": "Os demônios monstruosos alteram músculos e ossos sem a menor consideração pela fragilidade de suas vítimas. Quando esta evocação é realizada com outra pessoa, faz-se um teste de Força de Vontade pelo alvo contra uma dificuldade igual ao modificador de Tormento do demônio. No caso de uma falha, o indivíduo adquire uma perturbação temporária que o torna incontrolavelmente paranoico e propenso à violência. No caso de uma Falha Infernal, a perturbação é permanente."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "intelligence",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação permite ao demônio manipular a forma física de uma pessoa (seja ele préprio ou outro individuo), acrescentando massa muscular, aumentando a densidade dos ossos ou expandindo as faculdades mentais.",
+                "system": "Faça um teste de Inteligência + Medicina. Cada sucesso representa um ponto a ser adicionado a qualquer um dos Atributos Físicos ou Mentais do alvo. No entanto, há um certo risco. Compare o número total de sucessos ao Vigor do alvo. Os sucessos excedentes serão convertidos em níveis de dano por contusão devido ao trauma. É impossível absorver esse dano. Para realizar esta evocação, o demônio precisa ser capaz de estabelecer contato fisico, e a pessoa pode tentar resistir aos efeitos (o Narrador faz um teste de Força de Vontade contra uma dificuldade igual a 8).",
+                "system5th": "Faça um teste de Inteligência + Medicina. Cada sucesso representa um ponto a ser adicionado a qualquer um dos Atributos Físicos ou Mentais do alvo. No entanto, há um certo risco. Compare o número total de sucessos com o Vigor do alvo. Os sucessos excedentes serão convertidos em níveis de dano Superficial devido ao trauma. É impossível absorver esse dano. Para realizar esta evocação, o demônio precisa ser capaz de estabelecer contato fisico, e a pessoa pode tentar resistir aos efeitos (o Narrador faz um teste de Força de Vontade contra uma dificuldade igual a 8).",
+                "torment": "Os demônios monstruosos alteram músculos e ossos sem a menor consideração pela fragilidade de suas vítimas. Quando esta evocação é realizada com outra pessoa, faz-se um teste de Força de Vontade pelo alvo contra uma dificuldade igual ao Tormento do demônio. No caso de uma falha, o indivíduo adquire uma perturbação temporária que o torna incontrolavelmente paranóico e propenso à violência. No caso de uma falha critica, a perturbação é permanente.",
+                "torment5th": "Os demônios monstruosos alteram músculos e ossos sem a menor consideração pela fragilidade de suas vítimas. Quando esta evocação é realizada com outra pessoa, faz-se um teste de Força de Vontade pelo alvo contra uma dificuldade igual ao Tormento do demônio. No caso de uma falha, o indivíduo adquire uma perturbação temporária que o torna incontrolavelmente paranóico e propenso à violência. No caso de uma falha critica, a perturbação é permanente.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 208
             },
             {
                 "level": 4,
                 "name": "Restaurar a Carne",
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "resolve",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O demônio é capaz de restaurar a forma original do corpo de um animal ou de uma pessoa, não importa o grau de mutilação do mesmo.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Determinação + Medicina. Cada sucesso repara um nível de dano letal ou todos os níveis de dano por contusão que o indivíduo tenha sofrido. Membros ou órgãos perdidos são completamente restaurados, e as doenças ou venenos são eliminados do corpo. Esta evocação não repara dano agravado nem tem o poder de ressuscitar alguém que já tenha morrido. O Devorador precisa ser capaz de tocar o alvo para realizar esta evocação.",
-                "torment": "Os demônios monstruosos também são capazes de realizar esta evocação, mas o socorro prestado por eles é invariavelmente maculado pelo ódio e pela dor. O Narrador faz um teste resistido de Força de Vontade (dificuldade 2) em nome do alvo. Se bem-sucedido, o indivíduo adquirirá uma perturbação temporária. Se falhar, a perturbação será permanente. No caso de uma Falha Infernal, a vítima se tornará uma máquina de matar irracional e psicótica."
+                "system": "Use um ponto de Fé e faça um teste de Percepção + Medicina. Cada sucesso repara um nível de dano letal ou todos os níveis de dano por contusão que o indivíduo tenha sofrido. Membros ou órgãos perdidos são completamente restaurados, e as doenças ou venenos são eliminadas do corpo. Esta evocação não repara dano agravado nem tem o poder de ressuscitar alguém que já tenha morrido. O Devorador precisa ser capaz de tocar o alvo para realizar esta evocação.",
+                "system5th": "Realize 1 Checagem de Fé e faça um teste de Determinação + Medicina. Cada sucesso repara um nível de dano Superficial que o indivíduo tenha sofrido. Alternativamente, o demônio pode escolher curar um único ponto de dano Agravado do alvo. Membros ou órgãos perdidos são completamente restaurados, e as doenças ou venenos são eliminadas do corpo. Esta evocação não tem o poder de ressuscitar alguém que já tenha morrido. O Devorador precisa ser capaz de tocar o alvo para realizar esta evocação.",
+                "torment": "Os demônios monstruosos também são capazes de realizar esta evocação, mas o socorro prestado por eles é invariavelmente maculado pelo ódio e pela dor. O Narrador faz um teste resistido de Força de Vontade (dificuldade 7) em nome do alvo. Se bem-sucedido, o individuo adquirirá uma perturbação temporária. Se falhar, a perturbação será permanente. No caso de uma falha critica, a vítima se tornará uma máquina de matar irracional e psicótica.",
+                "torment5th": "Os demônios monstruosos também são capazes de realizar esta evocação, mas o socorro prestado por eles é invariavelmente maculado pelo ódio e pela dor. O Narrador faz um teste resistido de Força de Vontade (dificuldade 7) em nome do alvo. Se bem-sucedido, o individuo adquirirá uma perturbação temporária. Se falhar, a perturbação será permanente. No caso de uma falha critica, a vítima se tornará uma máquina de matar irracional e psicótica.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 208
             },
             {
                 "level": 5,
                 "name": "Moldar a Carne",
-                "description": "O demônio é capaz de dar ao corpo humano a forma que desejar. Os mortais ou os anjos caídos podem se tornar criaturas monstruosas saídas das lendas.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste resistido de Destreza + Medicina contra a Força de Vontade do alvo (dificuldade 2). O jogador escolhe a forma que deseja criar e também suas capacidades físicas mais importantes, e o Narrador determina o número de sucessos necessários para transformá-la em realidade. Esses sucessos podem ser gerados como parte de um teste prolongado durante dias (um teste por dia) à medida que o demônio “brinca” com sua criação. Como regra geral, suponha que cada sucesso confere ou remove um ponto de Atributo físico ou uma característica física. Os efeitos desta evocação duram um número de dias igual à pontuação de Fé do personagem, ou podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade. Devoradores podem usar esta evocação em si mesmos ou em outras pessoas, desde que sejam capazes de tocar o alvo.",
-                "torment": "As alterações dos demônios monstruosos são invariavelmente desvirtuadas por seu Tormento, o que cria deformidades que transformam as vítimas em pesadelos ambulantes. Essa metamorfose hedionda faz com que a vítima adquira uma perturbação temporária e receba um nível de dano letal por dia como resultado da tensão intolerável imposta a seu corpo. Os mortais que encontram essas criaturas ficam sujeitos aos efeitos da Revelação."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "dexterity",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "o Alvo resiste com um teste de Força de Vontade (ou uma dificuldade imposta pelo Narrador para evitar testes Excessivos). O jogador escolhe a forma que deseja criar e também suas capacidades físicas mais importantes, e o Narrador determina o número de sucessos adicionais necessários para transformá-la em realidade (ou uma dificuldade fixa no caso de impor um valor ao invés de realizar o teste de Força de Vontade).",
+                "description": "O demônio é capaz de dar ao corpo humano a forma que desejar. Os mortais ou os anjos caídos podem ser tornar criaturas monstruosas saídas das lendas.",
+                "system": "Use um ponto de Fé e faça um teste resistido de Destreza + Medicina contra a Força de Vontade do alvo (dificuldade 7). O jogador escolhe a forma que deseja criar e também suas capacidades físicas mais importantes, e o Narrador determina o número de sucessos necessários para transformá-la em realidade. Esses sucessos podem ser gerados como parte de um teste prolongado durante dias (um teste por dia) à medida que o demônio “brinca” com sua criação. Como regra geral, suponha que cada sucesso confere ou remove um ponto de Atributo físico ou uma característica física. Os efeitos desta evocação duram um número de dias igual à pontuação de Fé do personagem, ou podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade. Os Devoradores podem usar esta evocação em si mesmos ou em outras pessoas, desde que sejam capazes de tocar o alvo.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste resistido de Destreza + Medicina, resistido por um teste de Força de Vontade do alvo (ou uma dificuldade imposta pelo Narrador para evitar testes Excessivos). O jogador escolhe a forma que deseja criar e também suas capacidades físicas mais importantes, e o Narrador determina o número de sucessos adicionais necessários para transformá-la em realidade (ou uma dificuldade fixa no caso de impor um valor ao invés de realizar o teste de Força de Vontade). Como regra geral, suponha que cada sucesso confere ou remove um ponto de Atributo físico ou uma característica física. Os efeitos desta evocação duram um número de dias igual à pontuação de Fé do personagem, ou podem se tornar permanentes com o investimento de um ponto de Força de Vontade. Os Devoradores podem usar esta evocação em si mesmos ou em outras pessoas, desde que sejam capazes de tocar o alvo.",
+                "torment": "As alterações dos demônios monstruosos são invariavelmente desvirtuadas por seu Tormento, o que cria deformidades que transformam as vítimas em pesadelos ambulantes. Essa metamorfose hedionda faz com que a vítima adquira uma perturbação temporária e recebe um nível de dano letal por dia como resultado da tensão intolerável imposta a seu corpo. Os mortais que encontram essas criaturas ficam sujeitos aos efeitos da Revelação (veja a pág. 253 do capítulo sobre Sistemas para maiores detalhes).",
+                "torment5th": "As alterações dos demônios monstruosos são invariavelmente desvirtuadas por seu Tormento, o que cria deformidades que transformam as vítimas em pesadelos ambulantes. Essa metamorfose hedionda faz com que a vítima adquira uma perturbação temporária e recebe um nível de dano Superficial por dia como resultado da tensão intolerável imposta a seu corpo. Os mortais que encontram essas criaturas ficam sujeitos aos efeitos da Revelação.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 208
             }
         ],
         "apName": "Aruru, o Semblante da Carne",
-        "apWithoutTorment": "Os anjos da carne, capazes de alterar suas formas ainda mais que os Profanadores, manifestam-se como versões idealizadas de suas próprias formas mortais. Seu poder enaltece os hospedeiros mortais habitados por eles, removendo todo e qualquer defeito ou deformidade e refinando seus traços originais até a perfeição. De certo modo, isso torna sua aparência simplesmente tão alienígena e prodigiosa quanto as aparições bruxuleantes de seus irmãos celestiais.",
+        "apWithoutTorment": "Os anjos da carne, capazes de alterar suas formas ainda mais que os Profanadores, manifestam-se como versões idealizadas de suas próprias formas mortais. Seu poder enaltece os hospedeiros mortais habitados por eles, removem todo e qualquer defeito ou deformidade e refinam seus traços originais até a perfeição. De certo modo, isso torna sua aparência simplesmente tão alienígena e prodigiosa quanto as aparições bruxuleantes de seus irmãos celestiais.",
         "apWithTorment": "Os Aruru de alto Tormento lembram muito pouco os seres humanos, pois perderam sua forma original numa montanha inchada de carne ondulante. Ossos, músculos e órgãos agitam-se e deslocam-se continuamente sem o controle consciente do demônio.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 208,
         "apocalypticForm": [
             {
                 "name": "Características Sociais Acentuadas",
                 "torment": false,
-                "description": "O apuro dos traços, dos maneirismos e da voz do personagem proporciona os seguintes bônus às Características: Carisma (+1) e Manipulação (+2)."
+                "description": "O apuro dos traços, dos maneirismos e da voz do personagem proporciona os seguintes bônus às Características: Carisma (+1) e Manipulação (+1) e Aparência (+2).",
+                "description5th": "A aparência física, a postura e a graciosidade do personagem deixam os seres humanos estupefatos. O demônio recebe os seguintes bônus nas Características: Carisma (+2), Manipulação (+1) e Autocontrole (+2)."
             },
             {
                 "name": "Imune a Venenos",
                 "torment": false,
-                "description": "O personagem é imune ao dano ou à debilitação causados por todas as toxinas, incluindo-se o álcool e a nicotina."
+                "description": "O personagem é imune ao dano ou à debilitação causados por todas as toxinas, incluindo-se o álcool e a nicotina.",
+                "description5th": "O personagem é imune ao dano ou à debilitação causados por todas as toxinas, incluindo-se o álcool e a nicotina."
             },
             {
                 "name": "Iniciativa Aprimorada",
                 "torment": false,
-                "description": "Acrescente dois pontos à iniciativa do personagem."
+                "description": "Acrescente dois pontos à iniciativa do personagem.",
+                "description5th": "Acrescente dois pontos à iniciativa do personagem."
             },
             {
                 "name": "Sem Reflexo",
                 "torment": false,
-                "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada por uma câmera fotográfica ou de vídeo."
+                "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada por uma câmera fotográfica ou de vídeo.",
+                "description5th": "A imagem do demônio não aparece em espelhos nem pode ser capturada por uma câmera fotográfica ou de vídeo."
             },
             {
                 "name": "Níveis de Vitalidade Adicionais",
                 "torment": true,
-                "description": "O demônio ganha três níveis de vitalidade Escoriado para fins de absorção de dano."
+                "description": "A vitalidade do personagem lhe proporciona mais três níveis Escoriados para fins de absorção de dano.",
+                "description5th": "O demônio ganha mais três níveis de Vitalidade."
             },
             {
                 "name": "Couraça",
                 "torment": true,
-                "description": "A massa ondulante de cartilagem e carne do demônio proporciona quatro níveis de proteção para fins de absorção de dano por contusão, dano letal e agravado."
+                "description": "À massa ondulante de cartilagem e carne do demônio proporciona quatro níveis de proteção para fins de absorção de dano por contusão, dano letal e agravado.",
+                "description5th": "A pele do demônio, semelhante a de um tubarão, atua como um tipo de proteção. Marque apenas metade do dano Superficial e Agravado sofridos."
             },
             {
                 "name": "Bocarra Escancarada",
                 "torment": true,
                 "description": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. As dificuldades dos ataques por mordida são reduzidas em dois pontos, e a mordida em si inflige Força +4 de dano agravado.",
-                "description5th": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. Ataques por mordida provocam + 4 de dano agravado."
+                "description5th5th": "O demônio é capaz de mastigar e digerir qualquer coisa que consiga morder. Metal, rocha e carne podem ser todos moídos e digeridos com facilidade. Ataques por mordida provocam + 4 de dano agravado."
             },
             {
                 "name": "Regeneração",
                 "torment": true,
-                "description": "O demônio regenera automaticamente, como se fosse um ato reflexo, um nível de vitalidade perdido devido ao dano por contusão ou letal por turno."
+                "description": "O demônio regenera automaticamente, como se fosse um ato reflexo, um nível de vitalidade perdido devido ao dano por contusão ou letal por turno.",
+                "description5th": "O demônio regenera automaticamente, como se fosse um ato reflexo, um nível de vitalidade perdido devido ao dano Superficial por turno."
             }
         ]
     },
@@ -2871,87 +2944,148 @@
             {
                 "level": 1,
                 "name": "Interpretar a Morte",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "resolve",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "Esta evocação permite ao demônio olhar nos olhos de um cadáver e ver como essa pessoa morreu.",
-                "system": "",
-                "system5th": "Faça um teste de Determinação + Percepção. O número de sucessos obtidos determina a quantidade de detalhes que seu personagem é capaz de obter sobre a sina de um mortal. Um sucesso proporciona uma imagem do momento da morte. Cada sucesso adicional retrocede um pouco mais no tempo: alguns minutos (dois sucessos), horas (três sucessos) e dias (quatro sucessos). Também fornece um contexto mais abrangente para as circunstâncias responsáveis pela morte de uma pessoa.",
-                "torment": "Os demônios monstruosos são capazes de discernir a sina de uma pessoa, mas só se ela tiver morrido de modo violento, seja acidental ou intencionalmente."
+                "system": "Faça um teste de Percepção + Presciência. O número de sucessos obtidos determina a quantidade de detalhes que seu personagem é capaz de obter sobre a sina de um mortal. Um sucesso proporciona uma imagem do momento da morte. Cada sucesso adicional retrocede um pouco mais no tempo: alguns minutos, no caso de dois sucessos; horas, no caso de trés, e dias, no caso de quatro. Também fornece um contexto mais abrangente para as circunstâncias responsáveis pela morte de uma pessoa.",
+                "system5th": "Faça um teste de Determinação + Percepção. A dificuldade depende da quantidade de detalhes que seu personagem deseja obter sobre a sina de um mortal. Um teste com dificuldade 1 proporciona uma imagem do momento da morte, enquanto dificuldade 2 revela detalhes de alguns minutos; dificuldade 3 para horas e 4 ou mais para dias. Também fornece um contexto mais abrangente para as circunstâncias responsáveis pela morte de uma pessoa.",
+                "torment": "Os demônios monstruosos são capazes de discernir a sina de uma pessoa , mas só se ela tiver morrido de modo violento, seja acidental ou intencionalmente.",
+                "torment5th": "Os demônios monstruosos são capazes de discernir a sina de uma pessoa , mas só se ela tiver morrido de modo violento, seja acidental ou intencionalmente."
+                ,
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 209
             },
             {
                 "level": 2,
                 "name": "Decomposição",
-                "description": "Um dos poderes mais básicos do Ceifeiro, esta evocação acelera o processo de decomposição, reduzindo a matéria viva ou não-viva às partículas que a compõem.",
-                "system": "",
-                "system5th": "O Algoz precisa tocar o alvo desejado para realizar esta evocação. Faça um teste de Vigor + Medicina. Cada sucesso inflige um nível de vitalidade de dano agravado (dano letal para um ser humano). Se realizada com um cadáver, cada sucesso remove um ponto de Vigor do corpo. Quando todos os pontos forem eliminados, o corpo estará reduzido a pó. Funciona de maneira semelhante com objetos inanimados, mas a dificuldade varia com a composição: artefatos de madeira ou tecido têm dificuldade 2; plástico, dificuldade 3; metal, dificuldade 4; rocha, dificuldade 5. Cada sucesso decompõe três centímetros cúbicos de material.",
-                "torment": "Os demônios monstruosos afetam pessoas e objetos numa área em vez de alvos individuais. Tudo num raio em metros igual à pontuação de Fé do personagem é afetado."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "stamina",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade varia dependendo da composição do objeto. A decomposição de um artefato de madeira ou tecido, por exemplo, pede uma dificuldade igual a 2, enquanto decompor um pedaço de plástico tem dificuldade igual a 3. A decomposição do metal exige uma dificuldade igual a 4 e esta é igual a 5 no caso da rocha.",
+                "description": "Um dos poderes mais básicos do Ceifeiro, esta evocação acelera o processo de decomposição, reduzindo a matéria viva e não-viva às partículas que a compõem.",
+                "system": "Seu Algoz precisa ser capaz de tocar o alvo desejado para realizar esta evocação. Faça um teste de Vigor + Medicina. Cada sucesso inflige um nível de vitalidade de dano agravado (dano letal para um ser humano). Se realizada com um cadáver, cada sucesso remove um ponto de Vigor do corpo. Quando todos os pontos forem eliminados, o corpo estará reduzido a pó. O processo funciona de maneira semelhante com objetos inanimados, mas a dificuldade varia dependendo da composição do objeto. A decomposição de um artefato de madeira ou tecido, por exemplo, pede uma dificuldade igual a 7, enquanto decompor um pedaço de plástico tem dificuldade igual a 8. A decomposição do metal exige uma dificuldade igual a 9 e esta é igual a 10 no caso da rocha. Cada sucesso decompõe três centímetros cúbicos de material.",
+                "system5th": "Seu Algoz precisa ser capaz de tocar o alvo desejado para realizar esta evocação. Faça um teste de Vigor + Medicina. Cada sucesso inflige um nível de vitalidade de dano agravado (dano Superficial para um ser humano). Se realizada com um cadáver, cada sucesso remove um ponto de Vigor do corpo. Quando todos os pontos forem eliminados, o corpo estará reduzido a pó. O processo funciona de maneira semelhante com objetos inanimados, mas a dificuldade varia dependendo da composição do objeto. A decomposição de um artefato de madeira ou tecido, por exemplo, pede uma dificuldade igual a 2, enquanto decompor um pedaço de plástico tem dificuldade igual a 3. A decomposição do metal exige uma dificuldade igual a 4 e esta é igual a 5 no caso da rocha. Cada sucesso decompõe três centímetros cúbicos de material.",
+                "torment": "Os demônios monstruosos afetam pessoas e objetos numa área em vez de alvos individuais. Tudo num raio em metros igual à pontuação de Fé do personagem é afetado.",
+                "torment5th": "Os demônios monstruosos afetam pessoas e objetos numa área em vez de alvos individuais. Tudo num raio em metros igual à pontuação de Fé do personagem é afetado.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 209
             },
             {
                 "level": 3,
                 "name": "Visão da Mortalidade",
-                "description": "Permite aos Algozes inundar a mente de inimigos com visões de morte iminente, testando até mesmo o brio de anjos calejados em batalha.",
-                "system": "",
-                "system5th": "Faça um teste de Manipulação + Sagacidade. O alvo resiste com teste de Força de Vontade, usando a Fé do Algoz como dificuldade. Se bem-sucedido, o alvo desistirá de sua ação e fugirá. Falha Infernal no teste de Força de Vontade: o alvo foge e adquire perturbação temporária. Alcance máximo: distância em metros igual a 20 vezes o nível de Fé do personagem. Alvos que vencem o teste não podem ser afetados novamente durante a mesma cena.",
-                "torment": "Demônios monstruosos afetam todos os seres vivos ao redor, num raio igual à sua pontuação de Fé, com os alvos realizando testes resistidos de Força de Vontade."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "manipulation",
+                    "insight"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação foi muito utilizada na Guerra da Ira, pois permitia aos Algozes inundar as mentes de seus inimigos com visões de morte iminente. Até mesmo o brio dos anjos mais calejados de batalha era posto à prova por essas imagens de arrepiar e alguns largavam as armas e fugiam ante ao avanço impiedoso dos Halaku.",
+                "system": "Faça um teste de Manipulação + Intuição. O alvo resiste à evocação com um teste de Força de Vontade, usando a Fé do Algoz como a dificuldade. Se você tiver êxito, o alvo desistirá de sua ação e fugirá para bem longe do demônio. No caso de uma falha crítica no teste de Força de Vontade, o alvo fugirá e adquirirá uma perturbação temporária. Esta evocação pode visar indivíduos a uma distância máxima em metros igual ao nível de Fé do personagem. O alvo que vencer o teste resistido não poderá ser submetido uma segunda vez a esta evocação durante o resto da cena.",
+                "system5th": "Faça um teste de Manipulação + Sagacidade. O alvo resiste à evocação com um teste de Força de Vontade, usando a Fé do Algoz como a dificuldade. Se você tiver êxito, o alvo desistirá de sua ação e fugirá para bem longe do demônio. No caso de uma Falha Infernal (ou falha críticano caso de não-demônios) no teste de Força de Vontade, o alvo fugirá e adquirirá uma perturbação temporária. A cada novo turno, o alvo pode realizar um novo teste de Força de Vontade para se livrar dos efeitos desta evocação. Esta evocação pode visar indivíduos a uma distância máxima em metros igual ao nível de Fé do personagem. O alvo que vencer o teste resistido não poderá ser submetido uma segunda vez a esta evocação durante o resto da cena.",
+                "torment": "Os demônios monstruosos afetam todos os seres vivos em volta deles em vez de um algo específico. O demônio afeta alvos num raio em metros igual a sua pontuação de Fé, e as possíveis vítimas têm direito a testes resistidos de Força de Vontade.",
+                "torment5th": "Os demônios monstruosos afetam todos os seres vivos em volta deles em vez de um algo específico. O demônio afeta alvos num raio em metros igual a sua pontuação de Fé, e as possíveis vítimas têm direito a testes resistidos de Força de Vontade.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 209
             },
             {
                 "level": 4,
                 "name": "Extinguir a Vida",
-                "description": "O toque do Ceifeiro separa alma e corpo, matando instantaneamente. Contra anjos caídos, provoca frialdade que exaure a vitalidade.",
-                "system": "",
-                "system5th": "O Algoz precisa tocar fisicamente o alvo. Use 1 ponto de Fé e faça um teste de Força + Percepção. Compare os sucessos ao Vigor do alvo. Se os sucessos excederem o Vigor, o alvo morre instantaneamente. Se não, cada sucesso inflige um nível de dano por contusão (ou agravado contra demônios).",
-                "torment": "Demônios monstruosos não precisam tocar para empregar esta evocação. Seu ódio gélido irradia em todas as direções, paralisando os seres vivos num raio igual à pontuação de Fé do personagem."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "strength",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "O toque do Ceifeiro traz a morte. Colocando a mão sobre um corpo vivo e exercendo sua vontade, o demônio é capaz de separar a alma e o corpo da vítima, matando-a instantaneamente. Essa capacidade também pode ser usada com anjos caídos, mas, em vez de provocar a morte instantânea, a evocação produzirá uma frialdade capaz de exaurir a vitalidade do corpo do demônio.",
+                "system": "O Algoz precisa ser capaz de tocar fisicamente o alvo para realizar esta evocação. Use um ponto de Fé e faça um teste de Força + Presciência. Compare seus sucessos ao Vigor do alvo. Se seus sucessos excederem o Vigor do alvo, este morrerá instantaneamente. Se seus sucessos não ultrapassarem o Vigor do alvo, cada um deles infligirá um nível de dano por contusão, pois o toque gélido do Algoz vai exaurir as forças do corpo do mortal. Se esta evocação for empregada contra outro demônio e os sucessos excederem o Vigor do alvo, cada sucesso infligirá um nível de dano agravado. Se os sucessos não ultrapassarem o Vigor do demônio, aplique-os como níveis de dano por contusão.",
+                "system5th": "O Algoz precisa ser capaz de tocar fisicamente o alvo para realizar esta evocação. Realize uma Checagem de Fé e faça um teste de Força + Percepção. Compare seus sucessos ao Vigor do alvo. Se a quantidade de sucessos excederem o Vigor do alvo, este morrerá instantaneamente. Se seus sucessos não ultrapassarem o Vigor do alvo, cada um deles infligirá um nível de dano Superficial, pois o toque gélido do Algoz vai exaurir as forças do corpo do mortal. Se esta evocação for empregada contra outro demônio e os sucessos excederem o Vigor do alvo, cada sucesso infligirá um nível de dano agravado. Se os sucessos não ultrapassarem o Vigor do demônio, aplique-os como níveis de dano Superficiais.",
+                "torment": "Os demônios monstruosos não precisam tocar suas vítimas para empregar esta evocação. Seu ódio gélido irradia em todas as direções e paralisa os corações dos seres vivos. À versão de alto Tormento desta evocação afeta todos os seres  vivos num raio em metros igual a pontuação de Fé do personagem.",
+                "torment5th": "Os demônios monstruosos não precisam tocar suas vítimas para empregar esta evocação. Seu ódio gélido irradia em todas as direções e paralisa os corações dos seres vivos. À versão de alto Tormento desta evocação afeta todos os seres  vivos num raio em metros igual a pontuação de Fé do personagem.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 210
             },
             {
                 "level": 5,
                 "name": "Morte em Vida",
-                "description": "Permite a um corpo vivo funcionar sem alma, gerando uma criatura não-viva sob controle total do Algoz.",
-                "system": "",
-                "system5th": "Use 1 ponto de Fé e faça um teste de Vigor + Medicina. Um cadáver ambulante começa com 1 ponto em cada Atributo Físico; cada sucesso adicional pode aumentar outros pontos à escolha do jogador. Em combate, estas criaturas não sofrem penalidades por ferimentos e utilizam sempre suas paradas de dados completas. Precisam sofrer 10 níveis de dano antes de serem destruídas. Toda vez que o personagem quiser que um lacaio realize uma ação, faça um teste de Força de Vontade (Dificuldade 2). Para controlar mais de uma criatura, divida a Força de Vontade entre elas a cada turno. Alternativamente, lacaios podem ser programados com séries de instruções por pontos de Raciocínio, gastando 1 ponto temporário de Força de Vontade. Lacaios permanentes duram até serem destruídos. Anjos caídos desencarnados podem possuir corpos reanimados ou tentar assumir o controle com teste resistido de Força de Vontade. Hospedeiros permanecem cadáveres salvo transformação com outras doutrinas.",
-                "torment": "Demônios monstruosos não conseguem evitar que seu Tormento impregne suas criações com desejo mórbido por violência. Lacaios não programados entram em frenesi a menos que o criador tenha êxito em teste de Força de Vontade (Dificuldade 3) a cada turno."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "stamina",
+                    "medicine"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta poderosa evocação permite a um corpo vivo funcionar sem a presença de uma alma ou de um espírito vivo, o que gera uma criatura não-viva sob total controle do Algoz.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Medicina. Quando de sua criação, um cadáver ambulante tem só um ponto em cada um de seus Atributos Fisicos, mas cada sucesso adicional pode ser usado para acrescentar outros pontos a qualquer Atributo Físico, a seu critério. Em combate, essas criaturas não sofrem penalidades devidas a ferimentos e sempre utilizam suas paradas de dados completas. Elas precisam sofrer nada menos que dez níveis de vitalidade de dano antes de serem destruidas. Os lacaios mortos-vivos são autômatos irracionais e agem exclusivamente de acordo com a vontade do demônio. Toda vez que o personagem quiser que um de seus lacaios realize uma ação, faça um teste de Força de Vontade (dificuldade 7). Se o personagem controlar mais de uma criatura por vez, você precisará dividir sua parada de Força de Vontade entre elas a cada turno. Uma falha faz com que um dos zumbis proceda com a última ação que lhe foi designada. Como alternativa, o Algoz pode programar um lacaio para executar uma série de instruções pré-estabelecidas; uma ação para cada um dos pontos de Raciocínio do personagem, todas se você investir um ponto temporário de Força de Vontade. Como essas instruções são transmitidas mentalmente, é possivel criar uma série minuciosa de comandos, incluindo-se complicados itinerários de viagem e descrições físicas pormenorizadas. Depois de programado, no entanto, o lacaio não pode receber outras ordens. Se o demônio usar sua Força de Vontade para ordenar ao lacaio que realize uma ação não prevista em sua série de instruções, a programação será perdida. Os Algozes conseguem reviver e controlar simultaneamente um número de lacaios igual a sua pontuação de Fé. Para serem afetados, os corpos precisam estar a uma distância em metros igual ao nivel de Fé do demônio. Os efeitos da evocação duram uma cena. Se o personagem assim desejar, os efeitos podem se tornar permanentes com o investimento de um ponto temporário de Força de Vontade para cada corpo. Um lacaio permanente perdura até ser destruido, quando então não poderá mais ser revivido. Os anjos caídos desencarnados podem possuir corpos reanimados com a permissao do Algoz, ou então podem tentar assumir o controle dos cadáveres programados com um teste resistido de Força de Vontade. A menos que seja transformado com o emprego de outras doutrinas, o hospedeiro continuará a ser um cadáver com tudo o que lhe é característico: aparência, odor e limitações físicas.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Medicina. Quando de sua criação, um cadáver ambulante tem só um ponto em cada um de seus Atributos Fisicos, mas cada sucesso adicional pode ser usado para acrescentar outros pontos a qualquer Atributo Físico, a seu critério. Em combate, essas criaturas não sofrem penalidades devidas a ferimentos e sempre utilizam suas paradas de dados completas. Elas precisam sofrer nada menos que dez níveis de vitalidade de dano antes de serem destruidas. Os lacaios mortos-vivos são autômatos irracionais e agem exclusivamente de acordo com a vontade do demônio. Toda vez que o personagem quiser que um de seus lacaios realize uma ação, faça um teste de Força de Vontade (dificuldade 2). Se o personagem controlar mais de uma criatura por vez, você precisará dividir sua parada de Força de Vontade entre elas a cada turno. Uma falha faz com que um dos zumbis proceda com a última ação que lhe foi designada. Como alternativa, o Algoz pode programar um lacaio para executar uma série de instruções pré-estabelecidas; uma ação para cada um dos pontos de Raciocínio do personagem, todas se você investir um ponto de Força de Vontade. Como essas instruções são transmitidas mentalmente, é possivel criar uma série minuciosa de comandos, incluindo-se complicados itinerários de viagem e descrições físicas pormenorizadas. Depois de programado, no entanto, o lacaio não pode receber outras ordens. Se o demônio usar sua Força de Vontade para ordenar ao lacaio que realize uma ação não prevista em sua série de instruções, a programação será perdida. Os Algozes conseguem reviver e controlar simultaneamente um número de lacaios igual a sua pontuação de Fé. Para serem afetados, os corpos precisam estar a uma distância em metros igual ao nivel de Fé do demônio. Os efeitos da evocação duram uma cena. Se o personagem assim desejar, os efeitos podem se tornar permanentes com o investimento de um ponto de Força de Vontade para cada corpo. Um lacaio permanente perdura até ser destruido, quando então não poderá mais ser revivido. Os anjos caídos desencarnados podem possuir corpos reanimados com a permissao do Algoz, ou então podem tentar assumir o controle dos cadáveres programados com um teste resistido de Força de Vontade. A menos que seja transformado com o emprego de outras doutrinas, o hospedeiro continuará a ser um cadáver com tudo o que lhe é característico: aparência, odor e limitações físicas.",
+                "torment": "Os demônios monstruosos não conseguem evitar que o próprio Tormento impregne suas criações com um desejo mórbido e natural pela violência; eles revivem monstros carnívoros que precisam ser vigiados constantemente para que não venham a atacar qualquer coisa viva a seu alcance, incluindo o próprio Algoz. Se não forem programadas com uma série de instruções pré-estabelecidas, essas criaturas entrarão num frenesi de violência a menos que seu criador tenha êxito num teste de Forca de Vontade (dificuldade 8) a cada turno. Esse teste de Força de Vontade é obrigatório e não substitui outros testes semelhantes realizados com a intenção de dar ordens entre uma ação e outra.",
+                "torment5th": "Os demônios monstruosos não conseguem evitar que o próprio Tormento impregne suas criações com um desejo mórbido e natural pela violência; eles revivem monstros carnívoros que precisam ser vigiados constantemente para que não venham a atacar qualquer coisa viva a seu alcance, incluindo o próprio Algoz. Se não forem programadas com uma série de instruções pré-estabelecidas, essas criaturas entrarão num frenesi de violência a menos que seu criador tenha êxito num teste de Forca de Vontade (dificuldade 3) a cada turno. Esse teste de Força de Vontade é obrigatório e não substitui outros testes semelhantes realizados com a intenção de dar ordens entre uma ação e outra.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 210
             }
         ],
         "apName": "Namtar, o Semblante da Morte",
-        "apWithoutTorment": "Estes anjos se manifestam como vultos sombrios cingidos por tentáculos de névoa espectral que se movem e se contorcem, refletindo ocasionalmente pensamentos em formas simbólicas. Um manto de silêncio cerca-os, e seus pés parecem nunca tocar o solo. Pele pálida como alabastro, rostos imersos em sombras intensas.",
-        "apWithTorment": "Namtar monstruosos exsudam aura gélida de morte e sorvem indiscriminadamente a vida ao redor. Flores murcham, crianças ficam de olhos vidrados e velhos sentem a mortalidade apertar seus corações.",
+        "apWithoutTorment": "Estes anjos se manifestam como vultos sombrios cingidos por tentáculos de névoa espectral que se movem e se contorcem a todo instante, refletindo ocasionalmente os pensamentos do anjo em formas simbólicas e estranhas. Um manto de silêncio cerca esses personagens, e seus pés parecem nunca tocar o solo. Sua pele é pálida como o alabastro e seus rostos estão constantemente imersos em sombras intensas.",
+        "apWithTorment": "Os Namtar monstruosos exsudam uma gélida aura de morte e sorvem indiscriminadamente a vida de todas as coisas vivas a seu redor. As flores murcham quando eles passam, as crianças ficam de olhos vidrados e os velhos sentem a mortalidade apertar seus corações.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 210,
         "apocalypticForm": [
             {
                 "name": "Asas",
                 "torment": false,
-                "description": "Um par de asas de corvo se estende a partir dos ombros; cada asa tem uma vez e um terço da altura do personagem. Permite planar até três vezes a velocidade de corrida por turno."
+                "description": "Um par de asas de corvo se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno.",
+                "description5th": "Um par de asas de corvo se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes seu deslocamento natural a cada turno."
             },
             {
                 "name": "Iniciativa Aprimorada",
                 "torment": false,
-                "description": "Acrescenta 2 pontos à iniciativa do personagem."
+                "description": "Acrescenta 2 pontos à iniciativa do personagem.",
+                "description5th": "Acrescenta 2 pontos à iniciativa do personagem."
             },
             {
                 "name": "Sem Deixar Rastro",
                 "torment": false,
-                "description": "Dificuldades de Furtividade reduzidas em 2 pontos; o personagem não deixa pegadas nem perturba a folhagem."
+                "description": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem.",
+                "description5th": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
             },
             {
                 "name": "Sem Reflexo",
                 "torment": false,
-                "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada por câmeras fotográficas ou de vídeo."
+                "description": "A imagem do demônio não aparece em espelhos nem pode ser capturada por câmeras fotográficas ou de vídeo.",
+                "description5th": "A imagem do demônio não aparece em espelhos nem pode ser capturada por câmeras fotográficas ou de vídeo."
             },
             {
                 "name": "Manto de Sombras",
                 "torment": true,
-                "description": "O demônio se envolve num manto de trevas, tornando-o praticamente invisível à noite. Testes de Furtividade têm dificuldade reduzida em 2 pontos na penumbra ou escuro. Se atacado, regras de Lutar às Cegas se aplicam ao agressor."
+                "description": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor. Consulte a pág. 240 do capítulo sobre sistemas para maiores detalhes.",
+                "description5th": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor."
             },
             {
                 "name": "Nas Garras da Morte",
                 "torment": true,
-                "description": "O espírito do demônio pode se aferrar à vida além da resistência humana. Se o corpo hospedeiro receber 8 níveis de dano agravado ou letal, o demônio pode se agarrar à vida com teste bem-sucedido de Força de Vontade. Se bem-sucedido, o personagem entra em coma até o amanhecer seguinte, perdendo 1 nível de vitalidade e 1 ponto temporário de Fé."
+                "description": "O espirito do demônio pode se aferrar à vida muito além da resistência humana. Se o corpo hospedeiro do demônio receber oito níveis de dano agravado ou letal, ele ainda será capaz de se agarrar à vida com um teste bem-sucedido de Força de Vontade. Se bem-sucedido, o personagem entrará em coma até o amanhecer seguinte, quando então reviverá com um nível de vitalidade e um ponto temporário de Fé a menos.",
+                "description5th": "O espirito do demônio pode se aferrar à vida muito além da resistência humana. Se o corpo hospedeiro do demônio receber dano agravado ou Superficial suficiente para ser considerado como morto, ele ainda será capaz de se agarrar à vida com um teste bem-sucedido de Força de Vontade. Se bem-sucedido, o personagem entrará em coma até o amanhecer seguinte, quando então reviverá com um nível de vitalidade e um ponto de Fé a menos."
             },
             {
                 "name": "Aura Entrópica",
                 "torment": true,
-                "description": "Plantas murcham na presença do demônio; seres vivos num raio igual à pontuação de Fé perdem 1 dado de suas paradas, salvo teste de Vigor (Dificuldade 1). Efeitos persistem pelo resto da cena."
+                "description": "As plantas murcham na presença do demônio e os seres vivos são impregnados com uma frialdade que exaure suas forças. Os mortais e outros demônios num raio em metros igual à pontuação de Fé do demônio perderão um dado de suas paradas a menos que tenham sucesso num teste de Vigor (dificuldade 6). Os efeitos desta capacidade persistem pelo resto da cena.",
+                "description5th": "As plantas murcham na presença do demônio e os seres vivos são impregnados com uma frialdade que exaure suas forças. Os mortais e outros demônios num raio em metros igual à pontuação de Fé do demônio perderão um dado de suas paradas a menos que tenham sucesso num teste de Vigor (dificuldade 1). Os efeitos desta capacidade persistem pelo resto da cena."
             },
             {
                 "name": "Resistência ao Dano",
                 "torment": true,
-                "description": "O demônio ignora quantidades de dano que aleijariam um ser humano normal, não sofrendo penalidades por ferimentos durante a cena. Penalidades reaplicam-se ao reassumir forma humana."
+                "description": "O demônio é capaz de ignorar quantidades de dano que poderiam aleijar um ser humano normal. Ele ignora todas as penalidades devidas a ferimentos durante uma cena. As penalidades adquiridas enquanto o personagem estiver na forma apocalíptica voltarão a ser aplicadas tão logo o demônio reassuma sua forma humana.",
+                "description5th": "O demônio é capaz de ignorar quantidades de dano que poderiam aleijar um ser humano normal. Ele ignora todas as penalidades devidas a ferimentos durante uma cena. As penalidades adquiridas enquanto o personagem estiver na forma apocalíptica voltarão a ser aplicadas tão logo o demônio reassuma sua forma humana."
             }
         ]
     },
@@ -2963,87 +3097,148 @@
             {
                 "level": 1,
                 "name": "Falar com os Mortos",
-                "description": "Esta evocação permite ao Algoz se comunicar com os espíritos que vagam pelos mundos físico ou espiritual. Os espíritos interpelados com esse método são obrigados a atender ao chamado e a responder às perguntas do demônio da melhor maneira possível.",
-                "system": "",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "manipulation",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "O espírito resiste com um teste de Força de Vontade (dificuldade 9)",
+                "description": "Esta evocação permite ao Algoz se comunicar com os espiritos que vagam pelos mundos físico ou espiritual. Os espíritos interpelados com esse método são obrigados a atender ao chamado e a responder às perguntas do demônio da melhor maneira possível.",
+                "system": "Faça um teste de Manipulação + Presciência. O espírito pode tentar evitar a compulsão da evocação com um teste resistido de Força de Vontade (dificuldade 9). Se a evocação for bem-sucedida, o espírito será obrigado a responder honestamente às perguntas do Algoz. O Algoz consegue afetar qualquer espírito que estiver ao alcance de sua voz, e os efeitos da evocação persistem durante um número de turnos igual à pontuação de Fé do personagem.",
                 "system5th": "Faça um teste de Manipulação + Percepção. O espírito pode tentar evitar a compulsão da evocação com um teste resistido de Força de Vontade (dificuldade 4). Se a evocação for bem-sucedida, o espírito será obrigado a responder honestamente às perguntas do Algoz. O Algoz consegue afetar qualquer espírito que estiver ao alcance de sua voz, e os efeitos da evocação persistem durante um número de turnos igual à pontuação de Fé do personagem.",
-                "torment": "Os demônios monstruosos também são capazes de realizar esta evocação, mas os espíritos contatados por eles são desvirtuados pelo Tormento do demônio e tornam-se hostis aos seres vivos durante dias depois disso. Os espíritos afetados por esta evocação se tornam inquietos e hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio, se falharem num teste de Força de Vontade (dificuldade 4)."
+                "torment": "Os demônios monstruosos também são capazes de realizar esta evocação, mas os espíritos contatados por eles são desvirtuados pelo Tormento do demônio e tornam-se hostis aos seres vivos durante dias depois disso. Os espíritos afetados por esta evocação vão se tornar inquietos e hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio, se falharem num teste de Força de Vontade (dificuldade 9).",
+                "torment5th": "Os demônios monstruosos também são capazes de realizar esta evocação, mas os espíritos contatados por eles são desvirtuados pelo Tormento do demônio e tornam-se hostis aos seres vivos durante dias depois disso. Os espíritos afetados por esta evocação vão se tornar inquietos e hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio, se falharem num teste de Força de Vontade (dificuldade 4).",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 211
             },
             {
                 "level": 2,
                 "name": "Conjurar os Mortos",
-                "description": "Os Algozes podem usar esta evocação para conjurar espíritos, e sua influência se estende a quarteirões inteiros de uma cidade. Os espíritos convocados dessa maneira são obrigados a procurar o demônio, quer desejem fazê-lo ou não, e permanecerão ao lado dele até serem dispensados.",
-                "system": "",
-                "system5th": "Faça um teste de Manipulação + Liderança. O Algoz será capaz de conjurar um espírito para cada sucesso obtido, se houver espíritos na área. A evocação afeta dez metros quadrados para cada ponto de Fé do personagem, e os espíritos na área afetada são arrastados imediatamente à presença do Algoz. Continuarão ao lado dele até os efeitos da evocação passarem ou até o demônio dispensá-los. Os efeitos desta evocação duram uma cena. A critério do Narrador, um espírito particularmente poderoso ou obstinado pode tentar romper o controle do demônio com um teste resistido de Força de Vontade (dificuldade igual à pontuação de Fé do demônio) contra os sucessos deste no teste de Manipulação + Liderança.",
-                "torment": "Os demônios monstruosos são capazes de conjurar espíritos, mas os efeitos de seu Tormento farão com que essas entidades se tornem inerentemente hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do personagem, se falharem num teste de Força de Vontade (dificuldade 4)."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "manipulation",
+                    "leadership"
+                ],
+                "dificulty": 1,
+                "dificultyText": "Um espírito particularmente poderoso ou obstinado pode tentar romper o controle do demônio com um teste resistido de Força de Vontade.",
+                "description": "Os Algozes podem usar esta evocação para conjurar espíritos, e sua influência se estende a quarteirões inteiros de uma cidade. Os espíritos convocados dessa maneira, são obrigados a procurar o demônio, quer desejem fazê-lo ou não, e permanecerão ao lado dele até serem dispensados.",
+                "system": "Faça um teste de Manipulação + Liderança. O Algoz será capaz de conjurar um espírito para cada sucesso obtido, se houver espíritos na área. À evocação afeta dez metros quadrados para cada ponto de Fé do personagem, e os espíritos na área afetada são arrastados imediatamente à presença do Algoz. Continuarão ao lado dele até os efeitos da evocação passarem ou até o demônio dispensá-los. Os efeitos desta evocação duram uma cena. À critério do Narrador, um espírito particularmente poderoso ou obstinado pode tentar romper o controle do demônio com um teste resistido de Força de Vontade (dificuldade igual à pontuação de Fé do demônio) contra os sucessos deste no reste de Manipulação + Liderança.",
+                "system5th": "Faça um teste de Manipulação + Liderança. O Algoz será capaz de conjurar um espírito para cada sucesso obtido, se houver espíritos na área. À evocação afeta dez metros quadrados para cada ponto de Fé do personagem, e os espíritos na área afetada são arrastados imediatamente à presença do Algoz. Continuarão ao lado dele até os efeitos da evocação passarem ou até o demônio dispensá-los. Os efeitos desta evocação duram uma cena. À critério do Narrador, um espírito particularmente poderoso ou obstinado pode tentar romper o controle do demônio com um teste resistido de Força de Vontade contra os sucessos deste no reste de Manipulação + Liderança.",
+                "torment": "Os demônios monstruosos são capazes de conjurar espíritos, mas os efeitos de seu Tormento farão com que essas entidades se tornem inerentemente hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do personagem se falharem num teste de Força de Vontade (dificuldade 9).",
+                "torment5th": "Os demônios monstruosos são capazes de conjurar espíritos, mas os efeitos de seu Tormento farão com que essas entidades se tornem inerentemente hostis aos seres vivos durante um número de dias igual à pontuação de Tormento do personagem se falharem num teste de Força de Vontade (dificuldade 4).",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 211
             },
             {
                 "level": 3,
                 "name": "Comandar os Mortos",
-                "description": "O Algoz é capaz de ordenar o espírito de um morto a fazer o que ele desejar, forçando o fantasma a realizar qualquer ação que o demônio quiser caso sua vontade se mostre maior que a do espectro.",
-                "system": "",
-                "system5th": "Faça um teste de Manipulação + Liderança. O Algoz pode comandar qualquer espírito que ouça sua voz. O espírito pode tentar neutralizar o efeito com um teste resistido de Força de Vontade (dificuldade 3). Se falhar no teste, o espírito será obrigado a obedecer às ordens do demônio da melhor maneira possível. Os efeitos desta evocação duram um número de turnos igual à pontuação de Fé do personagem.",
-                "torment": "Os demônios monstruosos também conseguem comandar espíritos, mas eles desvirtuam qualquer criatura com a força de seu Tormento, transformando os fantasmas em entidades ensandecidas e violentas que atacam os seres vivos na primeira oportunidade. Passados os efeitos da evocação, o Narrador fará um teste de Força de Vontade (dificuldade 3) pelo espírito afetado. O teste exige um número de sucessos igual ou superior ao número de turnos que o fantasma passou sob o controle do demônio. Se falhar no teste, o espírito se tornará malévolo e hostil aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio. No caso de uma Falha Infernal, a alteração será permanente."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "manipulation",
+                    "leadership"
+                ],
+                "dificulty": 1,
+                "dificultyText": "O espírito pode tentar neutralizar o efeito com um teste resistido de Força de Vontade.",
+                "description": "O Algoz é capaz de ordenar o espirito de um morto a fazer o que ele desejar, forçando o fantasma a realizar qualquer ação que o demônio quiser caso sua vontade se mostre maior que a do espectro.",
+                "system": "Faça um teste de Manipulação + Liderança. O Algoz pode comandar qualquer espírito que ouça sua voz. O espírito pode tentar neutralizar o efeito com um teste resistido de Força de Vontade (dificuldade 8). Se falhar no teste, o espírito será obrigado a obedecer às ordens do demônio da melhor maneira possivel. Os efeitos desta evocação duram um número de turnos igual à pontuação de Fé do personagem.",
+                "system5th": "Faça um teste de Manipulação + Liderança. O Algoz pode comandar qualquer espírito que ouça sua voz. O espírito pode tentar neutralizar o efeito com um teste resistido de Força de Vontade. Se falhar no teste, o espírito será obrigado a obedecer às ordens do demônio da melhor maneira possivel. Os efeitos desta evocação duram um número de turnos igual à pontuação de Fé do personagem.",
+                "torment": "Os demônios monstruosos também conseguem comandar espíritos, mas eles desvirtuam qualquer criatura com a força de seu Tormento, transformando os fantasmas em entidades ensandecidas e violentas que atacam os seres vivos na primeira oportunidade. Passados os efeitos da evocação, o Narrador fará um teste de Força de Vontade (dificuldade 8) pelo espírito afetado. O teste exige um número de sucessos igual ou superior ao número de turnos que o fantasma passou sob o controle do demônio. Se falhar no teste, o espírito se tornará malévolo e hostil aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio. No caso de uma falha critica, a alteração será permanente.",
+                "torment5th": "Os demônios monstruosos também conseguem comandar espíritos, mas eles desvirtuam qualquer criatura com a força de seu Tormento, transformando os fantasmas em entidades ensandecidas e violentas que atacam os seres vivos na primeira oportunidade. Passados os efeitos da evocação, o Narrador fará um teste de Força de Vontade pelo espírito afetado. O teste exige um número de sucessos igual ou superior ao número de turnos que o fantasma passou sob o controle do demônio. Se falhar no teste, o espírito se tornará malévolo e hostil aos seres vivos durante um número de dias igual à pontuação de Tormento do demônio. No caso de uma falha critica, a alteração será permanente."
+                ,
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 211
             },
             {
                 "level": 4,
                 "name": "Ancorar a Alma",
-                "description": "Esta poderosa evocação permite a um Algoz ancorar uma alma mortal desencarnada (ou o espírito de um demônio) a um objeto físico, criando um artefato assombrado que aprisiona o espírito no mundo físico. Nos dias mais tenebrosos da Guerra da Ira, os Algozes usavam esta evocação para aprisionar as almas de mortais e anjos a fim de fornecer energia às poderosas armas e ferramentas criadas pelos Annunaki.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Vigor + Percepção. A dificuldade é determinada pela natureza do objeto utilizado como âncora. Acorrentar a alma a algo que a pessoa estimava em vida (dificuldade 1) é o tipo mais eficiente de âncora, mas objetos estranhos podem se mostrar mais difíceis dependendo de sua composição. Cristais, pedras ou metais preciosos (dificuldade 2); materiais naturais, como madeira, vidro ou osso (dificuldade 3); materiais sintéticos, como plástico ou artefatos de alta tecnologia (computadores), são difíceis de usar (dificuldade 4). O personagem precisa estar a um número de metros do espírito menor ou igual ao seu nível de Fé para aprisioná-lo e deve segurar a âncora nas mãos. O espírito pode resistir com teste de Força de Vontade (dificuldade 3). Sucessos adicionais aumentam a eficácia. Os demônios aprisionados ainda têm acesso a seus poderes inatos, desde que tenham Fé disponível. A evocação persiste por um número de dias igual à pontuação de Fé, ou pode se tornar permanente com 1 ponto temporário de Força de Vontade. Se a âncora for destruída, o espírito é libertado imediatamente. Almas mortais libertas desaparecem ou tornam-se fantasmas, a critério do Narrador. Demônios libertos precisam resistir à atração do Abismo e localizar outro corpo hospedeiro ou âncora física.",
-                "torment": "Demônios monstruosos aprisionam espíritos com um sudário de escuridão asfixiante, impingindo-lhes um breve gostinho da agonia que eles próprios suportaram no Abismo. Essas almas aprisionadas ficam tão enfurecidas que seu desespero alcança o mundo físico e envolve suas âncoras com uma aura de má sorte. Indivíduos que tocarem ou carregarem uma dessas âncoras estarão sujeitos a falhas críticas em ações ao obter 1 ou 2 nos dados."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "stamina",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "Acorrentar a alma a uma coisa que a pessoa estimava em vida (dificuldade 1) é o tipo mais eficiente de âncora, mas os objetos estranhos podem se mostrar mais difíceis dependendo de sua composição. Cristais, pedras ou metais preciosos são úteis (dificuldade 2); os materiais naturais, como a madeira, o vidro ou o osso, nem tanto (dificuldade 3). Os materiais sintéticos, como o plástico ou os artefatos de alta tecnologia, como os computadores, são difíceis de usar (dificuldade 4 ou maior).",
+                "description": "Esta poderosa evocação permite a um Algoz ancorar uma alma mortal desencarnada (ou o espírito de um demônio) a um objeto físico, criando um artefato assombrado que aprisiona o espírito no mundo físico. Nos dias mais tenebrosos da Guerra da Ira, os Algozes usavam esta evocação para aprisionar as almas de mortais e anjos a fim de fornecer energia as poderosas armas e ferramentas criadas pelos Annunaki.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Presciência. A dificuldade é determinada pela natureza do objeto utilizado como âncora. Acorrentar a alma a uma coisa que a pessoa estimava em vida (dificuldade 6) é o tipo mais eficiente de âncora, mas os objetos estranhos podem se mostrar mais difíceis dependendo de sua composição. Cristais, pedras ou metais preciosos são úteis (dificuldade 7); os materiais naturais, como a madeira, o vidro ou o osso, nem tanto (dificuldade 8). Os materiais sintéticos, como o plástico ou os artefatos de alta tecnologia, como os computadores, são difíceis de usar (dificuldade 9). O personagem precisa estar a um número de metros do espírito menor ou igual a seu nível de Fé (o do personagem) para conseguir aprisioná-lo, e ele precisa segurar a âncora nas mãos. O espírito é capaz de resistir ao aprisionamento com um teste resistido de Força de Vontade (dificuldade 8). Se você conseguir mais sucessos, o espírito será aprisionado dentro da âncora e não conseguirá interagir com o mundo exterior a menos que o objeto tenha sido preparado de maneira adequada (veja a Doutrina da Forja, pág. 190). Os demônios acorrentados a um objeto preparado ainda conseguem ter acesso a seus poderes inatos (o que inclui suas linhas doutrinárias), desde que tenham Fé a sua disposição (todos os pactos vigentes com servos mortais continuam ativos). Esta evocação persiste durante um número de dias igual à pontuação de Fé do personagem, ou pode se tornar permanente com o investimento de um ponto temporário de Força de Vontade. Se a âncora porventura for destruída, o espírito será libertado imediatamente. As almas libertas dos mortais desaparecem para sempre ou tornam-se fantasmas que passarão a assombrar um local, a critério do Narrador. Os demônios libertos precisam resistir à atração do Abismo e tentar localizar outro corpo hospedeiro ou âncora física (veja a pág. 259 do capítulo sobre sistemas para maiores detalhes).",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Percepção. A dificuldade é determinada pela natureza do objeto utilizado como âncora. Acorrentar a alma a uma coisa que a pessoa estimava em vida (dificuldade 1) é o tipo mais eficiente de âncora, mas os objetos estranhos podem se mostrar mais difíceis dependendo de sua composição. Cristais, pedras ou metais preciosos são úteis (dificuldade 2); os materiais naturais, como a madeira, o vidro ou o osso, nem tanto (dificuldade 3). Os materiais sintéticos, como o plástico ou os artefatos de alta tecnologia, como os computadores, são difíceis de usar (dificuldade 4 ou maior). O personagem precisa estar a um número de metros do espírito menor ou igual a seu nível de Fé (o do personagem) para conseguir aprisioná-lo, e ele precisa segurar a âncora nas mãos. O espírito é capaz de resistir ao aprisionamento com um teste resistido de Força de Vontade. Se você conseguir mais sucessos, o espírito será aprisionado dentro da âncora e não conseguirá interagir com o mundo exterior a menos que o objeto tenha sido preparado de maneira adequada. Os demônios acorrentados a um objeto preparado ainda conseguem ter acesso a seus poderes inatos (o que inclui suas linhas doutrinárias), desde que tenham Fé a sua disposição (todos os pactos vigentes com servos mortais continuam ativos). Esta evocação persiste durante um número de dias igual à pontuação de Fé do personagem, ou pode se tornar permanente com o investimento de um ponto de Força de Vontade. Se a âncora porventura for destruída, o espírito será libertado imediatamente. As almas libertas dos mortais desaparecem para sempre ou tornam-se fantasmas que passarão a assombrar um local, a critério do Narrador. Os demônios libertos precisam resistir à atração do Abismo e tentar localizar outro corpo hospedeiro ou âncora física",
+                "torment:": "Os demônios monstruosos aprisionam os espíritos com um sudário de escuridão asfixiante, impingindo-lhes um breve gostinho da agonia que eles próprios suportaram no Abismo. Essas almas aprisionadas ficam tão enfurecidas com tamanha aflição que seu desespero alcança o reino físico e envolve suas âncoras com uma aura de má sorte. Os indivíduos que tocarem ou carregarem uma dessas âncoras espirituais estarão sujeitos a falhas críticas em suas ações ao obter 1 ou 2 nos dados.",
+                "torment5th": "Os demônios monstruosos aprisionam os espíritos com um sudário de escuridão asfixiante, impingindo-lhes um breve gostinho da agonia que eles próprios suportaram no Abismo. Essas almas aprisionadas ficam tão enfurecidas com tamanha aflição que seu desespero alcança o reino físico e envolve suas âncoras com uma aura de má sorte. Os indivíduos que tocarem ou carregarem uma dessas âncoras espirituais estarão sujeitos a Falhar Infernais (ou falhas críticas no caso de não-demônios) em suas ações ao obter 1 ou 2 nos dados.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 211
             },
             {
                 "level": 5,
                 "name": "Reencarnar os Mortos",
-                "description": "Esta evocação permite ao Algoz ancorar um espírito a qualquer corpo físico desprovido de alma. A tentativa devolve o fantasma à terra dos vivos, pelo menos temporariamente.",
-                "system": "",
-                "system5th": "Use um ponto de Fé e faça um teste de Vigor + Percepção. O Algoz precisa ter a alma que deseja reencarnar por perto e tocar o corpo que o espírito irá possuir. O corpo deve ter morrido recentemente (últimas 48 horas). Com êxito, a alma é ancorada, ferimentos do corpo são cicatrizados e o espírito retorna à vida. A nova pessoa possui os Atributos Físicos do corpo e os Atributos Mentais e Sociais da nova alma. Os efeitos duram um número de dias igual à pontuação de Fé ou podem se tornar permanentes com 1 ponto permanente de Força de Vontade. Espíritos demoníacos podem ser inseridos em corpos pelo mesmo método.",
-                "torment": "Demônios monstruosos contaminam o espírito com seu Tormento, distorcendo a alma. Ao reencarnar, o Narrador fará um teste de Força de Vontade em nome do espírito contra dificuldade igual a 2 + modificador de Tormento do personagem. Êxito = perturbação temporária; falha = perturbação permanente; Falha Infernal = monstro furioso atacando seres vivos até ser destruído. Se um espírito demoníaco de alto Tormento for inserido em um corpo, também será feito teste de Força de Vontade: êxito = Tormento do demônio reduz 1 ponto; Falha Infernal = Tormento do demônio excede em 1 ponto o do personagem."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "stamina",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "Esta evocação permite ao Algoz ancorar um espírito a qualquer corpo físico desprovido de alma. A tentativa devolve o fantasma à terra dos vivos, pelo menos durante algum tempo.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Presciência. O Algoz precisa ter a alma que ele deseja reencarnar por perto e ser capaz de tocar o corpo que deseja que o espírito possua. O corpo em questão precisa ter morrido recentemente (isto é, nas últimas 48 horas). Obtendo-se êxito, a alma será ancorada ao corpo, os ferimentos que o corpo porventura tenha sofrido serão cicatrizados e o espírito será devolvido à terra dos vivos. À nova pessoa tem os mesmos Atributos Físicos que o corpo possuía em sua vida anterior e os Atributos Mentais e Sociais da nova alma. Os efeitos desta evocação duram um número de dias igual à pontuação de Fé do personagem, ou então podem se tornar permanentes com o investimento de um ponto permanente de Força de Vontade. Os espíritos demoníacos desprovidos de hospedeiros podem ser inseridos em corpos por meio desta evocação.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Percepção. O Algoz precisa ter a alma que ele deseja reencarnar por perto e ser capaz de tocar o corpo que deseja que o espírito possua. O corpo em questão precisa ter morrido recentemente (isto é, nas últimas 48 horas). Obtendo-se êxito, a alma será ancorada ao corpo, os ferimentos que o corpo porventura tenha sofrido serão cicatrizados e o espírito será devolvido à terra dos vivos. À nova pessoa tem os mesmos Atributos Físicos que o corpo possuía em sua vida anterior e os Atributos Mentais e Sociais da nova alma. Os efeitos desta evocação duram um número de dias igual à pontuação de Fé do personagem, ou então podem se tornar permanentes com o investimento de um ponto permanente de Força de Vontade. Os espíritos demoníacos desprovidos de hospedeiros podem ser inseridos em corpos por meio desta evocação.",
+                "torment": "Os demônios monstruosos que realizam esta evocação invariavelmente contaminam o espfrito com o próprio Tormento, deixando a alma distorcida pelo ódio e pela dor. Tão logo a alma reencarne, o Narrador fará um teste de Força de Vontade em nome dela contra uma dificuldade igual ao Tormento do personagem. Obtendo-se êxito no teste, a pessoa reencarnada adquirirá uma perturbação temporária. No caso de uma falha, a perturbação será permanente. No caso de uma falha critica, a pessoa reencarnada se tornará um monstro furioso e atacará os seres vivos até ser destruido. Se um espírito demoníaco desencarnado for colocado num corpo com a versão de alto Tormento desta evocação, um teste de Força de Vontade também será realizado em nome dele. Obtendo-se êxito no teste, a pontuação de Tormento do demônio que possui o corpo terá um ponto a menos que a do personagem. E, no caso de uma falha critica no teste de Força de Vontade, o nível de Tormento do demônio excederá o do personagem em um ponto.",
+                "torment5th": "Os demônios monstruosos que realizam esta evocação invariavelmente contaminam o espfrito com o próprio Tormento, deixando a alma distorcida pelo ódio e pela dor. Tão logo a alma reencarne, o Narrador fará um teste de Força de Vontade em nome dela contra uma dificuldade igual ao modificador de Tormento do personagem. Obtendo-se êxito no teste, a pessoa reencarnada adquirirá uma perturbação temporária. No caso de uma falha, a perturbação será permanente. No caso de uma falha critica, a pessoa reencarnada se tornará um monstro furioso e atacará os seres vivos até ser destruido. Se um espírito demoníaco desencarnado for colocado num corpo com a versão de alto Tormento desta evocação, um teste de Força de Vontade também será realizado em nome dele. Obtendo-se êxito no teste, a pontuação de Tormento do demônio que possui o corpo terá um ponto a menos que a do personagem. E, no caso de uma Falha Infernal no teste de Força de Vontade, o nível de Tormento do demônio excederá o do personagem em um ponto.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 212
             }
         ],
         "apName": "Nergal, o Semblante do Espírito",
-        "apWithoutTorment": "Os anjos do mundo espiritual aparecem como vultos pálidos e serenos que lembram imagens de santos humanos: belas, silenciosas e distantes. Assim como outros de sua Casa, os Nergal se deslocam sem ruído nem esforço, parecendo deslizar pelo chão. Apenas seus olhos, com padrões mutáveis de cinza e negro, sugerem o mundo desolado que fica além do reino mortal.",
-        "apWithTorment": "Nergal monstruosos são maculados com sangue dos mortos, pele de alabastro raiada de linhas carmesins e negras. Seus olhos são orbes de sangue coagulado e, ao falar, ganem como espíritos dos condenados.",
+        "apWithoutTorment": "Os anjos do mundo espiritual aparecem como vultos pálidos e serenos que lembram as imagens dos santos humanos: belas, silenciosas e distantes. Assim como outros de sua Casa, os Nergal se deslocam sem ruído nem esforço, parecendo deslizar pelo chão. Apenas seus olhos, com seus padrões mutáveis de cinza e negro, sugerem o mundo desolado que fica além do reino mortal.",
+        "apWithTorment": "Os Nergal monstruosos são maculados com o sangue dos mortos, sua pele de alabastro apresenta-se raiada de linhas carmesins e negras. Seus olhos são orbes de sangue coagulado e, ao falar, eles ganem como os espíritos dos condenados.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 212,
         "apocalypticForm": [
             {
                 "name": "Visão Espectral",
                 "torment": false,
-                "description": "O anjo enxerga espíritos no reino mortal, quer os fantasmas desejem se revelar ou não, com teste bem-sucedido de Determinação (Dificuldade 1)."
+                "description": "O anjo enxerga os espíritos que se delongam no reino mortal, quer os fantasmas desejem se revelar ou não, com um teste bem-sucedido de Percepção (dificuldade 6).",
+                "description5th": "O anjo enxerga os espíritos que se delongam no reino mortal, quer os fantasmas desejem se revelar ou não, com um teste bem-sucedido de Percepção (dificuldade 1)."
             },
             {
                 "name": "Características Sociais Acentuadas",
                 "torment": false,
-                "description": "A aparência beatífica do anjo proporciona bônus: Carisma +2 e Manipulação +1."
+                "description": "A aparência beatífica do anjo proporciona os os seguintes bônus nas Características: Carisma (+2), Manipulação (+1) e Autocontrole (+2).",
+                "description5th": "A aparência beatífica do anjo proporciona os os seguintes bônus nas Características: Carisma (+2), Manipulação (+1) e Autocontrole (+2)."
             },
             {
                 "name": "Sem Deixar Rastro",
                 "torment": false,
-                "description": "As dificuldades de testes de Furtividade são reduzidas em 2 pontos; passagem não perturba o ambiente. Não deixa pegadas nem perturba folhagem."
+                "description": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem.",
+                "description5th": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
             },
             {
                 "name": "Asas",
                 "torment": false,
-                "description": "Um par de asas de corvo se estende dos ombros; cada asa tem 1 1/3 da altura do personagem. Permite planar até 3 vezes a velocidade de corrida por turno."
+                "description": "Um par de asas de corvo se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes sua velocidade de corrida a cada turno.",
+                "description5th": "Um par de asas de corvo se estende a partir dos ombros do personagem. Quando totalmente estendida, cada asa tem uma vez e um terço a altura do personagem. O personagem consegue planar a até três vezes seu deslocamento natural a cada turno."
             },
             {
                 "name": "Manto de Sombras",
                 "torment": true,
-                "description": "O demônio se envolve em manto de trevas, dificultando visualização em boa luminosidade e tornando-o praticamente invisível à noite. Testes de Furtividade reduzem dificuldade em 2 pontos na penumbra ou escuro. Regras de Lutar às Cegas aplicáveis se atacado."
+                "description": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor. Consulte a pág. 240 do capítulo sobre sistemas para maiores detalhes.",
+                "description5th": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor."
             },
             {
                 "name": "Ganido dos Condenados",
                 "torment": true,
-                "description": "As dificuldades de todos os testes de Intimidação são reduzidas em 2 pontos."
+                "description": "As dificuldades de todos os testes de Intimidação são reduzidas em dois pontos.",
+                "description5th": "As dificuldades de todos os testes de Intimidação são reduzidas em dois pontos."
             },
             {
                 "name": "Aura de Pavor",
                 "torment": true,
-                "description": "O demônio é envolvido por aura de medo que exaure a determinação dos adversários. Alvos num raio em metros igual à Fé perdem iniciativa normal, salvo êxito em teste de Força de Vontade contra dificuldade igual ao modificador de Tormento do demônio. Afetados agem por último no turno. Teste de Força de Vontade realizado todo turno em que alguém estiver na presença do Nergal apocalíptico; vítima recupera iniciativa normal ao obter êxito."
+                "description": "O demônio é envolvido por uma aura de medo que exaure a determinação de seus adversários. Os alvos num raio em metros igual à Fé do personagem perderão sua iniciativa normal a menos que tenham êxito num teste de Força de Vontade contra uma dificuldade igual ao Tormento do demônio. Os individuos afetados agem por último num determinado turno. O teste de Força de Vontade será realizado todo turno no qual uma pessoa ou um outro demônio estiver na presença do Nergal apocalíptico. A vítima recuperará sua iniciativa normal tão logo obtenha éxito num dos testes de Força de Vontade.",
+                "description5th": "O demônio é envolvido por uma aura de medo que exaure a determinação de seus adversários. Os alvos num raio em metros igual à Fé do personagem perderão sua iniciativa normal a menos que tenham êxito num teste de Força de Vontade contra uma dificuldade igual ao Tormento do demônio. Os individuos afetados agem por último num determinado turno. O teste de Força de Vontade será realizado todo turno no qual uma pessoa ou um outro demônio estiver na presença do Nergal apocalíptico. A vítima recuperará sua iniciativa normal tão logo obtenha éxito num dos testes de Força de Vontade."
             },
             {
                 "name": "Resistência ao Dano",
                 "torment": true,
-                "description": "O demônio ignora quantidades de dano que aleijariam um humano normal. Ignora penalidades por ferimentos durante a cena; penalidades reaplicam-se quando reassume forma humana."
+                "description": "O demônio é capaz de ignorar quantidades de dano que poderiam aleijar um ser humano normal. Ele ignora todas as penalidades devidas a ferimentos durante uma cena. As penalidades adquiridas enquanto o personagem estiver na forma apocalíptica voltarão a ser aplicadas tão logo o demônio reassuma sua forma humana.",
+                "description5th": "O demônio é capaz de ignorar quantidades de dano que poderiam aleijar um ser humano normal. Ele ignora todas as penalidades devidas a ferimentos durante uma cena. As penalidades adquiridas enquanto o personagem estiver na forma apocalíptica voltarão a ser aplicadas tão logo o demônio reassuma sua forma humana."
             }
         ]
     },
@@ -3055,87 +3250,147 @@
             {
                 "level": 1,
                 "name": "Detectar a Barreira",
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "resolve",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
                 "description": "O Algoz é capaz de detectar a força relativa da barreira entre os reinos físico e espiritual numa área do tamanho de um quarteirão, o que permite ao demônio localizar regiões onde a fronteira é excepcionalmente espessa ou fina.",
-                "system": "",
-                "system5th": "Faça um teste de Raciocínio + Percepção. Se bem-sucedido, seu Algoz conseguirá localizar quaisquer regiões de força ou fraqueza incomuns na barreira entre os reinos. Como regra geral, a barreira entre os reinos tende a ser mais forte nas áreas onde a influência da fé humana é mais fraca. Portanto, um laboratório científico que promove a supremacia da razão fria sobre a intuição poderia ter uma barreira forte, enquanto um cemitério ou uma igreja teria uma barreira fraca. O demônio consegue examinar uma área em metros quadrados igual a dez vezes sua pontuação de Fé.",
-                "torment": "Os demônios monstruosos só conseguem detectar as áreas onde a barreira é fraca, atraídos pelo chamado da tempestade espiritual que grassa do outro lado."
+                "system": "Faça um teste de Percepção + Presciência. Se bem-sucedido, seu Algoz conseguirá localizar quaisquer regiões de força ou fraqueza incomuns na barreira entre os reinos. Como regra geral, a barreira entre os reinos tende a ser mais forte nas áreas onde a influência da fé humana é mais fraca. Portanto, um laboratório científico que promove a supremacia da razão fria sobre a intuição poderia ter uma barreira forte, enquanto um cemitério ou uma igreja teria uma barreira fraca. O demônio consegue examinar uma área em metros quadrados igual a dez vezes sua pontuação de Fé.",
+                "system5th": "Faça um teste de Determinação + Percepção. Se bem-sucedido, seu Algoz conseguirá localizar quaisquer regiões de força ou fraqueza incomuns na barreira entre os reinos. Como regra geral, a barreira entre os reinos tende a ser mais forte nas áreas onde a influência da fé humana é mais fraca. Portanto, um laboratório científico que promove a supremacia da razão fria sobre a intuição poderia ter uma barreira forte, enquanto um cemitério ou uma igreja teria uma barreira fraca. O demônio consegue examinar uma área em metros quadrados igual a dez vezes sua pontuação de Fé.",
+                "torment": "Os demônios monstruosos só conseguem detectar as áreas onde a barreira é fraca, atraídos pelo chamado da tempestade espiritual que grassa do outro lado.",
+                "torment5th": "Os demônios monstruosos só conseguem detectar as áreas onde a barreira é fraca, atraídos pelo chamado da tempestade espiritual que grassa do outro lado.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 213
             },
             {
                 "level": 2,
                 "name": "Atravessar o Véu",
-                "description": "Esta evocação permite ao Algoz atravessar fisicamente a barreira e penetrar o mundo das sombras, sem vida do mundo mortal. Isso permite ao demônio percorrer grandes distâncias no reino das sombras à velocidade do pensamento e voltar ao mundo físico num local correspondente. A travessia também permite ao demônio interagir com os espíritos dos mortos que levam existências arrastadas do outro lado.",
-                "system": "",
-                "system5th": "Faça um teste de Destreza + Percepção. A dificuldade é determinada pela força relativa da barreira na área onde seu Algoz tenta atravessar. Num ponto fraco (uma igreja ou cemitério), a dificuldade é 1. Numa casa velha ou antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é 2. Travessar a partir de um shopping center exige dificuldade 3. Ao chegar à terra das sombras, seu personagem conseguirá voar pela paisagem desolada à velocidade do pensamento. Faça um teste de Destreza + Atletismo (dificuldade 3), e cada sucesso obtido permitirá ao demônio percorrer 1,5 km. Estradas e edifícios no reino das sombras são tão reais quanto seus equivalentes físicos. O demônio precisa superar obstáculos físicos e encontrar o caminho até seu destino como faria no mundo mortal. Ao chegar, o demônio poderá voltar automaticamente ao lugar correspondente no reino físico. Todas as outras ações seguem as regras do reino espiritual, mas a tempestade aumenta a dificuldade mínima para 3. Além disso, seu Algoz perderá 1 ponto temporário de Força de Vontade por Falha Infernal; se perder toda a Força de Vontade, será arrancado do hospedeiro mortal, retornando o corpo ao reino físico e a alma precisará resistir à atração do Abismo. Passageiros não podem ser transportados. Encontrar espíritos e comunicar-se com eles é semelhante a encontrar pessoas no mundo físico; espíritos têm identidades e objetivos próprios e podem ou não interagir. Demônios podem usar a Doutrina do Espírito para estimular interação.",
-                "torment": "Demônios monstruosos que entram no mundo espiritual produzem uma 'costura' na barreira que atrai almas penadas para o mundo físico, causando assombrações temporárias de intensidade proporcional à pontuação de Tormento do demônio."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "dexterity",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela força relativa da barreira na área onde seu Algoz tenta atravessar. Num ponto fraco (uma igreja ou um cemitério), a dificuldade da travessia é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3.",
+                "description": "Esta evocação permite ao Algoz atravessar fisicamente a barreira e penetrar o mundo das sombras, uma imagem especular e sem vida do mundo mortal. Isso permite ao demônio percorrer grandes distâncias no reino das sombras à velocidade do pensamento e voltar ao mundo físico num local correspondente. A travessia também permite ao demônio interagir com os espíritos dos mortos que levam existências arrastadas do outro lado.",
+                "system": "Faça um teste de Destreza + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde seu Algoz tenta atravessar. Num ponto fraco (uma igreja ou um cemitério), a dificuldade da travessia é igual a 6. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 7. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 8. Tão logo chegue à terra das sombras, seu personagem conseguirá voar pela paisagem desolada à velocidade do pensamento. Faça um teste de Destreza + Esportes (dificuldade 8), e cada sucesso obtido permitirá ao demônio percorrer um quilômetro e meio. As estradas e os edifícios no reino das sombras são tão reais para seu demônio quanto os equivalentes físicos dos mesmos. Ele precisa superar todos os obstáculos físicos e encontrar o caminho até seu destino assim como faria no mundo mortal. Ao chegar a seu destino, o demônio poderá voltar automaticamente ao lugar correspondente no reino físico e aparecer como que por encanto. Todas as outras ações são realizadas como de praxe no reino espiritual, mas a furiosa tempestade que grassa ali aumenta a dificuldade para 8, no mínimo. Além disso, seu Algoz perderá um ponto temporário de Força de Vontade toda vez que sofrer uma falha critica. Se perder toda a sua Força de Vontade, o demônio será arrancado do hospedeiro mortal. O corpo retornará ao reino físico e a alma desencarnada precisará resistir à atração do Abismo enquanto procura uma outra âncora (consulte a pág. 259 do capítulo sobre sistemas para maiores detalhes). Seu personagem não é capaz de transportar passageiros entre o reino espiritual e o mundo dos vivos. Encontrar espíritos e comunicar-se com eles nas terras dos mortos é semelhante a encontrar pessoas no mundo dos vivos. Os espíritos têm suas proprias identidades e objetivos e podem ou não estar dispostos a interagir com os visitantes. Os demônios podem usar a Doutrina do Espírito para estimular essa interação.",
+                "system5th": "Faga um teste de Destreza + Percepção. A dificuldade é determinada pela força relativa da barreira na área onde seu Algoz tenta atravessar. Num ponto fraco (uma igreja ou um cemitério), a dificuldade da travessia é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3. Tão logo chegue à terra das sombras, seu personagem conseguirá voar pela paisagem desolada à velocidade do pensamento. Faça um teste de Destreza + Atletismo (dificuldade 3), e cada sucesso obtido permitirá ao demônio percorrer um quilômetro e meio. As estradas e os edifícios no reino das sombras são tão reais para seu demônio quanto os equivalentes físicos dos mesmos. Ele precisa superar todos os obstáculos físicos e encontrar o caminho até seu destino assim como faria no mundo mortal. Ao chegar a seu destino, o demônio poderá voltar automaticamente ao lugar correspondente no reino físico e aparecer como que por encanto. Todas as outras ações são realizadas como de praxe no reino espiritual, mas a furiosa tempestade que grassa ali aumenta a dificuldade para 3, no mínimo. Além disso, seu Algoz perderá um ponto de Força de Vontade toda vez que sofrer uma Falha Infernal. Se perder toda a sua Força de Vontade, o demônio será arrancado do hospedeiro mortal. O corpo retornará ao reino físico e a alma desencarnada precisará resistir à atração do Abismo enquanto procura uma outra âncora. Seu personagem não é capaz de transportar passageiros entre o reino espiritual e o mundo dos vivos. Encontrar espíritos e comunicar-se com eles nas terras dos mortos é semelhante a encontrar pessoas no mundo dos vivos. Os espíritos têm suas proprias identidades e objetivos e podem ou não estar dispostos a interagir com os visitantes. Os demônios podem usar a Doutrina do Espírito para estimular essa interação.",
+                "torment": "Os demônios monstruosos que entram no mundo espiritual produzem uma “costura” na barreira que atrai as almas penadas para o mundo físico, o que leva a episódios temporários mas intensos de assombração. Essa costura persiste durante um número de dias igual à pontuação de Tormento do demônio.",
+                "torment5th": "Os demônios monstruosos que entram no mundo espiritual produzem uma “costura” na barreira que atrai as almas penadas para o mundo físico, o que leva a episódios temporários mas intensos de assombração. Essa costura persiste durante um número de dias igual à pontuação de Tormento do demônio.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 213
             },
             {
                 "level": 3,
                 "name": "Travessia Espectral",
-                "description": "Esta evocação permite ao demônio existir simultaneamente no reino físico e espiritual. Ele consegue interagir com mortais e espíritos e atravessar objetos nos dois lugares.",
-                "system": "",
-                "system5th": "Faça um teste de Vigor + Percepção. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza a evocação. Num ponto fraco, a dificuldade é 1; numa casa velha ou prédio antigo, 2; a partir de um shopping center, 3. Se bem-sucedido, o demônio se torna insubstancial e indistinto, podendo enxergar e ser visto por indivíduos dos dois lados. O demônio atravessa objetos sem dano e vice-versa. Com teste de Força de Vontade (Dificuldade 3), ele pode interagir com ambos os reinos: falar, manipular objetos, atacar ou ser atacado como se fosse sólido. Os efeitos duram número de turnos igual à Fé do personagem. Passageiros não podem acompanhá-lo.",
-                "torment": "Quando demônios monstruosos usam esta evocação, energias da tempestade espiritual vazam para o reino físico, provocando manifestações espirituais e assombrações violentas e imprevisíveis."
+                "cost": "1 ponto de Força de Vontade",
+                "pool": [
+                    "stamina",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza essa evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3.",
+                "description": "Esta evocação permite ao demônio existir simultaneamente tanto no reino físico quanto no espiritual. Ele consegue interagir com mortais e espíritos e atravessar objetos nos dois lugares.",
+                "system": "Faça um teste de Vigor + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza essa evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 6. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 7. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 8. Se você tiver êxito no teste, seu demônio se transformará numa forma insubstancial e indistinta, capaz de enxergar os indivíduos dos dois lados da barreira e também de ser visto por eles. O demônio atravessará objetos sem receber qualquer dano, e vice-versa, apesar de conseguir interagir com os dois reinos num determinado turno com um teste de Força de Vontade (dificuldade 8). Se bem-sucedido, o Algoz conseguirá falar com os indivíduos, manipular objetos, atacar ou ser atacado no reino com o qual ele se harmonizou como se ele mesmo fosse sólido. Os efeitos desta evocação duram um número de turnos igual ao nível de Fé do personagem. O personagem não consegue levar outros seres consigo para esse “terreno intermediário” entre os reinos.",
+                "system5th": "Faça um teste de Vigor + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza essa evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3. Se você tiver êxito no teste, seu demônio se transformará numa forma insubstancial e indistinta, capaz de enxergar os indivíduos dos dois lados da barreira e também de ser visto por eles. O demônio atravessará objetos sem receber qualquer dano, e vice-versa, apesar de conseguir interagir com os dois reinos num determinado turno com um teste de Força de Vontade (dificuldade 3). Se bem-sucedido, o Algoz conseguirá falar com os indivíduos, manipular objetos, atacar ou ser atacado no reino com o qual ele se harmonizou como se ele mesmo fosse sólido. Os efeitos desta evocação duram um número de turnos igual ao nível de Fé do personagem. O personagem não consegue levar outros seres consigo para esse “terreno intermediário” entre os reinos.",
+                "torment": "Quando os demônios monstruosos realizam esta evocação, as energias da tempestade espiritual vazam para o reino fisico ao redor do demônio, provocando manifestações espirituais e episódios violentos e imprevisiveis de assombração.",
+                "torment5th": "Quando os demônios monstruosos realizam esta evocação, as energias da tempestade espiritual vazam para o reino fisico ao redor do demônio, provocando manifestações espirituais e episódios violentos e imprevisiveis de assombração.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 213
             },
             {
                 "level": 4,
                 "name": "Tocar o Além",
-                "description": "O Algoz enxerga o reino espiritual e pode atravessar a barreira com as mãos para depositar ou retirar objetos, como um mortal alcançando algo num armário. Durante a Guerra da Ira, esta evocação era usada para esconder armas ou artefatos. Muitos ainda permanecem até hoje, aguardando que alguém os encontre.",
-                "system": "",
-                "system5th": "Use 1 ponto de Fé e faça um teste de Destreza + Percepção. A dificuldade depende da força relativa da barreira: ponto fraco = 1, casa velha = 2, shopping center = 3. Se bem-sucedido, o personagem enxergará o outro lado da barreira e poderá 'tocar o além': mão e braço desaparecem diante dos mortais e podem depositar ou remover objetos que possam ser erguidos com 1 ou 2 mãos. Mortais e demônios não podem ser forçados a atravessar a barreira.",
-                "torment": "Demônios monstruosos que realizam esta evocação podem deixar vestígios da tempestade espiritual no mundo físico, causando efeitos surreais e apavorantes. Se bem-sucedido, o Narrador faz um teste de Força de Vontade contra dificuldade igual ao modificador de Tormento do Algoz; falha = ventos da tempestade afetam mortais próximos com testes de Força de Vontade (Dificuldade 3), Falha Infernal = perturbação temporária."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "dexterity",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "",
+                "description": "O Algoz enxerga o reino espiritual e é capaz de atravessar com as mãos a barreira que separa os dois mundos para depositar ou retirar objetos da mesma maneira que um mortal é capaz de apanhar alguma coisa dentro de um armário. Durante a Guerra da Ira, esta evocação era muito utilizada para colocar armas poderosas ou outros objetos fora do alcance dos inimigos do Algoz. Muitos desses artefatos ainda estão lá até hoje, esperando que alguém os encontre.",
+                "system": "Use um ponto de Fé e faça um teste de Destreza + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza esta evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 6. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 7. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 8. Se for bem-sucedido no teste, o personagem enxergará o outro lado da barreira entre os reinos e será capaz de “tocar o além”: a mão e o braço do personagem literalmente desaparecerão diante dos olhos dos mortais até o demônio os recolher novamente. Ele conseguirá depositar ou remover qualquer objeto que possa ser facilmente erguido com uma ou duas mãos. Os mortais ou os demônios não podem ser forcados a atravessar a barreira com esta evocação. No entanto, é possivel esconder objetos do mundo espiritual depositando-os no mundo material, longe do alcance dos habitantes da terra dos mortos (mas, naturalmente, isso significaria que os seres do mundo real poderiam encontrar os objetos).",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Destreza + Percepção. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza esta evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 6. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 7. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 8. Se for bem-sucedido no teste, o personagem enxergará o outro lado da barreira entre os reinos e será capaz de “tocar o além”: a mão e o braço do personagem literalmente desaparecerão diante dos olhos dos mortais até o demônio os recolher novamente. Ele conseguirá depositar ou remover qualquer objeto que possa ser facilmente erguido com uma ou duas mãos. Os mortais ou os demônios não podem ser forcados a atravessar a barreira com esta evocação. No entanto, é possivel esconder objetos do mundo espiritual depositando-os no mundo material, longe do alcance dos habitantes da terra dos mortos (mas, naturalmente, isso significaria que os seres do mundo real poderiam encontrar os objetos).",
+                "torment": "Os demônios monstruosos que realizam esta evocação arriscam-se a deixar alguns vestígios da tempestade espiritual vazarem para o mundo físico, o que provoca efeitos colaterais surreais e apavorantes. Se a evocação tiver êxito, o Narrador fará um teste de Força de Vontade contra uma dificuldade igual ao Tormento do Algoz. No caso de uma falha, os ventos da tempestade escaparão e submeterão todos os mortais na área próxima a testes de Força de Vontade (dificuldade 8). Se falharem nesses testes, eles fugirão aterrorizados. Se obtiverem uma falha critica, eles também vão adquirir uma perturbação temporária.",
+                "torment5th": "Os demônios monstruosos que realizam esta evocação arriscam-se a deixar alguns vestígios da tempestade espiritual vazarem para o mundo físico, o que provoca efeitos colaterais surreais e apavorantes. Se a evocação tiver êxito, o Narrador fará um teste de Força de Vontade contra uma dificuldade igual ao modificador de Tormento do Algoz. No caso de uma falha, os ventos da tempestade escaparão e submeterão todos os mortais na área próxima a testes de Força de Vontade (dificuldade 3). Se falharem nesses testes, eles fugirão aterrorizados. Se obtiverem uma falha critica, eles também vão adquirir uma perturbação temporária.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 214
             },
             {
                 "level": 5,
                 "name": "Perfurar a Barreira",
-                "description": "Esta evocação permite ao Algoz criar uma passagem temporária entre os reinos dos vivos e dos mortos, permitindo que outros demônios atravessem se o criador do portal assim desejar.",
-                "system": "",
-                "system5th": "Use 1 ponto de Fé e faça um teste de Vigor + Percepção. A dificuldade depende da força relativa da barreira: ponto fraco = 1, casa velha = 2, shopping center = 3. Se bem-sucedido, o portal permite que outros demônios atravessem fisicamente para o reino das sombras, interagindo com espíritos. Número de demônios que podem atravessar = número de sucessos obtidos. Mortais e servos vivos não conseguem passar. Demônios não-Algozes estarão em desvantagem frente aos Halaku, mais suscetíveis ao Turbilhão, e se deslocam à velocidade do mundo físico. Dados de ações de demônios leigos são reduzidos pela metade (arredondando para cima), perdendo 1 ponto temporário de Força de Vontade por dia; esgotando, ficam catatônicos. Quando o Vigor se esgota, o corpo hospedeiro morre e espírito retorna ao Abismo. A passagem dura um turno e é de mão única; espíritos do outro lado não podem utilizá-la normalmente.",
-                "torment": "Demônios monstruosos que realizam esta evocação provocam efeitos da tempestade espiritual no mundo físico, atraindo espíritos e causando manifestações horripilantes por número de dias igual ao Tormento do personagem."
+                "cost": "1 Checagem de Fé",
+                "pool": [
+                    "stamina",
+                    "awareness"
+                ],
+                "dificulty": 1,
+                "dificultyText": "A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza a evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3.",
+                "description": "Esta evocação capacita o Algoz a criar uma passagem temporária entre os reinos dos vivos e dos mortos, o que permite que outros demônios façam a travessia para as terras das sombras se o criador do portal assim desejar.",
+                "system": "Use um ponto de Fé e faça um teste de Vigor + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza a evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 6. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 7. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 8. Se você tiver êxito no teste, seu Algoz criará um portal que outros demônios podem utilizar para passar fisicamente ao reino das sombras, o que lhes permitirá interagir com os espíritos e percorrer as terras dos mortos. O número de demônios que pode entrar é igual ao número de sucessos obtidos. Os mortais e servos ainda vivos não conseguem passar. Os demônios não-Algozes que façam a transição se encontrarão em considerável desvantagem se comparados aos Halaku, pois são mais suscetíveis à depredação do Turbilhão do que os anjos caídos da Sétima Casa. Além disso, eles não conseguirão se deslocar pelo reino das sombras com a mesma velocidade dos Algozes. Eles percorrem distâncias com a mesma velocidade que teriam no reino físico. As paradas de dados de todas as ações realizadas por demônios leigos são reduzidas pela metade (arredondando-se para cima), e esses anjos caídos perderão um ponto temporário de Força de Vontade para cada dia que permanecerem no reino espiritual. Quando se esgotar sua Força de Vontade, os demônios ficarão catatônicos. Seus corpos perderão um ponto de Vigor por dia daí em diante. Quando o Vigor do demônio se esgotar, seu corpo hospedeiro morrerá e seu espírito será arrastado de volta ao Abismo. A passagem criada por esta evocação dura um único turno e é de mão única. Os espíritos do outro lado não podem usá-la normalmente para entrar no mundo dos vivos.",
+                "system5th": "Realize uma Checagem de Fé e faça um teste de Vigor + Presciência. A dificuldade é determinada pela força relativa da barreira na área onde o Algoz realiza a evocação. Num ponto fraco (uma igreja ou um cemitério), a dificuldade é igual a 1. Numa casa velha ou num antigo prédio de apartamentos que viu passar gerações de ocupantes, a dificuldade é igual a 2. Fazer a travessia a partir de um shopping center pede uma dificuldade igual a 3. Se você tiver êxito no teste, seu Algoz criará um portal que outros demônios podem utilizar para passar fisicamente ao reino das sombras, o que lhes permitirá interagir com os espíritos e percorrer as terras dos mortos. O número de demônios que pode entrar é igual ao número de sucessos obtidos. Os mortais e servos ainda vivos não conseguem passar. Os demônios não-Algozes que façam a transição se encontrarão em considerável desvantagem se comparados aos Halaku, pois são mais suscetíveis à depredação do Turbilhão do que os anjos caídos da Sétima Casa. Além disso, eles não conseguirão se deslocar pelo reino das sombras com a mesma velocidade dos Algozes. Eles percorrem distâncias com a mesma velocidade que teriam no reino físico. As paradas de dados de todas as ações realizadas por demônios leigos são reduzidas pela metade (arredondando-se para cima), e esses anjos caídos perderão um ponto de Força de Vontade para cada dia que permanecerem no reino espiritual. Quando se esgotar sua Força de Vontade, os demônios ficarão catatônicos. Seus corpos perderão um ponto de Vigor por dia daí em diante. Quando o Vigor do demônio se esgotar, seu corpo hospedeiro morrerá e seu espírito será arrastado de volta ao Abismo. A passagem criada por esta evocação dura um único turno e é de mão única. Os espíritos do outro lado não podem usá-la normalmente para entrar no mundo dos vivos.",
+                "torment": "Os demônios monstruosos que realizam esta evocação fazem com que os efeitos da tempestade espiritual grassem pelo mundo físico nas proximidades da passagem, atraindo espíritos e provocando manifestações horripilantes durante um número de dias igual ao Tormento do personagem.",
+                "torment5th": "Os demônios monstruosos que realizam esta evocação fazem com que os efeitos da tempestade espiritual grassem pelo mundo físico nas proximidades da passagem, atraindo espíritos e provocando manifestações horripilantes durante um número de dias igual ao Tormento do personagem.",
+                "font": "Demônio: A Queda (Corebook)",
+                "page": 214
             }
         ],
         "apName": "Ereshkigal, o Semblante dos Reinos",
-        "apWithoutTorment": "Os Anjos do Segundo Mundo se manifestam como vultos espectrais cuja fisionomia permanece eternamente oculta na escuridão. O ar parece envolvê-los como uma túnica de trevas, evocando o barqueiro encapuzado da mitologia humana. Suas mãos são brancas e ósseas como as de um esqueleto, e se deslocam sem ruído nem esforço.",
-        "apWithTorment": "Demônios de alto Tormento tornam-se portais ambulantes para a terra dos mortos, exsudando aura de perda e desespero que paralisa corações; vozes gélidas e olhar desprovido de órbitas fazem até os audazes hesitarem.",
+        "apWithoutTorment": "Os Anjos do Segundo Mundo se manifestam como vultos espectrais cuja fisionomia permanece eternamente oculta na escuridão. O próprio ar parece envolvê-los como uma túnica de trevas, o que evoca a imagem do barqueiro encapuzado da mitologia humana. Suas mãos são brancas e ósseas como as de um esqueleto, e eles se deslocam sem ruído nem esforço.",
+        "apWithTorment": "Os Anjos dos Reinos que sucumbem ao Tormento são portais ambulantes para a terra dos mortos, exsudam uma aura de perda e desespero que paralisa os corações dos mortais. Suas vozes são gélidas e sepulcrais, e seu olhar desprovido de órbitas faz até mesmo os mais audazes hesitarem.",
+        "font": "Demônio: A Queda (Corebook)",
+        "page": 215,
         "apocalypticForm": [
             {
                 "name": "Cálculo de Posição",
                 "torment": false,
-                "description": "O personagem sempre sabe onde está em relação a pontos de referência conhecidos. A menos que afetado por evocações que distorcem o espaço, jamais perde o senso de direção."
+                "description": "Seu personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importa a que distância esses pontos possam estar. A menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção.",
+                "description5th": "Seu personagem está sempre ciente de onde ele se encontra em relação aos pontos de referência conhecidos, não importa a que distância esses pontos possam estar. A menos que seja afetado por evocações que distorcem o espaço, como Deformar Caminhos, ele jamais perderá o senso de direção."
             },
             {
                 "name": "Sem Deixar Rastro",
                 "torment": false,
-                "description": "As dificuldades de todos os testes de Furtividade são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante; não deixa pegadas nem altera a folhagem."
+                "description": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem.",
+                "description5th": "As dificuldades dos testes de Furtividade do personagem são reduzidas em dois pontos, e sua passagem não perturba o ambiente circundante. Ele não deixa pegadas nem perturba a folhagem."
             },
             {
-                "name": "Percepção Aumentada",
+                "name": "Presciência Aumentada",
                 "torment": false,
-                "description": "O anjo caído apresenta sintonia especial com a tessitura da realidade, reduzindo em dois pontos as dificuldades de todos os testes de Percepção."
+                 "description": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Presciência.",
+                "description5th": "O anjo caído tem uma sintonia especial com a tessitura da realidade, o que reduz em dois pontos as dificuldades de todos os testes de Raciocínio."
             },
             {
                 "name": "Conjurar a Partir do Nada",
                 "torment": false,
-                "description": "O personagem parece conjurar objetos do nada e fazê-los desaparecer com um movimento do pulso. Com teste de Destreza + Atletismo (Dificuldade 2), pode retirar objetos de bolsos alheios ou escondê-los sem ser detectado."
+                "description": "O personagem tem uma habilidade sobrenatural de prestidigitação; parece conjurar objetos do nada e então fazê-los desaparecer novamente com um movimento do pulso. Com um teste bem-sucedido de Destreza + Esportes (dificuldade 6), ele é capaz de tirar objetos dos bolsos alheios ou escondê-los sem que seus movimentos sejam detectados.",
+                "description5th": "O personagem tem uma habilidade sobrenatural de prestidigitação; parece conjurar objetos do nada e então fazê-los desaparecer novamente com um movimento do pulso. Com um teste bem-sucedido de Destreza + Atletismo (dificuldade 2), ele é capaz de tirar objetos dos bolsos alheios ou escondê-los sem que seus movimentos sejam detectados."
             },
             {
                 "name": "Manto de Sombras",
                 "torment": true,
-                "description": "O demônio se envolve num manto de trevas, dificultando visualização em boas condições de luminosidade e tornando-o praticamente invisível à noite. Testes de Furtividade têm dificuldade reduzida em 2 pontos na penumbra ou escuro. Se atacado, regras de Lutar às Cegas se aplicam ao agressor."
+                "description": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor. Consulte a pág. 240 do capítulo sobre sistemas para maiores detalhes.",
+                "description5th": "O demônio se envolve num manto de trevas, o que dificulta a visualização de seus traços em boas condições de luminosidade e torna-o praticamente invisível à noite. As dificuldades de todos os testes de Furtividade serão reduzidas em dois pontos toda vez que o demônio estiver na penumbra ou mover-se no escuro. Se o personagem for atacado, as regras para Lutar às Cegas serão aplicadas ao agressor."
             },
             {
                 "name": "Inexorável",
                 "torment": true,
-                "description": "O demônio pode caminhar ou correr sem descanso, percorrendo distâncias sobre-humanas sem ser afetado por cansaço ou fome."
+                "description": "O demônio é capaz de caminhar ou correr sem descanso, percorrer distâncias sobre-humanas sem intervalo. Desde que continue em movimento, ele não será afetado pelo cansaço nem pela fome.",
+                "description5th": "O demônio é capaz de caminhar ou correr sem descanso, percorrer distâncias sobre-humanas sem intervalo. Desde que continue em movimento, ele não será afetado pelo cansaço nem pela fome."
             },
             {
                 "name": "Voz do Túmulo",
                 "torment": true,
-                "description": "As dificuldades de todos os testes de Intimidação são reduzidas em dois pontos."
+                "description": "As dificuldades de todos os testes de Intimidação são reduzidas em dois pontos.",
+                "description5th": "As dificuldades de todos os testes de Intimidação são reduzidas em dois pontos."
             },
             {
                 "name": "Olhar Atroz",
                 "torment": true,
-                "description": "Indivíduos que olharem o demônio nos olhos e falharem num teste de Força de Vontade (Dificuldade 2) devem abrir mão de suas ações no turno."
+                "description": "Os indivíduos (mortais ou demônios) que olharem o demônio nos olhos e falharem num teste de Força de Vontade (dificuldade 7) serão obrigados a abrir mão de suas ações no turno.",
+                "description5th": "Os indivíduos (mortais ou demônios) que olharem o demônio nos olhos e falharem num teste de Força de Vontade (dificuldade 2) serão obrigados a abrir mão de suas ações no turno."
             }
         ]
     }
